@@ -1,14 +1,16 @@
 name: "Deploy site to GitHub Pages"
 run-name: Building site from "${{ github.ref_name }}"
 
-# The site is generated from README.md by site_build/gen_pages.py at build time
-# (see mkdocs.yml), so it must be rebuilt whenever README.md or the build config
-# changes. Pages "Source" must be set to GitHub Actions, not a branch.
+# The site is generated from README.md and its list/ part files by
+# site_build/gen_pages.py at build time (see mkdocs.yml), so it must be rebuilt
+# whenever they or the build config change. Pages "Source" must be set to GitHub
+# Actions, not a branch.
 on:
   push:
     branches: [master]
     paths:
       - README.md
+      - list/**
       - mkdocs.yml
       - requirements-docs.txt
       - site_build/**

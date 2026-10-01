@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import posixpath
 import re
+import sys
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -41,6 +42,13 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README = REPO_ROOT / "README.md"
+
+# mkdocs-gen-files uses runpy.run_path(), which provides no repository import
+# path. Add the checked-out root so the public structure module has one stable
+# import path in builds, scripts, and tests.
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+from site_build import list_source, readme_structure  # noqa: E402
 
 GITHUB_BLOB = "https://github.com/VelocityRa/awesome-game-file-format-reversing/blob/master"
 
@@ -55,11 +63,11 @@ SITE_SKIP_END = "<!-- site:skip-end -->"
 
 # The `## Game & Studio Tools` section is split into these fixed first-letter
 # ranges. Fixed -- rather than byte-balanced -- boundaries keep page URLs stable
-# as studios are added; balanced buckets would shift and rot external links.
+# as entities are added; balanced buckets would shift and rot external links.
 # The cost is unevenness (S is the heaviest at ~50 KB: Sega, Square Enix, Sony,
 # Sierra, Spike Chunsoft), which is still a seventh of the un-split section.
 GAME_BUCKETS: list[tuple[str, str, str]] = [
-    # (page slug, nav label, inclusive upper bound on the studio's first letter)
+    # (page slug, nav label, inclusive upper bound on an entity band's letter)
     ("0-9-a", "0–9 · A", "A"),
     ("b-c", "B–C", "C"),
     ("d-f", "D–F", "F"),
@@ -75,8 +83,8 @@ GAME_BUCKETS: list[tuple[str, str, str]] = [
 # Anchors whose heading is deliberately absent from the site, mapped to the page
 # that replaces them (no fragment -- the whole page is the target). The doctoc
 # Contents block is stripped since the nav supersedes it, but README.md's "How to
-# Use This List" still points readers at it; the A-Z studio index is the site's
-# equivalent.
+# Use This List" still points readers at it; the A-Z Games & Studios directory
+# is the site's equivalent.
 ANCHOR_ALIASES: dict[str, str] = {"-contents": "games/index.md"}
 
 # `##` sections the splitter places by hand. Renaming one of these headings in
@@ -84,7 +92,8 @@ ANCHOR_ALIASES: dict[str, str] = {"-contents": "games/index.md"}
 # rather than silently dropping the section.
 SECTION_ABOUT = "-about"
 SECTION_HOW_TO_USE = "️-how-to-use-this-list"
-SECTION_COMMUNITIES = "-communities--wikis"
+SECTION_COMMUNITIES = "-communities"
+SECTION_REFERENCE = "-reference--learning"
 SECTION_GENERAL_TOOLS = "️-general-tools"
 SECTION_ENGINES = "️-engines"
 SECTION_MIDDLEWARE = "-middleware--sdks"
@@ -95,6 +104,7 @@ SECTION_ACKNOWLEDGMENTS = "-acknowledgments"
 
 HEADING_RE = re.compile(r"^(#{1,6}) +(.+?)\s*$")
 ANNOTATED_RE = re.compile(r"^(#{1,6}) +(.*?) \{#(.+)\}$")
+FENCE_START_RE = re.compile(r"^ {0,3}(`{3,}|~{3,})")
 # The target of a markdown link, when that target is an in-document anchor.
 ANCHOR_LINK_RE = re.compile(r"(?<=\]\()#([^)\s]*)(?=\))")
 
@@ -159,13 +169,34 @@ class Page:
     slugs: set[str] = field(default_factory=set)  # heading anchors this page owns
     exclude_from_search: bool = False
     # True for pages whose body is synthesised rather than sliced out of README.md
-    # (the studio directory). Content-preservation checks must skip these: their
+    # (the Games & Studios directory). Content-preservation checks must skip these: their
     # bullets are navigation, not list entries, and would look like added content.
     generated: bool = False
 
 
 def read_readme() -> list[str]:
-    return README.read_text(encoding="utf-8").replace("\r\n", "\n").split("\n")
+    """The assembled list: README.md with every ``list/`` part spliced in.
+
+    Ends with an empty element, like ``str.split("\\n")`` on a newline-terminated
+    file, so downstream slicing sees the same shape as the old monolithic README.
+    """
+    return [*list_source.assemble_path(README).lines, ""]
+
+
+def fence_start(line: str) -> tuple[str, int] | None:
+    """Return a Markdown fence's delimiter character and length, if it opens one."""
+
+    match = FENCE_START_RE.match(line)
+    if match is None:
+        return None
+    return match.group(1)[0], len(match.group(1))
+
+
+def closes_fence(line: str, fence: tuple[str, int]) -> bool:
+    """Return whether ``line`` closes a matching Markdown fence."""
+
+    character, length = fence
+    return re.match(rf"^ {{0,3}}{re.escape(character)}{{{length},}}\s*$", line) is not None
 
 
 def annotate_headings(lines: list[str]) -> tuple[list[str], dict[str, str]]:
@@ -177,12 +208,15 @@ def annotate_headings(lines: list[str]) -> tuple[list[str], dict[str, str]]:
     slugger = GithubSlugger()
     titles: dict[str, str] = {}
     out = list(lines)
-    in_fence = False
+    fence: tuple[str, int] | None = None
     for i, line in enumerate(lines):
-        if line.lstrip().startswith("```"):
-            in_fence = not in_fence
+        if fence is not None:
+            if closes_fence(line, fence):
+                fence = None
             continue
-        if in_fence:
+        opening = fence_start(line)
+        if opening is not None:
+            fence = opening
             continue
         m = HEADING_RE.match(line)
         if not m:
@@ -254,12 +288,15 @@ def _collapse_blank_runs(lines: list[str]) -> list[str]:
 def scan_headings(lines: list[str]) -> list[Heading]:
     """Re-derive heading positions and slugs from the annotated lines."""
     found: list[Heading] = []
-    in_fence = False
+    fence: tuple[str, int] | None = None
     for i, line in enumerate(lines):
-        if line.lstrip().startswith("```"):
-            in_fence = not in_fence
+        if fence is not None:
+            if closes_fence(line, fence):
+                fence = None
             continue
-        if in_fence:
+        opening = fence_start(line)
+        if opening is not None:
+            fence = opening
             continue
         m = ANNOTATED_RE.match(line)
         if m:
@@ -270,41 +307,33 @@ def scan_headings(lines: list[str]) -> list[Heading]:
 # --------------------------------------------------------------------------
 # Page splitting
 # --------------------------------------------------------------------------
-DIGIT_GROUP = "0–9"  # en dash, matching the "0–9 · A" bucket label
-# Top-level entry bullets only. Nested bullets carry a studio's "Formats:" /
+# Top-level entry bullets only. Nested bullets carry an entity's "Formats:" /
 # "See also" detail lines, which are not separate entries.
 TOP_LEVEL_ENTRY_RE = re.compile(r"^[-*+] \[")
-
-
-def index_letter(studio: str) -> str:
-    """The letter a studio files under on the index page."""
-    first = studio.strip()[0].upper()
-    return first if first.isalpha() else DIGIT_GROUP
-
-
-def letter_anchor(letter: str) -> str:
-    """Anchor id for an index letter heading.
-
-    Prefixed so these generated ids cannot collide with a slug computed from a real
-    README heading (a collision would put two identical ids on one page), and kept
-    ASCII so the digit group's en dash does not end up in a URL fragment.
-    """
-    return f"studios-{letter.lower().replace('–', '-')}"
 
 
 def count_entries(body: list[str]) -> int:
     return sum(1 for line in body if TOP_LEVEL_ENTRY_RE.match(line))
 
 
-def bucket_for(studio: str) -> str:
-    """Which GAME_BUCKETS page a studio heading belongs on."""
-    first = studio.strip()[0].upper()
+def bucket_for(entity: str) -> str:
+    """Which GAME_BUCKETS page an entity heading belongs on."""
+    first = entity.strip()[0].upper()
     if not first.isalpha():  # digits: "11 bit studios", "1C Company", "2K Games", ...
         return GAME_BUCKETS[0][0]
     for slug, _label, upper in GAME_BUCKETS:
         if first <= upper:
             return slug
     return GAME_BUCKETS[-1][0]
+
+
+def bucket_for_band(band: str) -> str:
+    """Return the fixed page for an approved README H3 entity band."""
+    if band == "Other / Non-Latin":
+        # This band intentionally has no Latin sort letter. Its page is fixed so
+        # a translated or non-Latin entity heading cannot move between builds.
+        return GAME_BUCKETS[-1][0]
+    return bucket_for(band)
 
 
 def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
@@ -322,6 +351,7 @@ def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
             SECTION_ABOUT,
             SECTION_HOW_TO_USE,
             SECTION_COMMUNITIES,
+            SECTION_REFERENCE,
             SECTION_GENERAL_TOOLS,
             SECTION_ENGINES,
             SECTION_MIDDLEWARE,
@@ -363,73 +393,93 @@ def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
     home.slugs |= slugs_in(0, h2s[0].line)
     pages.append(home)
 
-    pages.append(page("communities.md", "Communities & Wikis", SECTION_COMMUNITIES))
+    pages.append(page("communities.md", "Communities", SECTION_COMMUNITIES))
+    pages.append(page("reference-learning.md", "Reference & Learning", SECTION_REFERENCE))
     pages.append(page("general-tools.md", "General Tools", SECTION_GENERAL_TOOLS))
     pages.append(page("engines.md", "Engines", SECTION_ENGINES))
     pages.append(page("middleware.md", "Middleware & SDKs", SECTION_MIDDLEWARE))
 
     # --- Game & Studio Tools: a section index page plus alphabetical buckets ---
     games_start, games_end = by_slug[SECTION_GAMES]
-    studios = [h for h in headings if h.level == 3 and games_start < h.line < games_end]
-    if not studios:
+    bands = [
+        h
+        for h in headings
+        if h.level == 3
+        and games_start < h.line < games_end
+        and h.text in readme_structure.GAME_BANDS
+    ]
+    if not bands:
         raise SystemExit(
-            "gen_pages: no '###' studio headings found under Game & Studio Tools."
+            "gen_pages: no approved '###' entity bands found under Game & Studio Tools."
         )
-    studio_end = {
-        h.line: (studios[i + 1].line if i + 1 < len(studios) else games_end)
-        for i, h in enumerate(studios)
-    }
+
+    entities: list[tuple[Heading, Heading]] = []
+    nearest_band: Heading | None = None
+    for heading in headings:
+        if not games_start < heading.line < games_end:
+            continue
+        if heading.level == 3:
+            nearest_band = heading if heading.text in readme_structure.GAME_BANDS else None
+        elif heading.level == 4 and nearest_band is not None:
+            entities.append((heading, nearest_band))
+    if not entities:
+        raise SystemExit(
+            "gen_pages: no '####' entities found under approved Game & Studio Tools bands."
+        )
+
+    boundaries = [
+        h for h in headings if games_start < h.line < games_end and h.level in (2, 3, 4)
+    ]
+    entity_end: dict[int, int] = {}
+    for entity, _band in entities:
+        entity_end[entity.line] = next(
+            (h.line for h in boundaries if h.line > entity.line), games_end
+        )
 
     buckets: dict[str, list[Heading]] = {slug: [] for slug, _, _ in GAME_BUCKETS}
-    for h in studios:
-        buckets[bucket_for(h.text)].append(h)
+    entity_bands = {entity.line: band for entity, band in entities}
+    for entity, band in entities:
+        buckets[bucket_for_band(band.text)].append(entity)
 
     bucket_pages: list[Page] = []
     for slug, label, _upper in GAME_BUCKETS:
-        members = buckets[slug]
-        if not members:
-            continue
         body = [f"# Games & Studios: {label} {{#games-{slug}}}", ""]
         owned: set[str] = set()
-        for h in members:
-            end = studio_end[h.line]
-            body.extend(lines[h.line : end])
-            owned |= slugs_in(h.line, end)
+        for entity in buckets[slug]:
+            end = entity_end[entity.line]
+            body.extend(lines[entity.line : end])
+            owned |= slugs_in(entity.line, end)
         bucket_pages.append(Page(f"games/{slug}.md", label, body, owned))
 
     # games/index.md -- the section heading, its intro prose, and a directory of
-    # every studio grouped by its real first letter.
-    #
-    # Deliberately NOT grouped by GAME_BUCKETS: the buckets are a page-splitting
-    # artifact, and a reader looking for Konami thinks "K", not "which bucket holds
-    # K". Grouping by letter also gives the integrated ToC an A-Z alphabet in the
-    # left rail. Landing on the right bucket page is the link's job, not the
-    # reader's.
-    by_letter: dict[str, list[Heading]] = {}
-    for h in studios:
-        by_letter.setdefault(index_letter(h.text), []).append(h)
-    letters = sorted(by_letter, key=lambda k: (k != DIGIT_GROUP, k))
+    # every entity grouped under the source band that owns it in README.md. The H3
+    # bands stay here so source band anchors resolve to this directory, not a
+    # bucket page.
+    by_band: dict[str, list[Heading]] = {band.slug: [] for band in bands}
+    for entity, band in entities:
+        by_band[band.slug].append(entity)
 
-    counts = {h.slug: count_entries(lines[h.line : studio_end[h.line]]) for h in studios}
+    counts = {
+        entity.slug: count_entries(lines[entity.line : entity_end[entity.line]])
+        for entity, _band in entities
+    }
 
-    gi = [lines[games_start], *lines[games_start + 1 : studios[0].line]]
+    gi = [lines[games_start], *lines[games_start + 1 : bands[0].line]]
     gi += [
         "",
-        f"All {len(studios)} studios and publishers, A to Z. The number after each "
+        f"Games & Studios: {len(entities)} entities, A to Z. The number after each "
         "is how many entries it has.",
         "",
-        "**Jump to:** " + " · ".join(f"[{k}](#{letter_anchor(k)})" for k in letters),
-        "",
     ]
-    for k in letters:
-        gi += [f"## {k} {{#{letter_anchor(k)}}}", ""]
-        # md_in_html wrapper so the CSS can lay the list out in columns; one studio
+    for band in bands:
+        gi += [lines[band.line], ""]
+        # md_in_html wrapper so the CSS can lay the list out in columns; one entity
         # per line, since a comma-separated run of 25 names cannot be scanned.
         gi += ['<div class="studio-index" markdown>', ""]
         gi += [
-            f"- [{h.text}]({bucket_for(h.text)}.md#{h.slug})"
-            f' <span class="studio-index__count">{counts[h.slug]}</span>'
-            for h in by_letter[k]
+            f"- [{entity.text}]({bucket_for_band(entity_bands[entity.line].text)}.md#{entity.slug})"
+            f' <span class="studio-index__count">{counts[entity.slug]}</span>'
+            for entity in by_band[band.slug]
         ]
         gi += ["", "</div>", ""]
 
@@ -439,11 +489,9 @@ def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
             # Not a `navigation.indexes` section landing page -- that flag is
             # incompatible with toc.integrate -- so it needs a title that does not
             # duplicate the "Games & Studios" section heading above it in the nav.
-            "All Studios (A–Z)",
+            "Games & Studios (A–Z)",
             promote_first_heading(gi),
-            # The generated letter anchors must be owned by the page, or the "Jump
-            # to" links would look like unresolvable cross-page anchors.
-            {headings_slug(lines, games_start)} | {letter_anchor(k) for k in letters},
+            slugs_in(games_start, bands[0].line) | {band.slug for band in bands},
             generated=True,
         )
     )
@@ -482,14 +530,6 @@ def promote_first_heading(body: list[str]) -> list[str]:
                 out[i] = f"# {m.group(2)} {{#{m.group(3)}}}"
             break
     return out
-
-
-def headings_slug(lines: list[str], line: int) -> str:
-    """The explicit anchor on an already-annotated heading line."""
-    m = ANNOTATED_RE.match(lines[line])
-    if not m:
-        raise SystemExit(f"gen_pages: line {line + 1} is not an annotated heading.")
-    return m.group(3)
 
 
 # --------------------------------------------------------------------------
@@ -570,7 +610,14 @@ def write_summary(pages: list[Page]) -> None:
     def link(path: str, indent: int = 0) -> None:
         out.append(f"{'    ' * indent}- [{titles[path]}]({path})")
 
-    for path in ("index.md", "communities.md", "general-tools.md", "engines.md", "middleware.md"):
+    for path in (
+        "index.md",
+        "communities.md",
+        "reference-learning.md",
+        "general-tools.md",
+        "engines.md",
+        "middleware.md",
+    ):
         link(path)
 
     # A section whose first child is its own index.md is what Material's
@@ -594,6 +641,9 @@ def write_summary(pages: list[Page]) -> None:
 
 def build() -> list[Page]:
     """Everything except writing, so tests can inspect the result."""
+    errors = readme_structure.validate_path(README)
+    if errors:
+        raise SystemExit("gen_pages: README structure is invalid:\n" + "\n".join(errors))
     lines, _titles = annotate_headings(read_readme())
     lines = strip_site_skip(strip_doctoc(lines))
     return build_pages(lines, scan_headings(lines))

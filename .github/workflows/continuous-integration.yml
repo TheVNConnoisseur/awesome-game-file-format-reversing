@@ -3,6 +3,17 @@ run-name: Running tests on "${{ github.ref }}" by "${{ github.actor }}"
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
+  check-readme-structure:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - name: Validate README structure
+      run: python -m site_build.readme_structure README.md
+
   check-links:
     runs-on: ubuntu-latest
     steps:
@@ -11,5 +22,5 @@ jobs:
       uses: lycheeverse/lychee-action@v2.7.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-retries 5 --max-concurrency 8 README.md
+        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-retries 5 --max-concurrency 8 README.md 'list/*.md'
         fail: true
