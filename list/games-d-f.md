@@ -31,6 +31,10 @@
 
 - [Darkest-Dungeon-Save-Editor](https://github.com/Tormak9970/Darkest-Dungeon-Save-Editor) - Save editor for Darkest Dungeon built with TypeScript, Svelte, and Tauri, handling the game's save hashing and encoding scheme.
 
+#### Acid Wizard Studio (Darkwood)
+
+- [darkwood-editor](https://github.com/deans-bradley/darkwood-editor) - C# editor for Darkwood `dat.sav` save files, including player states.
+
 #### Madruga Works (Dawn of Man)
 
 - [DoM_save_editor](https://github.com/PierreAnken/DoM_save_editor) - Save game editor for Dawn of Man.
@@ -49,6 +53,10 @@
 #### Behaviour Interactive (Dead by Daylight)
 
 - [DBDAudioRenamer](https://github.com/Neinndall/DBDAudioRenamer) - Extracts Dead by Daylight's Wwise audio files from its UE4 assets and renames them based on the game's XML sound bank definitions. See also the same author's [DBDTools](https://github.com/Neinndall/DBDTools), a more general asset extraction/renaming rewrite.
+
+#### Dead or Alive 2
+
+- [chrtool](https://github.com/VincentNLOBJ/chrtool) - Extracts and builds Dead or Alive 2 (Dreamcast) character and level `.CHR` + `.bin` files; textures are `.PVR` and models NaomiLib `.bin` (importable with the NaomiLib Blender plugin).
 
 #### Visceral Games (Dead Space, Dante's Inferno)
 
@@ -114,6 +122,10 @@
 - [DS.SAR.Tool](https://github.com/Ekey/DS.SAR.Tool) - Tool for extracting SAR archives from Demiurge Studios titles.
   - Games: Puzzle & Glory, Marvel Puzzle Quest, SEGA Heroes: Match-3 RPG Quest.
 
+#### DemonStar
+
+- [extract-glb](https://github.com/vs49688/extract-glb) - Small C utility to extract DemonStar .glb (GLB2.0) archives [archived].
+
 #### Parallax Software (Descent)
 
 *See also [Descent 3](games-n-o.md#descent-3) under Outrage Entertainment for the later entry in the series.*
@@ -131,6 +143,10 @@
 #### Destiny Child
 
 - [Destiny-Child-SFT-PCK-Tool](https://github.com/VenoMKO/Destiny-Child-SFT-PCK-Tool) - Extracts SFT and PCK files from Destiny Child (PC, DMM).
+
+#### Destruction Derby 2
+
+- [Destruction-Derby-2-Unpack](https://github.com/zbirow/Destruction-Derby-2-Unpack) - Python GUI unpackers and packers, with format documentation, for Destruction Derby 2's sector-based DIRINFO archives and `.sbk` sound banks (extracts the RIFF-based `sound_xxx.wav` entries; also includes a bank viewer).
 
 #### Jorudan (Detective Conan)
 
@@ -177,6 +193,10 @@
 - [LotusLib](https://github.com/Puxtril/LotusLib) - C++17 library for reading Warframe's Evolution Engine cache files (`Cache.Windows`), providing the file-reading interface used by Warframe-Exporter above.
 - [wfcache-api](https://github.com/ymelois/wfcache-api) - Rust application for reading and extracting data from Warframe's cache files programmatically. (Archived)
 - [shawziner](https://github.com/gucio321/shawziner) - Converts MuseScore (`.mscz`) sheet music into Warframe's in-game Shawzin instrument code format.
+
+#### Disco Elysium
+
+- [disco-elysium-save-editor](https://github.com/Adversarian/disco-elysium-save-editor) - Python (PyQt6) save editor for Disco Elysium; edits door states, resource values (skill points, consumables, money), character sheet stats and caps, thought states and in-game time, with automatic backups.
 
 #### Disney Interactive
 
@@ -239,6 +259,10 @@
 
 - [msx_dragons_prophet_pc](https://github.com/coreynguyen/msx_dragons_prophet_pc) - MaxScript for importing static and skinned 3D models from Dragon's Prophet (PC) into 3ds Max.
 
+#### DragonSword Awakening
+
+- [dragonsword-save-editor](https://github.com/gfriloux/dragonsword-save-editor) - Save editor for DragonSword Awakening that decrypts the SQLCipher save database (`<accountId>_Slot<N>.db`) and edits its tables (currency, items, cooking recipes, costumes, mounts, titles) in a local browser UI; single static Go binary for Windows and Linux.
+
 #### Bigpoint (Drakensang Online)
 
 - [neb3map-viewer](https://github.com/simo8902/neb3map-viewer) - Drakensang Online model and map viewer.
@@ -289,6 +313,8 @@
   - Tools: `EastwardLib` (.NET library for reading/writing GArchives and assets), `AtlasExtractor` (extracts images from atlas files), `Hmg2Image`/`Image2Hmg` (converts between `.hmg` and standard image formats).
   - See also [eastward.js](https://github.com/VriskaSerket51/eastward.js), a JavaScript port of the packer.
 - [EastwardLib](https://github.com/VriskaSerket51/EastwardLib) - Library for reading Eastward's original asset/data formats.
+- [EastwardMSpriteParser](https://github.com/VriskaSerket51/EastwardMSpriteParser) - Reads Eastward .msprite files with their texture and exports the sprites as animated PNG (or GIF) with an optional size multiplier.
+- [eastward-savefile-viewer](https://github.com/VriskaSerket51/eastward-savefile-viewer) - Browser-based viewer that decodes Eastward save files (.pack_save and .info) to JSON.
 - [EastwardLocaleExtractor](https://github.com/VriskaSerket51/EastwardLocaleExtractor) - Locale/text extraction tool for Eastward.
 
 #### Ecstatica
@@ -362,6 +388,9 @@
   - Formats: Frostbite CAS/TOC asset containers (transactional saves with rollback), RES/Ebx search, legacy DDS/PNG texture import, NewWave audio bank metadata.
 - [anthemtool](https://github.com/xyrin88/anthemtool) - Utility for researching Anthem's Frostbite game engine data files.
 - [MaddenFileFormats](https://github.com/WiiExpertise/MaddenFileFormats) - Documentation of file formats used by Frostbite-era Madden NFL games (Madden NFL 18 onward); some formats are shared with other Frostbite titles.
+  - See also [brt-tools](https://github.com/WiiExpertise/brt-tools), Node.js tool converting Frostbite BundleRefTable (BRT) .res resources to and from JSON, with merging and duplicated-asset entry helpers; supports Madden NFL 24-27, College Football 27, EA SPORTS FC 24-26 and Dragon Age: The Veilguard.
+  - See also [h2-visuals-tools](https://github.com/WiiExpertise/h2-visuals-tools), Node.js tool that extracts and rewrites records in Madden's EA Sports H2 (CharacterVisuals) archives and converts them to and from legacy CharacterVisuals JSON.
+  - See also [madden-draft-class-tools](https://github.com/WiiExpertise/madden-draft-class-tools), npm library reading and writing Madden NFL 25 and 26 draft class files as JSON.
 - [DbPatcher](https://github.com/CosmicDreamsOfCode/DbPatcher) - Patches bytecode inside Frostbite ShaderDb files.
 - [FrostBlend](https://github.com/nasa03/FrostBlend) - Blender nodegroup collection for setting up Frostbite game materials, for use alongside extracted Frostbite model/texture assets.
 
@@ -392,6 +421,7 @@ See also: [RenderWare](middleware.md#renderware).
 ##### EAGL / Black Box / Other
 
 - [Castaway (decomp)](https://github.com/HaydnTrigg/Castaway) - Matching decompilation of The Sims 2: Castaway.
+- [EAPS2SaveChecksumFixer](https://github.com/zyzalfors/EAPS2SaveChecksumFixer) - Command-line tool that repairs save checksums for several Electronic Arts PS2 games: 007: From Russia With Love, Battlefield 2: Modern Combat, Burnout Dominator, FIFA Street 1/2, The Godfather, and Need for Speed Underground, Underground 2, Most Wanted, Carbon, ProStreet and Undercover.
 
 ###### Harry Potter Series
 
@@ -445,6 +475,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [abktool](https://github.com/xan1242/abktool) - Extracts BNK files from BlackBox-era Need for Speed's ABK audio bank archives and converts them to a usable audio format; original tool for the ABK/BNK format later extended by CrabJournal's ABK_Insert below.
 - [ABK_Insert](https://github.com/CrabJournal/ABK_Insert) - Inserts replacement sound samples into Need for Speed's ABK/BNK sound bank format (Underground through Carbon), supporting EA-XA and EA-XAS codecs.
 - [NFSTMXEditor](https://github.com/TheAdmiester/NFSTMXEditor) - Editor for TMX audio container files used in some EA Black Box Need for Speed games, replacing the GIN/SNR files inside (editing existing files only, not creating new ones).
+- [nfsps-testtrack-modelfixer](https://github.com/xan1242/nfsps-testtrack-modelfixer) - Patching utility that attempts to convert the material chunks in Need for Speed: ProStreet's prototype test-track models (streaming `.BUN` bundles) to the final format; unfinished, with broken materials still visible in game.
 
 ###### 688 Attack Sub
 
@@ -518,6 +549,7 @@ See also: [RenderWare](middleware.md#renderware).
   - Tools: MOHLevelViewer, MOHModelViewer, GFXModelViewer, SSTViewer, RSC Extractor, TIM Viewer, Sound Explorer.
   - Formats: TSB, TSP (level geometry/collision), BSD (scene/entity data), RSC archives, TIM textures.
 - [medal_of_honor_psx](https://github.com/SoapyMan/medal_of_honor_psx) - Reverse engineering of Medal of Honor (PSX) file formats.
+- [mohaa-model-viewer](https://github.com/searingwolfe/mohaa-model-viewer) - Browser-based viewer for Medal of Honor: Allied Assault that loads `.pk3` archives and displays `.skd`/`.skb` skeletal models with `.shader`-resolved textures, `.skc`/`.tik` animation playback and `.tik`/FX particle effects, with Wavefront `.obj` export.
 
 ##### Seven Cities of Gold
 
@@ -562,6 +594,7 @@ See also: [RenderWare](middleware.md#renderware).
 #### Keen Games (Enshrouded, Portal Knights)
 
 - [KG.Data.Tool](https://github.com/Ekey/KG.Data.Tool) - Tool for extracting and repacking kfc_data archives from Keen Games titles (Enshrouded, Portal Knights).
+- [Portal-Knights-Save-Editor](https://github.com/CookiestMonster/Portal-Knights-Save-Editor) - Python/tkinter save editor for Portal Knights characters (gear, bags, stats) and worlds (chests, mannequins, map, signs, NPCs); depends on zstandard and optionally python-snappy.
 
 #### Epic Games
 
@@ -596,6 +629,7 @@ See also: [RenderWare](middleware.md#renderware).
 
 - [jazz2-native (Jazz² Resurrection)](https://github.com/deathkiller/jazz2-native) - Open-source C++ reimplementation of Jazz Jackrabbit 2 (1998, Epic MegaGames), reading the original game's level, tileset and animation data; partially supports the JJ2+ extension and MLLE.
 - [MLLE](https://github.com/Violet-CLM/MLLE) - Alternative multi-layer level editor for Jazz Jackrabbit 2 and related games, extending the original JCS level editor's format with additional features (e.g. JJ2+ infinite scrolling layers).
+- [j2a-extract](https://github.com/Violet-CLM/j2a-extract) - Python 2/3 extractor and importer for Jazz Jackrabbit 2 `Anims.j2a` animation files (unpack to image sheets and repack); this fork adds 32-bit (RGBA) sprite support.
 - [project-carrot](https://github.com/soulweaver91/project-carrot) - Alternative open-source spiritual clone of the Jazz Jackrabbit 2 engine, reading the original game's data.
   - See also companion tools: [project-carrot-pcae](https://github.com/soulweaver91/project-carrot-pcae) (animation extractor), [project-carrot-pclc](https://github.com/soulweaver91/project-carrot-pclc) (level converter), [project-carrot-pctc](https://github.com/soulweaver91/project-carrot-pctc) (tileset converter).
 - [jazz2langtool](https://github.com/jindrapetrik/jazz2langtool) - Tool for reading and editing Jazz Jackrabbit 2 language files.
@@ -642,6 +676,11 @@ See also: [RenderWare](middleware.md#renderware).
 
 - [TarkinItemExporter](https://github.com/bmpq/TarkinItemExporter) - Escape from Tarkov item data exporter.
 
+#### ESPN NFL 2K5 / All-Pro Football 2K8
+
+- [2k-football-mod-tools](https://github.com/cruuz/2k-football-mod-tools) - Beta mod editors for ESPN NFL 2K5 (original Xbox) and All-Pro Football 2K8 (Xbox 360): browse decoded asset catalogs and replace uniforms, portraits, team art, scorebug graphics, stadium textures, rosters, text and audio, then build a modded copy; ships no game data.
+- [nfl2k5tool_web](https://github.com/BAD-AL/nfl2k5tool_web) - Browser-based editor for NFL 2K5 gamesave files: edit players, schedules and coaches (with a raw text view), and export to or convert between Xbox (`.zip`, `.bin`/`.img` memory unit) and PS2 (`.max`/`.psu`, `.ps2` memory card) save formats or raw `.dat`. Built on the nfl2k5tool_dart encode/decode engine.
+
 #### SCS Software (Euro Truck Simulator)
 
 - [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for extracting SCS archives from Euro Truck Simulator 2.
@@ -676,6 +715,10 @@ See also: [RenderWare](middleware.md#renderware).
 
 - [yretenai/Jackdaw](https://github.com/neptuwunium/Jackdaw) - Research project for Carbon Engine file formats used in EVE Online.
 
+#### Evoland
+
+- [EvolandSaveEditor](https://github.com/wabuilderman/EvolandSaveEditor) - C++ tool that translates Evoland `.sav` files into editable `.json` and converts compatible `.json` files back to `.sav`.
+
 ### F
 #### Image Space Incorporated (F1 2000)
 
@@ -698,6 +741,7 @@ See also: [RenderWare](middleware.md#renderware).
 ##### Sunless Skies
 
 - [skyless-utils](https://github.com/alanhuang122/skyless-utils) - Python utilities for serializing and deserializing Sunless Skies' Unity TextAsset game data, converting between the game's binary format and JSON.
+- [Sunless-sea-skies-save-editor](https://github.com/JFinnTeacher/Sunless-sea-skies-save-editor) - Python desktop save editor for Sunless Sea and Sunless Skies; edits resources, cargo and items, and ship and equipment.
 
 #### Mediatonic (Fall Guys)
 
@@ -814,12 +858,17 @@ See also: [RenderWare](middleware.md#renderware).
   - Integration: Works with bfstool for archive handling.
 - [flatout-open-level-editor (FOOLEd)](https://github.com/mrwonko/flatout-open-level-editor) - Open level editor for FlatOut, alongside [fo2re](https://github.com/mrwonko/fo2re), file-format reverse-engineering documentation for FlatOut 2.
 - [FlatOut2-HLSLToSHA](https://github.com/ZackWilde27/FlatOut2-HLSLToSHA) - Converts HLSL shaders into FlatOut 1/2's proprietary .SHA shader format.
+- [FlatOut2_BlenderMaterialFixer](https://github.com/ZackWilde27/FlatOut2_BlenderMaterialFixer) - Blender add-on and script for FlatOut 2 tracks imported into Blender: converts DDS textures to PNG, relinks materials to them, connects alpha for materials with `alpha` in the name, and switches track geometry to its second UV map.
 - [bfs2pack](https://github.com/synopia/bfs2pack) - Packer/unpacker for FlatOut 2's .bfs2 archive format.
 - [flatout-blender-tools](https://github.com/ravenDS/flatout-blender-tools) - Blender import/export for FlatOut 1/2/Ultimate Carnage model, track, and audio formats (.bgm/.w32/.bsa/trackai.bin/.cdb2) across PC/PS2/Xbox/PSP.
 
 #### SmokePatch (Football Life Series)
 
 - [fl2026-soundtrack-manager](https://github.com/miftahrhamdhani/fl2026-soundtrack-manager) - Custom soundtrack manager for SP Football Life 26 (Football Life 2026), converting and replacing audio tracks in CRI ACB/AWB archives.
+
+#### For the King
+
+- [for-the-king-save-editor](https://github.com/warsnek/for-the-king-save-editor) - C# save game editor for For The King; edits Lore points and the gold and stats of characters in a game.
 
 #### Eutechnyx (Ford Racing)
 
@@ -836,6 +885,14 @@ See also: [RenderWare](middleware.md#renderware).
 
 - [FortApocalypse](https://github.com/heyigor/FortApocalypse) - Original Atari 400/800 6502 assembly source code for Fort Apocalypse (1982), released by the developer for historical/preservation purposes; requires SynAssembler to assemble.
 
+#### Fortune Summoners
+
+- [fortune_summoners_unpacker](https://github.com/vn-tools/fortune_summoners_unpacker) - Extracts sprites from Fortune Summoners: Secret of the Elemental Stone (Steam version) from the resources of `sotesd.dll`; notes on the other files; archived, merged into [arc_unpacker](https://github.com/vn-tools/arc_unpacker).
+
+#### Frame Gride
+
+- [GrideMgfExtractor](https://github.com/WarpZephyr/GrideMgfExtractor) - Extracts and repacks MGF archives (magic MGF or MGFL) from the Dreamcast game Frame Gride, using the game's accompanying txt files for file names when present.
+
 #### Investronica (Fred)
 
 - [zx-fred-reveng](https://github.com/kmatveev/zx-fred-reveng) - Reverse-engineering documentation and disassembly of Fred (1984, ZX Spectrum), including its level data format.
@@ -850,6 +907,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [Librelancer](https://github.com/Librelancer/Librelancer) - Open-source reimplementation of the Freelancer engine in C# and OpenGL, requiring a Freelancer installation for original game data.
 - [Starlancer-mod-tools](https://github.com/LordBlacksun/Starlancer-mod-tools) - Collection of modding tools gathered for Starlancer (2000), Digital Anvil's space combat game preceding Freelancer.
 - [FLNotepad.2.0.Net](https://github.com/ArchKaine/FLNotepad.2.0.Net) - Text/RTF editor for Freelancer save games and shiparch.ini entries, with FLMM 1.4 integration.
+- [FLAtlas Savegame Editor](https://github.com/flathack/FLAtlas---Save-Game-Editor) - Windows editor for Freelancer singleplayer `.fl` save games (credits, rank, ship loadout, cargo, reputation, visited systems), reading data from the selected vanilla or modded install; preserves encrypted `FLS1` saves and unknown rows when saving.
 
 #### Incentive Software (Freescape)
 
@@ -912,6 +970,11 @@ See also: [RenderWare](middleware.md#renderware).
 - [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for extracting data archives from mobile game Earth Revival (Project Arrival).
 - [ER.BDT.Tool](https://github.com/Ekey/ER.BDT.Tool) - Extractor for BDT archive files (main data container format).
 - [Yabber](https://github.com/JKAnderson/Yabber) - Unpacker/repacker for FromSoftware container formats (BND, BHD/BDT, DCX, and more), one of the most fundamental FromSoftware modding tools.
+- [YabberExtended](https://github.com/WarpZephyr/YabberExtended) - Fork of Yabber adding MQB support and various Armored Core container formats; unpacks and repacks .bnd, .bhd/.bdt, .dcx, .fltparam, .fmg, .gparam, .luagnl, .luainfo and .tpf for Demon's Souls, Dark Souls 1-3, Bloodborne and Sekiro.
+- [MassExtractBinder](https://github.com/WarpZephyr/MassExtractBinder) - Console tool that mass extracts BND3 and BND4 archives from files or folders into a single mass-extract folder.
+- [FSDATAUnpacker](https://github.com/WarpZephyr/FSDATAUnpacker) - Unpacks and repacks the DATA.BIN archives of early FromSoftware PS2 games: AC2DATA.BIN (Armored Core 2), AC25DATA.BIN (Armored Core 2: Another Age), AC3DATA.BIN (Armored Core 3) and ERDATA.BIN (Eternal Ring). Supersedes the same author's AC3DataUnpacker.
+- [BinderHandler](https://github.com/WarpZephyr/BinderHandler) - C# library for unpacking and repacking large FromSoftware BHD5 archives.
+  - [DVDUnbinder](https://github.com/WarpZephyr/DVDUnbinder) - Unpacks BHD5 archives using a provided hash dictionary (mostly made by TKGP, per its README).
 - [UXM-Selective-Unpack](https://github.com/Nordgaren/UXM-Selective-Unpack) - Enables file modding for Dark Souls 1, Dark Souls 2/SotFS, Dark Souls 3, and Sekiro by unpacking game archives and patching the executable to load loose files. More actively maintained fork of UXM with broader game support.
 - [DS3PortingTool](https://github.com/GompDS/DS3PortingTool) - Tool for porting BND archives (models, textures, animations) from other FromSoftware games onto Dark Souls 3, handling the associated format conversions.
 - [MapTexPack3](https://github.com/GompDS/MapTexPack3) - Console app that automates packing loose DDS textures into Dark Souls 3 TPFBDT/BHD binders, pruning unused textures and balancing binder sizes.
@@ -950,6 +1013,11 @@ See also: [RenderWare](middleware.md#renderware).
 - [FlverFixup](https://github.com/The12thAvenger/FlverFixup) - Command-line tool for fixing common issues with FLVER model files, processing loose files or BND archives (Oodle DLL from the game directory required for BNDs).
 - [MTD-Editor](https://github.com/JKAnderson/MTD-Editor) - Material definition (MTD) editor for FromSoftware games.
 - [DSR-TPUP](https://github.com/JKAnderson/DSR-TPUP) - Utility to extract and replace textures in Dark Souls: Remastered.
+- [MassConvertFromModel](https://github.com/WarpZephyr/MassConvertFromModel) - Mass converts FLVER0, FLVER2, MDL4 and SMD4 FromSoftware models to formats such as FBX through AssimpNet (known normal and UV issues; SMD4 not fully explored).
+  - [FromAssimp](https://github.com/WarpZephyr/FromAssimp) - Imports FLVER0, FLVER2, MDL4 and SMD4 models into Assimp for export to common formats such as FBX, with the same normal and UV caveats.
+  - [FlverInfoDump](https://github.com/WarpZephyr/FlverInfoDump) - Dumps basic information (without indices or vertices) from MDL4, SMD4, FLVER0 and FLVER2 models to a text file beside the model.
+- [FlverFlow](https://github.com/WarpZephyr/FlverFlow) - Work-in-progress FLVER model importer and exporter with a GUI; its documented workflow targets Armored Core: For Answer models (material.bnd plus model and texture BNDs).
+- [Timspect](https://github.com/WarpZephyr/Timspect) - Unpacks and repacks PlayStation TIM2 textures (to PNG plus an XML of texture properties) and includes a TIM texture viewer, focused on FromSoftware TIM2 files.
 
 ##### Maps & Level Editors
 
@@ -986,6 +1054,18 @@ See also: [RenderWare](middleware.md#renderware).
 ##### Armored Core
 
 - [Cauldron](https://github.com/WarpZephyr/Cauldron) - Modding tool for Armored Core: For Answer, Armored Core V, and Armored Core: Verdict Day, with DAT format support.
+- [AcParamEditor](https://github.com/WarpZephyr/AcParamEditor) - Lightweight param editor for Armored Core 4, For Answer, V, Verdict Day and 6, plus Armored Core Formula Front, Chromehounds and Enchanted Arms, driven by per-game paramdef folders (XML or raw paramdefs).
+  - [ParamDbpEditor](https://github.com/WarpZephyr/ParamDbpEditor) - Editor for the dbp-based params (and the dbps themselves) used by Armored Core 4, For Answer, V and Verdict Day.
+  - [ParamDefEditor](https://github.com/WarpZephyr/ParamDefEditor) - Editor for creating and editing paramdefs and exporting them to XML (importing the XML back is noted as broken).
+- [AcMsbEditor](https://github.com/WarpZephyr/AcMsbEditor) - Simple editor for Armored Core 4 MSB map files that can add, delete and duplicate MSB param entries (it cannot yet edit entry properties).
+- [FsUnboundMapper](https://github.com/WarpZephyr/FsUnboundMapper) - Unpacks Armored Core game files into a loose setup the game can load, covering For Answer, V and Verdict Day on PS3 and Xbox 360 (Armored Core 4 is listed but not yet marked as supported).
+  - [ACVLooseLoader](https://github.com/WarpZephyr/ACVLooseLoader) - Automates loose loading for Armored Core V and Verdict Day on PS3 and Xbox 360: unpacks the main archives, boot, script and mission binders, packs map models and textures into binders for V, and hides the archive header files.
+- [REGUExtract](https://github.com/WarpZephyr/REGUExtract) - Unwraps regulation.bin from REGU.DAT in Armored Core Verdict Day save files as regulation.bnd (for Yabber) and repacks it.
+  - [RegulationHashCalculator](https://github.com/WarpZephyr/RegulationHashCalculator) - Recalculates the md5 hash entry in Armored Core 4's regulation.bin BND3 after editing.
+  - [EncrMake](https://github.com/WarpZephyr/EncrMake) - Unpacks and repacks the ENCR encrypted payloads Armored Core 4 receives for patch and regulation updates at startup.
+- [AcSaveConverter](https://github.com/WarpZephyr/AcSaveConverter) - Opens and exports Armored Core saves between platforms and regions; Armored Core: For Answer on PS3 and Xbox 360 is the supported game so far.
+  - [AcSaveFormats](https://github.com/WarpZephyr/AcSaveFormats) - Companion C# library for reading and writing Armored Core saves.
+- [ac6sl2tool](https://github.com/WarpZephyr/ac6sl2tool) - Decrypts and encrypts the files inside Armored Core 6 SL2 saves and recalculates their trailing checksum (the SL2 itself is a BND4 to unpack first with Yabber or WitchyBND).
 - [souls_givifier](https://github.com/jtesta/souls_givifier) - Save game editor for Dark Souls Remastered, Dark Souls II: Scholar of the First Sin, Dark Souls III, and Elden Ring, reading and writing the shared save data format across titles.
 - [DarkSoulsII.DebugView](https://github.com/Atvaark/DarkSoulsII.DebugView) - Debug view/inspector for Dark Souls II's in-memory and save data structures.
 
@@ -996,6 +1076,10 @@ See also: [RenderWare](middleware.md#renderware).
 ##### Multiplayer & Online Services
 
 - [dso](https://github.com/comradesean/dso) - Clean-room game server for FromSoftware's "Frpg2" online protocol (Dark Souls 2 and Dark Souls 3), written in Go.
+
+#### Frontier: First Encounters
+
+- [ffesge](https://github.com/binaryfrog/ffesge) - C saved game editor for Frontier: First Encounters, with `mangle`/`unmangle` utilities and notes (HACKING.txt) on the save file's compression and scrambling.
 
 #### 11 bit studios (Frostpunk)
 
@@ -1008,6 +1092,7 @@ See also: [RenderWare](middleware.md#renderware).
 #### Subset Games (FTL: Faster Than Light)
 
 - [ftl-save-editor](https://github.com/SamWylde/ftl-save-editor) - Desktop save editor and live memory trainer for FTL: Faster Than Light, with support for the Hyperspace and Multiverse mods.
+- [iOS-FTL-Save-Game-Editor](https://github.com/Tsubashi/iOS-FTL-Save-Game-Editor) - Python scripts for decoding and re-encoding the `continue.sav` save file of the iOS version of FTL; the README says it may also work on the desktop version.
 
 #### Funatics Software
 

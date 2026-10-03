@@ -239,10 +239,12 @@
 - [EasyExtractUnitypackage](https://github.com/HakuSystems/EasyExtractUnitypackage) - Extracts files from a Unity `.unitypackage` archive without needing to import it into the Unity Editor first.
 - [neogeo-rom-extractor](https://github.com/DrRetroMod/neogeo-rom-extractor) - Modular Python tool for converting legally-owned PC re-releases of Neo Geo games into emulator-ready ROM ZIPs, with per-game extraction modules and verification-focused output.
 - [strip3ds](https://github.com/vPumpking/strip3ds) - Command-line tool for extracting 3DS game ROMs and converting their contents into readable data such as audio files and 3D models.
+- [cdecrypt](https://github.com/VitaSmith/cdecrypt) - Single-executable, dependency-free utility that decrypts and extracts Wii U NUS content for modders; a fork of the original CDecrypt with international character support and Linux/macOS builds.
 - [OpenPRF](https://github.com/hayes-roach/OpenPRF) - Open-source PS4/PS5 save game editor that runs entirely in the browser, complementing ps4tools above.
 - [goNCommand](https://github.com/lioneltrs/goNCommand) - Bash script collection converting 25 Neo Geo re-release games to MAME/FBA/FBNeo-compatible romsets.
 - [buildROM](https://github.com/lioneltrs/buildROM) - Python script converting 8 games from the "SNK 40th Anniversary Collection" (PC version) to MAME 2003-compatible ROMs, complementing goNCommand above.
 - [iml2iso](https://github.com/master801/iml2iso) - Converts PlayStation 2 .iml disc images to .bin/.iso (CD, DVD-5, DVD-9).
+- [ObserverModules](https://github.com/refaim/ObserverModules) - Extension modules for the Observer plugin of FAR Manager that open game archives as folders: Ren'Py `.rpa` (RPA-2.0/3.0), RPG Maker VX Ace `.rgss3a`, and ZanZarah: The Hidden Portal `.pak` (original and Steam versions).
 
 ### 🔊 Audio Tools
 
@@ -421,12 +423,14 @@
 - [CialloHook](https://github.com/Lite0812/CialloHook) - General-purpose text hooking tool for Windows Galgame executables.
 - [toolkit-Localization](https://github.com/YuriSizuku/toolkit-Localization) - Collection of generic galgame localization components: `ftext` text serialization format, text/image/font extraction utilities, and Windows console/file-I/O/redirect hooking libraries used to build engine-specific translation patchers.
 - [filetranslate](https://github.com/UserUnknownFactor/filetranslate) - Python pipeline for collaborative machine translation of game text: extracts strings and attributes with per-engine regexp presets (Tyrano `.ks`, Kirikiri `.ks`/`.tjs`, RPG Maker MV `.json`, RPG Maker VX Ace scripts/YAML, Godot `.tscn`/`.gd`/Dialogic JSON, Win32 `.rc` resources) into `.csv` files, then applies translations back to the original files; also OCRs image text with PaddleOCR.
+- [GameTranslator](https://github.com/wattostudios/GameTranslator) - Java language-file translation assistant from the GameExtractor author, using per-game plugins (dozens in the source tree) to read and write game text files. Unmaintained per its README.
 
 ### 🔍 Hex Editors
 
 - [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor with powerful template system for analyzing binary file structures (paid).
 - [ImHex](https://github.com/WerWolv/ImHex) - Modern, open-source hex editor with pattern language for reverse engineering file formats (free).
 - [btparser](https://github.com/x64dbg/btparser) - Lexer/parser library for 010 Editor's Binary Template (.bt) language, for programmatically consuming binary templates outside of 010 Editor itself.
+- [TotalByteInformer](https://github.com/wattostudios/TotalByteInformer) - Hex-viewer-style raw data interpreter by the GameExtractor author, built for identifying unknown file formats: side-by-side multi-file comparison, hex/byte/char views, little- and big-endian value interpretations and bit-shift/bit-swap operations. Viewing only, no editing.
 
 #### Scripts & Templates
 
@@ -848,6 +852,8 @@
   - Games: DOOM 3, Quake 4, Prey (2006), Quake 1/2/3, RTCW, ETW, RealRTCW, GZDoom, OpenJK (Jedi Knight), Serious Sam, Icarus, Skin Deep, Quadrilateral Cowboy.
 - [Toolbox.Core](https://github.com/KillzXGaming/Toolbox.Core) - Cross-platform (.NET Standard) rewrite of the plugin and rendering framework behind Switch-Toolbox above, with a redesigned plugin-loading system that auto-registers file-format and model-renderer interfaces.
 - [EveryFileExplorer (KillzXGaming fork)](https://github.com/KillzXGaming/EveryFileExplorer) - Plugin-based multi-game file browser and editor; bundled plugins cover 3DS, NDS, Lego Pirates of the Caribbean, and Mario Kart formats (including KCL collision), plus common archive/compression containers. Actively maintained continuation of Gericom/EveryFileExplorer, inactive since 2021.
+- [Omega Studio](https://github.com/Team-BrewSearch/OmegaStudio) - Cross-platform (Avalonia, Windows/Linux) desktop browser/editor for game asset archives whose formats arrive as plugins, with viewport, texture, audio and animation panes plus extract/replace/export (PNG, glTF).
+  - Bundled plugins: Suzumiya Haruhi no Chourantou/Gekitou (PC `data/*.bin` models, textures, skeletons, animation), the Kartz GDA/GDF/GDT archives (Hot Wheels: Battle Force 5, Pimp My Ride, Monster Jam: Path of Destruction, Madagascar Kartz, DreamWorks Super Star Kartz; also inside DS ROMs), and Nintendo DS ROM file systems, headers and banners.
 
 #### Cross-Game Libraries & Extractors
 
@@ -1013,6 +1019,8 @@
   - Supports extracting ROMs from collections like Capcom Arcade Stadium, Street Fighter 30th Anniversary Collection, Mega Man Legacy Collections, SNK 40th Anniversary Collection, and many more.
 - [save-decrypters](https://github.com/bucanero/save-decrypters) - Collection of custom save-game decrypters and checksum fixers for PS3, PSP, and PS4.
   - Games: GTA5, The Last of Us, Uncharted series, Metal Gear Solid series, Resident Evil series, Final Fantasy XIII series, and many more.
+- [EdiZon](https://github.com/WerWolv/EdiZon) - Nintendo Switch (Horizon) homebrew for dumping, injecting and editing game save files on-console, with Lua and Python save-editor scripts (also includes an Atmosphère cheat/RAM editor).
+  - Per-game editor configs and scripts live in [EdiZon_CheatsConfigsAndScripts](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts), which also holds a `save_util.py` script for analyzing save files (zlib compress/decompress, CRC32).
 - [CrateModLoader](https://github.com/TheBetaM/CrateModLoader) - Mod loader with game-specific format detection, extraction, modification, and rebuilding across multiple games.
 - [ModAPI](https://github.com/FluffyFishGames/ModAPI) - Desktop mod management tool for managed-code (Mono) Unity survival games, handling per-game mod loading, dependency resolution, and injection.
   - Games: The Forest, Subnautica, RAFT, Escape The Pacific, Green Hell.

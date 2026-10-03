@@ -107,6 +107,7 @@
 
 - [shadowwarrior](https://github.com/icculus/shadowwarrior) - icculus.org Linux port of 3D Realms' Shadow Warrior, built from the officially released source code.
 - [jfsw](https://github.com/jonof/jfsw) - JonoF's port of Shadow Warrior, built on his [jfbuild](https://github.com/jonof/jfbuild) Build engine port, reading the original game's GRP/ART/MAP data.
+- [SW2ExplorerWV](https://github.com/zeroKilo/SW2ExplorerWV) - Toolset for Shadow Warrior 2 that imports and exports game content files and creates and applies mods.
 
 ##### The Outforce
 
@@ -242,6 +243,7 @@
 - [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) - Fastfile generator for IW4 (Modern Warfare 2).
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
 - [iw4-zone-asset-finder](https://github.com/XLabsProject/iw4-zone-asset-finder) - Zone asset finder and source builder for IW4 (Modern Warfare 2).
+  - [snd-alias-converter](https://github.com/XLabsProject/snd-alias-converter) - C# tool to convert sound aliases between ZoneTool and Zonebuilder formats (JSON, and binary `.xss` used by newer ZoneTool releases).
 - [x64 ZoneTool](https://github.com/Joelrau/x64-zt) - Fastfile unlinker and linker for x64 Call of Duty titles.
 - [zonetool](https://github.com/ZoneTool/zonetool) - Fastfile linker for Call of Duty titles (CoD4, MW, MW2, MW3), parsing and reconstructing IW3/IW4/IW5 fastfile archives.
 - [OpenAssetTools](https://github.com/Laupetin/OpenAssetTools) - Actively maintained, open-source modding tool suite (Unlinker/Linker) for loading and building fastfiles (.ff), aiming for original-format compatibility rather than reimplementing existing tools.
@@ -429,6 +431,10 @@
 
 - [AirMech-AMF-file-blender-import](https://github.com/curly-brace/AirMech-AMF-file-blender-import) - Blender import script for AirMech's AMF model format.
 
+#### DivoGames (AirStrike 3D)
+
+- [airstrike3d-tools](https://github.com/e-gleba/airstrike3d-tools) - Reverse-engineering toolkit for the AirStrike 3D series (AirStrike 2, AirStrike 2 D3D8, AirStrike II: Gulf Thunder, Space Strike): Python scripts for the `.apk` archive format, bidirectional `.mdl` model/OBJ conversion, a level viewer, and save file decryption and preview, plus Ghidra projects for engine analysis.
+
 #### Akella
 
 *Sea Dogs, Pirates of the Caribbean, Age of Pirates.*
@@ -457,6 +463,10 @@
 #### Algoryx (Algodoo / Phun)
 
 - [phun-js-box2d](https://github.com/EJTH/phun-js-box2d) - Parser and work-in-progress web player for Phun/Algodoo physics sandbox `.phz` scene files, including a ThymeScript-to-JavaScript transpiler and Box2D-based physics playback.
+
+#### Alice: Madness Returns
+
+- [hysteria](https://github.com/CatAnnaDev/hysteria) - Modding stack for Alice: Madness Returns (Unreal Engine 3), including Hysteria Studio, a Rust/egui desktop app that opens, inspects, edits, previews and exports the game's `.upk` assets (textures, sounds, properties); the rest is a `dinput8.dll` proxy mod framework with runtime object and function access.
 
 #### Alone in the Dark
 
@@ -534,6 +544,10 @@
 - [RDR1AudioTool](https://github.com/Foxxyyy/RDR1AudioTool) - Editor for Red Dead Redemption 1 PC's AWC audio container files.
 - [MCLA-Decompiled-Scripts](https://github.com/Foxxyyy/MCLA-Decompiled-Scripts) - Midnight Club: Los Angeles SCO scripts decompiled to C.
 
+#### Aniimo
+
+- [Aniimo-Tools](https://github.com/zbirow/Aniimo-Tools) - Python GUI scripts for Aniimo that convert Wwise `.wem` audio to FLAC and unpack `.bnk` sound banks to FLAC, using vgmstream-cli and ffmpeg.
+
 #### Ankama Games
 
 ##### Wakfu
@@ -599,6 +613,9 @@
 ##### Guilty Gear and Dragon Ball FighterZ
 
 - [ParticleEditor](https://github.com/TekkaGB/ParticleEditor) - Edits `ParticleModuleColorOverTime` values in the `.uasset`/`.uexp` files of Guilty Gear -Strive- and Dragon Ball FighterZ. See also [ggst_collision_editor_rs](https://github.com/WistfulHopes/ggst_collision_editor_rs) for Guilty Gear Strive collision data.
+- [ASWTools](https://github.com/WistfulHopes/ASWTools) - C# command-line tools for modding modern Arc System Works fighters (not archived): `bbscript` decompiles and compiles BBScript battle-mode scripts, `advscript` does the same for ADVScript story-mode scripts, and `ATFText` converts ATF text localization files to text and back. Bundled BBScript configs are named `ggst`, `ggrev2`, `ggsign`, `dbfz`, `bbcf`, `bbct` and `mtfs`.
+  - See also [ASWViewer](https://github.com/WistfulHopes/ASWViewer), a Godot-based viewer for Arc System Works scripts and hitboxes (not archived; no README, bundles a Guilty Gear -Strive- config and collision PAC files).
+- [GGXPlusCDData](https://github.com/WistfulHopes/GGXPlusCDData) - C# extractor for the `CDDATA.BIN` file of Guilty Gear X Plus (Korean); the file list is hardcoded and original filenames are usually not stored in the game (not archived).
 
 ##### Kill la Kill - IF
 
@@ -630,6 +647,7 @@
 - [BRender-v1.3.2](https://github.com/foone/BRender-v1.3.2) - Leaked original source code (v1.3.2, ~1998) of Argonaut's BRender 3D engine, licensed into numerous PC/PS1/Saturn-era games.
   - See also [BRender-1997](https://github.com/foone/BRender-1997) for an earlier, game-modified 1997 release of the same engine.
 - [croc (decomp)](https://github.com/xeeynamo/croc) - Matching decompilation of Croc: Legend of the Gobbos.
+  - See also [Croc-old](https://github.com/Xeeynamo/Croc-old), the author's earlier Croc: Legend of the Gobbos tools, with C sources for a file-system packer/unpacker (`crocfstool`) and a mod tool (`crocmod`).
 - [PS1-BRender-Reverse](https://github.com/OverSurge/PS1-Argonaut-Reverse) - Reverse engineering tools for PlayStation 1 BRender engine games like Harry Potter and Croc 2.
 - [Stratigise](https://github.com/Argonaut-PS1-Reverse/Stratigise) - WIP tool for disassembling and (re)assembling ASL binaries for Croc 1.
 - [Croc2ExplorerWV](https://github.com/zeroKilo/Croc2ExplorerWV) - Tool to explore the game content of Croc 2.
@@ -681,6 +699,7 @@
 - [ZounaBinaryTemplates](https://github.com/ZounaModding/ZounaBinaryTemplates) - 010 Editor binary templates and Noesis scripts for Zouna engine file formats, with documentation on engine internals (Seads spatial partitioning system).
   - Games: Ratatouille (PC, PS2, GC, Xbox), WALL-E (PC), Toy Story 3 (PS2), SpongeBob SquarePants: Revenge of the Flying Dutchman (PS2, GC), A Plague Tale (PC), Microsoft Flight Simulator 2024 (PC), Shaun White 2 (PC), Castleween (PS2), Garfield, Noddy.
   - Formats: Bitmap_Z, Mesh_Z, Material_Z, World_Z, Node_Z, Skel_Z, Skin_Z, Animation_Z, Lod_Z, and more Zouna _Z resource types.
+  - See also: [ZounaBlender](https://github.com/ZounaModding/ZounaBlender) - Blender importer for Ratatouille/WALL-E `Skin_Z` and `Animation_Z` files (Blender 3.3; verified on 4.3.2 per its README).
 - [RatDecomp](https://github.com/ZounaModding/RatDecomp) - Decompilation project for Ratatouille (GameCube) with original game data parsing and reconstruction.
 - [fuel-brute](https://github.com/widberg/fuel-brute) - CRC32 brute-force solver for FUEL, a companion tool to the FMTK modding toolkit above.
 - [rat](https://github.com/seilc/rat) - Decompilation project for a separate, earlier Ratatouille (GameCube) prototype build, dated January 18, 2006.
@@ -716,6 +735,11 @@
 - [PersonaRandomizer](https://github.com/ShrineFox/PersonaRandomizer) - Program for quickly randomizing files in Persona 3 FES, Persona 4, and Persona 5. Supports randomizing various TBL files including PERSONA, UNIT, SKILL, ITEM, NAME, and ENCOUNT tables.
 - [AemulusModManager](https://github.com/TekkaGB/AemulusModManager) - Mod package manager for Persona 4 Golden (PC), Persona 3 FES, Persona 5, and Persona 5 Strikers. Automatically merges conflicting bin, bmd, pm1, bf, and tbl files from different mods.
 - [p4g-saveconv](https://github.com/zarroboogs/p4g-saveconv) - Persona 4 Golden save converter. Converts PS Vita saves to PC format and vice versa, including data00XX.bin, system.bin, and sdslot.dat files.
+  - [fiber-saveutil](https://github.com/zarroboogs/fiber-saveutil) - Python save conversion/decryption utility for Persona 5 Royal PC; converts decrypted PS4 saves (CUSA17416 US, CUSA17419 EU) to PC saves and decrypts PC saves.
+  - [p5spc.saveutil](https://github.com/zarroboogs/p5spc.saveutil) - Save decryption, encryption and conversion utility for Persona 5 Strikers PC (`SAVEDATA.BIN`, keyed by Steam account ID).
+  - [sh2.fileutil](https://github.com/zarroboogs/sh2.fileutil) - Command-line utility for Soul Hackers 2 that (de)compresses saves (gzipped JSON) and (en/de)crypts game assets.
+- [io_plg](https://github.com/zarroboogs/io_plg) - Blender import/export addon for the PLG mesh-collection format found in some Atlus games.
+- [Aogami](https://github.com/supremetakoyaki/Aogami) - Shin Megami Tensei V save editor (C#); edits name, play time, difficulty, Macca, Nahobino level and stats and items, with export/import of the save data in decrypted form.
 - [p5-rte](https://github.com/TheHiddenHour/p5-rte) - Real-time editing tool for Persona 5 on jailbroken PS3. Allows editing of persona slots, stats, and skills using PS3Lib.
 - [GMDTool](https://github.com/lemoncove/GMDTool) - Command-line utility to convert Persona .GMD model files to Collada .DAE format. Uses GFDLibrary for GMD loading.
 - [PersonaEditor](https://github.com/Meloman19/PersonaEditor) - File editor for Persona series (3, 4, 5) supporting multiple container formats (BIN, PAK, PAC, CPK, P00, ARC, PM1, BF, BVP, TBL, FTD) with asset extraction and modification.
@@ -744,6 +768,7 @@
 - [EVTUI](https://github.com/DarkPsydeOfTheMoon/EVTUI) - WIP tool for viewing, editing, and creating story events in Persona 5 Royal, built on Atlus-Script-Tools above; an alternative to EvtTool and EVTEditor above.
 - [ParserPlayground](https://github.com/DarkPsydeOfTheMoon/ParserPlayground) - Collection of Python parser classes for Persona 5 Royal file formats, translated from TGE's 010 Editor templates and Amicitia, built on Pherakki's exbip library; companion research repo to EVTUI above.
 - [p3r_demo_save_conv](https://github.com/RikuKH3/p3r_demo_save_conv) - Converts Persona 3 Reload save files from the retail version's format to the demo version's format.
+- [p3r-save-editor](https://github.com/Luckyseer/p3r-save-editor) - Browser-based Persona 3 Reload save editor (P3R Save Lab) for Steam saves including Episode Aigis: auto-detects encrypted or decrypted `.sav` files and edits inventory, party, Personas, Velvet Room Compendium and social stats, with validation on export.
 - [raidou_saveconv](https://github.com/RikuKH3/raidou_saveconv) - Converts save files between the Steam and Switch versions of RAIDOU Remastered: The Mystery of the Soulless Army.
 - [opengfd](https://github.com/rirurin/opengfd) - Reimplementation of assorted components from Atlus's GFD Engine (Persona 5, Metaphor: ReFantazio) in Rust.
 - [metaphor-apk-rs](https://github.com/rirurin/metaphor-apk-rs) - Utility crate for reading APK container files from Metaphor: ReFantazio.
@@ -762,6 +787,12 @@
 - [P5SFontEditor](https://github.com/TekkaGB/P5SFontEditor) - Editor for Persona 5 Strikers `.g1n` font files (its README says it may also work for other Koei Tecmo games). Imports and exports glyph textures as `.raw` and edits glyph, color (ARGB), and UTF-16 index parameters.
 - [Cpk-Tmx-Tool](https://github.com/TekkaGB/Cpk-Tmx-Tool) - Command-line tool that extracts and replaces `.tmx` textures inside the special `.cpk` files of the PS2 Persona games.
 - [persona2-innocent-sin-cn-hanization-ai-research](https://github.com/Lazusion/persona2-innocent-sin-cn-hanization-ai-research) - AI-assisted reverse-engineering research toward a Chinese localization of Persona 2: Innocent Sin (PSP), documenting CPK archive extraction/repacking, CRILAYLA (de)compression, dialogue script parsing, and the game's font glyph system. Incomplete; no playable patch provided.
+- [Tharsis](https://github.com/xdanieldzd/Tharsis) - File conversion tool originally made for Etrian Odyssey IV: Legends of the Titan (3DS), supporting a variety of formats primarily from certain Nintendo 3DS games (listed on its wiki).
+  - [TharsisForge](https://github.com/xdanieldzd/TharsisForge) - Save data editor for Etrian Odyssey IV: Legends of the Titan (`mori4*.sav`).
+  - [TitanImage](https://github.com/xdanieldzd/TitanImage) - Etrian Odyssey IV STEX image converter for translation purposes, reading and writing PNG files with JSON metadata.
+- [UntoldUnpack](https://github.com/xdanieldzd/UntoldUnpack) - Unpacker for the HPI/HPB archives of Etrian Odyssey Untold: The Millennium Girl, Etrian Odyssey 2 Untold: The Fafnir Knight and Etrian Odyssey V: Beyond the Legends (3DS).
+- [Yggdrasil](https://github.com/xdanieldzd/Yggdrasil) - Work-in-progress editor for Etrian Odyssey, using an embedded ndstool for game unpacking and repacking.
+- [SMTV-VSaveEditor](https://github.com/zmbkilla/SMTV-VSaveEditor) - Windows Forms save editor for the Switch version of Shin Megami Tensei V: Vengeance, handling its AES-encrypted save data and editing player name and stats (skill writing in progress).
 
 #### ATOM Team (Atom RPG)
 

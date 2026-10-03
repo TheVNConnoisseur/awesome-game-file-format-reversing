@@ -203,9 +203,11 @@
 - [ACGC-PC-Port](https://github.com/flyngmt/ACGC-PC-Port) - PC port of Animal Crossing (GameCube) based on ac-decomp decompilation project. X86-native code with OpenGL 3.3 graphics layer. Requires original game copy.
 - [acnl-editor](https://github.com/marcrobledo/acnl-editor) - Animal Crossing: New Leaf savegame editor made in HTML5.
 - [ACNLPatternTool](https://github.com/Thulinma/ACNLPatternTool) - Browser-based editor for Animal Crossing: New Leaf's ACNL pattern file format, reading/writing patterns as multi-part QR codes. See also [react-acnl-pattern-tool](https://github.com/DamSenViet/react-acnl-pattern-tool), a React.js rewrite of an earlier version (Archived), and [acpatterns-js](https://github.com/DamSenViet/acpatterns-js), a standalone JavaScript library extracted from that rewrite for parsing, editing, and previewing Animal Crossing pattern data/files.
+- [Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker](https://github.com/RealDarkCraft/Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker) - Python tool that unpacks and deserializes Animal Crossing: Pocket Camp Complete save files into raw and JSON files and repacks them; not a validating save editor.
 - [ACNL_Research](https://github.com/Slattz/ACNL_Research) - Research on Animal Crossing: New Leaf's inner workings, obtained through reverse engineering the game's code and savefile.
   - Contents: 010 Editor templates, MSBT tag research, SpotPass research, Dream Town downloading, HHS Exhibition data, fish data.
 - [ACNL_REditor](https://github.com/Slattz/ACNL_REditor) - Animal Crossing: New Leaf ROM editor for patching the game's code and files with quality-of-life gameplay changes.
+- [ACNL_SFC](https://github.com/Slattz/ACNL_SFC) - Archived proof-of-concept C++ tool that creates custom SpotPass (DLC) files for Animal Crossing: New Leaf (Post Office presents and Campground RVs); needs CFW and a `boot9.bin` dump for encryption and decryption.
 - [CGFXModel](https://github.com/captainsouthbird/CGFXModel) - Attempt at editing Animal Crossing: New Leaf villagers and other CGFX model data. (Archived.)
 - [Turnips](https://github.com/averne/Turnips) - Homebrew Nintendo Switch application that reads Animal Crossing: New Horizons save data directly to preview turnip (stalk market) prices.
 - [ACNHMobileSpawner](https://github.com/berichan/ACNHMobileSpawner) - Real-time multi-tool for Animal Crossing: New Horizons (via sys-botbase/USB-Botbase on a modded Switch); injects inventory items, edits villagers/turnip prices, and saves/loads the game's `.nhi`/`.nhv`/`.nhvh` inventory and villager file formats.
@@ -253,6 +255,7 @@
 - [PikBinGen](https://github.com/RenolY2/PikBinGen) - Binary file generator for creating custom Pikmin levels.
 - [MeltyTool (Pikmin1)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/Pikmin1) - Pikmin 1 format viewer/exporter.
 - [piki-tools](https://github.com/Minty-Meeo/piki-tools) - Collection of tools for working with Pikmin file formats.
+- [bxpack](https://github.com/XAYRGA/bxpack) - Packs and unpacks the `.bx` archives of Pikmin 1 (part of libJAudio; archived).
 - [Pikmin PC Port](https://github.com/DaveDebugs/Pikmin-PC-Port) - Native PC port of Pikmin built on projectPiki's decompilation, reading the original disc image with no bundled assets.
 
 ##### Pikmin 2
@@ -513,6 +516,7 @@
 - [ArikaTools](https://github.com/simontime/ArikaTools) - Tools for extracting data from Arika-developed games, such as their Dr. Mario/Dr. Luigi titles.
 - [mariogolf64 (decomp)](https://github.com/monde-lointain/mariogolf64) - Matching decompilation of Mario Golf (N64).
 - [smstrikers-decomp (decomp)](https://github.com/yannicksuter/smstrikers-decomp) - Matching decompilation of Super Mario Strikers.
+  - Companion: [smstrikers-viewer](https://github.com/yannicksuter/smstrikers-viewer) - Cross-platform (C++/OpenGL/CMake) asset viewer for Super Mario Strikers (GameCube) built on the decompilation's findings; loads most `.glt` texture bundles, with `.glg` model bundles not yet implemented.
 - [StrikersRecomp](https://github.com/aharonahdoot/StrikersRecomp) - Static recompilation of Super Mario Strikers (GameCube, G4QE01) into native code, the worked-example game for the RecompCore/GXRuntime GameCube static-recompilation toolchain (see Static Recompilation above); companion project to smstrikers-decomp.
 - [ToadsTool](https://github.com/huderlem/ToadsTool) - Tool for editing Mario Golf: Toadstool Tour files including map containers, text, events, zone headers, entities, and encounters.
 - [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Camelot GameCube games (Mario Golf: Toadstool Tour and Mario Power Tennis) data decoder/encoder.
@@ -596,6 +600,7 @@
 - [ooot](https://github.com/blawar/ooot) - Open Ocarina, a distinct PC port of The Legend of Zelda: Ocarina of Time built on the OoT decompilation project, requiring original game assets.
 - [zelda_ocarina_mq_debug](https://github.com/camthesaxman/zelda_ocarina_mq_debug) - Disassembly of the debug build of The Legend of Zelda: Ocarina of Time Master Quest (N64).
 - [zeldaldr](https://github.com/jkbenaim/zeldaldr) - Whole-ROM IDA loader for the Nintendo 64 Zelda games Ocarina of Time and Majora's Mask.
+- [mm3d_re](https://github.com/yellows8/mm3d_re) - Savedata format reverse-engineering notes for The Legend of Zelda: Majora's Mask 3D (3DS), including an item table dump and `mm3d_savetool.c`, a CRC-updating tool for the save file.
 - [zcamedit](https://github.com/sauraen/zcamedit) - Zelda 64 (Ocarina of Time/Majora's Mask) cutscene camera editor Blender plugin.
 - [ci4tool](https://github.com/sauraen/ci4tool) - Companion tool to ZAPD for creating N64 CI4 (4-bit color-indexed/palette) textures used by Ocarina of Time and Majora's Mask decompilation projects, converting and applying palettes that ZAPD's own PNG-to-C conversion does not handle.
 - [link-rig](https://github.com/sauraen/link-rig) - Blender IK rig for animating Link and exporting custom animations to Ocarina of Time's native animation format (via objex2), including interpolation with existing in-game animations and animated eye/mouth textures.
@@ -646,6 +651,9 @@
 - [dlcopy](https://github.com/Thar0/dlcopy) - Utility for copying and relocating Zelda64 object display lists and everything they reference between files.
 - [csdis](https://github.com/Thar0/csdis) - Ocarina of Time cutscene disassembler that turns raw cutscene data (binary or a hex integer list) into a macro representation.
 - [Z64CompDecGUI](https://github.com/Yanis002/Z64CompDecGUI) - GUI wrapper for z64compress/z64decompress, tools for compressing/decompressing Zelda64 ROMs.
+- [z64decompress](https://github.com/z64dev/z64decompress) - Decompresses retail Zelda 64 ROMs or individual files, including ones compressed with z64compress in its yaz, lzo, ucl, and aplib encodings (also handles ROMs using the ZZRTL dmaext hack).
+- [z64yartool](https://github.com/z64dev/z64yartool) - Command-line tool for Zelda 64 `.yar` texture archives: decompresses them into raw texture data, writes a recipe listing each texture, then dumps to PNG images and rebuilds the `.yar` from a recipe.
+- [t64conv](https://github.com/Yanis002/t64conv) - Python script converting Wii Virtual Console T64 (VC64) texture files to TEX0, optionally decoding to PNG through wimgt; color-indexed (CI) textures are not supported yet.
 - [z64rom](https://github.com/z64utils/z64rom) - Cross-compatible Zelda OoT MQ Debug ROM/project managing tool. See also the original [z64tools/z64rom](https://github.com/z64tools/z64rom) (archived).
 
 ###### Wind Waker & Twilight Princess
@@ -685,6 +693,7 @@
 - [ZeldaTOTK](https://github.com/turtle-insect/ZeldaTOTK) - Save data editor for The Legend of Zelda: Tears of the Kingdom (Switch).
 - [botw-editor](https://github.com/handsomematt/botw-editor) - Editor for The Legend of Zelda: Breath of the Wild game files. Includes dungeon editor and world viewer components. Supports BLWP and BFRES formats.
 - [Totk-ZstdTool](https://github.com/TotkMods/Totk-ZstdTool) - Simple tool for decompressing .zs (Zstandard) files from The Legend of Zelda: Tears of the Kingdom.
+- [totk-meshcodec](https://github.com/UltimateBomb/totk-meshcodec) - Python library and CLI that inspects and packs Tears of the Kingdom `.bfres.mc` model files, writing the FMSH geometry section the game requires; includes a documented format specification.
 - [Totk.HashCalculator](https://github.com/TotkMods/Totk.HashCalculator) - Command-line tool that scans The Legend of Zelda: Tears of the Kingdom game files to generate the hash table and strings list used to decode RSTB/RESTBL hashes; the repository ships string tables for game versions 1.0.0 to 1.2.1.
 - [botw_chest_manager](https://github.com/mathias4833/botw_chest_manager) - GUI tool to manage chest contents in The Legend of Zelda: Breath of the Wild, faster than editing via Ice Spear.
 - [botw-tools](https://github.com/MrCheeze/botw-tools) - Collection of datamining/reverse-engineering scripts for The Legend of Zelda: Breath of the Wild.
@@ -696,6 +705,9 @@
 - [Research](https://github.com/TotkMods/Research) - Extensive per-format file research for Tears of the Kingdom, documenting dozens of extensions (AAMP, AINB, ASB, BFRES, BYML, SARC, and more).
 - [BCML](https://github.com/NiceneNerd/BCML) - Breath of the Wild Cross-Platform Mod Loader: merges and manages mods that modify BOTW's SARC/BYML/AAMP game archives.
 - [botwfstools](https://github.com/zeldamods/botwfstools) - FUSE-based virtual filesystem for Breath of the Wild's content, exposing SARC archive contents as regular directories for direct editing without manual unpacking/repacking; includes an overlay filesystem for merging content layers and an RSTB-aware patcher for producing LayeredFS-ready mods.
+- [rstb](https://github.com/zeldamods/rstb) - Python library and `rstbtool` command-line utility for reading and editing the Breath of the Wild Resource Size Table (RSTB), in either Wii U (big endian) or Switch form, with automatic size calculation from a file.
+- [objmap](https://github.com/zeldamods/objmap) - Interactive object map for The Legend of Zelda: Breath of the Wild, the Breath of the Wild counterpart of objmap-totk below.
+  - See also [radar](https://github.com/zeldamods/radar), a server for querying placement objects in Breath of the Wild, and [radar-totk](https://github.com/zeldamods/radar-totk), its Tears of the Kingdom counterpart that builds a map database from the extracted Banc YAML map files.
 - [objmap-totk](https://github.com/zeldamods/objmap-totk) - Interactive object map viewer for The Legend of Zelda: Tears of the Kingdom, browsing and searching the game's placed objects (enemies, treasure chests, Koroks, shrines, weapons) parsed from its map data, with object detail inspection and route/polygon drawing tools.
 - [botw-re-notes](https://github.com/leoetlino/botw-re-notes) - Reverse engineering notes and tools for The Legend of Zelda: Breath of the Wild, including game internals documentation, IDA scripts for dumping structures, and a 010 Editor template for `beco` (map/tower area) files.
 - [botwtools](https://github.com/RenaKunisaki/botwtools) - Extractor (with planned repacking) for several Breath of the Wild file types including SARC, AAMP, and BYML archives and BNTX textures, designed to be extensible to other games' formats.
@@ -728,6 +740,7 @@
 - [Project Picori](https://github.com/999sian/tmc) - Native PC port of The Legend of Zelda: The Minish Cap, built on the tmc decompilation above.
 - [ph (decomp)](https://github.com/zeldaret/ph) - Matching decompilation of The Legend of Zelda: Phantom Hourglass.
 - [st (decomp)](https://github.com/zeldaret/st) - Matching decompilation of The Legend of Zelda: Spirit Tracks.
+- [fastds](https://github.com/Yanis002/fastds) - Blender add-on (work in progress) for importing and exporting Nintendo DS model (NSBMD) and collision (ZCB) files for The Legend of Zelda: Phantom Hourglass and Spirit Tracks, inspired by Fast64.
 - [zed](https://github.com/RoadrunnerWMC/zed) - Unfinished library and toolset for viewing and editing files from The Legend of Zelda: Phantom Hourglass and Spirit Tracks (archived).
 - [MCEdit](https://github.com/LagoLunatic/MCEdit) - Multi-purpose editor for ROM hacking The Legend of Zelda: The Minish Cap, built on the [mclib](https://github.com/LagoLunatic/mclib) Python library. See also the author's [MC-Hacking-Docs](https://github.com/LagoLunatic/MC-Hacking-Docs) notes.
 - [LegendOfZeldaNESRecomp](https://github.com/mstan/LegendOfZeldaNESRecomp) - Static recompilation of The Legend of Zelda (NES) into native code.
@@ -736,6 +749,7 @@
 - [oracle-redux](https://github.com/Jakz/oracle-redux) - Research-oriented reimplementation workspace for The Legend of Zelda: Oracle of Seasons and Oracle of Ages, cataloging ROM banks, importing oracles-disasm linker symbols, and decoding call graphs from the retail ROMs.
 - [z3-map-rando](https://github.com/blkerby/z3-map-rando) - In-progress randomizer for generating A Link to the Past games with a randomly rearranged and rethemed overworld; builds on Z3OverworldEditor.
 - [Z3OverworldEditor](https://github.com/blkerby/Z3OverworldEditor) - In-progress editor for The Legend of Zelda: A Link to the Past's overworld, supporting custom palettes and tilesets beyond what the vanilla game engine allows.
+- [z3-json-data](https://github.com/vg-json-data/z3-json-data) - JSON representation of The Legend of Zelda: A Link to the Past's rooms (overworld areas, dungeons, caves, houses), entrance/teleport/whirlpool connections, items, and routing logic, sister project to sm-json-data and used by z3-map-rando.
 - [jpdasm](https://github.com/spannerisms/jpdasm) - Accurate and annotated disassembly of Zelda no Densetsu: Kamigami no Triforce, the Japanese release of The Legend of Zelda: A Link to the Past.
 - [usdasm](https://github.com/spannerisms/usdasm) - Full disassembly of the US version of The Legend of Zelda: A Link to the Past, converted from jpdasm above and assembled with the Futaba assembler; raw binaries must be extracted from your own ROM.
 - [zelda-alttp-re](https://github.com/SiD3W4y/zelda-alttp-re) - Reverse engineering tools and documentation for the Game Boy Advance port of The Legend of Zelda: A Link to the Past, covering entity IDs, dialog format, and memory offsets, plus scripts to unpack resources and dump dialog text.
@@ -854,6 +868,7 @@
   - Games: primarily Super Metroid, plus hitbox/data viewers for Metroid Fusion, Metroid II: Return of Samus, and Castlevania II: Simon's Quest.
 - [sm_banklog_parser](https://github.com/tewtal/sm_banklog_parser) - Converts P.JBoy's Super Metroid bank logs into an asar-assemblable disassembly that reassembles to the original ROM.
   - Also see [pjboy-sm-bank-logs](https://github.com/yuriks/pjboy-sm-bank-logs), a daily-updated Git mirror of the source bank logs from patrickjohnston.org.
+- [smart2asm](https://github.com/yuriks/smart2asm) - Converts XML project files from the SMART Super Metroid editor into assembly and binary data (compressing if necessary), for use in asm-based workflows such as sm_disassembly; works directly on the project files without needing a ROM.
 - [SM_Debugging](https://github.com/InsaneFirebat/SM_Debugging) - Super Metroid debugging symbol maps for Mesen-S, Mesen2, and bsnes-plus.
 - [truepeacein.space](https://github.com/alexras/truepeacein.space) - Web-based password generator for Metroid (NES), implementing the game's password format as documented in jdratlif's Password Format Guide.
 - [LAMP](https://github.com/LAMP-Platform/LAMP) - Feature-rich level/data editor for Metroid II: Return of Samus (Game Boy).
@@ -901,8 +916,10 @@
 - [Tera Finder](https://github.com/Manu098vm/Tera-Finder) - PKHeX.Core-based editor for Pokémon Scarlet & Violet; edits save data, raids, and mass outbreak formats.
 - [pokemonstadium](https://github.com/ethteck/pokemonstadium) - Pokémon Stadium decompilation project that extracts and re-assembles original game code and data.
 - [stadiumfrag](https://github.com/tehzz/stadiumfrag) - Documents and maps the binary formats used by Pokémon Stadium (US, N64): Fragments, PresJPEG, PERS-SZP, and Yay0-compressed data.
+- [Pokemon-Legends-Z-A-Tools](https://github.com/zbirow/Pokemon-Legends-Z-A-Tools) - Format notes and Python unpackers for Pokemon Legends Z-A on Switch: NSP (PFS0) containers, NCA files, and the `data.trpfs`/`data.trpfd` ONEPACK archive (pack names are matched by FNV-1a hash), with a table of extracted file types (BNTX textures, BNSH shaders, fonts, TRSKL/TRSLP textures).
 - [PKSM](https://github.com/FlagBrew/PKSM) - Save/box editor for Pokemon games on 3DS and Switch, with cloud storage, event injection, and legality checking.
 - [PHBank](https://github.com/gocario/PHBank) - Homebrew Pokémon Bank for the Nintendo 3DS, reading/writing Pokémon save data to store and transfer Pokémon like the official Bank service.
+- [shinpokered-save-editor](https://github.com/VdustR/shinpokered-save-editor) - Browser editor for Shin Pokémon and Gen 1 Game Boy 32 KiB battery saves with byte-exact round-trip and checksum repair: trainer data, party, boxes, inventory, Pokédex, story flags and Hall of Fame, plus PKHeX-compatible `.pk1` import/export.
 - [PKSM-Core](https://github.com/FlagBrew/PKSM-Core) - Core save-editing library extracted from PKSM, handling the Pokémon save data parsing shared across PKSM's platforms.
 - [hypdisasm](https://github.com/Decompollaborate/hypdisasm) - Disassembly project for Hey You, Pikachu! (Nintendo 64).
 - [EventsGalleryPacker](https://github.com/FlagBrew/EventsGalleryPacker) - Packs ProjectPokemon's EventsGallery distribution data into compact JSON + binary files for PKSM event distribution.
@@ -960,7 +977,12 @@
 - [pg_disatools](https://github.com/ProgSys/pg_disatools) - Modding tools for Disgaea PC, with map editor, model/texture extraction, and file format parsing.
 - [nisview](https://github.com/devinacker/nisview) - Early-stage resource viewer for Disgaea 1 and 2 (and other Nippon Ichi games), for browsing nested archives across multiple proprietary formats.
 - [makaikit](https://github.com/HybridEidolon/makaikit) - Collection of utilities for modifying Disgaea and other Nippon Ichi Software (NIS) games, including a mod loader, DAT archive extraction/packing, and sound tools.
+- [disgaea-pc-tools](https://github.com/Xkeeper0/disgaea-pc-tools) - PHP tools for decrypting and decompressing Disgaea PC save files, with scripts for injecting edits and editing save objects.
+- [disgaea-5-pc-tools](https://github.com/Xkeeper0/disgaea-5-pc-tools) - DeNIS, a small C tool that decodes and re-encodes Disgaea 5 PC `.dat` and `.sav` files (XOR `0xF0` plus nybble swap).
 - [dsarc](https://github.com/Ruin0x11/dsarc) - Unpacker for the `DSARC FL` archive format used by Disgaea 6.
+- [DisgaeaMap](https://github.com/xdanieldzd/DisgaeaMap) - Rudimentary, experimental map viewer for Disgaea: Hour of Darkness (PS2).
+- [NisAnim](https://github.com/xdanieldzd/NisAnim) - Work-in-progress viewer and exporter for Disgaea 4: A Promise Unforgotten (PS3) files such as images (`*.txf`) and 2D animations (`anm*.dat`).
+  - [Desco](https://github.com/xdanieldzd/Desco) - Unpolished renderer for Disgaea 4 `.obf` model files, as found in map archives.
 
 ##### Yomawari
 
@@ -1004,6 +1026,7 @@
 
 - [No-More-RSL](https://github.com/Timo654/No-More-RSL) - Unpacker/repacker for Grasshopper Manufacture .RSL format. Works with most if not all Grasshopper Manufacture games using this format.
 - [ghm_docs](https://github.com/sevonj/ghm_docs) - Documentation of reverse-engineered file formats (GHM) used across Grasshopper Manufacture's games.
+- [lid-utils](https://github.com/Julioevm/lid-utils) - Windows desktop editor for Let It Die: stages edits to decoded save values (storage, fighters, Death Bag, weapon mastery, decals) with JSON export and backups, and inspects/edits the game's `masters.db` database.
 - [NMH Viewer](https://github.com/sevonj/nmh-godot) - Godot-based viewer for No More Heroes assets, with partial support for FLCG collision models (.gcl), GMF2 models (.gm2), and RMHG archives (.rsl, .pak).
 
 ##### Sine Mora
@@ -1020,6 +1043,10 @@
 ##### World of Guns: Gun Disassembly
 
 - [WOG](https://github.com/qw952746147/WOG) - Script to download, decrypt, and unpack 3D models from World of Guns: Gun Disassembly. See also [Luffyyy's WOG-dump fork](https://github.com/Luffyyy/WOG-dump) with additional features.
+
+#### Nolla Games (Noita)
+
+- [noita-data](https://github.com/Xkeeper0/noita-data) - Lua and PHP scripts for reading Noita's unpacked `data.wak` contents, with shims for game engine functions to run the game's own scripts and dump spell and perk data.
 
 #### Nosferatu: The Wrath of Malachi
 
@@ -1112,6 +1139,11 @@
 - [OmoriSource](https://github.com/Escartem/OmoriSource) - Source code of OMORI, recovered in the form of its original RPG Maker project.
 
 #### Origin Systems
+
+##### Ultima I
+
+- [ultima1_reveng](https://github.com/XekriRedmane/ultima1_reveng) - Byte-perfect literate reverse engineering of Ultima I (Origin Systems' 1986 Apple II remake, from the 4am crack ProDOS disk image), covering the engine, play-mode overlays, town/castle maps, hi-res images, fonts and tiles, with a searchable HTML site.
+- [ultima1_save_editor](https://github.com/caleb/ultima1_save_editor) - Go saved-game editor for Ultima 1.
 
 ##### Ultima IV
 

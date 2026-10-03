@@ -14,6 +14,7 @@
 - [PalEdit](https://github.com/EternalWraith/PalEdit) - Tool for editing and generating Pals within Palworld save files, including Global Palbox support.
 - [Palworld](https://github.com/turtle-insect/Palworld) - Save data editor for Palworld (Steam).
   - Same author's [Craftopia](https://github.com/turtle-insect/Craftopia) save data editor for Craftopia (Steam).
+- [pal-registry](https://github.com/Harush13/pal-registry) - Stdlib-only Python save editor for Palworld 1.0 on Xbox Game Pass / Microsoft Store: edits pals (species, level, IVs, souls, passive skills, moves) and pal eggs; reading the DPS and Global Palbox tabs needs the optional `pyooz`.
 
 #### Enterbrain (Panzer Front)
 
@@ -112,10 +113,15 @@
 - [Spellforce-Spell-Framework](https://github.com/muddykat-tech/Spellforce-Spell-Framework) - Modding framework easing the creation of new spells for SpellForce: Platinum Edition.
 - [tirganach](https://github.com/krateng/tirganach) - Python library for easier editing of SpellForce's GameData.cff file, an alternative to spellforce_data_editor.
 - [SF2-ImpEx-for-Blender](https://github.com/Maxxxel/SF2-ImpEx-for-Blender) - Blender import/export tool for SpellForce 2 assets.
+- [SpellForce-Freegame-Save-Editor](https://github.com/Spellforcawka/SpellForce-Freegame-Save-Editor) - C# editor for SpellForce: The Order of Dawn Free Game mode save files (campaign saves unsupported), with avatar validation and automatic backup.
 
 ##### BattleForge
 
 - [SR-ImpEx-for-Blender](https://github.com/Maxxxel/SR-ImpEx-for-Blender) - Blender add-on to import/export BattleForge / Skylords Reborn 3D models, animations, materials, and collisions (DRS, BMG, SKA formats). Same author's earlier [BattleForgeToDDCs](https://github.com/Maxxxel/BattleForgeToDDCs) mass-converts .DRS models to glTF for use in other DCC tools (Maya, Houdini, 3ds Max).
+
+#### Phoenix Games
+
+- [PhoenixFATExtract](https://github.com/xan1242/PhoenixFATExtract) - Extracts the `.FAT`/`.A` file pairs of Phoenix Games' games (the `.A` file must sit next to the `.FAT`).
 
 #### Cocktail Soft (Pia Carrot e Youkoso)
 
@@ -159,6 +165,7 @@
 - [bayonetta_tools](https://github.com/Kerilk/bayonetta_tools) - Ruby toolkit for extracting/converting PlatinumGames assets (models, textures, animations). Supports Bayonetta 1-3, NieR: Automata, Astral Chain.
 - [IDDTool](https://github.com/gdkchan/IDDTool) - Editor for Bayonetta *.idd texture files.
 - [MESTool](https://github.com/gdkchan/MESTool) - Bayonetta text editing tool.
+- [Bayonetta-2-Advanced-Save-Editor](https://github.com/Lakifume/Bayonetta-2-Advanced-Save-Editor) - Python save editor for Bayonetta 2 giving access to unused story-mode features and game checkpoints.
 
 ##### Nier: Automata / Replicant
 
@@ -168,7 +175,9 @@
 - [Blender2NieR](https://github.com/WoefulWolf/NieR2Blender2NieR) - Blender addon for exporting WMB/WTP/WTA/DAT/DTT formats to NieR games.
 - [NieR2Blender](https://github.com/WoefulWolf/NieR2Blender_2_8) - Blender addon for importing NieR Automata and Replicant models.
 - [Replicant2Blender](https://github.com/WoefulWolf/Replicant2Blender) - Blender addon for importing NieR Replicant ver.1.22 mesh packs and textures into Blender (alpha).
+- [Automata_MCD_Patcher](https://github.com/WoefulWolf/Automata_MCD_Patcher) - Python script that unpacks NieR: Automata .mcd (text/font) files to JSON and repacks edited JSON back into an MCD, using a base MCD for fonts and glyphs.
 - [Nier-Automata-editor](https://github.com/CensoredUsername/Nier-Automata-editor) - Save file editor for NieR: Automata.
+- [NierEditora](https://github.com/XoQ2988/NierEditora) - Cross-platform save editor for NieR: Automata with CLI and Qt GUI, reading and writing both PC (`SlotData_*.dat`) and PS4 (`GameData`) saves, converting between them, and editing name, play time, money, XP, items, weapons and chips.
 - [att](https://github.com/micktu/att) - NieR: Automata Text Tools for disassembling scripts and replacing files already extracted from the game's .cpk archives.
 - [NierBlenderato](https://github.com/REDxEYE/NierBlenderato) - Blender addon for importing NieR: Automata assets.
 - [NierPDK](https://github.com/REDxEYE/NierPDK) - Python development kit for working with NieR: Automata file formats.
@@ -206,6 +215,10 @@
 - [pvz](https://github.com/bluisblu/pvz) - Work-in-progress matching decompilation of the 0.9.9 beta build of Plants vs. Zombies, distinct from the existing GOTY-based re-plants-vs-zombies engine-modernization project.
 - [CircleShootApp](https://github.com/alula/CircleShootApp) - Decompilation of Zuma Deluxe (1.0.0).
 - [XPR2](https://github.com/simontime/XPR2) - Extracts and repacks Xbox 360 XPR2 archives, as used in Zuma and a few other games.
+
+#### Potion Craft
+
+- [PotionCraftSaveEditor](https://github.com/foxwhite25/PotionCraftSaveEditor) - Rust command-line tool that decodes Potion Craft saves (JSON wrapped in XOR encryption and base64) into editable `meta.json` and `progress.json` files and re-encodes them.
 
 #### Lobotomy Software (PowerSlave / Duke Nukem 3D Saturn)
 
@@ -277,6 +290,12 @@
 - [wipeout-rewrite](https://github.com/phoboslab/wipeout-rewrite) - Re-implementation of the 1995 PSX game wipEout, reading the original game's data files. See also [jnmartin84's Dreamcast port](https://github.com/jnmartin84/wipeout-dc).
 - [WipeOut Phantom Edition](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition) - Enhanced PC source port of the original PlayStation WipeOut with improved graphics, physics, and audio; automatically extracts game data and music from the original PS1 bin/cue disc images.
 
+#### Pump It Up
+
+- [piupsp-tools](https://github.com/Xeeynamo/piupsp-tools) - Go tools for modding the two PlayStation Portable Pump It Up games, Exceed Portable and Zero Portable.
+  - `piu-respack` unpacks and repacks the games' RESPACK resource archives.
+  - `piu-makestx` converts StepMania SSC charts to the games' STX chart format (experimental; the README lists known issues such as unsupported tempo changes).
+
 #### Punchline
 
 - [Murugo/Misc-Game-Research (Rule of Rose)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Rule%20of%20Rose) - Reverse engineering notes for Rule of Rose (PS2).
@@ -315,6 +334,7 @@
 #### Semiwork (R.E.P.O.)
 
 - [R.E.P.O-Save-Editor](https://github.com/N0edL/R.E.P.O-Save-Editor) - Python GUI save editor for R.E.P.O, allowing edits to stats, currency, level, and other save variables.
+- [R.E.P.O.GameSaveEditor](https://github.com/Aeunal/R.E.P.O.GameSaveEditor) - Python GUI tool to decrypt, edit, and re-encrypt R.E.P.O. save files, with views of inventory, item instances, and player stats.
 
 #### Ruud van Gaal / Dolphinity (Racer)
 
@@ -330,6 +350,7 @@
 
 - [scarface-p3d](https://github.com/aap/scarface-p3d) - Code to deal with P3D files from "Scarface: The World is Yours".
 - [map-data-editor](https://github.com/WeaselOnaStick/map-data-editor) - Blender 2.80+ addon for editing SHAR map data like road networks, fences, paths, locators, and level trees in The Simpsons: Hit & Run.
+- [BITSS-Batch-Image-To-Shader-Script](https://github.com/WeaselOnaStick/BITSS-Batch-Image-To-Shader-Script) - Windows Forms (C#) tool that batch-converts PNG/JPG images into appendable .p3dxml Pure3D XML files, writing shader and texture parameter chunks for use with Lucas' Pure3D Editor.
 - [Pure3D](https://github.com/handsomematt/Pure3D) - .NET library for loading and manipulating the Pure3D file format used in Radical Entertainment games (The Simpsons: Road Rage, The Simpsons: Hit & Run, Crash Tag Team Racing).
 - [cttr](https://github.com/bluisblu/cttr) - Work-in-progress matching decompilation of Crash Tag Team Racing (GameCube), also covering the Japanese "Crash Bandicoot: Gatchanko World" release.
 - [NetP3DLib](https://github.com/Hampo/NetP3DLib) - Actively maintained .NET library for reading/writing Radical Entertainment Pure3D files (Simpsons Hit & Run; extensible to Hulk, Scarface, Prototype, Crash Tag Team Racing). See also [Pure3D](https://github.com/handsomematt/Pure3D) above.
@@ -371,6 +392,14 @@
 ##### Star Raiders
 
 - [StarRaiders](https://github.com/lwiest/StarRaiders) - Reverse-engineered, complete, and fully documented 6502 assembly language source code for Star Raiders (Atari 8-bit, 1979).
+
+##### RAD Graphics Files (Atari/Tengen)
+
+- [RadViewer](https://github.com/yaz0r/RadViewer) - Viewer for the graphic RAD files used internally at Atari/Tengen during the 80s and 90s, with basic support for pages, cells, animation and sequences. SDL3/OpenGL/Dear ImGui-based.
+
+#### Rain World
+
+- [rain-world-save-editor](https://github.com/rostok/rain-world-save-editor) - Python command-line tool that converts a Rain World save file to human-readable text and back, updating the checksum; intended for narrowing down the part of a save that crashes the game.
 
 #### Cygnus Studios (Raptor: Call of the Shadows)
 
@@ -439,6 +468,7 @@
 - [007 (N64 decomp)](https://github.com/n64decomp/007) - Matching decompilation of GoldenEye 007 (N64) that the recompilation above is built on (mirror of the canonical GitLab repo).
 - [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/af395a5805f5b6c2f5909faf1d8dc33f0f9e6978/src/GoldenEye007) - In-browser GoldenEye 007 viewer (pinned to last commit before viewer was removed).
 - [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
+- [GE64SaveEditorWV](https://github.com/zeroKilo/GE64SaveEditorWV) - Savegame editor for GoldenEye 64 EEPROM saves in the .eep format used by Project64.
 - [ge_bgfile_optimizer](https://github.com/AXDOOMER/ge_bgfile_optimizer) - Documents and optimizes GoldenEye 007's background (bg) file format: room data tables, portal/visibility data, and 1172-compressed room mapping/point-table binaries.
 - [XBLA-Setup-Editor](https://github.com/murkantor/XBLA-Setup-Editor) - Modding tool for GoldenEye 007 XBLA (Xbox Live Arcade), editing XEX files, setup files, and weapon configurations.
   - Features: STR/ADB string database editor for in-game text/localization, multiplayer weapon set editor, setup file conversion/patching.
@@ -692,6 +722,7 @@
 - [AssetsManager](https://github.com/Neinndall/AssetsManager) - Desktop tool for analyzing, managing, and tracking changes to League of Legends game assets across PBE updates, with archive exploration and 3D model visualization.
 - [RiotManifestCore](https://github.com/Neinndall/RiotManifestCore) - CLI engine for parsing Riot's `.rman` manifest format and performing differential asset downloads (Blake3-hashed chunk diffing) for League of Legends and Valorant.
 - [cd-dd](https://github.com/Hi-Ray/cd-dd) - CLI tool to recursively download directories of League of Legends assets from CommunityDragon's CDN mirror.
+- [RAFTools](https://github.com/vs49688/RAFTools) - Java viewer/extraction toolkit (GUI and CLI) for League of Legends `.raf` archives, with DDS texture viewing/export and preliminary Wwise soundbank extraction [archived]; superseded for current clients by the WAD tools above, see [Obsidian](https://github.com/Crauzer/Obsidian).
 
 ###### Model, Texture, Map & Animation Tools
 
@@ -836,6 +867,7 @@
 - [GeometryDash-Game-Assets-2.206](https://github.com/CallocGD/GeometryDash-Game-Assets-2.206) - Reference sheet documenting Geometry Dash's level object IDs and frame strings, extracted from the game's asset plists, for RE and modding use.
 - [PyCCGameManager](https://github.com/camila314/PyCCGameManager) - Editor for Geometry Dash's CCLocalLevels/CCGameManager save files.
 - [GDCrypto](https://github.com/camila314/GDCrypto) - Library implementing Geometry Dash's save/level data encoding scheme (zlib compression, Base64, and XOR/SHA1 checksums).
+- [GD-Save-Decryptor](https://github.com/Wyliemaster/GD-Save-Decryptor) - Python script that decrypts Geometry Dash save files (e.g. `CCGameManager.dat`) on Windows, Mac, iOS and Android, handling the XOR/Base64/zlib and AES layers.
 - [BetterSave](https://github.com/HJfod/BetterSave) - Geode mod that saves Geometry Dash levels individually instead of dumping everything into a single CCLocalLevels save file.
 
 ###### Private Servers & Bots
@@ -904,8 +936,10 @@
 - [gta-map-converters](https://github.com/bssth/gta-map-converters) - Converts SAMP, MTA, and GTA:SA IPL and CSV map formats between each other.
 - [re3](https://github.com/hottabxp/re3) - Reverse-engineered source code for GTA III and GTA Vice City, documenting the original game's engine and file formats.
 - [IMGEditor](https://github.com/user-grinch/IMGEditor) - IMG archive editor for GTA III, Vice City, San Andreas, and Bully: Scholarship Edition.
+- [saamt-rs](https://github.com/YouKnow-sys/saamt-rs) - Rust command-line toolkit for GTA: San Andreas audio archives on PC and PS2: export and create SFX archives, edit bank slot, lookup table and PAK name configs, and convert VAG and WAV audio. Early-stage; stream management is not yet implemented.
 - [SilentPatch](https://github.com/CookiePLMonster/SilentPatch) - Reverse-engineered compatibility and bug-fix patch for the PC releases of GTA III, Vice City, and San Andreas, correcting original engine issues without altering game logic.
 - [GTA2-SaveEdit (Grand Theft Auto 2)](https://github.com/JulianOzelRose/GTA2-SaveEdit) - Savegame editor for Grand Theft Auto 2: edit weapons, ammo, cash, health, armor, lives, and enable power-ups.
+- [VC-Save-Toolkit](https://github.com/Dteyn/VC-Save-Toolkit) - Desktop save editor for Grand Theft Auto: Vice City covering retail PC, Steam, reVC and Vice City VR (Windows 64-bit and Quest ARM64) save layouts: edits player, world, weapons, pickups, vehicles, gangs and stats, converts between supported formats, and repairs persistent effects of two pedestrian cheats; unrecognized layouts open read-only.
 - [SC-CL](https://github.com/NativeFunction/SC-CL) - Clang-based compiler targeting the RAGE engine scripting formats: SCO (GTA IV, RDR), XSC/CSC (RDR, GTA V), and YSC (GTA V, RDR2). See also [Foxxyyy's fork](https://github.com/Foxxyyy/SC-CL) adapted for RDR's Nintendo Switch scripts.
 - [RASM](https://github.com/NativeFunction/RASM) - Assembler and disassembler for RAGE engine scripting formats: SCO (GTA IV, RDR), XSC/CSC (RDR, GTA V, RDR2), and YSC (GTA V, RDR2).
 - [gtaivtools](https://github.com/RoadTrain/gtaivtools) - Classic GTA IV/Episodes from Liberty City modding toolkit bundle (originally by Aru/Arushan, mirrored from its Google Code export), built around a shared RageLib for RAGE engine resource formats.

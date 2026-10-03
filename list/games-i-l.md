@@ -6,6 +6,7 @@
 - [IcarusSaveConverter](https://github.com/CrystalFerrai/IcarusSaveConverter) - Converts an Icarus prospect save file to and from a text-based format.
 - [EditIcarusProspect](https://github.com/CrystalFerrai/EditIcarusProspect) - Command-line utility for editing properties of an Icarus prospect save.
 - [IcarusResourceRespawn](https://github.com/CrystalFerrai/IcarusResourceRespawn) - Command-line program for respawning resources in an Icarus game save file.
+- [Icarus-Save-Editor](https://github.com/Wahkah/Icarus-Save-Editor) - Flutter/Windows save editor for Icarus that parses its Unreal-style prospect/world saves and station-storage account files to add, repair and re-stat items, edit currencies and XP, manage the drop loadout, and apply player buffs. It backs up files before writing and only writes a world save if the repacked bytes match the parsed data.
 
 #### Ice-Pick Lodge
 
@@ -284,6 +285,7 @@
 - [QuakeSpasm](https://github.com/sezero/quakespasm) - Modern, cross-platform Quake source port based on FitzQuake, reading original PAK/BSP/MDL game data. See also [Ironwail](https://github.com/andrei-drexler/ironwail), a high-performance fork with a modernized renderer.
 - [QuakePSX](https://github.com/fgsfdsfgs/quakepsx) - Experimental port of Quake to the PlayStation, with a build-time asset "cooker" that converts the original PC Quake data (from a legitimately owned copy) into PSX-native resource formats.
 - [yquake2](https://github.com/yquake2/yquake2) - The Yamagi Quake II client, an actively maintained Quake II source port.
+  - [pakextract](https://github.com/yquake2/pakextract) - Small tool to list or extract Quake, Quake II, Daikatana, and Sin pak files.
 - [qrustyquake](https://github.com/cyanbun96/qrustyquake) - Rust reimplementation/port of the original Quake engine (WinQuake-derived), reading original Quake PAK/BSP asset data.
 - [QuakespasmNX](https://github.com/fgsfdsfgs/QuakespasmNX) - Nintendo Switch port of QuakeSpasm, reading original Quake PAK/BSP/MDL data with OGG/MP3 music support.
 - [Chocolate QuakeWorld](https://github.com/Henrique194/chocolate-quakeworld) - Minimalist QuakeWorld source port focused on faithfully preserving the classic '90s multiplayer experience, reading original PAK/BSP/MDL data; companion project to Chocolate Quake.
@@ -437,6 +439,7 @@
 #### Idea Factory
 
 - [Pac_Utils](https://github.com/usagirei/Pac_Utils) - C++ unpack, pack and patch utilities (with the libPac library) for Idea Factory `DW_PACK` `.pac` archives, including their compressed entries; the patch tool replaces only files already present in an archive.
+- [hkki](https://github.com/xyzz/hkki) - Format notes on the uncompressed STCM2L script bytecode used by Hakuoki, with C++ source for parsing and handling these script files.
 
 ##### Date A Live
 
@@ -466,6 +469,7 @@
 - [ZipStudio](https://gitgoon.dev/IllusionMods/ZipStudio) - Utility for converting Koikatsu hard-mods to sideloader format with automatic list conversion to CSV and manifest editing.
 - [kk-save-edit](https://github.com/hozuki/kk-save-edit) - Browser-based save file editor for Koikatsu.
 - [KoikatuGameSaveEditor](https://github.com/hozuki/KoikatuGameSaveEditor) - Save game editor for Koikatsu.
+- [koikatsu-card-texture-tool](https://github.com/EeEeX4/koikatsu-card-texture-tool) - GUI and command-line tool that recompresses and downsizes the textures embedded in Koikatsu coordinate and character cards (`.png`), with per-part settings, lossless recompression options and presets.
 - [archival_illusion_viewer](https://github.com/coreynguyen/archival_illusion_viewer) - Archival re-upload of a legacy Illusion Viewer tool for browsing assets across multiple Illusion titles.
 - [mxs_illusion_aga_pc](https://github.com/coreynguyen/mxs_illusion_aga_pc) - 3ds Max MaxScript for importing `.x` 3D model files from Illusion's AGA (PC).
 - [KKManager](https://github.com/IllusionMods/KKManager) - Mod, plugin, and character card manager for games by Illusion that use BepInEx. Browses installed zipmods/plugins/cards, auto-detects and installs mod updates, and supports drag-and-drop card/scene loading.
@@ -728,6 +732,7 @@
 - [frm_recolour_python](https://github.com/Dr-Felix116/frm_recolour_python) - Python script to automatically recolor sprites in Fallout/Fallout 2 FRM sprite files by batch-replacing colors.
 - [HexWaste](https://github.com/eko1495/HexWaste) - C#/.NET + MonoGame (DesktopGL) re-implementation of a slice of the Fallout 2 engine, loading and running the original data files.
 - [fallout2-save-editor](https://github.com/efossvold/fallout2-save-editor) - Save game editor for Fallout 2.
+- [fallout-2-editor](https://github.com/freesalu/fallout-2-editor) - Python command-line save game editor for Fallout 2 (written against the GOG version on macOS); edits stats, skills and perks directly in the save file.
 - [DarkFO](https://github.com/darkf/darkfo) - Browser-based (TypeScript/Python) reimplementation of the Fallout 2 engine, reading the original game's data files, with accompanying file format documentation.
 
 ##### Dragon Wars
@@ -741,6 +746,7 @@
 ##### Baldur's Gate
 
 - [py-eekeeper](https://github.com/grm/py-eekeeper) - Save game editor for Baldur's Gate: Enhanced Edition and other Infinity Engine games; a Python/PySide6 rewrite of eekeeper-qt, itself based on Shadow Keeper.
+- [wand_of_saves](https://github.com/hugo-bluecorn/wand_of_saves) - Flutter desktop saved-game editor for Baldur's Gate: Enhanced Edition (a successor to EE Keeper) that edits characters in savegames and `.chr` files, using pure-Dart Infinity Engine format codecs (`infinity_formats`).
 
 ##### Atomic Bomberman
 
@@ -817,7 +823,15 @@
 - [Forge Tools (Sins of a Solar Empire)](https://www.moddb.com/games/sins-of-a-solar-empire/downloads/forge-tools) - Official development tools for creating custom maps and modifications for Sins of a Solar Empire. Includes Galaxy Forge and Particle Forge tools used by the development team.
 - [Map Conversion (Sins of a Solar Empire)](https://www.moddb.com/games/sins-of-a-solar-empire/downloads/map-conversion) - Convert maps between Sins versions with this user-created tool. Created by Ross Placing. Requires .Net 2.0; Updated for Sins 1.15/Entrenchment 1.01.
 
+#### Itadaki Street
+
+- [itadaki-street-2](https://github.com/Xkeeper0/itadaki-street-2) - Reverse-engineering utilities for Itadaki Street 2 (SNES), in PHP, including a data decompressor for ROM offsets and tools to dump and view the game's text, maps and graphics.
+
 ### J
+#### J.League Pro Soccer Club o Tsukurou! 04
+
+- [sakatsuku04](https://github.com/caol64/sakatsuku04) - Game and save editor for J.League Pro Soccer Club o Tsukurou! 04 (PS2); edits memory card save files (players, teams and other in-game data) or, alternatively, game data live through PCSX2.
+
 #### Jagex
 
 *Old School RuneScape / RuneScape.*
@@ -904,6 +918,7 @@
 #### Keen Software House
 
 - [blender_mwm_importer](https://github.com/aaronsaderholm/blender_mwm_importer) - Blender importer for Space Engineers .mwm model files.
+- [SEToolbox](https://github.com/midspace/SEToolbox) - Toolbox for Space Engineers that imports images and 3D models into the game and edits save game content. The README notes it has been non-functional since the 2019 Economy update.
 
 #### Kemco
 
@@ -916,6 +931,7 @@
 #### Lo-Fi Games (Kenshi)
 
 - [kenshi-mkii-editor](https://github.com/butteredstardust/kenshi-mkii-editor) - Web-based save game editor for the RPG Kenshi.
+- [Kenshi-Save-Editor](https://github.com/wansolanso/Kenshi-Save-Editor) - Python desktop save editor for Kenshi with a binary record parser; edits character stats, limb status, inventories, faction relations and raw record fields, resolving names from `gamedata.base` and mods.
 
 #### KeroQ
 
@@ -937,6 +953,8 @@
 
 - [KFTempArchiveExtractor](https://github.com/Mateos81/KFTempArchiveExtractor) - Manually extracts Killing Floor's Steam Workshop TempArchiveXX files when the game's own downloader fails, based on the documented internal format of the TempArchive files.
 - [killingfloor2musictool](https://github.com/overlandandseas/killingfloor2musictool) - GUI tool for Killing Floor 2 that converts custom WAV audio to Wwise WEM format and swaps it into the game's existing soundtrack banks.
+- [killingfloor-map-viewer](https://github.com/TheBestPlan/killingfloor-map-viewer) - Desktop (Electron) and browser viewer for Killing Floor `.rom` maps (Unreal Engine 2.5) that reads the game's `.utx`/`.usx` packages and draws the BSP, static meshes, terrain and skybox with textures; format notes in `docs/RESEARCH.md`.
+  - See also [killingfloor-map-importer](https://github.com/TheBestPlan/killingfloor-map-importer), which converts Counter-Strike 1.6/Half-Life (GoldSrc BSP v30), Quake III Arena/Team Arena (IBSP v46), Lineage 2 (Interlude) and Tactical Ops maps into Killing Floor `.rom` levels.
 
 #### Giant Network (King of Kings 3)
 
@@ -1077,6 +1095,7 @@
 - [gitadora-textool](https://github.com/littlecxm/gitadora-textool) - Converter for GITADORA's TEX image archive format.
 - [gitadora-customs](https://github.com/fisyher/gitadora-customs) - Custom song/package manager for GITADORA.
 - [Destroy](https://github.com/Walter-o/Destroy) - Decryption library for Konami's e-amusement arcade network traffic.
+- [SDVX-Song-Extract](https://github.com/Walter-o/SDVX-Song-Extract) - Python script that extracts music from Sound Voltex's `.s3v` audio files (renamed ASF containers) in an installed game folder, copying them as ASF or converting to MP3/WAV via ffmpeg, with title, artist and genre tags read from `music_db.xml`.
 - [card-connect-extract](https://github.com/proeren2002/card-connect-extract) - Asset extractor for Konami's CARD CONNECT arcade game.
 - [Malody2Jubeat](https://github.com/VALLIS-NERIA/Malody2Jubeat) - Converts Malody chart files to jubeat's .eve chart format.
 - [extdrm](https://github.com/YoshihikoAbe/extdrm) - Decrypts and verifies extdrm-encrypted filesystems used by modern AVS2-based Konami arcade titles and their Konasute (Konami Network) client counterparts.
@@ -1104,6 +1123,9 @@
 ##### Yu-Gi-Oh
 
 - [TFCardEditGUI](https://github.com/xan1242/TFCardEditGUI) - GUI frontend for TFCardEdit to edit the card database format found in Yu-Gi-Oh! Tag Force games, Yu-Gi-Oh! Online, and other Yu-Gi-Oh! titles developed by Other Ocean Interactive. Currently supports Tag Force 1.
+- [TFCardEdit](https://github.com/xan1242/TFCardEdit) - Command-line tool for manipulating the card database in Yu-Gi-Oh! Tag Force games; tested with Tag Force 1.
+- [YGOFM-BGEx](https://github.com/xan1242/YGOFM-BGEx) - Extracts the campaign-mode background images of Yu-Gi-Oh! Forbidden Memories from `WA_MRG.MRG` as DDS (SLUS-01411 only).
+- [UnityLangDataUtil](https://github.com/xan1242/UnityLangDataUtil) - Extracts all strings from Unity `LangData` assets (found in games such as Yu-Gi-Oh! Cross Duel) into a readable text file; rebuilding is not supported yet.
 - [md_spine_tools](https://github.com/UNOWEN-OwO/md_spine_tools) - Blender add-on that imports Yu-Gi-Oh! Master Duel's Spine 2D character/Live2D animation files into a 3D Blender model.
 - [YGO_VN_Toolkit](https://github.com/hiroshil/YGO_VN_Toolkit) - Localization toolkit for the "Power of Chaos" engine PC games (Yugi the Destiny/Joey the Passion): editor and rebuilder for the language-dependent BIN text assets plus an EXE patcher to inject a new language.
 - [YGO_SystemDat_Editor](https://github.com/hiroshil/YGO_SystemDat_Editor) - Decoder/editor/encoder for the `system.dat` config format used by "Power of Chaos" engine Yu-Gi-Oh! PC games.
@@ -1276,6 +1298,9 @@
 - [CIPTool](https://github.com/xan1242/CIPTool) - Unpacks and repacks CIP/CPM card art package files from the Yu-Gi-Oh! Tag Force series (PSP).
 - [ehppack](https://github.com/xan1242/ehppack) - Unpacks and repacks EHP archive files from the Yu-Gi-Oh! Tag Force series (PSP).
 - [tagforcestring](https://github.com/xan1242/tagforcestring) - General-purpose string data utility for the Yu-Gi-Oh! Tag Force series (PSP), designed to aid translation.
+- [TFSndEdit](https://github.com/xan1242/TFSndEdit) - Extracts and repacks the `SNDDAT` sound banks of Yu-Gi-Oh! Tag Force (PSP), tested with Tag Force 1 and 6; needs the SHDS sound header from the executable (EBOOT.BIN).
+  - [TagForceMusicEx](https://github.com/xan1242/TagForceMusicEx) - Earlier, simpler extractor for the AT3 music files (no repacking).
+- [EHPScanner](https://github.com/xan1242/EHPScanner) - Scans for and extracts EhFolder (EHP) archives embedded in files, mainly Tag Force EBOOT files, with autodetection and filename assignment.
 
 ##### Pop'n Music
 
@@ -1309,6 +1334,7 @@
 - [ifs-unpacker](https://github.com/halloweeks/ifs-unpacker) - Extractor for the `.ifs`/`.nifs` archive format used to package PUBG Mobile's game data.
 - [pubg-unpacker](https://github.com/halloweeks/pubg-unpacker) - C extractor for PUBG Mobile's `.pak` files, targeting versions prior to the 1.1.0 update.
 - [PR-Pak-Tool](https://github.com/0xPrince/PR-Pak-Tool) - Cross-platform tool to unpack `.pak` files across multiple PUBG variants (PUBG Mobile, PUBG Mobile Lite, Game For Peace); repacking is planned but not yet implemented.
+- [PUBGLiteExplorerWV](https://github.com/zeroKilo/PUBGLiteExplorerWV) - Tool for browsing and exporting content from PUBG Lite pak files.
 
 #### LEGOLAND (Krisalis Software)
 
@@ -1341,6 +1367,10 @@
 #### Team Bondi (L.A. Noire)
 
 - [LANoireNX](https://github.com/masagrator/LANoireNX) - Python scripts for repacking modified files back into L.A. Noire's Nintendo Switch port archives (BIG/WAD/DDS formats).
+
+#### Invictus Games (L.A. Street Racing)
+
+- [lasr-editors](https://github.com/Niko666233/lasr-editors) - Windows GUI vehicle-data and save editors for the original L.A. Street Racing (2006); the vehicle editor patches numeric literals in the per-part class bytecode inside `classes.zip` packages. README states the code was AI-generated and some parts are unverified.
 
 #### Lab Zero Games
 
@@ -1396,6 +1426,7 @@
 
 - [lom_modkit](https://github.com/mohui666/lom_modkit) - Visual story-modding toolkit for Legend of Mortal (活侠传); a graphical editor (no Lua required) for character dialogue, scene staging, branching plots, and music/sound cues, using the game's own characters/scenes/systems, exporting standalone `.lommod` mod packages loaded by an in-game plugin.
 - [lom_save_analyzer](https://github.com/mohui666/lom_save_analyzer) - Read-only, browser-based save analyzer for Legend of Mortal (活侠传); implements a custom MS-NRBF parser for `.dat` save slots and cross-references the game's own data tables and story text for global collection tracking.
+- [mortal-save-editor](https://github.com/wildwing821/mortal-save-editor) - Python CLI save editor for Legend of Mortal (活俠傳) that patches values directly in the binary `Save_XXX.dat` (length-prefixed key + little-endian int32 pattern), covering money, martial points, sect stats and character attributes.
 
 #### LEGO Desktop Toy
 
@@ -1484,6 +1515,9 @@
 
 - [legorockraiders-analysis](https://github.com/trigger-segfault/legorockraiders-analysis) - Reverse engineering and decompilation of LEGO Rock Raiders (1999), covering the underlying Gods98 engine shared with Data Design Interactive's earlier titles. Includes a Ghidra archive, decompiled source dumps, and a VS Code syntax-highlighting plugin for the game's scripting/config formats.
 - [manic-miners-level-indexer](https://github.com/Wal33D/manic-miners-level-indexer) - Level format indexer for Manic Miners, the community-built continuation of LEGO Rock Raiders' Gods98-derived level format.
+- [vscode-manic-miners](https://github.com/Wal33D/vscode-manic-miners) - Visual Studio Code extension for Manic Miners `.dat` level files, with syntax highlighting for the `info`, `tiles`, `height`, `resources`, `objectives`, entity and `script` sections, `info` field completion and hover docs, and a live visual map preview with tile-replacement quick actions.
+- [manic-map-tools](https://github.com/Wal33D/manic-map-tools) - TypeScript toolset for parsing Manic Miners `.dat` level files, to clean map files, render PNG images and thumbnails, check tile integrity, and compute map statistics such as size, elevation, and ore and crystal counts.
+  - [manic-miner-map-renderer](https://github.com/Wal33D/manic-miner-map-renderer) - Related package that reads Manic Miners `.dat` map files and renders full-size PNGs and thumbnails of the tile layout.
 - [lrr-tech-docs](https://github.com/darkf/lrr-tech-docs) - Technical documentation wiki (reStructuredText) covering LEGO Rock Raiders' engine internals and file formats (textures, models), for modding and preservation purposes. Archived/inactive.
 
 #### LEGO Universe
@@ -1594,6 +1628,10 @@
 
 - [ArtemSkakunovResourceExtractor](https://github.com/Retiu/ArtemSkakunovResourceExtractor) - Extraction tool for "Artem Skakunov's resource file", a custom archive format used by Little Bombers Returns (Alawar Entertainment, 2004), reverse-engineered from scratch (no prior documentation existed) from the game's `resource.dat`; covers both zlib-compressed text/data entries and image/sprite entries. Now integrated into [GameExtractor](https://github.com/wattostudios/GameExtractor).
 
+#### Little Witch Nobeta
+
+- [LittleDecryptedNobeta](https://github.com/entrophite/LittleDecryptedNobeta) - JavaScript save and achievement progress viewer/editor that decrypts and re-encrypts Little Witch Nobeta save data.
+
 #### Sean Young (Littlewood)
 
 - [LittleTownViewer](https://github.com/luisdcb97/LittleTownViewer) - Save editor for Littlewood.
@@ -1624,6 +1662,7 @@
 - See [UltimaHacks](https://github.com/JohnGlassmyer/UltimaHacks) under Origin Systems → Ultima VII below; its assembly patches and UltimaPatcher executable-patching tool also add mouse-look and other engine changes to Ultima Underworld I & II.
 - [UnderworldAdventures](https://github.com/vividos/UnderworldAdventures) - Project to recreate Ultima Underworld 1: The Stygian Abyss for modern operating systems, reading and rendering original game files.
 - [Ultima-Underworld-Save-Editor](https://github.com/ShaneHarro/Ultima-Underworld-Save-Editor-C-C-Sharp-) - Work-in-progress C# save game editor for Ultima Underworld.
+- [UUUSaveEditor](https://github.com/gr4nada/UUUSaveEditor) - Python save editor for Kweepa's Unity port of Ultima Underworld that decompresses the `.json.gz` save slots, edits character stats and skills, and repacks them.
 
 #### Looney Tunes: Carrot Crazy
 
@@ -1636,6 +1675,10 @@
 #### Deck13 Interactive (Lords of the Fallen)
 
 - [LOTF.PKG.Tool](https://github.com/Ekey/LOTF.PKG.Tool) - Tool for extracting PKG archives from Lords of the Fallen (2014).
+
+#### Lords of Xulima
+
+- [LoX_Editor](https://github.com/mgslack/LoX_Editor) - C# save game editor for Lords of Xulima; edits the XML save (repacking it and setting the password as needed) with a dialog for saved characters.
 
 #### Lost Saga
 
@@ -1663,6 +1706,7 @@
 
 - [ArcCreate](https://github.com/Arcthesia/ArcCreate) - Community-made rhythm game editor and player for Arcaea, built with Unity; reads and writes the game's `.aff` chart file format.
 - [Arcade-plus](https://github.com/yojohanshinwataikei/Arcade-plus) - Continuation of the original Arcade editor (taken down via DMCA takedown) for previewing and editing Arcaea's `.aff` chart files.
+- [vscode-arcaea-file-format](https://github.com/yojohanshinwataikei/vscode-arcaea-file-format) - VS Code extension for reading and editing Arcaea `.aff` chart files, with syntax highlighting, snippets, parsing, and semantic diagnostics for known metadata and events.
 - [Arcaea-server](https://github.com/Lost-MSth/Arcaea-server) - Local server reimplementing Arcaea's Flask-based client-server API for offline/private play.
 - [Arcaea-Bundler](https://github.com/Lost-MSth/Arcaea-Bundler) - Bundles and debundles Arcaea's content bundle files.
 

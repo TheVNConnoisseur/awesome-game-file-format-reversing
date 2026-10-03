@@ -191,6 +191,7 @@
 - [PokeModding-PLA-SV-Blender](https://github.com/ChicoEevee/PokeModding-PLA-SV-Blender) - Blender import/export scripts for Pokémon Legends: Arceus and Scarlet/Violet model formats (TRMSH/TRMBF).
 - [SV-Script-RE](https://github.com/Martmists-GH/SV-Script-RE) - Cleaned-up Lua script dumps reverse engineered from Pokémon Scarlet/Violet.
 - [SVScripts](https://github.com/Reisyukaku/SVScripts) - Reverse-engineered rewrite of Pokémon Scarlet/Violet's internal `dll_util` game logic scripts. See also the same author's [ZAScripts](https://github.com/Reisyukaku/ZAScripts), an early-stage rewrite applying the same approach to Pokémon Legends: Z-A.
+- [SV-Randomizer](https://github.com/XLuma/SV-Randomizer) - Python randomizer for Pokémon Scarlet/Violet that edits the game's flatbuffer data (wild and static encounters, trainers, personal data abilities and movesets, starters and gifted Pokémon) and outputs a romfs folder plus a Trinity Mod Loader modpack zip.
 - [poke-client](https://github.com/Reisyukaku/poke-client) - Debugging and reverse engineering tool for Switch Pokémon games, built on exlaunch. Runs on real hardware with a hex editor and a Lua VM for executing scripts from an SD card.
 - [PIDFinder](https://github.com/ca1e/PIDFinder) - Assistant tool for abusing Pokémon PID/IV pseudo-random number generation.
 - [EtumrepMMO](https://github.com/kwsch/EtumrepMMO) - Reverses captured entities in Pokémon Legends: Arceus back to their origin (group) RNG seed.
@@ -350,6 +351,7 @@
 - [GF2AssetBundleDecryption](https://github.com/nijinekoyo/GF2AssetBundleDecryption) - Decryption/unpacking tool for Girls' Frontline 2: Exilium's Unity asset bundles.
 - [GF2Decrypter](https://github.com/66hh/GF2Decrypter) - Asset decryption toolkit for Girls' Frontline 2: Exilium.
   - Tools: C# and Python Unity asset-bundle decryptors, a Lua script decryptor, a text extractor, and an audio decryptor. (Archived)
+- [exilium-tools](https://github.com/0x795E69D8/exilium-tools) - Tool collection for Girls' Frontline 2: Exilium: asset bundle decryption, splitting and renaming (C++), audio track and loop-metadata extraction from ACB/AWB files, subtitle extraction from USM videos, and a game update tracker that generates HTML reports.
 
 #### Chronic Logic (Gish)
 
@@ -358,6 +360,10 @@
 #### Glu Mobile
 
 - [glu-mobile-obb-extractor](https://github.com/ComoEstaisAmigos/glu-mobile-obb-extractor) - Extractor and format documentation for the FGIB/CBigFile_v2 container format used inside Glu Mobile's Android `.obb` expansion files, shared across many of the publisher's mobile games.
+
+#### Goblin Dungeons
+
+- [Goblin-Dungeons-Save-Editor](https://github.com/7e7z/Goblin-Dungeons-Save-Editor) - Python CLI that decrypts, edits and re-encrypts Goblin Dungeons' `ProgressData.save` using the game's AES-CBC keys; edits resources, equipment levels, spells and map progress.
 
 #### God of Thunder
 
@@ -409,6 +415,10 @@
 - [CarrotJuicer](https://github.com/CNA-Bld/CarrotJuicer) - Hooks the decryption function in Uma Musume Pretty Derby's `libnative.dll` (Windows DMM client) to inspect the game's MessagePack network packets.
   - See also [Riru-CarrotJuicer](https://github.com/CNA-Bld/Riru-CarrotJuicer), the same author's Android (Riru module) port hooking `libnative.so`, and [cjedb](https://github.com/CNA-Bld/cjedb), a companion data generator that reads the game's `master.mdb` database to supply additional per-event data for CarrotJuicer captures.
 - [UmaEnhance](https://github.com/middlered/UmaEnhance) - `version.dll` proxy plugin for Uma Musume Pretty Derby adding gameplay customization options, built on code from CarrotJuicer and umamusume-localify above.
+
+#### KOG (Grand Chase)
+
+- [P3M-Importer-Exporter](https://github.com/Raitou/P3M-Importer-Exporter) - Blender importer/exporter plugin for Perfect 3D Model (`.P3M`) files used by Grand Chase.
 
 #### Gray Design Associates
 
@@ -566,6 +576,8 @@
 - [tristar](https://github.com/devinacker/tristar) - Map viewer for Kirby: Triple Deluxe and Kirby's Return to Dream Land, reading a Wii disc image or decrypted RomFS dump.
 - [kale](https://github.com/devinacker/kale) - Kirby's Adventure Level Editor (KALE), a C++/Qt tool for editing Kirby's Adventure (NES) level data.
 - [kdceditor](https://github.com/devinacker/kdceditor) - Kirby's Dream Course / Kirby Bowl level editor (C++/Qt), reading and writing the game's level data format.
+- [MApRX](https://github.com/wwylele/MApRX) - Qt map editor for Kirby Super Star Ultra (Nintendo DS), editing maps, tilesets and scripts with a make-ROM dialog; early-stage.
+- [SqueakSquash](https://github.com/wwylele/SqueakSquash) - Windows map editor for Kirby: Squeak Squad (Nintendo DS) with ROM info and ROM rebuilding dialogs; the repo contains Chinese-language UI text.
 - [kar (decomp)](https://github.com/doldecomp/kar) - Decompilation of Kirby Air Ride.
 - [katam (decomp)](https://github.com/jiangzhengwenjz/katam) - Work-in-progress matching decompilation of Kirby & The Amazing Mirror (Game Boy Advance, USA).
 - [kirby-color](https://github.com/aquova/kirby-color) - Web-based palette editor for recoloring Kirby across several Kirby-series ROMs, with presets based on *Kirby and the Amazing Mirror*'s alternate colors.
@@ -599,6 +611,7 @@
 - [BrawlLib](https://github.com/libertyernie/brawltools) - Library for reading/writing file formats from Super Smash Bros. Brawl and other Wii games.
 - [BrawlBuilder](https://github.com/mogzol/BrawlBuilder) - GUI tool for building modded Super Smash Bros. Brawl ISOs, with support for custom SFX .sawnd files and alternate stages.
 - [Smash-Forge](https://github.com/jam1garner/Smash-Forge) - Open source editor for Super Smash Bros. 4 file formats.
+- [smash3ds-tools](https://github.com/yellows8/smash3ds-tools) - `smash3ds_replaytool.c`, a tool for Super Smash Bros. for 3DS replays stored in extdata, mainly for updating their checksum.
 - [Sm4sh-Tools](https://github.com/Sammi-Husky/Sm4sh-Tools) - Suite of tools for Super Smash Bros. 4 files.
   - Tools: DTLS (3DS/Wii U DT archive extractor/patcher), PACKManager (.pac archive packer/unpacker for .omo animations), PARAM (param file editor), FITX (ACMD script (de)compiler), SM4SHCommand (moveset editor with model/animation/hitbox preview).
 - [sm4sh_lib](https://github.com/ScanMountGoat/sm4sh_lib) - Rust libraries for Super Smash Bros. 4 (Wii U) file formats and rendering, with a companion [Blender addon](https://github.com/ScanMountGoat/sm4sh_blender) for importing/exporting models and animations, and [sm4sh_model_py](https://github.com/ScanMountGoat/sm4sh_model_py) Python bindings.
@@ -756,6 +769,10 @@
 
 - [46bys_eden](https://github.com/nleseul/46bys_eden) - English translation patch for 46 Okunen Monogatari: Harukanaru Eden e (E.V.O.: The Search for Eden), the 1992 Super Famicom evolution-action game.
 
+#### Heartbound
+
+- [Heartbound-Save-Editor](https://github.com/tbpaolini/Heartbound-Save-Editor) - Save editor for Heartbound (C; Windows and Linux builds) that edits nearly all save data, such as location and story progress; tracks game version 1.0.9.58.
+
 #### Heavy Gear
 
 - [heavygear-file-formats](https://github.com/AlexKimov/heavygear-file-formats) - File formats for Heavy Gear 1 and 2.
@@ -791,6 +808,7 @@
 
 - [helldivers2-rs](https://github.com/nblockbuster/helldivers2-rs) - Work-in-progress tool to extract files from Helldivers 2.
 - [filediver](https://github.com/xypwn/filediver) - Extractor for Helldivers 2. Supports extracting models, audio, video, and textures.
+  - See also [hd2-hash-cracker](https://github.com/xypwn/hd2-hash-cracker), a GPU-based hash cracker for Helldivers 2 optimized for file paths, with a pattern language for describing candidates.
 - [Hellextractor](https://github.com/Xaymar/Hellextractor) - Another Helldivers 2 extractor (archived, recommended to use [filediver](https://github.com/xypwn/filediver) instead).
 - [hd2-name-db](https://github.com/dtzxporter/hd2-name-db) - Community database documenting extracted game assets from Helldivers 2, helping identify and organize game content.
 - [HD2SDK-CommunityEdition](https://github.com/Boxofbiscuits97/HD2SDK-CommunityEdition) - Community-maintained Blender addon for modding Helldivers 2 textures, meshes, and materials; actively developed successor to [io_scene_helldivers2](https://github.com/kboykboy2/io_scene_helldivers2), which its original author deprecated in favor of this fork.
@@ -850,6 +868,10 @@
 - [Hogwarts-Legacy-Save-Editor](https://github.com/ekaomk/Hogwarts-Legacy-Save-Editor) - Web-based (Next.js) save editor for Hogwarts Legacy, with a drag-and-drop interface for uploading and exporting save files.
 - [HogwartsLegacyLocalizationTool](https://github.com/rm-NoobInCoding/HogwartsLegacyLocalizationTool) - Localization tool for exporting and importing text from Hogwarts Legacy's `*.bin` files (found under `Phoenix\Content\Localization\WIN64`).
 
+#### Anvil Game Studios (Holdfast: Nations At War)
+
+- [HoldfastAssetExtractor](https://github.com/overlap101-ai/HoldfastAssetExtractor) - GUI/CLI extractor for Holdfast: Nations At War that exports roughly 6,850 prefabs as OBJ with textures and renders them to PNG/WebP; bakes each prefab's Transform hierarchy into the vertices so assets come out assembled. Built for the game where AssetStudio and AssetRipper fail.
+
 #### Team Cherry (Hollow Knight: Silksong)
 
 - [SilksongDecryptor](https://github.com/rm-NoobInCoding/SilksongDecryptor) - Decryptor/encryptor for Hollow Knight: Silksong's localization JSON files.
@@ -858,6 +880,10 @@
 
 - [Hollow-Knight-SaveManager](https://github.com/KayDeeTee/Hollow-Knight-SaveManager) - Java save manager and editor for Hollow Knight (the original game), supporting the Windows/Linux/Mac/Switch releases; edits inventory (health, soul, geo, items) and charm equip/notch-cost data in save files.
 - [Hollow Knight Modding API](https://github.com/hk-modding/api) - Modding API exposing hooks into Hollow Knight's game code, removing the need to hand-edit decompiled/reassembled game code for each new game version.
+
+#### Holy Potatoes! A Weapon Shop!
+
+- [HolyPotatoEditor](https://github.com/NomadWithoutAHome/HolyPotatoEditor) - Python command-line tool for Holy Potatoes! A Weapon Shop! save files and game data; its `TechDocs.md` documents WSREFData, WSDir.txt, the save files and their Rijndael/AES and string-substitution encryption.
 
 #### Honey Parade / Marvelous Entertainment
 
@@ -1038,6 +1064,7 @@
 - [CoroHeartToolkit](https://github.com/SeleDreams/CoroHeartToolkit) - Modding tool for games built on Compile Heart's Orochi 4 Engine.
 - [brapack](https://github.com/RikuKH3/brapack) - Unpacker/repacker for the `*.bra` archive format used in Compile Heart games.
 - [neptools](https://github.com/u3shit/neptools) - Modding toolkit for Hyperdimension Neptunia Re;Birth 1-3 and Megadimension Neptunia VII, with rudimentary support for Hyperdevotion Noire: Goddess Black Heart. Includes a `.cl3`/`.gstr`/`.gbin`/`.bin` text/data extractor and importer, plus a runtime loader that applies edited files without repacking the game's `.pac` archives.
+- [fff-adf-datamining](https://github.com/wareya/fff-adf-datamining) - Incomplete datamining tools for Fairy Fencer F Advent Dark Force (partially compatible with other Compile Heart games): `ism2.cpp` converts `col_ground.ism2` map collision, entities and treasure locations to a Wavefront `.obj`, and `gbin.cpp` dumps `dbDungeon`/`dbTreasure`/`dbItems` `.gbin` tables to TSV.
 
 #### Hypergryph
 

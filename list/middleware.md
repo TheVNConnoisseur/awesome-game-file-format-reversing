@@ -107,6 +107,12 @@
 - [atirut.bdl](https://github.com/atirutw/atirut.bdl) - JSYSTEM BMD/BDL model importer for Godot Engine.
 - [wsystool](https://github.com/XAYRGA/wsystool) - WAVESYSTEM modification toolkit for JSYSTEM games.
 - [jampacked](https://github.com/XAYRGA/jampacked) - BAA unpacker for JSYSTEM games.
+- [bast](https://github.com/XAYRGA/bast) - JAudio soundtable (JASE/JBST) packer and unpacker.
+- [SEBS](https://github.com/XAYRGA/SEBS) - Packs and unpacks JAudio `SE.BMS` sound-effect sequence files, with a BMS assembler and disassembler driven by per-game JSON definitions.
+- [bastool](https://github.com/XAYRGA/bastool) - Edits `.bas` (binary audio sequence) files for GameCube games.
+- [jatafc](https://github.com/XAYRGA/jatafc) - Encodes WAV audio to JAudio AFC streams (ADPCM4 or PCM16), with a loop option.
+- [exaudme](https://github.com/XAYRGA/exaudme) - Extractor for `defaultme.bme` (BME/BMT) files from JSYSTEM games.
+- [libJAudio](https://github.com/XAYRGA/libJAudio) - Library for interfacing with JAudio/BMS in GameCube games, listing Luigi's Mansion, Super Mario Sunshine, Mario Kart: Double Dash, Wind Waker, Twilight Princess and Four Swords Adventure as verified (archived).
 - [aurora](https://github.com/encounter/aurora) - Source-level GameCube & Wii GX graphics compatibility layer, used by decompilation and static-recompilation projects to run original GC/Wii rendering code on modern backends (Dawn/WebGPU).
 - [BMDCubed](https://github.com/Sage-of-Mirrors/BMDCubed) - Converts skinned COLLADA (.dae) files to the Binary Model Data (BMD) format used by first-party Nintendo GameCube and Wii games.
 - [j3d-animation-editor](https://github.com/tarsa129/j3d-animation-editor) - Editor for a variety of J3D animation files.
@@ -345,6 +351,7 @@
 - [wwiser-utils](https://github.com/bnnm/wwiser-utils) - Companion utilities for wwiser, covering Wwise SoundBank (.bnk) and .wem audio files.
 - [ExportUtilityWwise](https://github.com/djhaled/ExportUtilityWwise) - Console tool that exports Wwise audio events from Unreal Engine-based games (Valorant, Sea of Thieves, and others) to WAV files, automating sound extraction.
 - [wemkit](https://github.com/coconutbird/wemkit) - Toolkit for working with Wwise WEM audio files.
+- [BNK-Tools](https://github.com/JSleim/bnk-tools) - Command-line utility for Wwise `.bnk` soundbanks: lists audio IDs, extracts one or all `.wem` files, replaces single or multiple `.wem` files from a JSON map (optional big-endian), and includes an event parser mapping events and containers to audio file IDs.
 ### Platform SDKs & Hardware
 #### XNA
 
@@ -851,6 +858,8 @@
 - [zbic](https://github.com/kinnay/zbic) - Python package implementing the ZBIC compression algorithm used on Nintendo Switch.
 - [Nintendo-File-Samples](https://github.com/kinnay/Nintendo-File-Samples) - Test set of Nintendo file format samples covering various edge cases, for validating tools against.
 - [oead](https://github.com/zeldamods/oead) - Library for recent Nintendo EAD first-party formats (BOTW/TOTK-era SARC, Yaz0, AAMP, BYML, and more), with Rust core and Python bindings. See also [cs-oead](https://github.com/EPD-Libraries/cs-oead) for a C# wrapper.
+- [byml-v2](https://github.com/zeldamods/byml-v2) - Python BYML/BYAML parser, writer, and BYML-to-YAML converter supporting v2, v3, and v4 files (Breath of the Wild and Super Mario Odyssey, including 64-bit node types and both endiannesses).
+  - Sibling Python libraries: [aamp](https://github.com/zeldamods/aamp) (AAMP parameter archive reader/converter, targeting Breath of the Wild), [sarc](https://github.com/zeldamods/sarc) (SARC archive reader/writer and CLI), [evfl](https://github.com/zeldamods/evfl) (EventFlow .bfevfl flowchart and .bfevtm timeline parser/writer, able to rewrite every event flow in Breath of the Wild), [tmpk](https://github.com/zeldamods/tmpk) (library and CLI for Nintendo's TMPK archive format).
 - [SarcLibrary](https://github.com/EPD-Libraries/SarcLibrary) - Modern C# reader/writer for Nintendo SEAD/SEPD SARC archives.
 - [sarc_archiver](https://github.com/Torphedo/sarc_archiver) - C plugin for the PhysicsFS virtual filesystem library that mounts Nintendo SARC archives, with a zstd-compressed I/O wrapper (optional dictionary).
 - [GARCTool](https://github.com/kwsch/GARCTool) - Nintendo 3DS GARC (un)packing tool with support for repacking compressed files, complementing GARC-Unpack above.
@@ -999,6 +1008,7 @@
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [EightMB](https://github.com/sevonj/eightmb) - Work-in-progress tool for examining PlayStation 2 memory card images: parses Sony's PS2 memory card file system, and displays `icon.sys` backgrounds and 3D save-icon meshes/textures alongside a dump of the card's contents.
 - [sfo](https://github.com/hippie68/sfo) - Fast C program that reads a file to print or modify its SFO parameters. Can be used for automation or to build param.sfo files from scratch. Also available as .exe file for Windows command line.
+- [PARAMSFOReader](https://github.com/zyzalfors/PARAMSFOReader) - Command-line reader for PARAM.SFO files from PlayStation save files (PSP, PS3, PS4, etc.), printing the parsed data to the screen or a file.
 - [ps3-ckit](https://github.com/tge-was-taken/ps3-ckit) - PS3 C code injection framework. Toolkit for running arbitrary C code in games, hooking existing functions, and inserting custom functionality.
 - [ps3recomp](https://github.com/sp00nznet/ps3recomp) - Static recompilation runtime libraries for PlayStation 3 titles.
 - [AteliELF](https://github.com/Hakanaou/AteliELF) - Python ELF reverse engineering and patching toolchain for PowerPC64 Big Endian binaries (Cell Broadband Engine), originally built for PS3 game text extraction/reinsertion; also has partial PS Vita and PS2 support.
@@ -1045,6 +1055,7 @@
 - [xStationMenuRefiner](https://github.com/DerekPascarella/xStationMenuRefiner) - Utility for customizing how the xStation PS1 optical drive emulator displays game titles, by reading an SD card and showing the game list exactly as xStation will render it in both of its menu views, subfolders included.
 - [pkg_pfs_tool](https://github.com/flatz/pkg_pfs_tool) - PKG/PFS unpacker for PS4, extracting package and filesystem contents.
 - [ps5-pup-decrypt](https://github.com/zecoxao/ps5-pup-decrypt) - Decrypts PS5 PUP (firmware update package) files by directing an exploited PS5 console to decrypt them itself.
+  - [ps5-pup-unpacker](https://github.com/zecoxao/ps5-pup-unpacker) - C++ unpacker for the decrypted PS5 update blobs, based on idc's ps4-pup_unpack; runs on Linux, macOS, and Windows and does not unpack the nested FAT32/exFAT filesystem images inside updates.
 - [ps4-cfw-toolkit](https://github.com/Al-Azif/ps4-cfw-toolkit) - Decrypts and encrypts various PlayStation 4 firmware files.
 - [Playstation-4-Save-Mounter](https://github.com/ChendoChap/Playstation-4-Save-Mounter) - Mounts PS4 save data with read/write access via ps4debug, for decrypting, replacing, sharing, and exporting save files. See also [n0llptr's fork](https://github.com/n0llptr/Playstation-5-Save-Mounter), which adds PS5 save mounting support.
 - [Save-Transfer-Wizard](https://github.com/rajeshca911/Save-Transfer-Wizard) - Windows GUI tool for transferring, decrypting, and browsing PS5 save data over FTP.

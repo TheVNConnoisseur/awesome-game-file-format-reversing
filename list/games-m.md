@@ -34,6 +34,10 @@
 - [mvl_preview](https://github.com/Manicsteiner/mvl_preview) - GUI viewer for MAGES. engine `.mvl` character tachie/sprite files from console releases (2016 onward), also reading Kaleido ADV Workshop's decompiled `.psb.m` character JSON exports; a console-focused counterpart to ChaosChildPCTools' PC-version `.mvl` handling above.
 - [RNE_image_converter](https://github.com/Manicsteiner/RNE_image_converter) - Image conversion tool for several MAGES./5pb. PS3 and PS Vita releases from 2012-2014, including Robotics;Notes, Chaos;Head Love Chu Chu, Memories Off 6/7, and multiple Steins;Gate PS3 editions; adapted and extended from wetor's original script.
 
+#### Magicraft
+
+- [Game-Save-Editor-Magicraft](https://github.com/KatahdinOutpost/Game-Save-Editor-Magicraft) - Browser-based save editor for Magicraft that decodes the XOR-encrypted `WorldData` save files to JSON for editing and re-encrypts them on save.
+
 #### LKA (Martha Is Dead)
 
 - [MarthaIsDead-TextTool](https://github.com/rm-NoobInCoding/MarthaIsDead-TextTool) - Extracts and imports text from `.uexp` files for Martha Is Dead.
@@ -110,6 +114,8 @@
 - [OpenTS2](https://github.com/LazyDuchess/OpenTS2) - Open-source re-implementation of The Sims 2 in Unity, reading the original game's proprietary data files.
 - [sims2_mac_decomp (decomp)](https://github.com/ChrisNonyminus/sims2_mac_decomp) - Work-in-progress matching decompilation of the Mac port of The Sims 2.
 - [DBPF.js](https://github.com/anonhostpi/DBPF.js) - TypeScript/JavaScript library for reading DBPF (Database Packed File) archives, the container format shared across Maxis titles including The Sims and SimCity. Supports DBPF v1.0-v2.x with v3 support in progress; currently on hold but documented for others to continue.
+- [clod](https://github.com/zenzoa/clod) - Command-line multi-tool for The Sims 2 that extracts original outfit and hair templates (from Skins.package and globalcatbin.bundle.package) and original object packages as .package files for making default replacements.
+- [sims-package2glb](https://github.com/infinition/sims-package2glb) - Windows desktop/CLI tool that reads The Sims 2, 3 and 4 `.package` mods and exports their meshes, UVs, normals and textures as glTF `.glb` (with recolour selection and a built-in 3D preview); can also dump the raw resources and textures as `.dds`/`.png`.
 - [S2GBADecomp](https://github.com/tssoret/S2GBADecomp) - Work-in-progress disassembly and decompilation of The Sims 2 (Game Boy Advance).
 
 ##### The Sims 4
@@ -153,6 +159,7 @@
 - [DSCSRenderer](https://github.com/Pherakki/DSCSRenderer) - C++ library for loading and rendering Digimon Story: Cyber Sleuth models in an OpenGL context.
 - [DSCSModelDataEditor](https://github.com/Pherakki/DSCSModelDataEditor) - Software to edit and visualize the data and shaders of Digimon Story: Cyber Sleuth models.
 - [SimpleDSCSModManager](https://github.com/Pherakki/SimpleDSCSModManager) - Mod manager for the PC release of Digimon Story: Cyber Sleuth Complete Edition, bundling GUI tools built on MVGLTools above for extracting/repacking game archives and on NutCracker for decompiling the game's Squirrel scripts.
+- [CSGeom](https://github.com/xdanieldzd/CSGeom) - Experimental model viewer and exporter for `.geom` model files from Digimon Story: Cyber Sleuth, using separately converted `.pvr` texture files.
 - [pyValkLib](https://github.com/Pherakki/pyValkLib) - Python library for reading and writing files in the Valkyria Chronicles game series.
 - [MXEEditor](https://github.com/Pherakki/MXEEditor) - Program for unpacking and re-packing Valkyria Chronicles MXE files to and from CSV, built on pyValkLib above; complements Ginnungagap above, which targets Valkyria Chronicles 4 specifically.
 
@@ -170,6 +177,10 @@
 - [open-dread-rando](https://github.com/randovania/open-dread-rando) - Randomizer patcher for Metroid Dread, directly modifying the game's original assets for Randovania.
 - [open-samus-returns-rando](https://github.com/randovania/open-samus-returns-rando) - Randomizer patcher for Metroid: Samus Returns, directly modifying the game's original assets for Randovania.
 - [dread-editor](https://github.com/randovania/dread-editor) - Visualizer for Metroid Dread's BRFLD level/actor-layout files.
+
+##### Scrapland
+
+- [ScrapHacks](https://github.com/ReScrap/ScrapHacks) - Reverse-engineering notes and tools for Scrapland: `scrapper.py` extracts and repacks `*.packed` archives, a work-in-progress parser for the game's chunked model/animation/map format, a save-to-JSON converter, and Frida and radare2 scripts plus Python documentation for the in-game scripting system.
 
 #### Archetype Interactive (Meridian 59)
 
@@ -205,6 +216,8 @@
 ##### X-COM (UFO Defense / Terror from the Deep)
 
 - [OpenXcom](https://github.com/OpenXcom/OpenXcom) - Open-source engine recreation of the original X-COM (UFO: Enemy Unknown / Terror from the Deep), reading the original game's proprietary data files (GEODATA, UFOGRAPH, map blocks, and more).
+- [openxcom-save-editor](https://github.com/aaronjacobs-chelt/openxcom-save-editor) - Python save game editor for OpenXCom Extended aimed at the X-Com Files mod; edits funds, research progress, soldier stats, base facilities, production queues and inventory.
+- [xcom2edi](https://github.com/bovine/xcom2edi) - MS-DOS saved-game editor (C++) for X-COM: Terror from the Deep; edits soldiers (names, armour), tactical battle state and other saved game data, and can carry soldiers over from the first X-COM.
 
 ##### XCOM Apocalypse
 
@@ -284,6 +297,8 @@
 - [Blam-Creation-Suite](https://github.com/ChimpsAtSea/Blam-Creation-Suite) - Collection of modular C++ frameworks (Mandrill tag/resource editor, Blofeld tag layout framework) for creating custom Blam engine content across Halo Combat Evolved through Halo Infinite.
 - [Reach (decomp)](https://github.com/ChimpsAtSea/Reach) - Work-in-progress matching decompilation of Halo: Reach (Xbox 360 build `tag_debug_untracked_jul_11_2011`), companion project to the halo (decomp) Combat Evolved effort above.
 - [HaloKSY](https://github.com/Sigmmma/HaloKSY) - Kaitai Struct definitions for Halo tag file formats.
+- [halo-guerilla-sounds](https://github.com/xyx0826/halo-guerilla-sounds) - Analysis notes and prototype tools for decoding sound and music tags from the Guerilla authoring tool (Halo: Combat Evolved and Halo 2 mod tools), which differ in structure from shipping-game tags.
+  - ImHex patterns for HCE and Halo 2 sound tags, plus a Zig decoder for HCE sound tags and a Python tool with a native ADPCM decoder for Halo 2 sound tags.
 
 ###### Asset Extraction & Viewing Tools
 
@@ -291,8 +306,13 @@
   - See also [ReclaimerFiles](https://github.com/Surasia/ReclaimerFiles), per-tag XML definition files for Halo 5 and Halo Infinite meant for use with Reclaimer.
 - [IndexV2](https://github.com/Wildenhaus/IndexV2) - Tool for Halo: Combat Evolved Anniversary and Halo 2 Anniversary that extracts textures, models, and more.
 - [h5_dumper](https://github.com/Surasia/h5_dumper) - Simple tag dumper for Halo 5 and Halo 5 Forge written in Rust. Recursively goes through each .module file in directory and writes tags to specified path.
+- [FiveTool](https://github.com/ElDewrito/FiveTool) - Unofficial Halo 5 modding toolkit; its ModuleExtractor unpacks the `.module` files used by the Windows Store version of the game (the README notes there is no way to rebuild modules after editing).
 - [libpyinfinite](https://github.com/Surasia/libpyinfinite) - Typed Python library for parsing Halo Infinite binary files, with module and tag readers (Oodle decompression through the game's oo2core DLL) usable separately or together.
 - [infinite-rs](https://github.com/TheHaloArchive/infinite-rs) - Rust deserialization library for Halo Infinite, loading the game's .module archives and reading tags from them, with a derive macro for defining tag structures.
+- [libInfinite](https://github.com/Coreforge/libInfinite) - C++ library for working with Halo Infinite files, based on MontagueM's HIMU, with module and tag readers, bitmap batch extraction and material JSON export; tag headers can be generated from IRTV/HIRT XML definitions.
+  - [infiniteExplorer](https://github.com/Coreforge/infiniteExplorer) - GUI frontend for libInfinite with bitmap, BSP and 3D model viewers, texture export, and optional mounting of module contents through FUSE3 or WinFsp.
+  - [blender-halo-infinite](https://github.com/Coreforge/blender-halo-infinite) - Blender add-on based on HIME that imports Halo Infinite `.render_model` files with their chunk files and textures.
+- [infinitebnk](https://github.com/xyx0826/infinitebnk) - Extracts Wwise SoundBanks from Halo Infinite modules, built on [libInfinite](https://github.com/Coreforge/libInfinite) and optionally mapping tag IDs to paths using a tagnames.txt list.
 - [inf_vectorart](https://github.com/TheHaloArchive/inf_vectorart) - Rust command-line tool that extracts vector art tags from a Halo Infinite deploy folder and writes them as SVG, built on infinite-rs above.
 - [Olympus](https://github.com/Surasia/Olympus) - Blender add-on for importing Halo Infinite render models, material styles (coatings) and bitmaps from the game's modules; a fork of Coreforge's Blender Halo Infinite importer.
 - [XTraction - Halo 3/ODST texture extractor](https://www.moddb.com/games/halo-3/downloads/xtraction-halo-3-odst-texture-extractor-tool) - Versatile texture extractor for Halo 3 and ODST. Extracts textures from MAP files as TIFF images, enabling editing and replacement of Halo 3 era textures. Originally created for WMClan members.
@@ -309,6 +329,7 @@
 - [HaloWwise](https://github.com/Nibre/HaloWwise) - Unpacks Wwise `.pck` audio packages from Halo 4/Halo 5 into their `.wem`/`.bnk` contents, preserving pack folder structure and Bank info for tracing sounds back to their Blam tag.
   - Built on [pcktool-rs](https://github.com/coconutbird/pcktool-rs) (zero-copy Rust library/CLI for parsing and writing Wwise PCK/BNK audio packages).
   - Related: [ensemble-assets](https://github.com/coconutbird/ensemble-assets) (Ensemble game asset resolution and typed database schemas), [hwm](https://github.com/coconutbird/hwm) (command-line manager for Halo Wars installations and mods), [sevenzip-era](https://github.com/coconutbird/sevenzip-era) (7-Zip plugin for reading/writing Ensemble ERA archive files).
+- [Composer (XboxChaos)](https://github.com/XboxChaos/composer) - Extracts audio from Halo 4's `soundbank.pck` and `soundstream.pck`, with bundled helper utilities to convert the extracted files to common formats.
 - [aera](https://github.com/paleauraaaa/aera) - Standalone renderer for Halo 1 maps, reading original Xbox build (`cachebeta.exe`) map files with in-progress support for Gearbox PC and MCC map formats.
 - [Composer (Sigmmma)](https://github.com/Sigmmma/composer) - Standalone music player that reads and plays Halo 1's `sound`/`sound_looping` tag files directly, reproducing the game's dynamic music system outside the game.
 
@@ -328,6 +349,9 @@
 - [HaloOnlineTagTool](https://github.com/ElDewrito/HaloOnlineTagTool) - Low-level Halo Online `tags.dat` editor and research project.
 - [AusarDocs](https://github.com/ElDewrito/AusarDocs) - Documentation of the Ausar/Halo Online engine's tag and cache file formats, compiled from ElDewrito's reverse-engineering work.
 - [Halo Online Variant Editor](https://github.com/ThiconZ/Halo-Online-Variant-Editor) - Editor for Halo Online game variant and map variant files, exposing the full variant file structure including settings not present in the in-game interface. Includes an 010 Editor binary template documenting the variant format.
+- [Liberty](https://github.com/XboxChaos/Liberty) - Free campaign save editor for Halo 4, Halo: Reach, Halo: Combat Evolved Anniversary, Halo 3 and Halo 3: ODST.
+  - [halosigner](https://github.com/XboxChaos/halosigner) - Rehashes Halo content files after hex editing: campaign saves from Halo Anniversary, Halo 3, Halo 3: ODST, Halo: Reach and Halo 4, plus Halo: Reach GPDs.
+- [nitrogen](https://github.com/XboxChaos/nitrogen) - .NET interface to Halo 4 map and game variants (variant BLF files), including a WumboScript Viewer that outputs Megalo scripts in a human-readable format.
 - [HaloMD](https://github.com/foonull/HaloMD) - Community continuation project for Halo: Combat Evolved on Mac, built on packet-sniffing research into the original network protocol.
   - Features: master server replacement reimplementing the original protocol, versioned mod distribution via delta binary patches, run-time game extensions.
 - [ManagedDonkey](https://github.com/twist84/ManagedDonkey) - Ongoing project to reimplement/mod Halo Online (`ms23 1.106708` build), reading the original client simulation and broadcast (systemlink) logic while documenting the process.
@@ -406,6 +430,7 @@
 - [aoc-mgx-format](https://github.com/stefan-kolb/aoc-mgx-format) - Reverse-engineered file format specification for Age of Empires II: The Conquerors savegame (.mgx) files.
 - [Resource-Manager](https://github.com/eBaeza/Resource-Manager) - Utility for viewing, comparing, creating, and extracting files from Age of Empires III `.BAR` archives.
 - [AoE2ScenarioParser](https://github.com/KSneijders/AoE2ScenarioParser) - Python library for reading and editing Age of Empires II: Definitive Edition `.aoe2scenario` files, exposing triggers, conditions, effects, units, maps, players, and messages across all supported game versions.
+- [extract-drs](https://github.com/vs49688/extract-drs) - Small C utility to extract Age of Empires 1 `.drs` resource archives [archived].
 
 ##### Microsoft Plus! for Windows XP
 

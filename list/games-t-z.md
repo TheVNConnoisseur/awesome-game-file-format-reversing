@@ -69,6 +69,10 @@
 
 - [target_ripper](https://github.com/Yagotzirck/target_ripper) - Resource extractor for Target (1998, Windows).
 
+#### Taskbar Hero
+
+- [tbh_saveeditor](https://github.com/andrenogrib/tbh_saveeditor) - Local browser-based Python editor for Taskbar Hero saves that validates edits against the game tables and recalculates the `SystemInfo` anti-tamper checksum on save; edits hero item enchantments with a class-based auto-build.
+
 #### Team17
 
 - [alienbreed](https://github.com/hitchhikr/alienbreed) - Complete disassembly of the Amiga CD32 version of Alien Breed 92: Special Edition.
@@ -88,6 +92,7 @@
 #### Techland
 
 - [Call of Juarez: Bound In Blood - Map Pak Tool](https://www.moddb.com/mods/cojbib-map-pak-tool/downloads/call-of-juarez-bound-in-blood-map-pak-tool) - Convert CoJBiB custom maps into Pak file with required folder structure by the game. Portable (no installation) just start and create, Enjoy!
+- [DL2_Save_Editor](https://github.com/Marcel-TO/DL2_Save_Editor) - Open-source Tauri/Rust save editor for Dying Light 2 that edits skills and inventory item stats (level, seed, amount, durability), swaps weapons, applies templates, and compresses/decompresses the save file, with an index of in-game IDs.
 
 #### Tecmo (Tecmo Super Bowl)
 
@@ -187,12 +192,17 @@
 
 - [4x4 Evolution 2](https://github.com/americusmaximus/4x4e2) - Open source implementation of 4x4 Evolution 2 (Build 139) with resource management, high-resolution graphics support, and DirectX improvements.
 
+#### Terminator 3: War of the Machines
+
+- [T3-ModTools](https://github.com/JacoboGutierrez/T3-ModTools) - Experimental Windows toolkit for the PC game that reads `Game.cod` and patch COD archives, extracts assets by category, converts SCA/LOD/DET geometry to OBJ/MTL and rigged models to glTF 2.0, extracts ANM animations, and includes experimental Blender import/export plug-ins; also manages mod projects and compiles them into `mods/Mods.Cod` with a separate `T3_Modded.exe`.
+
 #### Re-Logic (Terraria)
 
 - [TerrariaResearchChecklist](https://github.com/iconmaster5326/TerrariaResearchChecklist) - CLI that reads a Terraria `.plr` player save file directly and lists Journey Mode items not yet researched, cross-referenced against the Terraria Wiki's item list.
   - Includes a [Kaitai Struct](https://kaitai.io/) definition (`terraria_player.ksy`) documenting the `.plr` player file format, plus a generated C# reader.
 - [Terrafirma](https://github.com/mrkite/TerraFirma) - Cross-platform (Windows/Linux/macOS) world map and Bestiary viewer for Terraria 1.4, reading world save files directly and using the game's own localization files to display translated item/block names.
 - [XNB UV Explorer](https://github.com/RussDev7/XNB-UVExplorer) - WinForms tool for inspecting and slicing XNB texture sheets (auto tile detection, grid/dynamic UV modes), built for Terraria modding and XNA/MonoGame asset work generally.
+- [TSGE](https://github.com/gabsoftware/TSGE) - Terraria Save Game Editor (C#) for modifying player save files (profiles) and adjusting characters.
 
 #### Terrible Toybox
 
@@ -211,6 +221,10 @@
 - [extract.vvv](https://github.com/Swyter/extract.vvv) - Simple program to extract original music from VVVVVV game. Extracts all 15 tracks from `vvvvvvmusic.vvv` files and outputs them as OGG Vorbis format.
 - [VVVVVV](https://github.com/TerryCavanagh/VVVVVV) - Terry Cavanagh's official open-source release of VVVVVV (2010), including the desktop engine's original level/tileset-reading and rendering code.
 - [VVVVVVSaveEditor](https://github.com/SuperYosh23/VVVVVVSaveEditor) - Save file editor for VVVVVV.
+
+#### Test Drive III
+
+- [TD3Extract](https://github.com/yuv422/TD3Extract) - Extracts Test Drive III: The Passion data from the `DATAA.DAT`, `DATAB.DAT`, `DATAC.DAT`, `C<CAR_ID>.DAT` and `SCENEnn.DAT` archives back to their original filenames, patches `TD3.EXE` to load the unpacked files, and decompresses LZW/RLE data and converts packed game images to PNG (and back to the RLE+LZW format).
 
 #### Eden Games (Test Drive Unlimited 2)
 
@@ -235,6 +249,8 @@
   - Exports animations to MP4, AVIF, WebP, and GIF.
 - [SaveEditorTBC](https://github.com/ZhaLuc/SaveEditorTBC) - Save file editor for The Battle Cats.
 - [The-Battle-Cats-Unite-Editor](https://github.com/xirba13/The-Battle-Cats-Unite-Editor) - Save editor for the Nintendo Switch title The Battle Cats Unite!.
+- [battle-cats-unite-asset-tools](https://github.com/xirba13/battle-cats-unite-asset-tools) - Python scripts for The Battle Cats Unite! (Nintendo Switch) RomFS data, same author as the save editor above.
+  - Extracts `FCRA` `.arc` archives and applies original paths from a bundled hash-to-path table, identifies unnamed files by binary signature, decodes `CSB` compiled tables into CSV-style text (data tables, `.imgcut`, `.mamodel`, `.maanim`), and converts `BNTX` textures to PNG via a vendored 3DSkit.
 - [Neko-Ware](https://github.com/omochikaeri15/neko-ware) - Collection of standalone Rust CLI tools for The Battle Cats.
   - Tools: neko-arc (unpacks `FCRA`/`.arc` archives from the Nintendo Switch version and resolves hashed file names back to their mobile originals), neko-pack (decrypts `.pack`/`.list` archives, validating regional keys), neko-apk (injects modded/loose files and assets into the game APK), neko-cloud (pulls game assets directly from the cloud update service).
 - [Burglecats Cryptor](https://github.com/piggecutlet/burglecats-cryptor) - Decrypts The Battle Cats' `.fnt` font files; documents reverse-engineered `CryptoManager` decryption routines from the game's native `libMyGame.so`.
@@ -376,6 +392,7 @@
 ##### MX vs ATV
 
 - [3ds Export script (MX vs ATV Reflex)](https://www.moddb.com/games/mx-vs-atv-reflex/downloads/3ds-export-script) - 3DS Max export plugin for MX vs ATV Reflex.
+- [reflex-package-tool](https://github.com/daniilkorochansky/reflex-package-tool) - Python GUI tool for viewing, extracting and replacing resources in MX vs ATV Reflex `.package` archives, with a built-in texture converter, localization editor and sound bank manager.
 
 
 ##### Twisted Metal
@@ -462,6 +479,8 @@
 
 - [torus-XM-ripper](https://github.com/BLiNXthetimesweeperGOD/torus-XM-ripper) - Python tool for extracting and converting audio from GBA games made by Torus Games to XM format. Supports Backyard Football series, Cabella's Big Game Hunter, Curious George, and others.
 - [ashen-decomp](https://github.com/nenikitov/ashen-decomp) - Reverse engineering of Ashen (2004, N-Gage), extracting archive, animation, and audio resources from the game's data files.
+- [HNK-Studio](https://github.com/zbirow/HNK-Studio) - Node.js desktop tool (still in development) for Torus Games `.hnk` files, using per-game providers. Views and exports textures (with texture replacement), plays and exports audio, views and exports 3D models and skeletons, and views and edits sprites and fonts; supports Wii BGRA8888 textures and Wii 3D models.
+  - [TorusModLoader](https://github.com/zbirow/TorusModLoader) - Mod manager for Torus Games titles that use HNK archives or `Packfile.dat`; compiles PNG/DDS replacements into texture payloads and applies them as an overlay without modifying the original archives. Texture mods only so far, and the interface is currently Polish-only.
 
 #### Clipper Software (Touché: The Adventures of the Fifth Musketeer)
 
@@ -798,10 +817,22 @@ See also: [Unreal Engine](engines.md#unreal-engine).
   - Loads: terrain (heightmaps, splatmaps), placed objects, foliage (`Foliage.blob`), roads, lighting (`Lighting.dat`), player movement/animations, zombies, and FSB5 audio.
   - Re-implements every file format from scratch against the game's own data, using Smartly Dressed Games' [U3-SDK](https://github.com/SmartlyDressedGames/U3-SDK) as reference, and validates decoders against real shipped bundles rather than only self-built fixtures.
 
+#### Up and Down
+
+- [UaDSaveEditor](https://github.com/pm14kas/UaDSaveEditor) - C# save editor for Up and Down, working with the game's ciphered `savegame` file.
+
 ### V
+#### V-Rally
+
+- [V-Rally-4-Tools](https://github.com/zbirow/V-Rally-4-Tools) - File format specification for V-Rally 4's `PPKG` `.pkg` archives (header, variable-length-name file index, `PKGB` data chunks) plus a Python GUI unpacker.
+
 #### VTech (V.Smile)
 
 - [SPG2xx-sound-engines](https://github.com/BLiNXthetimesweeperGOD/SPG2xx-sound-engines) - Documentation and tools for extracting audio instruments and formats from V.Smile and other SPG2xx-based game devices.
+
+#### Vampire Survivors
+
+- [vampire-survivors-save-editor](https://github.com/chrisdfennell/vampire-survivors-save-editor) - Pure-Python GUI/CLI save editor for Vampire Survivors that handles both the older Electron/JavaScript and current Unity/C# JSON save dialects (including the checksum), and builds its content catalog from your own install.
 
 #### Troika Games (Vampire: The Masquerade)
 
@@ -978,6 +1009,8 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 - [wreckfest_toolbox](https://github.com/gmazy/wreckfest_toolbox) - Blender addon for importing and exporting Wreckfest game formats (SCNE, VHCL, BMAP).
 - [Breckfest](https://github.com/MaxxWyndham/Breckfest) - Drag-and-drop converter between Wreckfest's compressed BMAP texture format and PNG/DDS/TGA/TIF, with DXT1/DXT5 recompression and raw BMAP compress/decompress support.
+- [wreckfest2-tuning-editor](https://github.com/JonathanSoszka/wreckfest2-tuning-editor) - Windows save editor for the tuning presets in a Wreckfest 2 career profile (`.sgfi`); edits setups within the game's legal values, imports/exports/duplicates presets as JSON, with automatic backups and a CLI scrub command.
+- [RSWreckGarage](https://github.com/RootSwitch/RSWreckGarage) - Wreckfest garage save editor for `cars5.ccrs` (LZ4 container): recolors cars, sets credits, level and tournament fame, and fits owned upgrades; PowerShell GUI and Python CLI with identical output.
 
 #### JiangHu Studio (Wushu Chronicles 2)
 
