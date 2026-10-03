@@ -212,6 +212,10 @@
 - [yukon-server](https://github.com/wizguin/yukon-server) - Server implementation for the yukon Club Penguin client reimplementation.
 - [snowflake](https://github.com/Lekuruu/snowflake) - Game server for Club Penguin's "Card-Jitsu Snow" minigame, reimplementing its game engine/round logic and serving the original SWF client assets; compatible with the [Houdini](https://github.com/solero/houdini) server framework.
 
+##### Where's My Water?
+
+- [Where's My Editor?](https://github.com/wmw-modding/wheres-my-editor) - Level editor for Where's My Water? and its spinoffs, working from the game's extracted files.
+
 #### Magic Bytes Software / TD Corp (Dizzy BK-0011M Port)
 
 - [bk0011m-dizzy1td-rev](https://github.com/nzeemin/bk0011m-dizzy1td-rev) - Full byte-for-byte disassembly of DIZZY.DIZ, the 1994 Soviet BK-0011M port (by Magic Bytes Software/TD Corp) of Codemasters' Dizzy III / Fantasy World Dizzy, documenting data formats, memory layout, sprite tables, and the room system.
@@ -269,6 +273,10 @@
 - [Drakensang_RaknetProtocol](https://github.com/DSO-Reconstruction/Drakensang_RaknetProtocol) - Documentation of the RakNet network protocol used by Drakensang Online, covering packet IDs, handlers, and client/server packet flows.
 - [drakensang-nb3-bundle-extractor](https://github.com/simo8902/drakensang-nb3-bundle-extractor) - Extractor for Drakensang Online's NB3 bundle files.
 - [dro_client-decomp](https://github.com/DSO-Reconstruction/dro_client-decomp) - Decompilation project for the Drakensang Online client.
+
+#### Media Molecule (Dreams)
+
+- [dreamiverse-transformer](https://github.com/x1nixmzeng/dreamiverse-transformer) - Reverse-engineering project and notes on the PS4 game Dreams' user-generated content, covering its on-disc data formats (bespoke formats, mostly lz4-compressed, plus GNF textures) and web API.
 
 #### Landon Podbielski (Duck Game)
 
@@ -383,6 +391,7 @@
 - [ZeroLocalizationTool](https://github.com/Gametoast/ZeroLocalizationTool) - Extracts and edits localization strings from Star Wars: Battlefront's packed data files.
 - [SWBF2-ODF](https://github.com/Gametoast/SWBF2-ODF) - VS Code extension providing IntelliSense/syntax support for Star Wars: Battlefront II's ODF (Object Definition Format) files.
 - [MeshViewer_OpenGL](https://github.com/Gametoast/MeshViewer_OpenGL) - OpenGL viewer for Star Wars: Battlefront II's native .msh mesh assets.
+- [XSIZETools](https://github.com/Schlechtwetterfront/xsizetools) - Softimage addon for importing and exporting Star Wars: Battlefront I and II (ZeroEngine) `.msh` 3D files, covering geometry, materials with ZeroEngine-specific flags, animations, collisions and simulated cloth.
 - [Creation Master 26](https://github.com/nazrul0202/FC-26-Database-Editor) - Windows database and asset editor for EA SPORTS FC 26 career mode, with a C++ bridge into the Frostbite engine.
   - Edits players, teams, leagues, kits, formations, and compdata, saving validated changes back into the installed game.
   - Formats: Frostbite CAS/TOC asset containers (transactional saves with rollback), RES/Ebx search, legacy DDS/PNG texture import, NewWave audio bank metadata.
@@ -606,6 +615,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [KevEdit](https://github.com/cknave/kevedit) - Editor for ZZT and Super ZZT worlds, reading and writing the games' native board/world file formats.
 - [ZztFormat](https://github.com/SaxxonPike/ZztFormat) - C# .NET library for reading and manipulating ZZT and Super ZZT world files.
 - [zookeeper](https://github.com/DrDos0016/zookeeper) - Python library for parsing and modifying ZZT worlds.
+- [zzt-toolbox](https://github.com/asiekierka/zzt-toolbox) - Scripts for ZZT and Super ZZT, including `boardwalk` (detects irregularities in `.ZZT` worlds to recover corrupt ones), `ezzt_cer_unpack` (unpacks ZZT Enhancer `.CER` files, with format notes), `mml2zzt`, `world_join` and a world graph generator.
 - [Solid HUD](https://github.com/DrDos0016/solid-hud) - ZZT v3.2 compatible engine with an advanced HUD, reading the original ZZT world/board file format.
 - [Zeta (Museum of ZZT build)](https://github.com/asiekierka/zeta-z2) - Specialized ZZT emulation core build used by Museum of ZZT.
 
@@ -641,6 +651,7 @@ See also: [RenderWare](middleware.md#renderware).
 ##### Fortnite
 
 - [JModel](https://github.com/FabianFG/JModel) - Fortnite asset explorer for viewing and parsing PAK game files. Extracts Unreal Engine assets from game.
+- [FortnitePorting](https://github.com/h4lfheart/FortnitePorting) - Fortnite asset exporter that works from a local install or on-demand, exporting to a folder or directly into Blender and Unreal Engine via companion plugins.
 - [JohnWickParse](https://github.com/SirWaddles/JohnWickParse) - Parser for Fortnite PAK, uasset, and uexp files; provides serialization and extraction of game assets. See also [node-wick](https://github.com/SirWaddles/node-wick) (Node.js bindings) and [pywickparse](https://github.com/SirWaddles/pywickparse) (Python bindings).
 - [WickDownloader](https://github.com/SirWaddles/WickDownloader) - Parses Fortnite's build manifest and chunk formats to download and reconstruct game files directly from Epic's CDN. See also [WickDownloaderNode](https://github.com/SirWaddles/WickDownloaderNode) (Node.js bindings) and [pywickdl](https://github.com/SirWaddles/pywickdl) (Python bindings).
 - [JFortniteParse](https://github.com/FabianFG/JFortniteParse) - JVM Unreal Engine 4 asset parser library for Fortnite and Valorant; parses PAK files, textures, sounds, meshes, and localization files.
@@ -709,6 +720,10 @@ See also: [RenderWare](middleware.md#renderware).
 - [sphinx-savegame-editor](https://github.com/eurotools/sphinx-savegame-editor) - C# tool to edit and view savegame files for The Sphinx and the Cursed Mummy game.
 - [sphinxtools](https://github.com/Swyter/sphinxtools) - Unpackers and modding tools for the GameCube version of Sphinx and the Cursed Mummy. Extracts files from Filelist.000 containers, includes 010 Editor binary templates for EDB and SFX formats, and provides demuxing tools for GameCube IMA ADPCM audio.
 - [gforce-tools](https://github.com/Swyter/gforce-tools) - 010 Editor binary templates for newer Eurocom/EngineX formats. Includes Filelist extractor script supporting version 7 (Athens 2004, Spyro: A Hero's Tail, Robots, Predator: Concrete Jungle, Batman Begins, Ice Age 2, Pirates of the Caribbean: At World's End, The Mummy: Tomb of the Dragon Emperor, 007: Quantum of Solace, Ice Age: Dawn of the Dinosaurs, G-Force, Dead Space: Extraction, Spider-Man 4 prototype, GoldenEye 007).
+- [EngineXFilelistUtil](https://github.com/BrinchEbsen/EngineXFilelistUtil) - C# library, command-line tool and Windows Forms GUI for reading, inspecting, extracting from and creating Eurocom EngineX filelists (versions 4, 5, 6 and 7).
+- [AHT_TriggerInspector](https://github.com/BrinchEbsen/AHT_TriggerInspector) - Windows Forms tool that visualizes the trigger-related data in Spyro: A Hero's Tail maps, including a gamescript decompiler; compatible with all retail versions.
+- [sphinx-eurosound](https://github.com/Swyter/sphinx-eurosound) - Python scripts reimplementing the EngineX soundbank tools for unpacking and repacking.
+- [sphinx-l10n](https://github.com/Swyter/sphinx-l10n) - Fan-translation scripts for Sphinx and the Cursed Mummy that convert the game's SphinxText.xls text spreadsheet (via CSV) to and from Transifex-compatible JSON files.
 - [Hero-s-Tail-Decomp](https://github.com/LivewireCB/Hero-s-Tail-Decomp) - In-progress decompilation of Spyro: A Hero's Tail.
 
 #### CCP Games (EVE Online)
@@ -1093,6 +1108,7 @@ See also: [RenderWare](middleware.md#renderware).
 
 - [ftl-save-editor](https://github.com/SamWylde/ftl-save-editor) - Desktop save editor and live memory trainer for FTL: Faster Than Light, with support for the Hyperspace and Multiverse mods.
 - [iOS-FTL-Save-Game-Editor](https://github.com/Tsubashi/iOS-FTL-Save-Game-Editor) - Python scripts for decoding and re-encoding the `continue.sav` save file of the iOS version of FTL; the README says it may also work on the desktop version.
+- [ftl-profile-editor (Vhati)](https://github.com/Vhati/ftl-profile-editor) - Desktop editor for FTL profiles (`prof.sav`, `ae_prof.sav`) and saved games, to unlock ships and achievements or tweak crew, fires, breaches and stores; reads resources from the game directory without modifying it. Fork of ComaToes/ftl-profile-editor with many later commits.
 
 #### Funatics Software
 

@@ -105,6 +105,7 @@
 - [AwesomeMapEditor](https://github.com/Sierraffinity/AwesomeMapEditor) - Alternative map editor for Gen III.
 - [pokeruby (decomp)](https://github.com/pret/pokeruby) - Matching decompilation of Pokémon Ruby (100%).
 - [gomons](https://github.com/huderlem/gomons) - Go library that can read and modify Pokémon Emerald save files.
+- [PikaSav](https://github.com/xJakub/PikaSav) - Python/Tkinter save editor for older-generation Pokémon games, with separate save classes for Red/Blue, Gold/Silver, Crystal and Ruby/Sapphire.
 - [Bulbapedia (Gen I)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_I)) - Save data structure documentation for Generation I.
 - [Bulbapedia (Gen II)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_II)) - Save data structure documentation for Generation II.
 - [Bulbapedia (Gen III)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_III)) - Save data structure documentation for Generation III.
@@ -155,6 +156,8 @@
 
 - [SwissArmyKnife](https://github.com/PlatinumMaster/SwissArmyKnife) - Cross-platform ROM editor for Generation V Pokémon games (Black, White, Black 2, White 2). Supports editing map containers, text, events, zone headers, entities, and encounters.
 - [BW_tool](https://github.com/suloku/BW_tool) - Tool to modify Pokémon Generation V (Black/White, Black 2/White 2) savegames.
+- [pypokescript](https://github.com/vgmoose/pypokescript) - Python tool and library converting Pokémon Black 2/White 2 script binaries (extracted from the `a/0/5/6` NARC) to a human-readable high-level scripting language and back.
+- [CheapScript](https://github.com/PlatinumMaster/CheapScript) - Easier scripting for Pokémon Black 2/White 2, with a compiler and a decompiler for existing script containers (archived; the README notes it is incomplete).
 - [pdrpse](https://github.com/suloku/pdrpse) - Save editor for Pokémon Dream Radar on the 3DS, editing current and total Dream Orbs and the reward orb counter; runs as 3DS homebrew.
 - [pbr-dtk (decomp)](https://github.com/bgsamm/pbr-dtk) - Matching decompilation of Pokémon Battle Revolution.
 - [pokestadium (decomp)](https://github.com/pret/pokestadium) - Matching decompilation of Pokémon Stadium (100%).
@@ -305,6 +308,7 @@
 - [borderlands2](https://github.com/apocalyptech/borderlands2) - Command-line save editor for Borderlands 2 and Borderlands: The Pre-Sequel that decodes the protobuf-based savegame format to JSON/text for editing character stats, inventory, currencies, and challenges, then re-encodes it back to a console/PC-playable save.
 - [borderlands3-save-editor](https://github.com/sandsmark/borderlands3-save-editor) - GUI save file editor for Borderlands 3. Unmaintained since 2021; the author recommends the actively developed bl3-cli-saveedit as an alternative.
 - [bl3-cli-saveedit](https://github.com/apocalyptech/bl3-cli-saveedit) - Actively maintained command-line Borderlands 3 savegame/profile editor, recommended above as the successor to the unmaintained borderlands3-save-editor.
+- [BL3SaveEditor](https://github.com/FromDarkHell/BL3SaveEditor) - Desktop save and profile editor for Borderlands 3.
 - [borderlands-4-save-utility](https://github.com/glacierpiece/borderlands-4-save-utility) - Save file editing utility for Borderlands 4.
 - [Borderlands2PS3ProfileEditor](https://github.com/asp22/Borderlands2PS3ProfileEditor) - Python tool to modify Borderlands 2 profile data on PS3.
 
@@ -326,6 +330,7 @@
 
 - [pokemon_fsys_tool](https://github.com/gamemasterplc/pokemon_fsys_tool) - Tool for FSYS archive format used in Pokémon Colosseum/XD.
 - [PokemonFSYSConverter](https://github.com/vgmoose/PokemonFSYSConverter) - Program to extract .obm and textures out of .fsys files found in some GameCube/Wii titles.
+- [PkmGCTools](https://github.com/TuxSH/PkmGCTools) - LibPkmGC backend library and PkmGCSaveEditor, a save file editor, for Pokémon Colosseum and Pokémon XD.
 - [tdmextractor](https://github.com/NerduMiner/tdmextractor) - Archive extractor and repacker for "The Denpa Men" series (TDM1/TDM2/TDM3/TDMF archives). Can replace the usage of the existing quickbms script for The Denpa Men 3.
 - [Blender HAL DAT Model Addon](https://github.com/StarsMmd/Blender-Addon-Gamecube-Models) - Blender addon for importing and exporting HAL Laboratory's GameCube .dat model format, primarily for Pokemon Colosseum and XD: Gale of Darkness, with compatibility for Super Smash Bros. Melee, Kirby Air Ride, Chibi-Robo!, and Killer7.
 
@@ -368,6 +373,7 @@
 #### God of Thunder
 
 - [god-of-thunder](https://github.com/SheridanR/god-of-thunder) - Community-maintained port of the public-domain source release of God of Thunder (1993, DOS action-adventure by Ron Davis); requires the original game's data files, as the assets were not included in the source release.
+- [god_of_thunder_save](https://github.com/synthead/god_of_thunder_save) - Ruby library for loading, editing and writing God of Thunder saved game files (`SAVEGAM1.GOT`), exposing name, health, magic, jewels, keys, score and item flags.
 
 #### God Summoner
 
@@ -415,6 +421,8 @@
 - [CarrotJuicer](https://github.com/CNA-Bld/CarrotJuicer) - Hooks the decryption function in Uma Musume Pretty Derby's `libnative.dll` (Windows DMM client) to inspect the game's MessagePack network packets.
   - See also [Riru-CarrotJuicer](https://github.com/CNA-Bld/Riru-CarrotJuicer), the same author's Android (Riru module) port hooking `libnative.so`, and [cjedb](https://github.com/CNA-Bld/cjedb), a companion data generator that reads the game's `master.mdb` database to supply additional per-event data for CarrotJuicer captures.
 - [UmaEnhance](https://github.com/middlered/UmaEnhance) - `version.dll` proxy plugin for Uma Musume Pretty Derby adding gameplay customization options, built on code from CarrotJuicer and umamusume-localify above.
+- [UmaViewer](https://github.com/katboi01/UmaViewer) - Unity application for viewing assets from Uma Musume: Pretty Derby.
+- [UmamusumeExplorer](https://github.com/MarshmallowAndroid/UmamusumeExplorer) - GUI utility for viewing assets from Uma Musume: Pretty Derby (DMM Games or Steam install), with a file browser with search and export, an audio player with export and a live music player with export.
 
 #### KOG (Grand Chase)
 
@@ -597,6 +605,7 @@
 - [skyline](https://github.com/skyline-dev/skyline) - Environment for runtime hooking and code patching within Super Smash Bros. Ultimate. Provides linking, runtime hooking, and code patching capabilities for Switch homebrew modding.
   - See also [cargo-skyline](https://github.com/jam1garner/cargo-skyline), a cargo subcommand for building Skyline plugins, and [orbits](https://github.com/blu-dev/orbits), a general-purpose LayeredFS crate used by Skyline plugins for physical/patch/virtual file layering.
 - [StudioSB](https://github.com/Ploaj/StudioSB) - Model application for Super Smash Bros. Ultimate. Work-in-progress tool for viewing and working with SSBU model files.
+- [smash-ultimate-blender](https://github.com/ssbucarlos/smash-ultimate-blender) - Blender plugin for importing and exporting Super Smash Bros. Ultimate models, materials, textures, animations and swing files (`.numdlb`, `.numshb`, `.nusktb`, `.numatb`, `.nutexb`, `.nuanmb`, `swing.prc` and others).
 - [Sm4shExplorer](https://github.com/jam1garner/Sm4shExplorer) - Tool for managing the file-system of Super Smash Bros. for Wii U.
 - [smash-arc](https://github.com/jam1garner/smash-arc) - Library for working with Super Smash Bros. Ultimate's ARC format.
 - [prc-rs](https://github.com/ultimate-research/prc-rs) - Rust crate for reading/writing `.prc` param files in Super Smash Bros. Ultimate.
@@ -609,6 +618,7 @@
 - [UltimateModManager](https://github.com/ultimate-research/UltimateModManager) - Nintendo Switch homebrew for Super Smash Bros. Ultimate that dumps `data.arc`, installs mod files into it with backups of the originals, and transfers mods over FTP.
 - [ssbu-arc-extract](https://github.com/FIX94/ssbu-arc-extract) - Extracts and injects files from Super Smash Bros. Ultimate's data.arc.
 - [BrawlLib](https://github.com/libertyernie/brawltools) - Library for reading/writing file formats from Super Smash Bros. Brawl and other Wii games.
+- [BrawlCrate](https://github.com/soopercool101/BrawlCrate) - BrawlBox fork (BrawlCrateLib) aiming to ease modding of Super Smash Bros. Brawl; the README credits BrawlBox and BrawlLib to Kryal, BlackJax96, and libertyernie.
 - [BrawlBuilder](https://github.com/mogzol/BrawlBuilder) - GUI tool for building modded Super Smash Bros. Brawl ISOs, with support for custom SFX .sawnd files and alternate stages.
 - [Smash-Forge](https://github.com/jam1garner/Smash-Forge) - Open source editor for Super Smash Bros. 4 file formats.
 - [smash3ds-tools](https://github.com/yellows8/smash3ds-tools) - `smash3ds_replaytool.c`, a tool for Super Smash Bros. for 3DS replays stored in extdata, mainly for updating their checksum.
@@ -879,6 +889,7 @@
 ##### Hollow Knight
 
 - [Hollow-Knight-SaveManager](https://github.com/KayDeeTee/Hollow-Knight-SaveManager) - Java save manager and editor for Hollow Knight (the original game), supporting the Windows/Linux/Mac/Switch releases; edits inventory (health, soul, geo, items) and charm equip/notch-cost data in save files.
+- [Hollow-Knight-Save-Crypto](https://github.com/nakami/Hollow-Knight-Save-Crypto) - Python CLI that decrypts Hollow Knight save files to JSON text and re-encrypts them, with a bundled Windows executable.
 - [Hollow Knight Modding API](https://github.com/hk-modding/api) - Modding API exposing hooks into Hollow Knight's game code, removing the need to hand-edit decompiled/reassembled game code for each new game version.
 
 #### Holy Potatoes! A Weapon Shop!
@@ -909,6 +920,7 @@
 - [GI-cutscenes](https://github.com/ToaHartor/GI-cutscenes) - Command-line tool for extracting and decrypting Genshin Impact's USM cutscene video files.
   - See also [GICutscenesUI](https://github.com/SuperZombi/GICutscenesUI), a graphical front-end for it, and [GI-VideoVersions](https://github.com/Asayu233/GI-VideoVersions), a tool for dumping the per-version USM decryption keys these cutscene extractors need.
 - [GenshinPCKunpacker](https://github.com/Surihix/GenshinPCKunpacker) - Unpacks the Wwise audio banks and .wem streams stored in Genshin Impact's .pck files; the results can be converted or played with vgmstream.
+- [genshin-audio-exporter](https://github.com/dvingerh/genshin-audio-exporter) - GUI tool that exports audio from Genshin Impact's `.pck` data files to `.wav`, `.mp3`, `.ogg` or `.flac`.
 - [YSAssetIdx](https://github.com/paimooon/YSAssetIdx) - Parses Genshin Impact's binary asset-index format.
 - [Genshin-Impact-UGC-File-Converter](https://github.com/Nyagamon/Genshin-Impact-UGC-File-Converter) - Converts Genshin Impact's user-generated-content files (`.gil`, `.gia`, `.mihoyobin`) to and from JSON.
 - [Translate_Genshin_Blk_Files](https://github.com/DNLINYJ/Translate_Genshin_Blk_Files) - Converts Genshin Impact's `.blk` bundle files into normal Unity3D AssetBundle files. (Archived)

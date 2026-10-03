@@ -58,6 +58,9 @@
 - [GTX-Extractor](https://github.com/aboood40091/GTX-Extractor) - Extractor for GTX (GX2 Texture) format in Wii U games with bidirectional conversion.
 - [BNTX-Extractor](https://github.com/aboood40091/BNTX-Extractor) - Extractor for BNTX (Binary NX Texture) format in Nintendo Switch games.
   - Formats: BC1-BC7, RGBA variants, ASTC variants
+- [BNTX-Injector](https://github.com/aboood40091/BNTX-Injector) - Injects textures into Binary Resources Texture (BNTX) files without changing the BNTX size.
+- [BNTX-Editor](https://github.com/aboood40091/BNTX-Editor) - Tool for editing Binary Resources Texture (BNTX) files.
+- [BFLIM-Tool](https://github.com/aboood40091/BFLIM-Tool) - Extracts and injects BFLIM layout images.
 - [texgenpack](https://github.com/hglm/texgenpack) - Compresses, decompresses, and converts texture files using a genetic algorithm. Supports KTX, DDS, ETC2, BC6/BC7, and more.
 - [detex-compress](https://github.com/hglm/detex-compress) - Fast texture compression utility built on the detex library, supporting BC1-5 and ETC1 formats.
 - [RygsDXTc](https://github.com/Cyan4973/RygsDXTc) - Real-time DXT1/DXT5 texture compressor in C, based on Fabian "ryg" Giesen's farbrausch demoscene work; used as a fast encoder in many game asset pipelines.
@@ -76,6 +79,7 @@
 - [PS2ImageTool](https://github.com/Surihix/PS2ImageTool) - Experimental GUI tool for recovering PlayStation 2 game images from raw binary data, unswizzling 8bpp palette and pixel data saved as separate .bin files.
 - [TiledGGD](https://github.com/Barubary/TiledGGD) - Multi-format tile/graphics editor for viewing and editing tile-based console graphics data in arbitrary binary files, similar in spirit to Tile Molester above. See also [puggsoy's TiledGGD (PE) fork](https://github.com/puggsoy/tiledggd-pe-), which has grown past the original with continued fixes and enhancements.
 - [Tile-Bulinator](https://github.com/Delutto/Tile-Bulinator) - Advanced tile graphics editor for viewing and modifying raw tile graphic data in retro console ROMs, in the tradition of Tile Layer Pro and Tile Molester.
+- [TileViewer](https://github.com/YuriSizuku/TileViewer) - Cross-platform tile viewer for analyzing raw console game textures and fonts, with Lua-script and C plugin decoders (e.g. for swizzling), command-line decoding, and wiki FontDB/TexDB listings of known layouts; inspired by Crystal Tile 2.
 - [genesisPal2Act](https://github.com/romhack/genesisPal2Act) - Converts a generic 9bpp Sega Genesis/Mega Drive palette dump (ripped from an emulator savestate or debug tool) to 24bpp ACT format for use in Photoshop, GraphicsGale, or romhacking tools.
 - [BGR555](https://github.com/orangeglo/BGR555) - Converts between RGB hex codes and the 15-bit BGR555 color palette format used by the SNES, GBC, and GBA.
 
@@ -102,6 +106,7 @@
 - [smstilemap](https://github.com/mrcook/smstilemap) - Go library/CLI converting raster images into Sega Master System tile, palette, and tilemap (name table) data.
 - [png2tile](https://github.com/raphnet/png2tile) - Converts PNG images into Sega Master System / Mega Drive tile format, with duplicate-tile removal and mirroring optimization. See also the same author's [png2snes](https://github.com/raphnet/png2snes), which generates SNES CGRAM/VRAM palette and tile data from indexed PNG files.
 - [Tile Molester](https://github.com/toruzz/TileMolester) - Multi-format, user-extensible graphics data editor for viewing and editing tile-based graphics in arbitrary binary files from game consoles.
+- [ImageMagitek](https://github.com/stevemonaco/ImageMagitek) - .NET library, with the TileShop GUI in progress, for viewing, editing and organizing retro videogame system graphics, aimed at graphics embedded in binaries without recognizable headers.
 - [tmxlite](https://github.com/fallahn/tmxlite) - Lightweight C++14 parser for Tiled Map Editor's TMX/TSX tilemap format, used by many indie and hobbyist games.
 - [rawtex](https://github.com/hitchhikr/rawtex) - GIMP 2.x save plugin for creating raw texture files for PC, PSP, NDS, PS2, and other architectures handling chunky or compressed pixel data. See also [raw2iff](https://github.com/hitchhikr/raw2iff), a plugin-driven tool converting RAW pictures to the Amiga IFF ILBM picture format.
 - [iff2gif](https://github.com/rheit/iff2gif) - Converts Amiga IFF ILBM/ANIM files to GIF images/animations.
@@ -124,6 +129,7 @@
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
 - [io_mesh_ninjaripper](https://github.com/REDxEYE/io_mesh_ninjaripper) - Blender addon for importing NinjaRipper .rip files. Supports Blender 2.78-2.79.
+- [ninjaripper-blender-import](https://github.com/kree-nickm/ninjaripper-blender-import) - More advanced Blender add-on for importing NinjaRipper RIP files, written for files exported with NinjaRipper 1.7.1 (the README says it does not work with NinjaRipper 2).
 - [Guilty_Hell_Sprite_Veiwer](https://github.com/coreynguyen/Guilty_Hell_Sprite_Veiwer) - GPU-accelerated viewer for Unity `Texture2D`/AssetStudio sprite sheets, with Real-ESRGAN AI upscaling.
 - [mxs_xnaLara_converter](https://github.com/coreynguyen/mxs_xnaLara_converter) - MaxScript for importing XNALara/XPS `.xps`/`.mesh` model files into 3ds Max.
 - [TextureAtlas-Toolbox](https://github.com/MeguminBOT/TextureAtlas-Toolbox) - All-in-one tool for extracting sprites from texture atlases/spritesheets into organized frame collections and GIF/WebP/APNG animations, generating optimized atlases from frames, and converting between 15+ atlas formats (including Unity and Godot).
@@ -146,6 +152,7 @@
   - Engines/formats: AdvHD (`arc`/`pna`), Ai5Win (`arc`/`dat`/`VSD`), Ai6Win (`arc`), Artemis (`pfs`), BiShop (`bsa`), Cmvs (`cpz`), EntisGLS (`noa`), InnocentGray (`iga`/`dat`), KID (`dat`), Kirikiri (`xp3`), Majiro (`arc`), NekoSDK (`pak`), NeXAS (`pac`), NextonLikeC (`lst`), Nitro+ (`pak`), NScripter (`ns2`/`nsa`), Palette (`pak`), PJADV (`dat`/`pak`), RPG Maker (`rgssad`/`rgss2a`/`rgss3a`), Softpal (`pac`), SystemNNN (`gpk`/`vpk`), Triangle (`CG`/`SUD`/`CGF`), Yuris (`ypf`).
 - [VNTools](https://github.com/redfoxymoon/vntools) - Collection of portable ISO C99 utilities for unpacking/packing/converting various visual novel engine archive formats (formerly published under the account hiirotsuki).
   - Engines/formats: Cromwell (`.opk`/`.pak`), IkuraGDL (`.GGP`/SM2MPX10), Studio Neko Punch, Studio-Sakura, Succubus, Silky's (`.IFL`), Carriere (`.CGD` to BMP), BasiL (`.MIF`), ARCX (`.arc`), Pinpai (`.hiz`).
+- [arc_conv](https://github.com/amayra/arc_conv) - Command-line visual novel toolkit written in pure assembly by w8m. Its `formats.txt` lists the supported archive formats and the visual novels they come from (XP3, NPA, RPA, Liar-soft, PBG3/PBG4/PBGZ for Touhou 6-9, and many more), with some image formats converted to TGA/PNG.
 - [GameExtractor](https://github.com/wattostudios/GameExtractor) - Multi-game archive tool supporting 4000+ games.
 - [hei-cmd](https://github.com/QuartermindGames/hei-cmd) - Command-line tool for converting/bulk-converting images and models and extracting/listing obscure package formats, built on the [Hei](https://git.solemnwarning.net/hogsy/hei) format-loading library covering many old game engines (see [hogsy/formats](https://github.com/hogsy/formats) for the studio/format list).
 - [ripper](https://github.com/darkstar/ripper) - Plugin-based command-line tool for extracting images, audio, and video from uncompressed archive files used by computer games and demos.
@@ -157,6 +164,7 @@
 - [maxcso](https://github.com/unknownbrackets/maxcso) - Fast CSO compression utility for PSP and PS2 game ISO files used with emulators.
 - [xpftool](https://github.com/simontime/xpftool) - Extracts and decompresses files from PS2 XPF archives.
 - [extract-xiso](https://github.com/XboxDev/extract-xiso) - Xbox ISO (XISO) creation, modification, and extraction utility for original Xbox disc images.
+- [xdvdfs](https://github.com/antangelo/xdvdfs) - Rust library and command-line tool collection for XDVDFS/XISO (original Xbox) images: list, unpack, pack, checksum, and inspect image metadata.
 - [iPoPS](https://github.com/julianxhokaxhiu/iPoPS) - Converts PSX discs and ISOs into PBP format for playback on PSP.
 - [PSXPackager](https://github.com/RupertAvery/PSXPackager) - Utility to convert PlayStation disc images between various formats and PBP.
 - [dexvert](https://github.com/Sembiance/dexvert) - Identifies and converts over 3,700 file formats to modern equivalents, including many game-specific archive, texture, and model formats.
@@ -245,6 +253,8 @@
 - [buildROM](https://github.com/lioneltrs/buildROM) - Python script converting 8 games from the "SNK 40th Anniversary Collection" (PC version) to MAME 2003-compatible ROMs, complementing goNCommand above.
 - [iml2iso](https://github.com/master801/iml2iso) - Converts PlayStation 2 .iml disc images to .bin/.iso (CD, DVD-5, DVD-9).
 - [ObserverModules](https://github.com/refaim/ObserverModules) - Extension modules for the Observer plugin of FAR Manager that open game archives as folders: Ren'Py `.rpa` (RPA-2.0/3.0), RPG Maker VX Ace `.rgss3a`, and ZanZarah: The Hidden Portal `.pak` (original and Steam versions).
+- [mkpsarc](https://github.com/shimamura-sakura/mkpsarc) - Python extractor and creator for the PlayStation archive (PSARC) format, with an experimental multithreaded version.
+  - See also [rpsarc](https://github.com/shimamura-sakura/rpsarc), a simple Rust PSARC utility that lists, extracts (writing a manifest for recreating the archive) and creates archives.
 
 ### 🔊 Audio Tools
 
@@ -313,11 +323,14 @@
 - [psf-shellext](https://github.com/henke37/psf-shellext) - Windows shell extension displaying tag metadata for PSF/miniPSF (PlayStation Sound Format) files in Explorer property sheets.
 - [vgmtrans](https://github.com/vgmtrans/vgmtrans) - Video Game Music Translator; converts proprietary game audio sequence/soundfont formats from many games/consoles into standard MIDI/DLS/SF2.
 - [midistar2mid](https://github.com/Sembiance/midistar2mid) - Converts DOS-game-era MIDI-like sequence formats (HMI, HMP, LDS, MUS, XMI, SYX) to standard MIDI files.
+- [sgt2wav](https://github.com/marselas/sgt2wav) - Windows command-line utility that converts Microsoft DirectMusic segment (`.sgt`), RMI and MIDI files used by games to WAV by playing them back in real time and capturing the audio mixer output; needs an audio device and an OS version that still ships DirectMusic (Windows 7/8/Vista or early Windows 10).
 - [nus3audio](https://github.com/jam1garner/nus3audio) - Nus3audio container extractor and rebuilder (use vgmstream to handle the extracted idsp/opus streams). Archived but still functional.
 - [OPL3BankEditor](https://github.com/Wohlstand/OPL3BankEditor) - Cross-platform editor for OPL3 FM instrument bank formats used by numerous DOS-era games and sound drivers (IBK, OP2/GENMIDI, TMB, WOPL, and others).
+- [OPN2BankEditor](https://github.com/Wohlstand/OPN2BankEditor) - Cross-platform editor for FM instrument banks of the OPN family of sound chips, widely used in the Sega Genesis/Mega Drive, Fujitsu FM Towns, and NEC PC-88 and PC-98; sibling of OPL3BankEditor.
 - [MDXtract](https://github.com/Optiroc/MDXtract) - Python tools for extracting instrument and sample data from files used by the MXDRV and PMD sound drivers, common across many Japanese PC-88/PC-98 games.
 - [pmdmini](https://github.com/mistydemeo/pmdmini) - C/C++ library for playing back PMD/MXDRV chiptunes from the NEC PC-98, used by many PC-98-era games' Yamaha YM2203/YM2608 soundtracks.
 - [adpcm](https://github.com/superctr/adpcm) - ADPCM encoder/decoder library and CLI covering game/arcade sound-chip codecs: Yamaha ADPCM-A/B (YM2610/Y8950/YM2608), Yamaha AICA (Dreamcast), Oki/Dialogic VOX (MSM6295 arcade sound chip, MSM6258 X68000), Brian Schmidt BSMT2000/QSound (arcade), and YMZ280B.
+- [XboxADPCM](https://github.com/Sergeanur/XboxADPCM) - Command-line converter of WAV files between Xbox ADPCM and PCM, detecting the direction automatically.
 - [nesadpcm](https://github.com/furrykef/nesadpcm) - VOX (Oki MSM6295-style) ADPCM player for the NES.
 - [nsfplay](https://github.com/bbbradsmith/nsfplay) - NSF (Nintendo Sound Format) player and library for NES/Famicom game-music rips, including expansion-audio chip emulation and command-line WAV rendering/metadata utilities.
 - [EZNSF](https://github.com/bbbradsmith/eznsf) - Tool for transforming NSF (NES Sound Format) music rip files into playable NES ROMs, using Python and the CC65 toolchain.
@@ -386,6 +399,7 @@
 - [atrac3p-decoder2](https://github.com/chyyran/atrac3p-decoder) - Rust library decoding ATRAC3+ audio from `.at3`/RIFF WAV containers, the Sony codec used for PSP/PS2/PS3 game audio (e.g. Persona, Final Fantasy titles). Maintained fork of tarkah's original atrac3p-decoder, republished as its own crate with modernized dependencies and static Huffman tables.
 - [ff_libs](https://github.com/Gemini-Loboto3/ff_libs) - Single-file, dependency-free C decoding libraries (dr_libs-style API) for Opus, Vorbis, WMA, and Sony's ATRAC3/ATRAC3+ codecs, adapted from FFmpeg for easy embedding in game-audio tooling.
 - [musyxboy](https://github.com/byvar/musyxboy) - Scanner and converter for MusyX audio data used in Game Boy Advance games.
+- [musyx](https://github.com/GauChoob/musyx) - Guide to the structure of MusyX data files used in Game Boy and Game Boy Color games, with a Python script that converts the data back into project files.
 - [gaxm](https://github.com/byvar/gaxm) - Experimental converter from GAX (Shin'en's Game Boy Advance audio engine) to XM tracker format.
 - [GB2MID](https://github.com/turboboy215/GB2MID) - All-in-one command-line converter for Game Boy and Game Boy Color game music (and sometimes sound effects or samples), writing MIDI or, for tracker-based sound engines, XM or MOD. Supports over 30 sound engines covering over 1,500 unique ROMs, recognized through an XML database of ROM hashes, checksums and game codes. Integrates the standalone per-engine converters below, which the author recommends replacing with GB2MID for casual use.
   - Game Boy/Game Boy Color engines: [AA2MID](https://github.com/turboboy215/AA2MID) (AudioArts/QuickThunder, GBC); [AJG2MID](https://github.com/turboboy215/AJG2MID) (Alberto José González of Bit-Managers); [BEAM2MID](https://github.com/turboboy215/BEAM2MID) (Beam Software); [DSH2MID](https://github.com/turboboy215/DSH2MID) (David Shea of Coyote Developments, GBC; the engine used in most Crawfish games); [DW2MID](https://github.com/turboboy215/DW2MID) (David Whittaker); [GF2MID](https://github.com/turboboy215/GF2MID) (Game Freak); [HAL2MID](https://github.com/turboboy215/HAL2MID) (HAL Laboratory, GB); [HS2MID](https://github.com/turboboy215/HS2MID) (Hudson Soft); [IMGN2MID](https://github.com/turboboy215/IMGN2MID) (Absolute/Imagineering); [JT2MID](https://github.com/turboboy215/JT2MID) (Jeroen Tel); [KONAMID](https://github.com/turboboy215/KONAMID) (Konami); [MET22MID](https://github.com/turboboy215/MET22MID) (Ryohji Yoshitomi's engine from Metroid II and Wario Land, GB); [MM12MID](https://github.com/turboboy215/MM12MID) (Mega Man 1 engine, GB); [MM22MID](https://github.com/turboboy215/MM22MID) (Mega Man 2 engine); [MM32MID](https://github.com/turboboy215/MM32MID) (Mega Man 3-5 and Bionic Commando engine, GB); [MX2MID](https://github.com/turboboy215/MX2MID) (MusyX, GBC; can also rip samples to WAV); [NAT2MID](https://github.com/turboboy215/NAT2MID) (Natsume); [NINT2MID](https://github.com/turboboy215/NINT2MID) (Nintendo, Hirokazu Tanaka's engine); [OCN2MID](https://github.com/turboboy215/OCN2MID) (Ocean, Jonathan Dunn's engine); [RARE2MID](https://github.com/turboboy215/RARE2MID) (Rare); [RC2TXT](https://github.com/turboboy215/RC2TXT) (Rolan's Curse 1/2 and Ninja Taro, GB); [SS2MID](https://github.com/turboboy215/SS2MID) (Sunsoft); [TJ2MID](https://github.com/turboboy215/TJ2MID) (Technos Japan); [TOSE2MID](https://github.com/turboboy215/TOSE2MID) (TOSE); [TT2MID](https://github.com/turboboy215/TT2MID) (Tiertex); [WL22MID](https://github.com/turboboy215/WL22MID) (Wario Land 2/3 engine, also used in Tetris DX).
@@ -728,6 +742,7 @@
 - [STFS-Forge](https://github.com/OAleex/STFS-Forge) - Command-line tool for manipulating Xbox 360 STFS packages (CON, LIVE, PIRS).
 - [Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) - Ghidra C++ Class and Run Time Type Information (RTTI) analyzer, useful for recovering class hierarchies in game binaries compiled from C++.
 - [XDBF-Manager](https://github.com/hetelek/XDBF-Manager) - Browser/editor for Xbox 360 XDBF (dashboard/game-data) files.
+- [spaday](https://github.com/widberg/spaday) - Parser for Games for Windows - LIVE/Xbox 360 SPAFILE (title/achievement metadata) data, readable directly from a Windows or Xbox 360 executable. Ships an ImHex pattern `spafile.hexpat` that also works with GPD and other XDBF-based files.
 - [pcsx-redux](https://github.com/grumpycoders/pcsx-redux) - Collection of tools, research, hardware design, and libraries for PlayStation 1 development and reverse engineering, built around a fork of the PCSX emulator with an integrated debugger, assembler, and GPU/memory analysis tooling.
 - [psx-showfile](https://github.com/halkuncode/psx-showfile) - PCSX-Redux Lua utility that watches PS1 CD-ROM controller reads and reports which ISO9660 file/sector is currently being loaded, using a disc-image-generated LBA map. Ships sample maps for Another Mind, Chrono Trigger, the three Final Fantasy VII discs, Gran Turismo, SaGa Frontier, and Symphony of the Night.
 - [xbox-winfsp](https://github.com/emoose/xbox-winfsp) - Brings native support for Xbox filesystems (FATX, STFS, GDFX/XGD/XDVDFS) to Windows via WinFsp.
@@ -743,6 +758,8 @@
 - [binja-xex2](https://github.com/landaire/binja-xex2) - Xbox 360 XEX2 executable loader plugin for Binary Ninja.
 - [exui](https://github.com/landaire/exui) - Xbox 360 XUI (Xbox User Interface) decompiler.
 - [xval](https://github.com/landaire/xval) - Decryption tool for Xbox 360 xval packages.
+- [acceleration](https://github.com/landaire/acceleration) - Rust libraries and utilities for Xbox 360 file formats: XEX2 executable parser/rebuilder/signer, `xex2ool` CLI for inspecting and patching XEX files (extract the decrypted PE, compress/decompress/encrypt), STFS (CON/LIVE/PIRS) package parser with filesystem access and hash validation, plus LZX and XeCrypt primitives.
+- [XexTool](https://github.com/Team-Resurgent/XexTool) - Command-line tool to inspect, extract, patch and pack Xbox 360 XEX executables, including dumping the basefile and resources, applying title updates, and packing an ELF into a XEX.
 - [IPS-Peek](https://github.com/vector-man/IPS-Peek) - IPS patch exploration and testing tool.
 - [ips_util](https://github.com/nleseul/ips_util) - Python package for creating, applying, and manipulating IPS patches, the classic binary-diff patch format used across countless ROM hacks.
 - [muninn-ghidra](https://github.com/sabercat204/muninn-ghidra) - Ghidra plugin/scripts for reverse engineering game binaries.
@@ -886,6 +903,7 @@
 - [resource_dasm](https://github.com/fuzziqersoftware/resource_dasm) - Classic Mac OS resource fork disassembler and reverse-engineering toolkit, with format decoders for dozens of classic Macintosh games.
 - [libgamearchive](https://github.com/Malvineous/libgamearchive) - Camoto C++ library and command-line utilities for examining, extracting, and editing archive/group file formats used by classic DOS games.
   - Games: Doom, Duke Nukem 3D, Blake Stone, Halloween Harry, Word Rescue, Cosmo's Cosmic Adventures, Crystal Caves, Monster Bash, God of Thunder, Jill of the Jungle, Xargon, Vinyl Goddess From Mars, and more.
+- [Camoto Studio](https://github.com/Malvineous/camoto-studio) - GUI front-end of the Camoto classic-game modding tools, with at least partial editing support for early-to-mid 1990s games such as Captain Comic, Cosmo's Cosmic Adventures, Crystal Caves, Dangerous Dave, Duke Nukem II, Jill of the Jungle, Monster Bash, Raptor, Xargon, and Zone 66.
 - [Super-toolbox](https://github.com/Hengle/Super-toolbox) - C# multi-game archive, audio, and texture extraction toolbox with per-format extractor plugins.
   - Games: Gust/Atelier series, Idea Factory titles, Sting, Tales Of series, Attack on Titan: Wings of Freedom, Aokana, and other CRI/PhyreEngine-based titles.
   - Formats: CRI AFS/CPK, RIFX/RIFF audio containers (WEM, WAV, AT3, AT9, XMA, XWMA, XA), FSB, HCA, ADX, AHX, VAG, Sony GXT/PhyreEngine textures, DDS/PVR, and more.
@@ -982,6 +1000,7 @@
 - [Composer](https://github.com/performous/composer) - Song/note-chart editor and converter for music games, from the Performous project. Imports/exports SingStar XML, UltraStar TXT, Frets on Fire MIDI, and LRC lyric formats, with built-in pitch analysis.
 - [RandomStuff](https://github.com/Treeki/RandomStuff) - Small standalone decompression and extraction tools by Treeki.
   - Formats: Wii U GTX/Gfx2 texture extractor (RGBA8 and DXT5), `LH` decompressor (Mario Sports Mix, Wii), Sega `LZS2` decompressor (a Sega Tetris game), and `Hmr` "hammer" decompressor (Acorn Archimedes game OddBall).
+- [KwasTools](https://github.com/ThisKwasior/KwasTools) - C library and tools for video game modding. Converts Hedgehog Engine `*-anim` files (uv, cam, vis, morph, pt, mat, lit), packs/unpacks CRIWARE AFS and AWB and converts ACB/ACF/AAX UTF tables to XML, converts Wii NW4R SCN0/SRT0 animations, and unpacks/packs Platinum Games DAT/DTT/EFF and WTB/WTA+WTP files.
 
 #### Noesis / 3ds Max / Format Script Packs
 
@@ -1051,6 +1070,7 @@
 - [CadEditor](https://github.com/spiiin/CadEditor) - Universal level editor and ROM-hacking toolset for NES and Sega Mega Drive/Genesis games, driven by simple per-game C# config files (its README cites over 2000 configs for more than 200 games).
   - Games: Chip & Dale 1-2, Darkwing Duck, Duck Tales 1-2, MegaMan 3-5, Tale Spin, Little Mermaid, Jungle Book, Flintstones, Contra Hard Corps, Earth Worm Jim 1-2, Pitfall, and many more.
   - See also [JupyterCadEditor](https://github.com/spiiin/JupyterCadEditor), Jupyter Python notebooks that drive the CadEditor assemblies for per-game experiments (decompression, block rendering, level configs).
+- [TNES2INES](https://github.com/Longestboi/TNES2INES) - Python script that converts the proprietary TNES NES ROM format (used by the 3DS Virtual Console NES releases) to iNES 1.0, and extracts the PRG and CHR sections from TNES ROMs and the FDS BIOS and `.qd` disks from `.tds` files.
 
 #### Emulators & TAS Tools
 

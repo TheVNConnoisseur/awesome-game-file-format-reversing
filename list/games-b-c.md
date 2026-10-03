@@ -461,6 +461,8 @@
 - [TACTKeys](https://github.com/wowdev/TACTKeys) - Central repository of the public TACT encryption keys Blizzard uses for World of Warcraft data, as a plain-text key list.
 - [js-blp](https://github.com/Kruithne/js-blp) - BLP (Blizzard Texture File) reader for JavaScript and Node.js.
 - [db2](https://github.com/Kruithne/db2) - Command-line tool for reading World of Warcraft DB2 client database files.
+- [node-dbc-reader](https://github.com/wowgaming/node-dbc-reader) - Node.js command-line utility for reading and regex-searching data in World of Warcraft DBC files and exporting results as JSON or SQL; includes a schema-generator app.
+- [M2Lib](https://github.com/Koward/M2Lib) - C# .NET library for reading and writing World of Warcraft M2 model files across versions from Classic to Legion, exposing high-level structures. Work in progress.
 - [kaitai-wow](https://github.com/alinsavix/kaitai-wow) - Kaitai Struct definitions for reading various World of Warcraft client data file formats.
 - [mmaps-for-custom-maps](https://github.com/stoneharry/mmaps-for-custom-maps) - Documentation for generating and debugging World of Warcraft's vmap/mmap pathfinding data for custom maps, using TrinityCore tooling and Recast Debug visualization.
 - [Blizzard-Patching](https://github.com/stoneharry/Blizzard-Patching) - Documentation of World of Warcraft's client patching infrastructure.
@@ -560,6 +562,7 @@
   - Built as a Tauri v2 desktop app.
   - See also [d2r-mergetxt](https://github.com/yinyin333333/d2r-mergetxt), a Windows app for merging two sets of Diablo II: Resurrected TXT files that shows only the differences needing a decision, and [TXT-to-JS-Generator-for-D2RMM](https://github.com/yinyin333333/TXT-to-JS-Generator-for-D2RMM), which diffs original and edited D2R `.txt` folders to generate D2RMM `mod.js` code.
 - [D2MOO](https://github.com/ThePhrozenKeep/D2MOO) - Reimplementation of Diablo II with patching facilities for modders.
+- [Worldstone](https://github.com/Lectem/Worldstone) - C++ Diablo II tools and engine reimplementation; its viewer app browses MPQ archives and displays DC6 and DCC sprites, DAT and PL2 palettes and palette shifts, and COF animation information, and it can generate PL2 palette-shift files.
 - [d2s-format](https://github.com/krisives/d2s-format) - Documentation and reference implementation for Diablo II's .d2s save file format.
 - [d2s](https://github.com/nokka/d2s) - Go library and binary parser for Diablo II `.d2s` character save files.
 - [diablo_edit](https://github.com/daidodo/diablo_edit) - Diablo II character save (`.d2s`) editor, tested against versions 1.09, 1.10, 1.13, and Diablo II: Resurrected.
@@ -1018,6 +1021,8 @@
   - See also [bn6f-modding](https://github.com/LanHikari22/bn6f-modding) with a Rust WIP clone/modding project built on the bn6f disassembly.
 - [exe6f](https://github.com/dism-exe/exe6f) - Disassembly of Mega Man Battle Network 6, using Densetsu no Starforce as a base ROM.
 - [exe4rs](https://github.com/dism-exe/exe4rs) - Disassembly of RockMan EXE 4 (Mega Man Battle Network 4), using Tournament Red Sun as the base ROM.
+- [TextPet](https://github.com/Prof9/TextPet) - Plugin-based command-line script extraction and insertion tool for retro game modding and translation, written primarily for the Mega Man Battle Network series; works on binary text archives or directly on ROMs (updating pointers) and converts scripts to plain-text TPL (TextPet Language).
+- [EXE6_Tools](https://github.com/idealexe/EXE6_Tools) - Python/PyQt5 modding tools for Rockman EXE 6 (Mega Man Battle Network 6), including a text dumper and editor, talk editor, translation tool, MapModder, and BattleCoordinator.
 - [Mega Man 2 (NES) Static Recomp](https://github.com/Junior-Jones/Mega-Man-2-NES-Static-Recomp) - Static recompilation of Mega Man 2 (NES) into a native Windows executable; no ROM included.
 - [Mega Man 6 (NES) Static Recomp](https://github.com/Junior-Jones/Mega-Man-6-NES-Static-Recomp) - Static recompilation of Mega Man 6 (NES) into a native Windows executable; no ROM included.
 - [NoesisImporters](https://github.com/thtrandomlurker/NoesisImporters) - Noesis import scripts for Mega Man X Command Mission (GameCube) `.4` models (well supported) and partly supported `.5` skeletons, plus an unpacker for its `.arc` archives; also imports Go! Go! Hypergrind `.amd` models with `.skn` skeletons, `.ld` animations and CMPR-only `.tpl` textures.
@@ -1047,6 +1052,8 @@
 - [The Great Ace Attorney 1 & 2: 3DS English Patch](https://github.com/Akoi89/tgaa-3ds-english-patch) - Ports Capcom's official English text, voices, and art from The Great Ace Attorney Chronicles onto the Japanese 3DS releases, including all DLC.
 - [Prosecutor's Path](https://github.com/Akoi89/prosecutors-path) - Ports Capcom's official English localization of Gyakuten Kenji 2 (Ace Attorney Investigations 2) onto the Nintendo DS ROM: script, title logo, episode titles, Logic keyword cards, and voice.
 - [The Great Ace Attorney 1 & 2 - English 3DS Patches (senyarom)](https://github.com/senyarom/tgaa2-en-patch) - Alternate unofficial English patch for the Japanese 3DS releases of Dai Gyakuten Saiban 1 & 2, building on Scarlet Study's DGS2-3DS-Release. Uses the official PC localization for the main episodes, with TGAA1's Special Issue and both TGAA2 DLC mini-episodes translated directly from Japanese; includes custom clean-room GMD/ARC/BPS/IPS tooling (`dgs2tool/`).
+- [TurnaboutTools](https://github.com/FrozenFish24/TurnaboutTools) - Python tools for modifying Dai Gyakuten Saiban: Naruhodo Ryunosuke no Boken (3DS), including arcUnpack.py and arcRepack.py for Capcom ARC files (the manifest preserves file order and compression level).
+- [AceAttorneyScriptDumper](https://github.com/AdmiralCurtiss/AceAttorneyScriptDumper) - C# text dumper and LP update generator for the Nintendo DS Ace Attorney games.
 
 ##### Dragon's Dogma
 
@@ -1464,6 +1471,7 @@
 - [dirtsand](https://github.com/H-uru/dirtsand) - Reference game server daemon (vault, auth, file/asset server) for Myst Online: Uru Live, implementing the Plasma engine's network protocol and Age/PRP asset distribution.
 - [mystextract](https://github.com/erkyrath/mystextract) - Extracts the HyperTalk script code from the HyperCard stacks of the original 1993 Macintosh release of Myst.
 - [M4Revolution](https://github.com/tomysshadow/M4Revolution) - Command line tool that fixes Myst IV: Revelation's video playback by re-encoding the game's proprietary cached texture/video data.
+- [mystiv-loc-tools](https://github.com/x1nixmzeng/mystiv-loc-tools) - Tools for translating Myst IV: Revelation, extracting and repacking its .m4b data containers and subtitle/text .bin files, and extracting textures.
 - [MYSTERAssetExplorer](https://github.com/TomahnaProject/MYSTERAssetExplorer) - Asset explorer for Myst III: Exile and Myst IV: Revelation.
 - [Reference-Browser](https://github.com/starryexpanse/Reference-Browser) - Asset browser for Riven: The Sequel to Myst.
 

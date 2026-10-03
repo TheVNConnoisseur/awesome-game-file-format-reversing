@@ -148,6 +148,12 @@
 - [MRVN-Radiant](https://github.com/MRVN-Radiant/MRVN-Radiant) - Level editor fork of NetRadiant-custom modified for Titanfall and Apex Legends mapping.
 - [MRVN-VMT](https://github.com/MRVN-Radiant/MRVN-VMT) - Batch converter from Source `.vmt` materials (extracted from Titanfall 1 / Titanfall: Online VPK dumps) to MRVN-Radiant's `.shader` format, for accurate material previews while mapping.
 - [MRVN-Entities](https://github.com/MRVN-Radiant/MRVN-Entities) - Generates MRVN-Radiant `.ent` entity definition files for Titanfall Online, Titanfall 2, and Apex Legends by reverse-engineering FGD and BSP data (via ValveFGD and bsp_tool).
+- [io_import_rbsp](https://github.com/snake-biscuits/io_import_rbsp) - Blender add-on for importing Titanfall Engine map (`.bsp`) files together with the models and materials extracted from the game archives; the README covers Titanfall, Titanfall 2, and Apex Legends.
+- [bsp_regen](https://github.com/snake-biscuits/bsp_regen) - Converts Titanfall `.bsp` maps to Titanfall 2 `.bsp` files (the BSP only, with no audio, textures, materials, or models); needs the map's models in an `r1/` folder because they are used for the physics.
+- [bspconv](https://github.com/R5Reloaded/bspconv) - Tool to convert Respawn's BSP map files between different versions.
+- [Bsp2Mprt](https://github.com/Swagguy47/Bsp2Mprt) - Generates `.mprt` prop-placement files from Titanfall-engine maps using bsp_tool, as an alternative to Legion+; compatible with the Apex Map Importer and Titanfall Unity Tools MPRT parsers.
+- [respawn_cubemap_tool](https://github.com/snake-biscuits/respawn_cubemap_tool) - Python tools for extracting `cubemaps.hdr.vtf` files from Titanfall 2 and Apex Legends maps and saving the cubemap sides as DDS images.
+- [bish](https://github.com/snake-biscuits/bish) - REPL-oriented reverse engineering tool for Titanfall 2 shaders: parses the compiled DXBC `.fxc` files extracted with rsx and exposes their chunks and instructions.
 
 #### Source (Valve)
 
@@ -184,6 +190,10 @@
 - [UEditingTools](https://github.com/adenexvfx/UEditingTools) - Unreal Engine 5 widget/pipeline for importing CS2, CS:GO, CS:S, TF2, and CS 1.6 player, weapon, and viewmodel assets with correct skeletons, cameras, and sequencer/level placement; companion to the same author's io_scene_CSGO Blender importer.
 - [SourceUtils](https://github.com/Metapyziks/SourceUtils) - Source Engine file format exporting toolkit with a WebGL-based map viewer, converting BSP maps and their assets for in-browser rendering.
 - [HalfMapper](https://github.com/gzalo/HalfMapper) - Renderer that loads and displays all Half-Life maps simultaneously, exploring the Black Mesa Research Facility by parsing the game's original BSP map data.
+- [bspview](https://github.com/sbuggay/bspview) - Browser-based (three.js) viewer for Quake and GoldSrc BSP maps.
+- [BspViewer](https://github.com/PSneijder/BspViewer) - C#/.NET renderer for Half-Life BSP v30 maps and mods (Counter-Strike, Team Fortress Classic, Valve).
+- [zig-c-bsp](https://github.com/shimamura-sakura/zig-c-bsp) - Simple GoldSrc BSP map renderer written in Zig and C (GLFW, GLEW, cglm).
+- [hldemo.js](https://github.com/Matherunner/hldemojs) - JavaScript port of YaLTeR's HLDemo library for reading and writing Half-Life demo files.
 - [cs2typescript](https://github.com/Ansimist/cs2typescript) - Converts Counter-Strike 2 map-scripting files from .vts (TypeScript source) to the compiled .vts_c format.
 - [vpulse-editor](https://github.com/LionDoge/vpulse-editor) - Unofficial editor for Source 2's Pulse visual scripting graph files, used in Dota 2, CS2, and Deadlock, filling a gap left by the lack of official Valve tooling for this format.
 - [Hammer5Tools](https://github.com/dertwist/Hammer5Tools) - Suite of editors (SoundEvent, SmartProp, Hotkey, Loading) for Counter-Strike 2 / Source 2 Workshop Tools content creation, complementing Valve's official Hammer 5 editor.
@@ -286,6 +296,8 @@
 - [HalfLife.UnifiedSdk.MapDecompiler](https://github.com/twhl-community/HalfLife.UnifiedSdk.MapDecompiler) - Cross-platform (GUI and command-line) map decompiler for Half-Life 1 BSP versions 29 (Half-Life Alpha 0.52) and 30, with Tree-Based and Face-To-Brush strategies, based on Quake 3's bspc. Original brushes cannot be restored, so decompiled maps are approximate and can have missing or invalid geometry.
   - Same team's [HalfLife.UnifiedSdk-CSharp](https://github.com/twhl-community/HalfLife.UnifiedSdk-CSharp) - C# tools for the Half-Life Unified SDK, including HalfLife.UnifiedSdk.Utilities (a library for opening, analyzing, modifying, converting and upgrading Half-Life 1 maps, with Ripent-style .ent import/export) and tool projects such as Bsp2Obj, MapUpgrader, Hud2Json and Sentences2Json.
 - [JackJmfConsoleTool](https://github.com/UnrealKaraulov/JackJmfConsoleTool) - Command-line editor for J.A.C.K. `.jmf` maps (versions 121 and 122): replaces textures with scale/shift changes, recolors groups and visgroups, flips or rotates the map, and exports to `.map` without a WAD list.
+- [Hammertime](https://github.com/Duude92/hammertime) - Open-source GoldSrc map editor forked from Sledge, as an alternative to Valve's Hammer; adds prefabs and a lighting preview inside the editor.
+- [Source Level Editor (SLE)](https://github.com/Cvoxalury/source_level_editor) - Custom fork of Valve's Source 2013 Hammer editor with numerous fixes and new features; the README warns that VMFs saved across different editors can lose data the other editor does not know about.
 
 ##### Models (MDL/SMD)
 
@@ -318,10 +330,12 @@
 - [VTFLib](https://github.com/NeilJed/VTFLib) - C/C++ library for reading/writing VTF and VMT texture/material files. See also [panzi's fork](https://github.com/panzi/VTFLib) — Linux port adding a CMake build, libtxc_dxtn support, and buffer-overflow fixes; [pyvtflib](https://github.com/lasa01/pyvtflib) — Python bindings (Windows only); and [vtflib-rs](https://github.com/lasa01/vtflib-rs) — safe Rust wrapper.
 - [vtf2img](https://github.com/julienc91/vtf2img) - Python library for converting Valve Texture Format (VTF) files to standard image formats.
 - [vtf](https://github.com/Galaco/vtf) - Go library for parsing and converting Source Engine .vtf texture format files.
+- [vtflib.js](https://github.com/meepen/vtflib.js) - JavaScript library for creating, editing, and modifying VTF files, based on VTFLib.
 - [vmt](https://github.com/Galaco/vmt) - Go library for parsing Source Engine .vmt Valve Material format files.
 - [MareTF](https://github.com/craftablescience/MareTF) - Utility for creating, editing, and displaying VTF (Valve Texture Format) files. Supports all VTF versions used in Source Engine games (Half-Life 2, Portal, Counter-Strike, Team Fortress 2, etc.).
 - [source2utils](https://github.com/Rectus/source2utils) - Batch converter for Source 1 VMT material scripts to the Source 2 VMAT format.
 - [VTF-Viewer](https://github.com/u1krsh/VTF-Viewer) - Cross-platform VTF viewer and VMT editor for Source Engine games (Half-Life 2, Team Fortress 2, CS:GO, Portal, Left 4 Dead).
+- [vcs_repack](https://github.com/EM4Volts/vcs_repack) - Python script (vcspy) that unpacks and repacks Source 1 `.vcs` compiled shader files, for mass decompilation and recompilation of small changes; handles only version 6 files as used by Source Filmmaker, Portal 2, and Titanfall 2.
 
 ##### Packages & Filesystem (VPK/GCF/GMA/WAD)
 
@@ -342,12 +356,14 @@
 - [vpk-tools](https://github.com/K4ryuu/vpk-tools) - Zero-dependency Valve VPK archive reader/writer for Node.js and Bun, with full v1/v2 support, CRC32 + MD5 verification, multi-chunk archives, RSA signing, diffing, and a CLI.
 - [BspWadEmbed](https://github.com/Psycrow101/BspWadEmbed) - Python script for embedding a WAD texture archive into a GoldSrc BSP map file, with support for quickly replacing textures on the map.
 - [CSO-Paker](https://github.com/overl4y/CSO-Paker) - Command-line tool to extract files from the custom encrypted PAK archive format used by the video game Counter-Strike Online.
+- [UnCSO2](https://github.com/harmonytf/UnCSO2) - Qt file extractor for Counter-Strike: Online 2 and Titanfall Online PKG archives, based on ekey's XeNTaX reversing work, with a layout modeled on KDE's Ark; Windows and GNU/Linux.
 - [NARTools](https://github.com/SmilexGamer/NARTools) - Extractor, packager, and patcher for Nexon Archive (.nar) files, plus a model decryptor/encryptor for Counter-Strike Online's encrypted model files.
 - [cso-fgd](https://github.com/SmilexGamer/cso-fgd) - Forge Game Data (FGD) entity definitions for Counter-Strike Online map editing (`cso-vhe.fgd` for Worldcraft 3.3/Hammer 3.4-3.5beta4, `cso-jack.fgd` for J.A.C.K. 1.1.1064+), with preview models and sprites for the entities.
 - [GoldSrcFGDCollection](https://github.com/twhl-community/GoldSrcFGDCollection) - Centralized, maintained collection of GoldSource FGD (Forge Game Data) entity definition files from official Valve/Gearbox games and major finalized mods and SDKs, including historical and alternative versions; still-updated FGDs (e.g. Sven Co-op) are left to their games.
 - [hotspotmaker](https://github.com/pwitvoet/hotspotmaker) - GUI tool for creating hotspot data for Quake/Half-Life .wad texture files, with companion [hotspot_data](https://github.com/pwitvoet/hotspot_data) presets for common textures.
 - [whichwad](https://github.com/Erty-Gamedev/whichwad) - Finds which WAD file(s) in a folder contain a specific texture.
 - [compareWAD.py](https://github.com/Erty-Gamedev/compareWAD.py) - Compares the contents of two GoldSrc WAD texture archives.
+- [gmpublisher](https://github.com/WilliamVenner/gmpublisher) - Tauri desktop app (Rust and Svelte) for Garry's Mod that extracts, searches, and browses GMA files and installed addons, bulk downloads and extracts Workshop items, and publishes Workshop items; includes a CLI and supports legacy GMA versions.
 
 ##### KeyValues, VDF & Choreography
 
@@ -362,6 +378,8 @@
 - [keyvalues-tools](https://github.com/K4ryuu/keyvalues-tools) - Zero-dependency TypeScript parser and serializer for Valve KeyValues (KV1/VDF and KV3), for reading, editing, validating, and converting Source engine config files, with a CLI.
 - [valve-kv](https://github.com/Perryvw/valve-kv) - npm package for parsing and serializing Valve's KeyValues format. See also [PHPValveKV](https://github.com/Perryvw/PHPValveKV), a PHP port of the same parser.
 - [go-vkv](https://github.com/20kdc/go-vkv) - Unofficial Go parser for Valve KeyValues-based VDF and VMF files.
+- [vdfr](https://github.com/drguildo/vdfr) - Rust library for reading Valve's binary KeyValue format.
+- [Soundscripts Editor](https://github.com/Ambiabstract/soundscripts_editor) - GUI tool for editing Source Engine soundscript `.txt` files in a table with drag-and-drop WAV import; supports batch editing of channels, soundlevels, volumes, and pitches, and managing `wave`/`rndwave` sound lists.
 
 ##### DCC Plugins (Blender / 3ds Max / Maya / XSI)
 
@@ -450,6 +468,9 @@
 - [UnityCNBurst](https://github.com/AXiX-official/UnityCNBurst) - Brute-forces the UnityCN AssetBundle encryption key when it isn't already known, complementing UnityCN-Helper above.
 - [UnityAsset.NET](https://github.com/AXiX-official/UnityAsset.NET) - Work-in-progress .NET library for parsing, serializing, and patching Unity asset files.
 - [ABRecompressor](https://github.com/AXiX-official/ABRecompressor) - Recompresses Unity AssetBundle files (e.g. LZ4-to-LZMA or vice versa) to reduce size or restore compatibility.
+- [UnityDataTools](https://github.com/Unity-Technologies/UnityDataTools) - Unity's command-line tool and reference for the UnityFileSystemApi library: analyzes AssetBundles, Player content, Unity Archives and Serialized files without the Editor, and parses Addressables build reports.
+- [unity-js](https://github.com/arkntools/unity-js) - JavaScript (npm) AssetBundle unpacker supporting TextAsset, Texture2D, Sprite, SpriteAtlas and MonoBehaviour; the README notes it is a minimal implementation.
+- [unity-rs](https://github.com/yuanyan3060/unity-rs) - Rust library for unpacking Unity AssetBundle files, implementing Texture2D, Sprite and TextAsset unpacking.
 - [Unity3DCompressor](https://gitgoon.dev/IllusionMods/Unity3DCompressor) - Utility for compressing Unity asset bundles using LZ4 to reduce file size and improve load times.
 - [UtinyRipper](https://github.com/mafaca/UtinyRipper) - Extracts and exports Unity assets from serialized `.assets` files and AssetBundle files into Unity-importable project format. Supports a wide range of Unity versions.
 - [Asset Bundle Extractor (UABE)](https://github.com/SeriousCache/UABE) - Editor for .assets and AssetBundle files (archived; consider UABEA for active development).
@@ -495,6 +516,7 @@
 - [frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) - TypeScript Frida module/library for dumping, tracing, or hijacking any IL2CPP application at runtime without needing the `global-metadata.dat` file; widely used as the base library for other Frida-based IL2CPP tooling, including frida-il2cpp-proto-dumper above.
 - [meta-string-edit](https://github.com/middlered/meta-string-edit) - Editor for Unity IL2CPP `global-metadata.dat` files, for inspecting and modifying embedded string literals.
 - [il2cpp-stringliteral-patcher](https://github.com/jozsefsallai/il2cpp-stringliteral-patcher) - Python scripts for extracting string literals from `global-metadata.dat` into an editable JSON file and patching the edited strings back into a new `global-metadata.dat`, for translating/modding IL2CPP games without hex-editing fixed-length strings.
+- [unity_metadata_loader](https://github.com/nevermoe/unity_metadata_loader) - Reads a Unity IL2CPP `global-metadata.dat` to produce method-name and string-literal lists, plus an IDA Python script that loads them as symbols and strings into an IL2CPP binary's database.
 - [MemoryPackDumper](https://github.com/KaniArchive/MemoryPackDumper) - Recovers MemoryPack serializer definitions from Unity IL2CPP game assemblies.
 - [FbsDumper](https://github.com/Hiro420/FbsDumper) - Recovers FlatBuffers (`.fbs`) schema definitions from Unity IL2CPP game assemblies. See also [FbsDumperV2](https://github.com/Hiro420/FbsDumperV2), a rewritten successor.
 - [Il2CppProtoDescriptorDumper](https://github.com/Hiro420/Il2CppProtoDescriptorDumper) - Extracts Protobuf descriptors from IL2CPP binaries via custom x64 emulation of the descriptor initialization routines.
@@ -577,6 +599,7 @@
 - [pyUsmap](https://github.com/MinshuG/pyUsmap) - Python parser for Unreal Engine .usmap files.
 - [gvas-converter](https://github.com/13xforever/gvas-converter) - Converts Unreal Engine GVAS save game files to and from JSON.
 - [gvas](https://github.com/localcc/gvas) - Rust library for parsing Unreal Engine GVAS save game files, used across many unrelated UE-based games. See also [redstrate/gvas](https://github.com/redstrate/gvas), a fork adding Stellar Blade-specific save structures.
+- [UnrealEngine.Gvas](https://github.com/SparkyTD/UnrealEngine.Gvas) - .NET 6 library that parses, modifies and saves Unreal Engine 4 GVAS save files. Includes a loader for the Five Nights at Freddy's: Security Breach save format.
 - [GvasViewer](https://github.com/turtle-insect/GvasViewer) - Windows tree-view viewer for Unreal Engine GVAS save game files, with text-file import for array and map properties; the same author's Octopath Traveler 0/2 and Bravely Default 2 save editors recommend it.
   - Same author's [UnrealEngineZlib](https://github.com/turtle-insect/UnrealEngineZlib) - Compression/decompression tool for Unreal Engine save data, targeting titles such as Dragon Quest Treasures and Pikmin 4.
 - [uXXX](https://github.com/LeonamMiiller/uXXX) - Experimental Unreal Engine Package (XXX) extractor/inserter.
@@ -641,6 +664,7 @@
 - [UE-Explorer](https://github.com/UE-Explorer/UE-Explorer) - Package explorer and UnrealScript decompiler for classic Unreal Engine games, supporting `.upk` and `.u` files (UE1–UE3).
 - [kismet-debugger](https://github.com/trumank/kismet-debugger) - Proof-of-concept debugger for stepping through kismet/blueprint bytecode in release-build Unreal Engine games (UE4SS mod).
 - [UeBlueprintDumper](https://github.com/CrystalFerrai/UeBlueprintDumper) - Command-line program to dump data about blueprints from a UE4 or UE5 game to JSON files, including class and function metadata, class properties, and disassembled function code.
+- [KismetKompiler](https://github.com/tge-was-taken/KismetKompiler) - Decompiler and compiler for Unreal Engine 4 blueprints. Decompiles most blueprints to a C#-like syntax and compiles a custom script format, KisMetScript (`.kms`).
 
 ##### Maps, Saves, Localization & Mappings
 
@@ -814,6 +838,7 @@
 #### StepMania
 
 - [GrooveAuthor](https://github.com/PerryAsleep/GrooveAuthor) - Editor for authoring StepMania charts (.sm/.ssc), by an ITGmania maintainer.
+- [ArrowVortex](https://github.com/uvcat7/ArrowVortex) - Windows simfile editor for creating and editing stepfiles for DDR/PIU-style rhythm games such as StepMania and ITG, with BPM/offset detection and difficulty estimation; continuation of the original project.
 - [StepManiaChartGenerator](https://github.com/PerryAsleep/StepManiaChartGenerator) - Converts StepMania charts (`.sm`/`.ssc`) from one step-pattern type to another (e.g. singles to doubles), preserving crossovers, footswaps, and other technical qualities of the source chart.
   - Built on [Fumen](https://github.com/PerryAsleep/Fumen) and [StepManiaLibrary](https://github.com/PerryAsleep/StepManiaLibrary), the same author's (the GrooveAuthor/ITGmania maintainer above) generic chart-representation and StepMania chart parsing/generation libraries.
 
@@ -870,9 +895,11 @@
 *Visual novel engine ("Artemis") used in various Japanese visual novels.*
 
 - [pfs-rs](https://github.com/sakarie9/pfs-rs) - Unpacker and packer for Artemis engine `.pfs` archives, written in Rust.
+- [PFS-Android](https://github.com/sakarie9/pfs-android) - Android app built on pfs-rs for unpacking Artemis engine `.pfs` archives, from in-app file selection or the file explorer.
 - [Artemis_Pack_Tool](https://github.com/crskycode/Artemis_Pack_Tool) - Creates Artemis engine `.pfs` archive files.
 - [pfs_upk](https://github.com/nextgal/pfs_upk) - Simple unpacker/packer for Artemis engine `.pfs` archives.
 - [artemis_ast](https://github.com/xmoezzz/artemis_ast) - Parser/compiler for Artemis engine `.ast` script bytecode.
+- [zig-pfs](https://github.com/shimamura-sakura/zig-pfs) - Zig unpacker for Artemis `.pfs` (pf8) archives, tested on the Clover Reset demo.
 
 #### AVG32
 
@@ -896,6 +923,7 @@
 - [EthornellTools](https://github.com/arcusmaximus/EthornellTools) - Tools for the Buriko General Interpreter (BGI)/Ethornell visual novel engine.
   - Tools: BgiDisassembler (disassembles internal system `._bp` scripts), BgiImageEncoder (encodes images to the engine's proprietary CompressedBG format).
   - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating BGI scenario scripts.
+- [ethornell-rs](https://github.com/xmoezzz/ethornell-rs) - Rust reimplementation of the Ethornell/BURIKO General Interpreter (BGI) visual novel engine that runs games from their resource archives and loose files, with desktop builds for Windows, macOS and Linux.
 - [BGI_Pack_Tool](https://github.com/crskycode/BGI_Pack_Tool) - Creates BGI engine archive files. See also the author's earlier [BGIArcPack](https://github.com/crskycode/BGIArcPack).
 - [BGI_Script_Tool](https://github.com/crskycode/BGI_Script_Tool) - Exports and rebuilds text strings from BGI engine scripts (excluding the internal `._bp` files handled by EthornellTools' BgiDisassembler above).
 - [BGIScrViewer](https://github.com/thefoggycity/BGIScrViewer) - GUI tool for viewing decompressed scripts of BGI visual novel games.
@@ -1094,6 +1122,8 @@
 *Visual novel engine used by InnocentGrey's games.*
 
 - [FlowerScript](https://github.com/shimamura-sakura/FlowerScript) - Assembler/disassembler for InnocentGrey's script format.
+  - See also [FlowerScript-js](https://github.com/shimamura-sakura/flowerscript-js), a JavaScript disassembler/assembler for scripts from the FLOWERS series.
+- [zIGA](https://github.com/shimamura-sakura/zIGA) - Zig extractor for InnocentGrey `.iga` archives.
 
 #### Kaguya
 
@@ -1111,6 +1141,7 @@
   - Tools: KirikiriDescrambler (descrambles/decompresses obfuscated `.ks`/`.tjs` plaintext scripts), KirikiriUnencryptedArchive (`version.dll` injection making games accept unencrypted .xp3 archives, with support for extracting encrypted/hashed file names), Xp3Pack (creates unencrypted .xp3 patch archives for use with the DLL).
   - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating Kirikiri scripts.
 - [KrkrExtract](https://github.com/xmoezzz/KrkrExtract) - Extracts and repacks Kirikiri krkr2/krkrz XP3 archives. No longer maintained; see also the actively maintained successor [KrkrzExtract](https://github.com/xmoezzz/KrkrzExtract).
+- [eluna](https://github.com/xmoezzz/eluna) - Rust PSB/Emote reverse-engineering and reimplementation workspace: parses `.psb` files (MDF/LZ4 normalization, optional PSB key decryption and key brute-forcing), extracts PSB resources and dumps Emote schemas via `psb_extract`, and includes a wgpu preview player for Emote motions.
 - [Sickly-Days-Save-Editor](https://github.com/chocovanis/Sickly-Days-Save-Editor) - Python save editor for the Kirikiri Z visual novel Sickly Days and Summer Traces; decodes the binary game state embedded in its JPEG save files to edit stats, with a raw TJS viewer.
 - [kirikiri2](https://github.com/jeeb/kirikiri2) - Git-svn mirror of the original Kirikiri2 engine's SVN repository, the pre-Z source many of the tools above reverse engineer against.
 - [KrkrDump](https://github.com/crskycode/KrkrDump) - Extracts files from newer versions of the Kirikiri Z engine.
@@ -1160,6 +1191,9 @@
 
 - [RaiLTools](https://github.com/EusthEnoptEron/RaiLTools) - .NET library for Liar-soft's/raiL-soft's engine: reads/writes `.xfl` archives and converts `.gsc` scenario files to/from plain text.
 - [gscScriptCompAndDecompiler](https://github.com/TesterTesterov/gscScriptCompAndDecompiler) - Decompiles, compiles, and rebuilds codeX RScript `.gsc` scripts (the engine's actual bytecode, as opposed to RaiLTools' plain-text conversion), with Russian and English UI.
+- [LiarsoftTool](https://github.com/Love-in-idleness/LiarsoftTool) - Toolkit for visual novels on the Codex RScript engine (CodeX, Liar-soft, rail-soft, Studio Ubai Trans): archive packing/unpacking, image decoding/encoding, script extraction/injection and audio extraction, covering XFL/LWG, GSC, WCG/LIM and wrapped WAV resources.
+- [RScriptTool](https://github.com/xmoezzz/RScriptTool) - C++ tools for the RScript visual novel engine, including an unpacker (`RScriptUnpacker`) and a script text tool (`RScriptText`).
+- [zXFL](https://github.com/shimamura-sakura/zXFL) - Zig extractor for `.xfl` archive files, tested on files from "Okujou no Yurirei-san".
 
 #### Light.vn
 
@@ -1192,6 +1226,7 @@
 - [SPRB-ENX](https://github.com/masagrator/SPRB-ENX) - English translation mod for the Nintendo Switch release of Summer Pockets Reflection Blue, assembling a translated `SCRIPT2.PAK` and converting textures to the console's native compressed format with a LuckSystem-based script.
 - [kanon-restoration](https://github.com/Danar435/kanon-restoration) - Patch restoring the original 4:3 aspect ratio, UI, uncensored CGs, and opening movie in the Steam port of Kanon, which reformats the original LUCA System game data for widescreen.
 - [air-restoration](https://github.com/Danar435/air-restoration) - Work-in-progress patch restoring the original 4:3 in-game assets in the Steam port of AIR, which is based on the LUCA System engine.
+- [LucaSystem](https://github.com/marcussacana/LucaSystem) - Early LUCA System engine analysis repository with a PAK unpacker and a CZ0 image decoder, plus notes on the CZ0-CZ3 headers; no repacker or importer.
 
 #### Lucifen
 
@@ -1235,6 +1270,7 @@
 *Visual novel engine SDK ("NekoGameSDK") used in various Japanese visual novels.*
 
 - [NekoGameSDK_PackTool](https://github.com/crskycode/NekoGameSDK_PackTool) - Creates NekoGameSDK engine `.pak` archives (`NEKOPACK4A` signature).
+- [NekoPackExtract](https://github.com/xmoezzz/NekoPackExtract) - Extractor for NekoPack engine (Chartreux Inc.) `.dat` archives (`NEKOPACK` signature) and `.mng` images, with a rebuilder to repack archives and a PackMNG tool to repack MNG images for translation.
 - [nekosdk_tools](https://github.com/adsf0427/nekosdk_tools) - Additional extraction/repacking tools for NekoGameSDK engine files.
 
 #### NeXAS
@@ -1263,6 +1299,7 @@
 - [OnscripterYuri](https://github.com/YuriSizuku/OnscripterYuri) - Enhanced ONScripter engine port, running original ONScripter/NScripter game data across many platforms, with a focus on web (Emscripten/WASM).
 - [OpenARC](https://github.com/Nyarstot/OpenARC) - Decoder/encoder for the .arc archive format used by the ONScripter visual novel engine, based on the archive codebase from ONScripter-EN.
 - [nscript.dat-tool](https://github.com/danmig06/nscript.dat-tool) - Extraction/repacking tool for the `nscript.dat` script format used by NScripter/ONScripter-family engines.
+- [nstools](https://github.com/skydark/nstools) - Python scripts for NScripter/ONScripter games, including a converter from GBK-encoded `nscript.dat`/`00`-`99`.txt scripts to Japanese encoding and `onssaver.py`, which repairs `save*.dat` files after a script update.
 - [ponscripter-fork](https://github.com/07th-mod/ponscripter-fork) - Fork of the Ponscripter (NScripter-compatible) visual novel engine adding Steam-oriented features such as release-specific scaling modes; used to run 07th Expansion's Higurashi/Umineko Steam releases from their original script/archive data.
 
 #### Pixel Game Maker MV
@@ -1335,6 +1372,7 @@
 - [rpgmdec](https://github.com/RPG-Maker-Translation-Tools/rpgmdec) - Fast RPG Maker XP/VX/VXAce archive decrypter and RPG Maker MV/MZ asset decrypter, with built-in inspection of decrypted assets.
 - [rmvdec](https://github.com/Bioruebe/rmvdec) - Decrypter for RPG Maker MV resource files (.rpgmvp, .rpgmvo, .rpgmvm).
 - [RGSS-Decryptor](https://github.com/usagirei/RGSS-Decryptor) - Command-line decryptor for RGSS archives (RPG Maker XP/VX/VX Ace). See also [Bioruebe's fork](https://github.com/Bioruebe/RGSS-Decryptor) adding a Windows shell extension.
+- [rxdataToJSON](https://github.com/GamingLiamStudios/rxdataToJSON) - C++ tool that converts RPG Maker XP `.rxdata` files to JSON and extracts the scripts from `Scripts.rxdata`.
 - [MakerLens](https://github.com/Kokoroou/rpgmaker-assets-viewer) - Browser-based, 100% client-side media viewer/extractor for RPG Maker MV, MZ, XP, VX, and VX Ace game assets.
 - [rpg-game-decrypter-python](https://github.com/TTitanUA/rpg-game-decrypter-python) - Desktop GUI tool for decrypting RPG Maker MV/MZ encrypted media files; also extracts Ren'Py .rpa archives.
 - [LoreInsight](https://github.com/Kokoroou/lore-insight) - Browser-based, 100% offline visualizer for RPG Maker MV/MZ event flow, parsing `Map###.json`, `CommonEvents.json`, and `MapInfos.json` into an interactive node graph of dialogue, choices, conditions, and jumps.
@@ -1366,6 +1404,7 @@
 *Visual novel engine ("rUGP"/AGES Player) used in various Japanese visual novels.*
 
 - [rUGP-Fuck](https://github.com/cssxsh/rUGP-Fuck) - Extraction/repacking tools for the rUGP (AGES Player) visual novel engine.
+- [rugptools](https://github.com/osmium76/rugptools) - C# WPF GUI tool and `.rio` file access library for rUGP games, able to view background images and hex-dump objects; the README says it currently supports only the initial DVD release of MLA.
 - [deoptimizeobs](https://github.com/tsdko/deoptimizeobs) - Tools and documentation for the `oor` (COptimizedObs/OptimizedObsforR) sound container format used by the rUGP/AGES engine.
 
 #### Siglus
@@ -1536,6 +1575,11 @@
 - [RxYuris](https://github.com/ZQF-ReVN/RxYuris) - Toolset for YU-RIS engine `.ypf` archives and `.ybn` script files.
 - [Yuris_YDG_Tool](https://github.com/Lite0812/Yuris_YDG_Tool) - Batch converter between PNG and YU-RIS `.ydg` font bitmap files.
 - [extYuRis](https://github.com/CodeSpoof/extYuRis) - Extraction tool for YU-RIS `.ybn` script files.
+- [YuRISTools](https://github.com/xenei/YuRISTools) - All-in-one YU-RIS toolset: YPF unpacking/packing, YSER and YSCM parsing, an automatic YSTB XOR key finder, and YSTB parsing, patching and regeneration (requires YSCM).
+- [YURIS_TOOLS](https://github.com/jyxjyx1234/YURIS_TOOLS) - Chinese-language translation toolkit for newer YU-RIS versions (4.xx, 5.xx), partly built from RxYuris, including `YSTL_Parse` for restoring original file paths and names.
+- [YurisKeyFinder](https://github.com/MishaIac/YurisKeyFinder) - Finds the XOR key used by YU-RIS `.ybn` (YSTB) files; tested on DraPri Guu-ta-life and Maggot Baits.
+- [ymvdec](https://github.com/yvuvub/ymvdec) - Python script for unpacking YU-RIS `.ymv` video files: WMV-based files are renamed, while frame-image based ones are split into JPEG images for RGB and alpha.
+- [python-YU-RIS-package-file-unpacker](https://github.com/mwzzhang/python-YU-RIS-package-file-unpacker) - Kaitai Struct-based Python unpacker for YU-RIS engine package files, written for NEKO-NIN exHeart.
 
 #### Yuka System
 
@@ -1722,6 +1766,9 @@
 - [GodotPCKExplorer](https://github.com/DmitriySalnikov/GodotPCKExplorer) - GUI and CLI tool for exploring, extracting, creating, and merging Godot Engine `.pck` package files, with support for encrypted packs.
 - [godotdec](https://github.com/Bioruebe/godotdec) - Unpacker for Godot Engine `.pck` package files.
 - [GodotPckTool.Rs](https://github.com/vagmr/GodotPckTool.Rs) - Rust command-line tool for Godot .pck files: list, extract, add, and repack with name/size filters, AES-256-CFB encrypted index and files (Godot 4+), multi-threaded brute-force search for the 32-byte key in executables, embedded PCK detect/rip/merge/split/remove, conversion between Godot 3.x, 4.x, and 4.4+ pack versions, and mod-style patch overlays.
+- [ctex-file-viewer](https://github.com/simple-idiot/ctex-file-viewer) - Single-page HTML tool that views and converts Godot `.ctex` compressed image textures to image files.
+- [godot-stex-to-png](https://github.com/ClementineAccount/godot-stex-to-png) - Python script that converts Godot `.stex` textures to PNG (archived; its README says godot-unpacker now includes this functionality).
+- [Unidot Importer](https://github.com/V-Sekai/unidot_importer) - Godot 4 addon that converts Unity `.unitypackage` files and asset folders into Godot-native formats (`.unity`/`.prefab` to `.tscn`, meshes, animations and materials to `.tres`/`.res`, FBX via glTF).
 
 #### HaxeFlixel
 
@@ -1782,6 +1829,7 @@
 - [PICEDIT](https://github.com/lanceewing/picedit) - Editor for AGI PIC resource files, recreating the picture-drawing tool once used to create pictures for original and fan-made AGI games.
 - [Sierra softlock analyzer](https://github.com/katiahayati/lucasartsifier) - Static analysis tool that decompiles a Sierra SCI game and abstract-interprets the decompiled scripts into a graph of guarded room transitions, used to find softlocks in 30-year-old adventure games.
 - [sci-tools](https://github.com/sluicebox/sci-tools) - Collection of reverse engineering tools for Sierra's SCI engine.
+- [SCI2FB](https://github.com/MusicallyInspired/SCI2FB) - Converts Sierra SCI Yamaha FB-01/IMFC patch resource files into one or two sysex bank files.
 - [agi-upscale](https://github.com/eviltrout/agi-upscale) - Ruby tool that reads original AGI PIC resource files directly from a Sierra AGI game's DOS directory and upscales their vector-drawn backgrounds, using ScummVM's AGI format documentation as a reference.
 
 #### SCUMM

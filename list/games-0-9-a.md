@@ -69,6 +69,7 @@
 - [Bank-Editor](https://github.com/Gamepiaynmo/Bank-Editor) - Editor for 300 Heroes' Bank audio files, letting replacement WAV/MP3/OGG audio be swapped in with no size or filename-language restrictions.
 - [JumpXToolchain](https://github.com/Gamepiaynmo/JumpXToolchain) - Toolchain for the JumpX (`.x`) model format used by Jump Network's engine: a DAT file editor, a JumpX-to-FBX converter (jump2fbx), a JumpX model editor, a 3ds Max JumpX export plugin, and a fix-up tool for oversized JumpX models that error in-game. See also [JumpX-Editor-Tutorial](https://github.com/Gamepiaynmo/JumpX-Editor-Tutorial), a companion usage tutorial for these tools.
 - [model2glTF](https://github.com/Gamepiaynmo/model2glTF) - Converts EG3D's custom `.model` format to glTF 2.0.
+- [300HLoc](https://github.com/x1nixmzeng/300HLoc) - Command-line C# tool converting 300 Heroes' language database.
 
 #### 3D Realms
 
@@ -283,6 +284,8 @@
 - [lui-tool](https://github.com/xensik/lui-tool) - Utility to assemble and disassemble IW engine UI scripts. Supports Call of Duty: Ghosts (IW6).
 - [gsc-asm](https://github.com/ZoneTool/gsc-asm) - GSC assembler/disassembler for IW5 (Call of Duty: Modern Warfare 3).
 - [gsc-tool](https://github.com/xensik/gsc-tool) - Compiler/decompiler for IW Engine GSC game scripts (Black Ops, Ghosts, Modern Warfare, Vanguard, Warzone).
+- [Cerberus](https://github.com/Scobalula/Cerberus-Repo) - GSC/CSC decompiler for Call of Duty: Black Ops II/III with a CLI and a UI, aimed at scripts not shipped with the Black Ops III Mod Tools; the CLI also includes a fast file extractor for Black Ops III. Archived.
+- [t7-compiler](https://github.com/shiversoftdev/t7-compiler) - GSC compiler and injector toolchain for Black Ops III and Black Ops 4 (T7/T8): compiles scripts from source and injects pre-compiled scripts.
 - [tree-sitter-gsc](https://github.com/echo000/tree-sitter-gsc) - Tree-sitter grammar for GSC and CSC, the scripting languages used in Call of Duty: Black Ops III.
 - [gsc_parser](https://github.com/SE2Dev/gsc_parser) - Cross-platform flex/bison-based lexer and parser for the source-level syntax of Call of Duty's GSC scripting language.
 - [IW8_MW19_GSC_Wiki](https://github.com/Hengle/IW8_MW19_GSC_Wiki) - Wiki documenting GSC scripting for Call of Duty: Modern Warfare (2019, IW8), covering functions, game modes, and mod menu creation; transcribed from the Project HiNAtyu decompilation.
@@ -564,6 +567,7 @@
 
 #### Ape, Inc
 
+- [CoilSnake](https://github.com/pk-hack/CoilSnake) - EarthBound mod-making tool that deconstructs the game's assets into individual text and PNG files and builds a modified ROM from them.
 - [earthbound-script-dumper](https://github.com/CataLatas/earthbound-script-dumper) - EarthBound text script dumper.
 - [ebtexted](https://github.com/PKHackers/ebtexted) - Tomato's EarthBound text editor.
 - [EBME](https://github.com/Supremekirb/EBME) - GUI editor for EarthBound's overworld areas.
@@ -575,6 +579,9 @@
 - [MOTHER-3-Battle-Sprite-Graphics](https://github.com/Lorenzooone/MOTHER-3-Battle-Sprite-Graphics) - Inserts custom enemy sprites into Mother 3 (GBA). See also the author's [EnemySpritesFreeSpace-MOTHER3](https://github.com/Lorenzooone/EnemySpritesFreeSpace-MOTHER3), which frees up ROM space for such insertions.
 - [MotherInternational](https://github.com/JumpmanFR/MotherInternational) - Web-based multipatcher for the MOTHER series, applying and reversing UPS/IPS/BPS/VCDIFF fan-translation patches client-side across dozens of translation projects for MOTHER 1/EarthBound Beginnings, MOTHER 2/EarthBound, MOTHER 1+2, and Mother 3.
 - [Oh-Mother-Earthbound-Save-File-Editor](https://github.com/clickysteve/Oh-Mother-Earthbound-Save-File-Editor) - `.sav`/`.srm` save file editor for EarthBound (SNES).
+- [RopeSnake](https://github.com/jeffman/RopeSnake) - ROM decompiling and recompiling library for editing MOTHER 3 (GBA). Decompiles the ROM into individual editable files (a project) that can be recompiled into the ROM.
+- [EbPsiAnimationEditor](https://github.com/jeffman/EbPsiAnimationEditor) - PSI animation editor tool for EarthBound.
+- [CCScriptWriter](https://github.com/Lyrositor/CCScriptWriter) - Extracts the dialogue from EarthBound and outputs it as a CCScript file.
 
 #### Apogee Software
 
@@ -793,6 +800,29 @@
 - [UntoldUnpack](https://github.com/xdanieldzd/UntoldUnpack) - Unpacker for the HPI/HPB archives of Etrian Odyssey Untold: The Millennium Girl, Etrian Odyssey 2 Untold: The Fafnir Knight and Etrian Odyssey V: Beyond the Legends (3DS).
 - [Yggdrasil](https://github.com/xdanieldzd/Yggdrasil) - Work-in-progress editor for Etrian Odyssey, using an embedded ndstool for game unpacking and repacking.
 - [SMTV-VSaveEditor](https://github.com/zmbkilla/SMTV-VSaveEditor) - Windows Forms save editor for the Switch version of Shin Megami Tensei V: Vengeance, handling its AES-encrypted save data and editing player name and stats (skill writing in progress).
+- [BustupEditor](https://github.com/ShrineFox/BustupEditor) - GUI for extracting and repacking DDS images from Persona 5 Royal (PC/Switch) bustup `.BIN` files, with editing of bustup parameter entries, eye/mouth frame positions and animation style, plus frame preview. Older releases support Persona 5 (PS3).
+  - [DDS2Tool](https://github.com/ShrineFox/DDS2Tool) - Extracts and edits the DDS images (DXT1 and DXT5 layers per frame) in Persona 5 (PS3) bustup BIN files.
+  - [PS4BustupRepacker](https://github.com/ShrineFox/PS4BustupRepacker) - Unpacks and repacks Persona 5 (PS4) bustup BINs (GNF textures).
+- [AtlusMSGEditor](https://github.com/ShrineFox/AtlusMSGEditor) - Text editing project manager for Persona games (currently Persona 5 Royal PC/Switch only), with a searchable text dump and shareable JSON project files.
+- [P5RStringEditor](https://github.com/ShrineFox/P5RStringEditor) - GUI for editing Persona 5 Royal `NAME.TBL` values with paired description text. Imports/exports FTDs and exports TBL/BMD/FTD in a Reloaded-II mod folder structure.
+- [PersonaVoiceClipEditor](https://github.com/ShrineFox/PersonaVoiceClipEditor) - Batch converter between `.wav` and `.adx`/`.hca` for Persona and other CriWare audio games. Also unpacks and repacks `.afs`/`.acb` archives.
+- [MassPACReplacer](https://github.com/ShrineFox/MassPACReplacer) - Command-line tool that mass extracts or replaces files across multiple Atlus archives (`.bin`, `.arc`, `.pac`, `.pak`) at once, built on AtlusFileSystemLibrary.
+- [P4GPS_ModelEditor](https://github.com/ShrineFox/P4GPS_ModelEditor) - Edits values in Persona 4 Golden's `ps_model.bin` (from `facility/cmbroot.arc`), including Persona offset, scale, rotation, opacity and color for the Fusion and Compendium views.
+- [PersonaSpriteTools](https://github.com/Secre-C/PersonaSpriteTools) - Scripts that deconstruct Atlus SPD and SPR sprite containers into separate sprite entries and textures, plus a Python library for the sprite file formats.
+- [P5-Table-Editor](https://github.com/SeppNel/P5-Table-Editor) - Tool for editing Persona 5 `.ftd` and `.ctd` table files, e.g. for translation.
+- [P5RTableEditor](https://github.com/AlexanderCarlisi/P5RTableEditor) - Java app for editing Persona 5 Royal PC data tables. Supports `PERSONA.TBL` (Persona registry, party member Personas) and `UNIT.TBL` (party members, enemy data).
+- [P5FTDStringConverter](https://github.com/DeathChaos25/P5FTDStringConverter) - Converts to and from Persona 5 pointer-based text FTD files, using Amicitia.IO and Atlus-Script-Tools.
+- [P5RTOP5BINCONV](https://github.com/DeathChaos25/P5RTOP5BINCONV) - Converts binary data formats from Persona 5 Royal (PS4) to Persona 5 (PS3), including field pac `.CLT` files, FNPC (`.ent`/`.fnt`) files, corptbl, icon parts, texpack, roadmap and field weather bins.
+- [StageEvent2Json](https://github.com/DeathChaos25/StageEvent2Json) - Converts Persona Dancing `stage_format_xxx` files between binary and JSON.
+- [PQ2PersonaNameTBL](https://github.com/DeathChaos25/PQ2PersonaNameTBL) - Converter for Persona Q2 `nametable.tbl` files.
+- [Persona-5-Cutin-Tool](https://github.com/CelestialAmber/Persona-5-Cutin-Tool) - Decompresses and edits the Persona 5 Cutin `.dds` images. Port of yukinogatari's `p5_unpack.py` script.
+- [BamEditor](https://github.com/pionome/BamEditor) - Unpacker/repacker for BAM and BAM2 model archives found in Persona Q, Persona Q2, SMT IV, SMT IV Apocalypse and Etrian Odyssey games.
+  - [AmdTools](https://github.com/pionome/AmdTools) - Tools for unpacking Persona 4 Golden AMD files and the files inside them.
+  - [BedTools](https://github.com/pionome/BedTools) - Tools for unpacking Persona 3 and Persona 4 `bed`, `epl` and `effect_epl` files.
+- [plgtools](https://github.com/alama/plgtools) - Initial research into Atlus' PLG format: `plgthing` converts PLG objects to PNG/SVG/PLY, plus a `plg.bt` 010 Editor binary template.
+- [plgtool](https://github.com/rirurin/plgtool) - Converts JSON exports of Persona 3 Reload PLG files (exported from Blender) to the `.uasset` format.
+- [smtv.saveutil](https://github.com/zarroboogs/smtv.saveutil) - Save decryption and encryption utility for Shin Megami Tensei V (`SysSave`, `GameSaveXX`, `AutoSaveXX`).
+  - [smt3hdpc.saveutil](https://github.com/zarroboogs/smt3hdpc.saveutil) - Save decryption and encryption utility for the PC version of Shin Megami Tensei III HD Remaster (`SMT3HDDATA.sav`).
 
 #### ATOM Team (Atom RPG)
 

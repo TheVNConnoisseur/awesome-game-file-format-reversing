@@ -293,6 +293,7 @@
 - [megalo](https://github.com/Blam-Network/megalo_docs_old) - TypeScript library for parsing, compiling, and decompiling Halo: Reach Megalo scripts (gametypes and custom map variants), built on blf above for BLF chunk I/O and game variant layouts.
 - [blam-tags](https://github.com/camden-smallwood/blam-tags) - Cross-platform Rust library for parsing and manipulating Halo tag files.
   - See also [blam-tags-cs](https://github.com/camden-smallwood/blam-tags-cs), a C# port of the same tag file manipulation library.
+  - Related: [definitions](https://github.com/camden-smallwood/definitions), JSON tag definitions for Halo MCC titles.
 - [ida-halo-scripts](https://github.com/camden-smallwood/ida-halo-scripts) - IDA Pro scripts useful for reverse engineering Halo games.
 - [Blam-Creation-Suite](https://github.com/ChimpsAtSea/Blam-Creation-Suite) - Collection of modular C++ frameworks (Mandrill tag/resource editor, Blofeld tag layout framework) for creating custom Blam engine content across Halo Combat Evolved through Halo Infinite.
 - [Reach (decomp)](https://github.com/ChimpsAtSea/Reach) - Work-in-progress matching decompilation of Halo: Reach (Xbox 360 build `tag_debug_untracked_jul_11_2011`), companion project to the halo (decomp) Combat Evolved effort above.
@@ -363,11 +364,15 @@
 - [Mozzarilla](https://github.com/Sigmmma/mozzarilla) - Visual tag editor/IDE for Halo CE content, intended as a full-featured replacement for the HEK's Guerilla.
   - Built on [Reclaimer (Sigmmma)](https://github.com/Sigmmma/reclaimer) (Python library for creating/modifying Halo tag content), [Binilla](https://github.com/Sigmmma/binilla) (its generic visual editor for structures defined with the [Supyr Struct](https://github.com/Sigmmma/supyr_struct) binary serialization library), and [Arbytmap](https://github.com/Sigmmma/arbytmap) (bitmap conversion library handling raw and DXT1-5/DXN texture formats, swizzling, and mipmap generation).
   - Related: [Refinery](https://github.com/Sigmmma/refinery) (extractor for compiled Halo 1 Xbox/PC/CE/Demo/Yelo maps), [Librarian](https://github.com/Sigmmma/Librarian) (Halo CE tag <-> YAML converter for version-controlling mod projects), [Blendkrieg](https://github.com/Sigmmma/Blendkrieg) (Halo model importer/exporter for Blender), [Ghostbuster](https://github.com/Sigmmma/ghostbuster) (detects and fixes phantom BSP collision artifacts in `scenario_structure_bsp` tags), and [MEK](https://github.com/Sigmmma/mek) (installer bundling this whole toolchain).
+- [Halo 3 Map Variant Editor](https://github.com/twist84/map_variant_yaml_test) - Browser-based editor for Halo 3 Forge map variants that opens `.map`, `.mvar`, `.bin` or `.blf` files as YAML via a Rust/WebAssembly codec, resolves object and quota indices to tag names, and exports a new map-variant binary.
+- [Alteration](https://github.com/Xenomega/Alteration) - Halo 3 modding tool (created in 2008) used by the modding community to research the game's file formats and modify or extract its assets, with map package support. Also includes HaloDevelopmentExtender, a library for talking to Xbox 360 development units over the debug socket (TCP 730).
+- [ScaleformTools](https://github.com/Sopitive/ScaleformTools) - Desktop editor for Halo MCC Scaleform UI assets: inspects and edits GFX/SWF layouts, decompiles and recompiles AS3 (AVM2) scripts, and edits UFG `.perm.bin`/`.temp.bin` texture packs with PNG/DDS import and export.
 
 ##### Destiny
 
 - [alkahest](https://github.com/cohaereo/alkahest) - Multi-tool for viewing Destiny 2 assets, with a focus on an accurate recreation of the renderer. Supports Tiger engine formats.
 - [tiger-pkg](https://github.com/v4nguard/tiger-pkg) - Destiny 1/2 package library and tools (unpacker, verification). Supports Destiny 1 (Internal Alpha, The Taken King, Rise of Iron), Destiny 2 (Beta through Edge of Fate), and Marathon. Handles PKG files across PS3, PS4, X360, XONE, and Windows platforms.
+- [tiger](https://github.com/Blam-Network/tiger) - TypeScript libraries for Destiny's Tiger engine: reading `.pkg` packages and decoding tags with per-build definitions, a VM and decompiler for compiled activity scripts, package block decompression, and an RSAT bitstream encoder/decoder.
 - [quicktag](https://github.com/v4nguard/quicktag) - Destiny 1/2 package file data structure explorer. Scans and analyzes Tiger engine structure files (8080 files) to discover structures, patterns, strings, and more. Features tag viewer, localized/raw strings browser, and asset preview for textures and Wwise audio streams.
 - [Charm](https://github.com/cohaereo/Charm) - Destiny 2 reverse engineering tool for extracting assets from game files. Supports multiple Tiger engine versions and Destiny 2 game versions (Shadowkeep through Lightfall). Focuses on providing access to information in game files for artists and content preservation.
 - [d2-map-importer-addon](https://github.com/DeltaDesigns/d2-map-importer-addon) - Blender 4.0+ addon for importing Destiny 2 rips from Charm. Assembles maps (statics, dynamics, lights, terrain), auto-assigns gear shaders and textures to player gear, compatible with DARE/DCG skeletons and IK Player Skeleton.
@@ -379,6 +384,7 @@
 - [D2StaticDocs](https://github.com/nblockbuster/D2StaticDocs) - Documentation on the Destiny 2 Beyond Light static model format. Covers main model files, subfiles, material tables, and loadzone structures.
 - [destinypkgtool](https://github.com/v4nguard/destinypkgtool) - Rust library and tools for working with Destiny 1 pkg files (unpacker, verification).
 - [DestinyUnpackerCPP](https://github.com/nblockbuster/DestinyUnpackerCPP) - C++ unpacker for Destiny 1 (PS4/PS3/X360) and Destiny 2 PC packages. Supports WEM conversion, TXTP generation, hex ID naming, and music-only extraction. See also [MontagueM/DestinyUnpackerCPP](https://github.com/MontagueM/DestinyUnpackerCPP) for the original version.
+- [DestinyPKGTool](https://github.com/cra0kalo/DestinyPKGTool) - Package extractor for Destiny (Xbox 360/PS3) packages.
 - [destiny-unpacker-rs](https://github.com/nblockbuster/destiny-unpacker-rs) - Rust implementation of Destiny unpacker (archived).
 - [D2StaticExtractor](https://github.com/nblockbuster/D2StaticExtractor) - Static model extraction tool that converts Destiny 2 static models into FBX files. Supports Beyond Light and later versions. Note: Superseded by Charm, but still useful for specific use cases (archived).
 - [D2TextureRipper](https://github.com/nblockbuster/D2TextureRipper) - Batch texture and image ripper for Destiny 2. Supports versions 1.0.0.1 through 4.0.0.1 (The Witch Queen). Extracts textures from package files with batch processing support.
@@ -435,6 +441,10 @@
 ##### Microsoft Plus! for Windows XP
 
 - [noclip.website (Plus! for XP)](https://github.com/magcius/noclip.website/tree/main/src/PlusForXP) - In-browser recreation of the 3D screensavers shipped with Microsoft Plus! for Windows XP (Mercury Pool, Robot Circus, Sand Pendulum), including a parser for the games' SCX scene format, light baking, keyframe animation, and reimplementations of each screensaver's simulation logic.
+
+##### Microsoft Bob
+
+- [robert.js](https://github.com/Treeki/robert.js) - JavaScript tools for working with Microsoft Bob data files (also used, in an upgraded version, by the Office 97 Assistants), with live demos for actors and rooms.
 
 ##### 3D Movie Maker
 

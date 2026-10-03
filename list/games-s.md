@@ -57,6 +57,7 @@
 #### Secrets of Grindea
 
 - [SoG-Savegame-Editor](https://github.com/tolik518/SoG-Savegame-Editor) - C# editor for Secrets of Grindea character savegames; edits nickname, skill points, gold, equipment, inventory and pets.
+  - [sog-character-editor](https://github.com/tolik518/sog-character-editor) - Stripped-down companion that only changes the character name and gender in Secrets of Grindea character savegames.
 
 #### Sega
 
@@ -162,6 +163,8 @@
 - [IMGExtractor](https://github.com/LemonHaze420/IMGExtractor) - Extracts IMG/IDX archive files found only in "What's Shenmue" prototype builds (not seen in released Shenmue I/II builds).
 - [ShenmueHDTools](https://github.com/derplayer/ShenmueHDTools) - Modding and tweak tools for the Shenmue I & II HD release, unpacking, editing, and exporting .tad/.tac files.
 - [DTPKUtil](https://github.com/Shenmue-Mods/DTPKUtil) - Extracts and decompresses samples from Dreamcast AM2 DTPK `.SND` audio files used in Shenmue, converting ADPCM to PCM and expanding decompressed `.SND` files for playback in the 2018 HD ports.
+- [shenmue-translation-pack](https://github.com/sizious/shenmue-translation-pack) - Mirror of the original Pascal/Delphi Shenmue Translation Pack, a toolset for translating What's Shenmue (DC), Shenmue (DC) and Shenmue 2 (DC/Xbox).
+- [pvrx2png](https://github.com/sizious/pvrx2png) - Converts PVR-X texture images used by some original Xbox games (e.g. Shenmue II) to PNG; supports GBIX/PVR-X, plain PVR-X and DDS variants.
 
 ##### Phantasy Star
 
@@ -210,6 +213,7 @@
 - [sa2 (decomp)](https://github.com/SAT-R/sa2) - Matching decompilation of Sonic Advance 2 (GBA).
 - [sa3 (decomp)](https://github.com/SAT-R/sa3) - Matching decompilation of Sonic Advance 3 (GBA).
 - [SA-Trilogy-Animation-Exporter](https://github.com/JaceCear/SA-Trilogy-Animation-Exporter) - Extracts animation data from Sonic Advance 1-3 ROMs.
+- [tiled-advance](https://github.com/MainMemory/tiled-advance) - Tiled map editor projects for the Sonic Advance games (GBA) that load data from a supplied ROM file (US ROMs).
 - [Sonic-Mania-Decompilation (decomp)](https://github.com/RSDKModding/Sonic-Mania-Decompilation) - Matching decompilation of Sonic Mania (2017).
 - [RunnersDecomp (decomp)](https://github.com/itsmattkc/RunnersDecomp) - Matching decompilation of Sonic Runners.
 - [SonicRushAdventure-Decomp (decomp)](https://github.com/RushRE/SonicRushAdventure-Decomp) - Matching decompilation of Sonic Rush Adventure.
@@ -301,21 +305,34 @@
 - [Blender-3D-STH-Mtn-plugin](https://github.com/Psycrow101/Blender-3D-STH-Mtn-plugin) - Blender animation plugin for Shadow the Hedgehog (STH) mountain files (.mtn).
 - [Heroes.SDK](https://github.com/Heroes-Hacking-Central/Heroes.SDK) - Unified library for manipulating Sonic Heroes at runtime and definitions for internal data structures and functions. Includes format parsers for creating/extracting various game formats.
 - [HeroesCollisionTool](https://github.com/igorseabra4/HeroesCollisionTool) - Collision tool for Sonic Heroes.
+  - [Heroes-Collision-Library](https://github.com/Sewer56/Heroes-Collision-Library): .NET library for generating Sonic Heroes collision files from a vertex and triangle list or Wavefront OBJ, with a simple importer/exporter example tool.
 - [HeroesVisibilityEditor](https://github.com/igorseabra4/HeroesVisibilityEditor) - Visibility editor for Sonic Heroes.
 - [HeroesSPLTool](https://github.com/igorseabra4/HeroesSPLTool) - RenderWare Spline (`.SPL`) converter for Sonic Heroes.
 - [HeroesTweaker](https://github.com/igorseabra4/HeroesTweaker) - EXE editor for Sonic Heroes. Legacy tool, but useful for extracting splines from the executable.
 - [ShadowSETIDTBLEditor](https://github.com/igorseabra4/ShadowSETIDTBLEditor) - SET ID Table editor for Shadow the Hedgehog.
 - [ShadowSplineTool](https://github.com/igorseabra4/ShadowSplineTool) - Extracts `.PTP` splines from Shadow the Hedgehog.
 - [HeroesONE-R](https://github.com/Heroes-Hacking-Central/HeroesONE-R) - C# library for reading and writing .ONE archive files from Sonic Heroes and Shadow the Hedgehog.
+  - [HeroesONE-Reloaded](https://github.com/Sewer56/HeroesONE-Reloaded) (archived): Rewrite of HeroesONE with a C# library and GUI for parsing, modifying and saving `.ONE` archives from Sonic Heroes and Shadow the Hedgehog. Succeeded by [ShadowONE](https://github.com/ShadowTheHedgehogHacking/ShadowONE), a cross-platform `.ONE` editor with search/filter, in-archive file moves and compression metadata display.
 - [Heroes-Disassembly](https://github.com/Heroes-Hacking-Central/Heroes-Disassembly) - Community-maintained IDA disassembly of Sonic Heroes.
 - [Blender-3D-SH-Dma-plugin](https://github.com/Psycrow101/Blender-3D-SH-Dma-plugin) - Blender plugin to import and export Sonic Heroes Delta Morph animation (.dma) files.
 - [prs-rs](https://github.com/Sewer56/prs-rs) - Fast compressor/decompressor for the Sega PRS compression scheme used by Sonic Heroes and other Sega titles.
+  - [dlang-prs](https://github.com/Sewer56/dlang-prs) (archived): Earlier D-language PRS compressor/decompressor with a C# wrapper, superseded by prs-rs.
 - [HeroesLayoutEditor](https://github.com/igorseabra4/HeroesLayoutEditor) - Layout editor for Sonic Heroes.
 - [HeroesModelTool](https://github.com/igorseabra4/HeroesModelTool) - BSP model file importer/exporter for Sonic Heroes.
 - [HeroesCameraEditor](https://github.com/igorseabra4/HeroesCameraEditor) - Camera editor for Sonic Heroes.
 - [HeroesSETIDTBLEditor](https://github.com/igorseabra4/HeroesSETIDTBLEditor) - SET ID Table editor for Sonic Heroes.
+- [PACTool](https://github.com/Sewer56/PACTool) - Library and front-end for archiving and unarchiving `.PAC` archives in the PC and Xbox versions of Sonic Heroes and Shadow the Hedgehog.
+- [Heroes.Hint.Editor](https://github.com/Sewer56/Heroes.Hint.Editor) - Message editor for Sonic Heroes hint and talk-trigger text (`hint001e.bin` and similar), with filtering and English, French, German, Italian and Spanish ANSI text support.
+- [rail-canyon](https://github.com/DeadlyFugu/rail-canyon) - Level viewer/editor for Sonic Heroes.
+- [ShadowMTP](https://github.com/Sewer56/ShadowMTP) - Unpacks and repacks Shadow the Hedgehog `.MTP` motion package animation archives.
+- [HeroesPS2BetaToolkit](https://github.com/Sewer56/HeroesPS2BetaToolkit) - Scripts and notes for working with the PS2 Sonic Heroes 2nd of October prototype, with a workflow for extracted ISO, CVM, `.ONE` and `.AFS` contents.
 - [ShadowCollisionTool](https://github.com/igorseabra4/ShadowCollisionTool) - BSP collision importer/exporter for Shadow the Hedgehog.
 - [sonicheroes](https://github.com/Jovinull/sonicheroes) - WIP matching decompilation of Sonic Heroes (GameCube), complementing the community disassembly above.
+
+###### Sonic Riders
+
+- [SonicRiders.Index](https://github.com/Sewer56/SonicRiders.Index) - Work-in-progress community wiki for modding the PC version of Sonic Riders, documenting file formats and other resources ([online version](https://sewer56.dev/SonicRiders.Index/)).
+- [srdx-gear-format](https://github.com/Sewer56/srdx-gear-format) - Packer/unpacker for Sonic Riders DX 2.0 Extreme Gear archives, with an 010 Editor template (`srdx-gear.bt`) specifying the format.
 
 ###### Classic & Handheld Sonic
 
@@ -328,6 +345,7 @@
 - [libsonassmd](https://github.com/Clownacy/libsonassmd) - Library for reading and writing the assets of Mega Drive Sonic the Hedgehog games.
 - [ClownMapEd](https://github.com/Clownacy/ClownMapEd) - Portable clone of Xenowhirl's SonMapEd, a sprite editor for Mega Drive Sonic games.
 - [STH1EDWV](https://github.com/zeroKilo/STH1EDWV) - ROM editor for Sonic the Hedgehog (Sega Master System) for editing levels and related data.
+- [tales](https://github.com/suppertails66/tales) - Qt-based level editor suite for Tails Adventures, with a manual included.
 - [CaptainPlaneEd](https://github.com/Clownacy/CaptainPlaneEd) - Enhanced SDL2 port of PlaneEd, a classic Sonic level/plane-map editor.
 - [s2ssedit](https://github.com/flamewing/s2ssedit) - Editor for Sonic 2 Special Stage data.
 - [SoniConverter](https://github.com/sonicretro/SoniConverter) - Converts object and ring layout data between Sonic 1 and Sonic 3 & Knuckles formats in both directions, with optional conversion of known objects and splitting or packing of ring strings.
@@ -391,6 +409,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [Alien Isolation Audio Extractor](https://github.com/MattFiler/Alien-Isolation-Audio-Extractor) - Extracts and names sound files from Alien: Isolation's Wwise BNK/WEM audio banks, outputting files with human-readable names derived from the game's sound event data.
 - [AssetEditor](https://github.com/OpenCAGE/AssetEditor) - Browse and modify Alien: Isolation's asset PAK archives.
   - Formats: PAK2 (UI.PAK, ANIMATIONS.PAK), Texture PAK (LEVEL_TEXTURES.ALL.PAK, GLOBAL_TEXTURES.ALL.PAK), Models PAK (LEVEL_MODELS.PAK, GLOBAL_MODELS.PAK), Shaders PAK (*_SHADERS_DX11.PAK), Material Mappings PAK (MATERIAL_MAPPINGS.PAK).
+- [AlienBML](https://github.com/x1nixmzeng/AlienBML) - Command-line C# tool converting Alien: Isolation's XML to and from its binary BML format.
 - [LevelViewer](https://github.com/OpenCAGE/LevelViewer) - Views Alien: Isolation levels in Unity, companion to the OpenCAGE modding toolkit and AssetEditor above.
 - [OpenIsolation](https://github.com/OpenIsolation/OpenIsolation) - Reverse-engineering project for Alien: Isolation's CATHODE engine, publishing headers and a growing SDK for the entity/resource-database and composite-file runtime structures underlying the same asset PAK archives handled by OpenCAGE/AssetEditor above.
 
@@ -435,7 +454,9 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [gdworkbench](https://github.com/lhsazevedo/gdworkbench) - CLI tool for inspecting, extracting, and building Sega Dreamcast GD-ROM (.gdi) images.
 - [GDIbuilder](https://github.com/Sappharad/GDIbuilder) - Cross-platform (Windows/macOS/Linux) GUI and CLI utility for building, patching, and extracting Sega Dreamcast GD-ROM (.gdi) images, including IP.BIN bootsector generation and CDDA track handling.
 - [AicaADPCM2WAV](https://github.com/Sappharad/AicaADPCM2WAV) - Command-line tool that converts Sega Dreamcast AICA ADPCM audio data to WAV or raw PCM.
+- [AFS2WAV](https://github.com/sizious/afs2wav) - GUI for ADXUtil that converts CRI ADX audio, typically embedded in AFS archives on the Dreamcast, PlayStation 2 and GameCube, to WAV.
 - [pvr2image](https://github.com/VincentNLOBJ/pvr2image) - Converts Sega Dreamcast/NAOMI PVR texture files to PNG, TGA, and BMP.
+- [pvrtool](https://github.com/buhman/pvrtool) - Dreamcast image format and VQ conversion tool, originally authored by Sega of Europe and Imagination Technologies.
 - [dcdis](https://github.com/sizious/dcdis) - Simple disassembler for Sega Dreamcast binaries.
 - [HopperSH4-Plugin](https://github.com/Sappharad/HopperSH4-Plugin) - Hitachi SH4 disassembly plugin for the Hopper Disassembler, used for reverse-engineering Sega Dreamcast (and other SH4-based) binaries.
 - [jc-bootrom-font](https://github.com/japanese-cake/jc-bootrom-font) - Python script that unpacks the embedded glyph fonts from the Sega Dreamcast bootROM.
@@ -449,6 +470,8 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [openMenu Virtual Folder Bundle](https://github.com/DerekPascarella/openMenu-Virtual-Folder-Bundle) - Rewrite of the openMenu GDEMU frontend adding virtual folder/subfolder support, bundled with a modified GD MENU Card Manager to build compatible SD cards.
 - [Convert GDEMU SD Card to MODE](https://github.com/DerekPascarella/Convert-GDEMU-SD-Card-to-MODE) - Converts a GDEMU-formatted Dreamcast/Saturn ODE SD card to the layout expected by the MODE optical drive emulator, including single-folder multi-disc support.
 - [VMU Disc Builder](https://github.com/DerekPascarella/VMU-Disc-Builder) - Compiles a custom CDI containing Dreamcast VMU save files (VMI/VMS pairs), covering game save data, mini-games, or icons.
+- [VMU Tool PC](https://github.com/sizious/vmu-tool-pc) - Windows explorer for managing Sega Dreamcast saves (VMI/VMS and DCI/Nexus files) on a PC, showing and editing VMU icons, copyright and size information.
+- [Potato Tool](https://github.com/RossMeikleham/Potato-Tool) - Portable Haskell command-line toolset for the Dreamcast VMU filesystem: view and remove files, extract and inject Nexus DCI data files, and unlock the 41 unused blocks.
 - [Saturn 4bpp Graphics Converter](https://github.com/DerekPascarella/Saturn-4bpp-Graphics-Converter) - Converts between the SEGA Saturn's 4bpp graphic format and bitmaps for editing, and back again.
 - [Saturn 15bpp Graphics Converter](https://github.com/DerekPascarella/Saturn-15bpp-Graphics-Converter) - Converts between the SEGA Saturn's 15bpp graphic format and bitmaps for editing, and back again.
 - [unsegaREBORN](https://github.com/proeren2002/unsegaREBORN) - Toolkit for decrypting and extracting modern SEGA arcade cabinet system images: APP/PACK archives and OPT images (including the APM3 variant), with AES-NI-accelerated decryption, NTFS/exFAT parsing, and differencing-VHD update merging.
@@ -460,6 +483,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [SF2DISASM](https://github.com/ShiningForceCentral/SF2DISASM) - Documentation disassembly of Shining Force II. See also [SF2RE](https://github.com/ShiningForceCentral/SF2RE), the IDA Pro IDC scripts used to reverse-engineer the ROM and regenerate this disassembly from scratch, and [SF2JavaToolSuite](https://github.com/ShiningForceCentral/SF2JavaToolSuite), the project's consolidated collection of Java-based disassembly/reassembly tools, split out to keep the tooling maintainable separately from the disassembly repo.
 - [SFCDDISASM](https://github.com/ShiningForceCentral/SFCDDISASM) - Documentation disassembly of Shining Force CD (Mega-CD), reassembling to a bit-perfect original ISO.
 - [SITDDISASM](https://github.com/ShiningForceCentral/SITDDISASM) - Documentation disassembly of Shining in the Darkness (Genesis), reassembling to a bit-perfect original ROM.
+- [SFFCRE](https://github.com/ShiningForceCentral/SFFCRE) - Shining Force Final Conflict reverse-engineering notes and tools, with text docs on cutscenes, scripts, and map, music, portrait, and sprite indexes, plus a Java cutscene manager (SFFCCutsceneManager).
 - [goldensun](https://github.com/gsret/goldensun) - Disassembly of Golden Sun (GBA).
 - [goldensun-decomp](https://github.com/Coaltergeist/goldensun-decomp) - Work-in-progress decompilation of Golden Sun (GBA) building a byte-identical ROM, complementing the goldensun disassembly above.
 - [camelot-gcc](https://github.com/Coaltergeist/camelot-gcc) - Recreation of the C compiler used to build Golden Sun (GBA) and Golden Sun: The Lost Age, supporting the goldensun-decomp matching decompilation above.
@@ -931,6 +955,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [SOTC (decomp)](https://github.com/Fantaskink/SOTC) - In-progress decompilation of the preview build of Shadow of the Colossus (PS2).
 - [ICOview](https://github.com/aap/ICOview) - Map viewer for Ico (PS2), reading the game's original level data files.
 - [SotC-XFF-Analyzer](https://github.com/InconspicuousCactus/SotC-XFF-Analyzer) - Reads XFF symbol files from Shadow of the Colossus (PS2), merging them into a Ghidra-loadable binary and generating disassembly for comparison against a recompilation on decomp.me.
+- [dormin](https://github.com/Lenbok/dormin) - Character animation player, geometry viewer and audio decoder for Shadow of the Colossus; indexes models, textures, skeletons and animations from the game's data files (clone of the original repo.or.cz repository).
 
 ###### LittleBigPlanet
 
@@ -1112,6 +1137,8 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ff5 (disasm)](https://github.com/everything8215/ff5) - Disassembly and ROM documentation for Final Fantasy V (Super Famicom), building the original ROM from source.
 - [FFTools](https://github.com/everything8215/fftools) - Browser-based data editor for 8-bit and 16-bit Final Fantasy ROMs; extracts ROM data to JSON for editing, then reassembles a new ROM via a full game disassembly and cc65.
 - [FF6Tools](https://github.com/everything8215/ff6tools) - Browser-based editor covering NES/Famicom, SNES/Super Famicom, and GBA Final Fantasy ROMs (FF I-VI and their Advance ports), editing maps, battles, monsters, characters, items, attacks, and event/AI scripts, with graphics import/export.
+- [ff5reader](https://github.com/Birdulon/ff5reader) - Python/Qt ROM reader for Final Fantasy V (SNES), with string-block, struct, and glyph definitions for the SNES and RPGe translation ROMs, plus FF4/FF6 helper modules and an SPC700 analyser.
+- [mystic-editor](https://github.com/arathron123/mystic-editor) - Python editor for Mystic Quest (Final Fantasy Adventure, Game Boy) that decodes the ROM into editable maps, scripts, sprites, and audio files, re-encodes them, and can build an expanded ROM.
 
 
 ##### Final Fantasy XI
@@ -1306,6 +1333,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ZHM5PatchBuilder](https://github.com/pawREP/ZHM5PatchBuilder) - Patch builder for Hitman 2 (2018) Rpkg archives.
 - [HMC47](https://github.com/americusmaximus/HMC47) - Open source implementation of Hitman: Codename 47, parsing and rendering original game data, resource files, models, and textures.
 - [hitman-file-formats](https://github.com/AlexKimov/hitman-file-formats) - Documentation and research on IO Interactive (Hitman) game file formats.
+- [Hitman2Loc](https://github.com/x1nixmzeng/Hitman2Loc) - Command-line C# tool converting Hitman 2: Silent Assassin locale (.loc) files to and from XML language exports.
 - [Glacier Modding Resources](https://github.com/glacier-modding/Modding-Resources) - Community-maintained collection of file format templates, structure definitions, and research tools for IO Interactive's Glacier 2 engine, by the Glacier 2 Modding organization.
   - Formats: 010 Editor templates and C-style structure definitions for RPKG resources across Hitman: Absolution, Hitman (2016), Hitman 2, and Hitman 3/World of Assassination.
 - [ReHitman](https://github.com/ReGlacier/ReHitman) - Reverse engineering project for Hitman: Codename 47 (the Glacier engine's original "Gen 1"), covering the game's file formats and internals.
@@ -1594,6 +1622,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 #### ConcernedApe (Stardew Valley)
 
 - [StardewValley](https://github.com/veywrn/StardewValley) - Decompiled Stardew Valley source, based on the Steam release.
+- [stardew-mp-save-editor](https://github.com/tfitz237/stardew-mp-save-editor) - Standalone save editor that adds and manages more than four players (up to 8) in a vanilla Stardew Valley multiplayer save without mods; its README warns it is likely no longer stable since Stardew Valley 1.5.
 
 #### 5pb. / Nitroplus (Steins;Gate)
 
@@ -1657,6 +1686,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [OrgPtcop](https://github.com/taedixon/OrgPtcop) - Java converter from Cave Story's Organya (.org) music, notes and drum tracks, to the PxTone PtCop (.ptcop) format, one-way only. Includes a document describing the .ptcop binary format.
 - [DoukutsuPSX](https://github.com/fgsfdsfgs/doukutsupsx) - Port of Cave Story to the PlayStation, built on the CSE2 decompilation and converting the original freeware game's data into a bootable PSX ISO.
 - [organya (Organya Twei)](https://github.com/shbow/organya) - Original Organya music sequencer source code, created by Studio Pixel in 1999 and used to compose Cave Story's soundtrack in the .org format.
+- [libpxtone](https://github.com/Wohlstand/libpxtone) - Library to play and edit music in the PTTUNE and PTCOP (pxtone) formats, a modified version of Pixel's pxtone 220910a with bug fixes and big-endian processor support.
 - [node-chie](https://github.com/jozsefsallai/node-chie) - Node.js library and CLI tool for decrypting/encrypting Cave Story's TSC script files.
 
 ##### Ikachan

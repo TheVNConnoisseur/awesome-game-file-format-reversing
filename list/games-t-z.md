@@ -39,6 +39,9 @@
 - [cartographer](https://github.com/Swyter/cartographer) - Mount&Blade strategic map editor. Allows real-time positioning of world parties/cities. Supports importing/exporting OBJ files, editing map.txt and module_parties.py, with first-person camera controls and terrain visualization.
 - [openbrf-redux](https://github.com/Swyter/openbrf-redux) - De-rusted, actively maintained version of Marco Tarini's OpenBRF, the mesh/texture/skeleton/sound editor for Mount&Blade 1.011 and Warband `.brf` resource files, with a browsable version history.
 - [WarbandBannerConverter](https://github.com/cookgreen/WarbandBannerConverter) - Converts Warband's standard vertical banner textures into the standard horizontal banner layout, for the game's `banners_*.dds` files.
+- [MBCoreDoc](https://github.com/markpryk/MBCoreDoc) - Reverse-engineered documentation of Warband's RGL engine terrain generation (including the SCO format), ground specifications, flora placement, particle systems and shaders.
+- [warband-l10n](https://github.com/Swyter/warband-l10n) - Tiny toolset converting between Transifex (via Joomla INI) and the Mount&Blade .csv language file format, for translating mods and games of the series.
+- [scotools](https://github.com/Swyter/scotools) - Small apps built on the scoUtils library that convert Mount&Blade scene (.sco) files to and from PNG, TGA, BMP and JPG images for editing in image editors (archived).
 
 ##### Mount&Blade II: Bannerlord
 
@@ -198,10 +201,12 @@
 
 #### Re-Logic (Terraria)
 
+- [TEdit](https://github.com/TEdit/Terraria-Map-Editor) - Stand-alone open-source Terraria map editor: edits world (`.wld`) files, including world settings, chests and signs.
 - [TerrariaResearchChecklist](https://github.com/iconmaster5326/TerrariaResearchChecklist) - CLI that reads a Terraria `.plr` player save file directly and lists Journey Mode items not yet researched, cross-referenced against the Terraria Wiki's item list.
   - Includes a [Kaitai Struct](https://kaitai.io/) definition (`terraria_player.ksy`) documenting the `.plr` player file format, plus a generated C# reader.
 - [Terrafirma](https://github.com/mrkite/TerraFirma) - Cross-platform (Windows/Linux/macOS) world map and Bestiary viewer for Terraria 1.4, reading world save files directly and using the game's own localization files to display translated item/block names.
 - [XNB UV Explorer](https://github.com/RussDev7/XNB-UVExplorer) - WinForms tool for inspecting and slicing XNB texture sheets (auto tile detection, grid/dynamic UV modes), built for Terraria modding and XNA/MonoGame asset work generally.
+- [terrariaxnb2png](https://github.com/Silentspy/terrariaxnb2png) - Windows command-line converter that turns Terraria `.xnb` files (a single file or a folder) into PNG images using XNA content loading.
 - [TSGE](https://github.com/gabsoftware/TSGE) - Terraria Save Game Editor (C#) for modifying player save files (profiles) and adjusting characters.
 
 #### Terrible Toybox
@@ -364,6 +369,8 @@
 #### Thekla Inc (The Witness)
 
 - [noclip.website (The Witness)](https://github.com/magcius/noclip.website/tree/main/src/TheWitness) - In-browser The Witness viewer.
+- [TheWitnessExplorer](https://github.com/ClementSparrow/TheWitnessExplorer) - Python tools for exploring The Witness assets: reads the main archive and its `.pkg` packages (uncompressed zips, with optional LZ4 compression), extracts single files, textures (PNG/PPM) and other resource files.
+- [the-witness-research](https://github.com/widberg/the-witness-research) - Modding research for The Witness (2016), usable as an ImHex library with patterns for mesh, texture, sound and save-entity data plus Python/Blender scripts.
 - [Braid Editor Universe Tools](https://www.moddb.com/games/braid/downloads/braid-editor-universe-tools) - For information on how to start and use the Braid Universe Tools, make sure you click the link to the official tutorial on ModDB, which you can find after the jump.
 
 #### Game Arts (Thexder)
@@ -451,6 +458,13 @@
 - [tombatools](https://github.com/hansbonini/tombatools) - Collection of utilities for extracting and modifying Tomba! (PS1) game files, including ROM hacking support.
 - [TombaRecomp](https://github.com/mstan/TombaRecomp) - Static recompilation of Tomba! (PS1) into native code.
 - [Tomba2Recomp](https://github.com/mstan/Tomba2Recomp) - Static recompilation of Tomba! 2: The Evil Swine Return (PS1) into native code.
+
+#### Tomodachi Life
+
+- [Tomodachi-Life-Save-Editor](https://github.com/Brionjv/Tomodachi-Life-Save-Editor) - Save editor for Tomodachi Life working on extracted save data (`savedataArc.txt`). Edits the island, Miis (name, level, experience and more) and global settings such as concert hall songs and apartment resets.
+- [TomoTexture](https://github.com/AlfonsoMallozzi/TomoTexture) - Replaces and manages user-generated canvases in Tomodachi Life save files, swapping drawings for your own images. Supports foods, goods (except videos) and faces.
+- [charinfo-ex](https://github.com/tlmodding/charinfo-ex) - JavaScript parser for Tomodachi Life: Living the Dream CharInfoEx data, readable from save files.
+- [TomoToolNX](https://github.com/miiazertyy/TomoToolNX) - Tomodachi Life save editor that runs on the Nintendo Switch itself as homebrew, editable with a controller or from a phone browser over WiFi.
 
 #### Tomorrow Corporation
 
@@ -675,6 +689,11 @@ See also: [OpenSpace](engines.md#openspace).
 
 - [pop-audio-export](https://github.com/michal-kapala/pop-audio-export) - Rudimentary `.forge` archive parser for exporting audio from Prince of Persia (2008), extracting `.bao` (Binary Audio Object, Ubisoft's Dare sound engine), `.data`, and raw `.ogg` files.
 
+##### Prince of Persia: The Sands of Time Trilogy
+
+- [io_scene_pop](https://github.com/kugelrund/io_scene_pop) - Blender add-on importing levels from Prince of Persia: The Sands of Time, The Warrior Within and The Two Thrones; needs the .bin files extracted from prince.bf with PersianRug and decompressed with jadepack.
+- [poptools](https://github.com/Swyter/poptools) - Reverse-engineering notes and 010 Editor binary templates for the PC versions of Prince of Persia: The Sands of Time and Warrior Within, including prince.bf, data.bf and profile/save files.
+
 ##### LyN Engine
 
 - [rgh (decomp)](https://github.com/charlobrown/RGH-PC-LyN-Decomp) - Decompilation of the LyN engine code from the PC version of Rabbids Go Home (2009), using Ghidra.
@@ -780,6 +799,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [DisruptManager](https://github.com/rootCBR/DisruptManager) - Mod package manager/installer for Watch Dogs, Watch Dogs 2, and Watch Dogs: Legion, with automatic backup/revert.
 - [ubi-gs](https://github.com/michal-kapala/ubi-gs) - Reverse-engineered emulator for Ubisoft's Game Service (GS), the online SDK used by Ubisoft titles circa 2000-2005 for user auth, friends, matchmaking, in-game chat, and CD key validation over a dedicated network protocol suite. Covers Heroes of Might and Magic V, Tom Clancy's Splinter Cell: Chaos Theory, and Brothers in Arms: Road to Hill 30.
 - [Ubisoft-Int](https://github.com/OAleex/Ubisoft-Int) - Extractor/rebuilder for Ubisoft `.int` video container files (IPU video + PCM audio).
+- [Rocksmith2014.NET](https://github.com/iminashi/Rocksmith2014.NET) - F#/C# libraries and a cross-platform DLC Builder app for Rocksmith 2014 custom DLC: PSARC archives, SNG/XML arrangement conversion, profile files, wav/ogg/wem audio conversion and DDS conversion.
 - [BGE20Text](https://github.com/TomEvin/BGE20Text) - Command-line .NET tool that unpacks and repacks the text `.pak` files (for example `Text-en_US.pak`) of Beyond Good & Evil - 20th Anniversary Edition; tested on PC, PS4 and Switch, not compatible with the original game.
 
 ##### Anno 1800
@@ -795,6 +815,9 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [UndertaleDecomp (decomp)](https://github.com/kittibyte/UndertaleDecomp) - Matching decompilation of UNDERTALE (Xbox One v1.13X).
 - [Butterscotch](https://github.com/ButterscotchRunner/Butterscotch) - Open-source re-implementation of GameMaker: Studio's runner targeting Undertale v1.08 (WAD Version 16) with cross-platform support.
 - [DeltaruneAud](https://github.com/simontime/DeltaruneAud) - Extracts the `audiogroup1.dat` audio archive from Deltarune.
+- [tenna-editor](https://github.com/tennaproject/tenna-editor) - Browser-based DELTARUNE save editor that runs without external servers.
+- [DeltaruneSaveConverter](https://github.com/InvoxiPlayGames/DeltaruneSaveConverter) - C#/.NET command-line tool to convert DELTARUNE Chapter 1 and 2 save files between the PC and console editions; marked work in progress in its README.
+- [deltakit](https://github.com/TheChilliPL/deltakit) - Small Rust toolkit for DELTARUNE saves: `deltainfo` shows information about a save and `deltamerge` merges two saves.
 
 #### Unicorn Games Studio
 
@@ -1079,8 +1102,11 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [YsViDecomp (decomp)](https://github.com/GrantBenR/YsViDecomp) - Matching decompilation of Ys VI (Steam).
 - [yumia_switch_icons](https://github.com/eArmada8/yumia_switch_icons) - Modding tool for Atelier Yumia that works with game file formats (.fdata files and resource databases)
 - [unpackpka](https://github.com/eArmada8/unpackpka) - Tool to unpack .pka archive files to .pkg files for Legend of Heroes games (Trails of Cold Steel III/IV)
+- [unpackpkg](https://github.com/uyjulian/unpackpkg) - Unpacks `.pkg` archives from Falcom's ED8 / Trails of Cold Steel series (Vita, PS3, PS4, PC, Switch) into a `.pkg__` directory.
+- [Sen-no-Kiseki-PKG-Sharp](https://github.com/Sewer56/Sen-no-Kiseki-PKG-Sharp) - .NET libraries and a command-line tool for extracting and packing Sen no Kiseki (Trails of Cold Steel) PKG archives, with a D-language compression library and C# wrapper.
 - [misc_kiseki](https://github.com/eArmada8/misc_kiseki) - Collection of utilities for modding Falcom's Trails/Kiseki series including model injection, item table decoders, and name table decoders
 - [KuroTools](https://github.com/nnguyen259/KuroTools) - Tools for working with Trails through Daybreak (Kuro no Kiseki) .dat, .mdl, and .tbl file formats; compatible with multiple games using the same engine
+- [kuro_mdl_tool](https://github.com/eArmada8/kuro_mdl_tool) - Exports and re-imports mesh data from Kuro no Kiseki `.mdl` files as `.fmt`/`.vb`/`.ib` plus JSON metadata, compatible with the 3DMigoto Blender import plugin.
 - [ed8_dlc_tables](https://github.com/eArmada8/ed8_dlc_tables) - Python scripts for creating custom DLC tables (.tbl files) for Trails of Cold Steel and Tokyo Xanadu eX+
 - [Ys8_IT3](https://github.com/eArmada8/Ys8_IT3) - Tool for extracting and repacking Ys VIII/IX asset data from IT3 format files; exports meshes, textures, and animations
 - [YsVIII-tools](https://github.com/yosh778/YsVIII-tools) - Unpacking/packing tools for Ys VIII assets, covering XAST/DAT archives, PLT strings, TBB-to-CSV conversion, and a script bytecode disassembler/assembler.
@@ -1088,11 +1114,15 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [Legacy of the Wizard Tool](https://github.com/bbbradsmith/lotwtool) - Editor for Legacy of the Wizard (NES) / Dragon Slayer IV (Famicom, MSX1, MSX2), directly editing the original ROM's map, item, and other game data.
 - [Ouroboros/Falcom](https://github.com/Ouroboros/Falcom) - Tools for many Trails/Kiseki games and other Falcom titles.
   - Games: Trails in the Sky FC/SC/the 3rd, Trails of Zero, Trails of Azure, Trails of Cold Steel III/IV, Trails into Reverie, Trails through Daybreak, Zwei II.
+- [trails-1st-save-converter](https://github.com/sakarie9/trails-1st-save-converter) - Standalone Python script converting Trails in the Sky 1st Chapter slot saves (`saveNNN`) and system data (`sdmemNNN`) between Nintendo Switch and Steam formats in both directions, re-implementing the formats documented by turtle-insect's TrailsintheSky1stChapter save editor.
 - [Aureole](https://github.com/Kyuuhachi/Aureole) - Suite of tools for modding the classic Trails/Kiseki games.
+- [Cradle](https://github.com/Aureole-Suite/Cradle) - Converts Falcom `.itp` images to and from PNG and DDS; supports Trails in the Sky FC/SC/3rd, Trails from Zero/to Azure, Nayuta: Boundless Trails, Ys Seven, Ys VIII and Ys vs Sora no Kiseki.
 - [Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) - Ports the Vita-exclusive quests from Trails to Azure (Trails of Cold Steel) to the PC version.
 - [Inevitable-Zero](https://github.com/Kyuuhachi/Inevitable-Zero) - Ports the Vita-exclusive quests from Trails from Zero to the PC version.
 - [Septluxian-Scope](https://github.com/Kyuuhachi/Septluxian-Scope) - Decompiler for Ys VIII: Lacrimosa of Dana and The Legend of Nayuta: Boundless Trails.
 - [FalcomPACTool](https://github.com/LinkOFF7/FalcomPACTool) - Falcom PAC archive extractor for The Legend of Heroes: Trails in the Sky 1st Chapter.
+- [skytrails-replacer](https://github.com/spillerrec/skytrails-replacer) - Reverse-engineering of Trails in the Sky 3D model files: includes an `X`/`_X3` model viewer and decoder for First and Second Chapter plus Kaitai Struct specifications of the formats.
+- [Kiseki-Texture-Tool](https://github.com/Sewer56/Kiseki-Texture-Tool) - Extracts Sora no Kiseki (FC, SC, 3rd) image assets, converting `._CH`, `._DS` (hidden DDS) and `._CH` + `._CP` chip/spritesheet files. Marked work-in-progress by its author.
 - [FalcomToolsCollection](https://github.com/akatatsu27/FalcomToolsCollection) - Collection of Kaitai Struct definitions, to/from-JSON converters, and compression algorithms for various Falcom data formats.
 - [Xanadu-BRA-Decompress](https://github.com/Sewer56/Xanadu-BRA-Decompress) - Unarchiver for the PC version of Tokyo Xanadu eX+, reverse-engineered day-one of release for modding purposes.
 - [SenPatcher](https://github.com/AdmiralCurtiss/SenPatcher) - Fixes and customizations for the PC versions of Falcom's games in the Phyre engine (Trails of Cold Steel, Trails into Reverie, Tokyo Xanadu eX+).

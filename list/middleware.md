@@ -34,6 +34,7 @@
 - [hkxlib](https://github.com/aerisarn/hkxlib) - JAXB parser for editing TAGXML formatted Havok files.
 - [hkxEdit](https://github.com/aerisarn/hkxEdit) - Visual editor for Havok 2010.2 files based on hkxlib, written in Java.
 - [TagTools](https://github.com/blueskythlikesclouds/TagTools) - Tools for editing Havok 2015/2016 binary tag files. Includes TagTools converter and CollisionConverter for converting rigid bodies to static compound shapes with type and flag tags.
+- [HKCLTool](https://github.com/VelouriasMoon/HKCLTool) - Editing tool for Havok `.hkcl` cloth files built on the HKX2 library. Merges, lists, removes cloth entries and converts platforms.
 - [FF16-Model-Importer](https://github.com/KillzXGaming/FF16-Model-Importer) - Tool to export and import Final Fantasy XVI .mdl file binaries as .gltf or .dae.
 - [FF16-010-Templates](https://github.com/KillzXGaming/FF16-010-Templates) - 010 Editor templates for Final Fantasy XVI file formats, covering MTL (material) and TEC (shader table) files.
 - [SSE-Fallout-4-Animation-Converter](https://github.com/Backporter/SSE-Fallout-4-Animation-Converter) - Tool to convert animations to PS4 format for Skyrim Special Edition and Fallout 4.
@@ -286,11 +287,16 @@
 - [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives. See also [CriFs.V2.Hook.ReloadedII](https://github.com/Sewer56/CriFs.V2.Hook.ReloadedII), a Reloaded-II mod built on it for redirecting CRI archive reads to loose/modded files.
 - [AfsLib](https://github.com/Sewer56/AfsLib) - Simple, relatively fast library for reading and writing CRIWare AFS archives.
 - [AfsBatch](https://github.com/tge-was-taken/AfsBatch) - Batch AFS packer. Packs each subdirectory in a given directory into an AFS file of the same name.
+- [AFSPacker](https://github.com/MaikelChan/AFSPacker) - Extracts files from AFS archives to a folder and builds new AFS archives from a folder, with workarounds for per-game quirks. Powered by AFSLib.
 - [cri-archive-lib](https://github.com/rirurin/cri-archive-lib) - Rust library for reading and writing CRI CPK archives.
 - [CriCodecs](https://github.com/Youjose/CriCodecs) - Python frontend for CRI codec tools.
 - [SonicAudioTools](https://github.com/blueskythlikesclouds/SonicAudioTools) - Toolset for modifying CRIWARE file formats.
   - Features: ACB Editor, ACB Finder (link AWB to ACB), ACB Injector, CPK Unpacker.
   - Formats: .acb, .awb, .cpk, .adx, .adx2, .csb.
+- [CriWareLibrary](https://github.com/MarshmallowAndroid/CriWareLibrary) - C# library for reading CRIWARE ACB/AWB formats, largely ported from vgmstream.
+- [ACBExtractor](https://github.com/toyobayashi/ACBExtractor) - Extractor for CRI Middleware ACB files.
+- [radx](https://github.com/Isaac-Lozano/radx) - ADX encoder/decoder written in Rust.
+- [USM_Audio_chunks_rewriter](https://github.com/guzenco/USM_Audio_chunks_rewriter) - Java tool that rewrites the audio chunks of USM video files in a folder using the audio chunks from same-named USM files in another folder.
 - [hca](https://github.com/Ishotihadus/hca) - Efficient, high-quality decoder for CRI's HCA (ADX2) audio format used by many CRIWARE-based games.
 - [HCADecoder](https://github.com/Nyagamon/HCADecoder) - Original decoder for CRI's HCA (ADX2) audio format, the canonical reference implementation other HCA tools are based on.
 - [GoldWave_HcaFile](https://github.com/esterTion/GoldWave_HcaFile) - HCA/ACB playback and export plugin for the GoldWave audio editor.
@@ -591,6 +597,7 @@
 - [mpls_movie-decomp](https://github.com/RootCubed/mpls_movie-decomp) - Decompilation of the Wii Motion Plus Demo Video Player, the built-in Wii channel demonstrating Wii Motion Plus.
 - [NUSGet](https://github.com/NinjaCheetah/NUSGet) - Modern Qt6 GUI NUS content downloader for Wii, vWii, and DSi built on libWiiPy/libTWLPy; decrypts contents and packs installable WAD/TAD archives, with vWii Common Key re-encryption support.
 - [wii-menu-visual-patcher](https://github.com/NinjaCheetah/wii-menu-visual-patcher) - Shell script that unpacks the Wii System Menu's `diskBann.ash` banner, patches the Disc Channel to show its normally-hidden DVD icon, and repacks the banner and System Menu WAD with the modified files; includes a variant for Korean/Wii Mini consoles.
+- [vcromclaim](https://github.com/Plombo/vcromclaim) - Extracts game ROMs, manuals and save files from an extracted Wii NAND filesystem containing Virtual Console games, automatically decompressing compressed ROMs; covers NES, SNES, TurboGrafx-16, Genesis, Master System and N64 titles.
 
 ##### Nintendo DS / DSi
 
@@ -861,6 +868,7 @@
 - [byml-v2](https://github.com/zeldamods/byml-v2) - Python BYML/BYAML parser, writer, and BYML-to-YAML converter supporting v2, v3, and v4 files (Breath of the Wild and Super Mario Odyssey, including 64-bit node types and both endiannesses).
   - Sibling Python libraries: [aamp](https://github.com/zeldamods/aamp) (AAMP parameter archive reader/converter, targeting Breath of the Wild), [sarc](https://github.com/zeldamods/sarc) (SARC archive reader/writer and CLI), [evfl](https://github.com/zeldamods/evfl) (EventFlow .bfevfl flowchart and .bfevtm timeline parser/writer, able to rewrite every event flow in Breath of the Wild), [tmpk](https://github.com/zeldamods/tmpk) (library and CLI for Nintendo's TMPK archive format).
 - [SarcLibrary](https://github.com/EPD-Libraries/SarcLibrary) - Modern C# reader/writer for Nintendo SEAD/SEPD SARC archives.
+- [SARC-Tool](https://github.com/aboood40091/SARC-Tool) - Tool for extracting and packing SARC/SZS archives from Nintendo EAD games, using SarcLib and libyaz0.
 - [sarc_archiver](https://github.com/Torphedo/sarc_archiver) - C plugin for the PhysicsFS virtual filesystem library that mounts Nintendo SARC archives, with a zstd-compressed I/O wrapper (optional dictionary).
 - [GARCTool](https://github.com/kwsch/GARCTool) - Nintendo 3DS GARC (un)packing tool with support for repacking compressed files, complementing GARC-Unpack above.
 - [mizuna](https://github.com/tetraxile/mizuna) - C++ library for Nintendo file formats, including Yaz0, SARC/SZS, BYML, and MSBP.
@@ -874,6 +882,9 @@
 - [MSBTConverter](https://github.com/KillzXGaming/MSBTConverter) - Tool to convert Nintendo MSBT text files to YAML and back.
 - [CLMS](https://github.com/Trippixyz/CLMS) - C# library for Nintendo LMS (Message Studio) text format files (MSBT, MSBP, MSBF).
 - [MessageStudio](https://github.com/EPD-Libraries/MessageStudio) - Modern C# implementation of Nintendo MessageStudio (LMS) text file formats.
+- [MsbtToYaml](https://github.com/ArchLeaders/MsbtToYaml) - Command-line tool that converts MSBT files to and from YAML.
+- [OatmealDome.NinLib.MessageStudio](https://github.com/OatmealDome/OatmealDome.NinLib.MessageStudio) - .NET library for reading MSBT files generated by Nintendo's MessageStudio suite (read-only).
+- [MSBT Editor Reloaded](https://github.com/IcySon55/3DLandMSBTeditor) - Windows editor for Nintendo MSBT message files with support for sections such as LBL1 and NLI1.
 
 ###### Models, Textures, Fonts & Rendering
 
@@ -883,6 +894,7 @@
 - [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
 - [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
 - [3dsfont](https://github.com/dnasdw/3dsfont) - Toolkit for Nintendo BCFNT and BFFNT font files (3DS, Wii U, Switch).
+- [bffnt-tools](https://github.com/rashevskyv/bffnt-tools) - Python CLI that unpacks BFFNT/BCFNT/BRFNT fonts into PNG sheets plus `font.json` and packs them back, with a Qt/OpenGL viewer for editing glyph widths and character mapping (README in Ukrainian).
 - [NintyFont](https://github.com/hadashisora/NintyFont) - Nintendo binary font editor
 - [img2nutexb](https://github.com/jam1garner/img2nutexb) - Converts standard images (PNG, JPG, GIF, DDS, TGA, TIFF, ICO, BMP) to Nutexb, the Namco texture format used in Smash Ultimate and other Switch games.
 - [nutexb](https://github.com/jam1garner/nutexb) - Rust library for working with Namco Nutexb textures, found in Smash Ultimate and other Switch games.
@@ -904,6 +916,7 @@
 - [ImageLibrary](https://github.com/KillzXGaming/ImageLibrary) - Image processing library for decoding and encoding the texture pixel formats shared across KillzXGaming's BNTX, BFRES, and other Nintendo texture tooling.
 - [LayoutLibrary](https://github.com/KillzXGaming/LayoutLibrary) - UI library for reading and writing Nintendo BFLYT layout and BFLAN layout-animation file binaries; its animation-curve export format is consumed by hermite-editor above.
 - [bflyt-rs](https://github.com/ultimate-research/bflyt-rs) - Rust library and `bflyt-tool` command-line utility that converts Nintendo BFLYT layout files to and from JSON.
+- [SwitchLayoutEditor](https://github.com/FuryBaguette/SwitchLayoutEditor) - Editor and renderer for the BFLYT and BFLAN layout files used in Nintendo Switch interfaces and games. Opens SZS archives.
 - [ShaderLibrary](https://github.com/KillzXGaming/ShaderLibrary) - Library for loading and saving Nintendo BFSHA and BNSH shader binaries used across Wii U and Switch titles.
 - [BntxLibrary (KillzXGaming)](https://github.com/KillzXGaming/BntxLibrary) - C# library for reading and writing the Nintendo BNTX texture format, built on ImageLibrary below for pixel-format processing.
 - [BfresLibrary](https://github.com/KillzXGaming/BfresLibrary) - Reworked continuation of smb123w64gb's NintenTools.Bfres above, unifying Wii U and Switch BFRES support with shader-parameter access, in-library texture deswizzling, and near-complete cross-platform material conversion (see BfresPlatformConverter below).
@@ -925,6 +938,8 @@
 - [asb](https://github.com/EPD-Libraries/asb) - Base library for parsing and recompiling Nintendo ASB (Animation State Binary) and AINB files.
 - [txtg](https://github.com/EPD-Libraries/txtg) - Experimental parser for the Nintendo TexToGo (TXTG) file format.
 - [RstbLibrary](https://github.com/EPD-Libraries/RstbLibrary) - C# IO library for Nintendo Resource Size Table (RSTB/RESTBL) files.
+- [EvflToJson](https://github.com/ArchLeaders/EvflToJson) - Command-line tool that converts Binary Cafe Event Flow (BFEV) files to JSON and back.
+- [BYAMLSharp](https://github.com/Jenrikku/BYAMLSharp) - C# library for reading and writing BYAML versions 1 to 4, including Mario Kart BYAML, with handling of recursion and circular references.
 
 ###### Audio
 
@@ -932,6 +947,17 @@
 - [AudioToolkit](https://github.com/EPD-Libraries/AudioToolkit) - IO library for file formats in Nintendo's nw::snd/nn::atk (NintendoWare) audio namespace.
 - [Citric Composer](https://github.com/Hengle/Citric_Composer) - Extractor, player, and converter for Nintendo 3DS/Wii U NintendoWare (nw::snd) waveform and streaming audio, with byte-level documentation of the BNK, WAR, SEQ, GRP, and WAV file formats.
 - [BCSAR-View](https://github.com/thane98/BCSAR-View) - WIP editor for Nintendo 3DS sound archives (`.bcsar`), dumping and inserting wave sounds, sound sets, and archives, and dumping sequences, banks, and groups.
+- [BARSReaderGUI](https://github.com/natv1337/BARSReaderGUI) - GUI for reading Nintendo BARS files and exporting their sound and metadata. Tested with Super Mario Bros. Wonder, The Legend of Zelda: Tears of the Kingdom, Splatoon 3, Animal Crossing: New Horizons and Splatoon 2.
+- [BarsTool](https://github.com/NanobotZ/BarsTool) - GUI BARS file editor for extracting or replacing the embedded sound files, made with The Legend of Zelda: Breath of the Wild in mind.
+  - [TOTK_BARS_Tool](https://github.com/MediaMoots/TOTK_BARS_Tool) - Patches and adds BWAV files to Tears of the Kingdom BARS files.
+  - [bars_py](https://github.com/Nitr4m12/bars_py) - Python module for reading and manipulating BARS files, tested only with Breath of the Wild files.
+  - [automatic-bars-patcher](https://github.com/ic-scm/automatic-bars-patcher) - Patches BARS files automatically from whole directories of BWAV files when modding in custom music.
+  - [bars-to-bwav](https://github.com/jackz314/bars-to-bwav) - Extracts BWAV files from BARS containers, such as those in Animal Crossing: New Horizons.
+- [NW4ArchiveTools](https://github.com/soneek/NW4ArchiveTools) - Libraries for working with SDAT, BRSAR, BCSAR and BFSAR sound archives.
+  - [3DSUSoundArchiveTool](https://github.com/soneek/3DSUSoundArchiveTool) - Extracts sequences and banks from BCSAR and BFSAR sound archives.
+  - [BFSAR_Split](https://github.com/switch-stuff/BFSAR_Split) - Splits out bfwav, bfstp and bfseq files from a little-endian BFSAR or similar container.
+- [BCFSTM-BCFWAV-Converter](https://github.com/aboood40091/BCFSTM-BCFWAV-Converter) - Converts between the BFSTM, BCSTM, BFSTP, BFWAV and BCWAV formats.
+- [brsar-patcher](https://github.com/yoshakami/brsar-patcher) - Script that patches BRSAR files, available in Python and C.
 
 ###### amiibo (NFC Tag Data)
 
@@ -1007,6 +1033,7 @@
 - [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced PlayStation 1 memory card editor for managing save files with support for multiple formats.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [EightMB](https://github.com/sevonj/eightmb) - Work-in-progress tool for examining PlayStation 2 memory card images: parses Sony's PS2 memory card file system, and displays `icon.sys` backgrounds and 3D save-icon meshes/textures alongside a dump of the card's contents.
+- [ps2mc-browser](https://github.com/caol64/ps2mc-browser) - PS2 save viewer that parses the vertex and texture data of 3D save icons and renders them with OpenGL.
 - [sfo](https://github.com/hippie68/sfo) - Fast C program that reads a file to print or modify its SFO parameters. Can be used for automation or to build param.sfo files from scratch. Also available as .exe file for Windows command line.
 - [PARAMSFOReader](https://github.com/zyzalfors/PARAMSFOReader) - Command-line reader for PARAM.SFO files from PlayStation save files (PSP, PS3, PS4, etc.), printing the parsed data to the screen or a file.
 - [ps3-ckit](https://github.com/tge-was-taken/ps3-ckit) - PS3 C code injection framework. Toolkit for running arbitrary C code in games, hooking existing functions, and inserting custom functionality.
@@ -1227,6 +1254,7 @@
 *Formats and tools generic to the Games for Windows Live (GFWL) middleware, not tied to a specific game.*
 
 - [xlive-research](https://github.com/widberg/xlive-research) - Research pertaining to Games for Windows Live (GFWL) xlive.dll internals.
+- [gfwl-stripper](https://github.com/pallando/gfwl-stripper) - Removes the GFWL header from `.sgd` savegames (Batman: Arkham Asylum and Arkham City) and copies the patched saves to a Steam account.
 
 #### Steam (Valve) Platform Tools
 
@@ -1235,6 +1263,7 @@
 - [SteamKit](https://github.com/SteamRE/SteamKit) - .NET library implementing Valve's Steam network protocol, providing programmatic access to Steam services (CDN/depot downloads, game coordinator messages, etc.).
 - [steam](https://github.com/ValvePython/steam) - Python package for interacting with the Steam network, including a CDNClient for depot/manifest access. See also [ValvePython/csgo](https://github.com/ValvePython/csgo) for the CS:GO Game Coordinator protocol.
 - [steam-shortcut-editor](https://github.com/tirish/steam-shortcut-editor) - Node.js library to read and write Steam's binary `shortcuts.vdf` file (the non-Steam game shortcuts database), parsing it to a JSON object and back to the original binary format.
+- [SteamAppInfo](https://github.com/xPaw/SteamAppInfo) - Reader/example for the Steam client's `appinfo.vdf` and `packageinfo.vdf` files that documents their binary layout across versions.
 
 #### Acrodea VIVID Runtime (G-Gee)
 

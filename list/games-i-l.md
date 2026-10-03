@@ -11,6 +11,7 @@
 #### Ice-Pick Lodge
 
 - [VoidExtractor](https://github.com/valsaven/VoidExtractor) - Universal game archive extractor for Pathologic (2005) and Pathologic Classic HD (2015) `.vfs` archives (VFS v1/v2), preserving original folder hierarchy.
+- [pathologic-vfs-unpacker](https://github.com/valsaven/pathologic-vfs-unpacker) - Go command-line unpacker for the `LP1C` VFS archives of the Pathologic series (e.g. Pathologic Classic HD).
 - [pathologic-mesh-viewer](https://github.com/koshkokoshka/pathologic-mesh-viewer) - 3D model viewer for Pathologic Classic HD, supporting the game's .mesh format.
 - [GorkhonScriptEditor](https://github.com/adc-ax/GorkhonScriptEditor) - Alpha-stage viewer/editor for Pathologic and Pathologic Classic HD's .bin script format, letting modders disassemble compiled scripts.
 
@@ -46,6 +47,9 @@
 - [wolf3d](https://github.com/id-Software/wolf3d) - id Software's official 1995 open-source release of Wolfenstein 3D, including the original VSWAP/GAMEMAPS/AUDIOT-reading engine.
 - [WolfstoneExtract](https://github.com/ECWolfEngine/WolfstoneExtract) - Extracts Wolfenstein 3D-compatible game data from an installed copy of Wolfenstein II: The New Colossus or Wolfenstein: Youngblood, converting the modern titles' archives and Wwise BNK/WEM audio into a wolfstone.pk3/elitehans.pk3 usable with ECWolf-based source ports.
 - [Wolf3DExtract](https://github.com/HiPhish/Wolf3DExtract) - Command-line tool for extracting graphics, sounds, and level assets from the PC version of Wolfenstein 3D.
+- [snes-wolf3d-extractor](https://github.com/adambiser/snes-wolf3d-extractor) - Python extractor for the images, sounds, and maps in the SNES ROMs of Wolfenstein 3D (USA, Europe, Japan, and two betas) and Super 3D Noah's Ark (1994 and 2013 Steam versions).
+- [IMF Creator](https://github.com/adambiser/imf-creator) - Python program for creating IMF music as used by several classic id Software and Apogee games such as Wolfenstein 3D and Commander Keen. Work in progress.
+- [imf2mid](https://github.com/Wohlstand/imf2mid) - Command-line converter from the IMF (id Software Music Format) OPL2 register-write music format, used by Commander Keen, Wolfenstein 3D, and many Apogee games, to General MIDI. See also [IMF-Freq-Conv](https://github.com/Wohlstand/IMF-Freq-Conv), which converts the chunk delays of IMF files between 280 Hz, 560 Hz, and 700 Hz tempo speeds.
 - [Wolf3D-Mac (original release)](https://github.com/Blzut3/Wolf3D-Mac) - id Software's original Macintosh source release for Wolfenstein 3D: First & Second Encounter, including the original VSWAP/GAMEMAPS-reading engine code. *(Archived.)*
 - [MacWolfSDL](https://github.com/kaylagator/MacWolfSDL) - Accurate SDL3 source port of Macintosh Wolfenstein 3D, reading the original Mac resource-fork game data (including Third Encounter scenario compatibility).
 - [MacWolf for DOS](https://github.com/FrenkelS/Wolf3D-Mac-for-DOS) - Ports the Macintosh version of Wolfenstein 3D (different graphics, sound, music and levels from the DOS version) to run on DOS.
@@ -361,9 +365,13 @@
   - Modules: `pak` (PAK filesystem), `proto` (network/demo protocol), `blenddemo`/`blendmdl`/`blendbsp` (Blender import of demos, MDL models, and BSP maps).
   - Tools: `demo_viewer` (OpenGL demo playback), `demo_parser` (human-readable demo dump), `pyq_pak_extract` (PAK viewer/extractor). Same author's [dem-transpose](https://github.com/matthewearl/dem-transpose) is a small prototype that transforms `.dem` demo files into a more compressible byte layout, [demsuperimpose](https://github.com/matthewearl/demsuperimpose) overlays the view entity from several other demos as "ghosts" into a base demo, and [showros](https://github.com/matthewearl/showros) patches a demo to replace the invisible "Ring of Shadows" entity model with the player model for viewing. [unusedtex](https://github.com/matthewearl/unusedtex) blacks out texture regions unused by a BSP map's faces to improve compression ratio.
 - [RTCW-BSP-Map-Viewer](https://github.com/Helioform/RTCW-BSP-Map-Viewer) - Loads and renders Return to Castle Wolfenstein's original BSP maps.
+- [QEBSPEditor](https://github.com/jpiolho/QEBSPEditor) - Browser-based (WebAssembly) tool for editing Quake BSPs for Quake Enhanced and other versions: edit entities, view, replace, and export textures (as WAD or zip), use custom palettes, and adjust global light; supports BSP versions 29, BSP2, and 2PSB.
+- [reQuest](https://github.com/malespiaut/request) - Maintenance continuation of Quest, a 3D map editor for Quake-engine games; supports Quake, Quake 2, Quake 3, Hexen 2, Heretic 2, Half-Life, and Sin.
 - [Rust Quake](https://github.com/Thinkofname/rust-quake) - Quake level renderer in Rust, reading the original `PAK0.PAK`.
 - [Q2-Gladiator-Bot](https://github.com/themuffinator/Q2-Gladiator-Bot) - Open, buildable reconstruction of the Gladiator Bot botlib for Quake II, recovered from the retail `gladiator.dll` binary so the original bot mod keeps running on modern toolchains.
 - [bsp2bmp](https://github.com/QW-Group/bsp2bmp) - Generates a wireframe picture from a Quake BSP map file.
+- [Tyr-Utils](https://github.com/sezero/tyrutils) - Git mirror of Kevin Shanahan's command-line utilities for building Quake levels and working with Quake file formats: `qbsp`, `light` and `vis` compile maps, plus `bspinfo` (BSP statistics) and `bsputil` (BSP data manipulation).
+- [VisPatch](https://github.com/sezero/vispatch) - Prepares and applies patch files that add water-vis data to Quake maps for transparent water in GLQuake; a revised version of Andy Bay's 1.2a source.
 - [MVDparser](https://github.com/QW-Group/mvdparser) - Parses QuakeWorld/MVDSV Multi-View Demo (MVD) files and outputs statistics and information about the recorded match in a customizable format.
 - [QWDTOOLS](https://github.com/QW-Group/qwdtools) - Converter for QuakeWorld's `.qwd` single-view demo format.
 
@@ -687,6 +695,8 @@
 - [SPME](https://github.com/InconspicuousCactus/SPME) - Command-line editor for Super Paper Mario level data: extracts/repacks U8 archives and TPL textures, and converts `map.bin` level geometry to/from FBX and GLB for editing in 3D tools.
 - [Flint](https://github.com/Luma48/Flint) - Editor for Super Paper Mario's in-game text/dialogue, with live in-editor preview of how edited text will render before patching via Riivolution.
 - [Paper-Mario-Tools](https://github.com/KillzXGaming/Paper-Mario-Tools) - Tools for Paper Mario games, including a LightConverter utility for converting light-probe binaries from Zstd-compressed assets, as used in the Paper Mario: The Thousand-Year Door Switch remake.
+- [Unsimplifier](https://github.com/Darxoon/Unsimplifier) - Browser-based data editor for the Paper Mario: The Thousand Year Door remake. Opens files from the game's romfs and edits object properties.
+- [samptool](https://github.com/ShrineFox/samptool) - Repacker for Paper Mario: The Thousand Year Door (GameCube) MusyX `.samp` sound archives, originally created by tge-was-taken in 2016. GUI and command-line.
 
 ##### Paper Mario: The Origami King
 
@@ -721,6 +731,7 @@
 - [falltergeist](https://github.com/falltergeist/falltergeist) - Alternative game engine implementation that parses and runs original Fallout 2 data files (master.dat, critter.dat).
 - [fallout1-re](https://github.com/alexbatalov/fallout1-re) - Reverse-engineered, fully working reconstruction of the original Fallout source code.
 - [fallout2-re](https://github.com/alexbatalov/fallout2-re) - Reverse-engineered, fully working reconstruction of the original Fallout 2 source code.
+- [fot-save-edit](https://github.com/mykola2312/fot-save-edit) - Rust CLI that decodes and encodes Fallout Tactics save files (implements the binary save format), for editing character stats and entity properties.
 
 ##### Fallout 2
 
@@ -782,6 +793,10 @@
 
 - [frfi-decomp](https://github.com/andresj-sanchez/frfi-decomp) - Work-in-progress matching decompilation of Freedom Fighters (2003, GameCube).
 - [Freedom](https://github.com/minexew/Freedom) - Reverse-engineering documentation and tools for Freedom Fighters (2003) and other Glacier-engine titles, covering the BUF/GMS/LOC/PRM/TEX/ZGF map and resource formats; includes a texture dumper and a PRM model exporter that reconstructs scene geometry as OBJ for import into Blender.
+
+##### Kane & Lynch
+
+- [KaneLynchLoc](https://github.com/x1nixmzeng/KaneLynchLoc) - Command-line C# tool converting Kane & Lynch locale (.loc) language databases to and from XML language exports, with a console export option.
 
 #### Ion Storm
 
@@ -1014,6 +1029,7 @@
 - [gust_stuff](https://github.com/eArmada8/gust_stuff) - Modding toolkit for G1M model files used in Gust games (Atelier series).
 - [gust_tools](https://github.com/VitaSmith/gust_tools) - Utilities for archive management and data extraction for Gust PC games (Atelier, Blue Reflection, Nights of Azure).
 - [atelier_pak_decrypt](https://github.com/shizukachan/atelier_pak_decrypt) - Small utility to decrypt GUST .pak archives.
+- [zig-gtx2dds](https://github.com/shimamura-sakura/zig-gtx2dds) - Zig converter between Gust GTX (`.gtx`) and DDS textures; supports only DXT1 (UBC1) and DXT5 (UBC3).
 - [Project-G1M](https://github.com/Joschuka/Project-G1M) - Noesis plugin for importing G1M 3D model format used in Gust and Bandai Namco games.
 - [Cethleann](https://github.com/neptuwunium/Cethleann) - KTGL (Soft Engine) data exploration and research tool for Koei Tecmo games.
 - [atelier-tools](https://github.com/holly-hacker/atelier-tools) - Library and CLI for decoding modern Atelier PC titles' .pak archives and .g1t textures (Sophie, Firis, Lydie & Suelle, Ryza 1-3, Sophie 2), aiming to be easier to use as a library than gust_tools; powers the author's atelier-wiki format documentation.
@@ -1049,6 +1065,8 @@
 - [kbinxml-rs](https://github.com/mbilker/kbinxml-rs) - Rust library and CLI for Konami's binary XML (KBinXML) format, with a derive macro for mapping nodes onto structs.
 - [aeptools](https://github.com/aoki-marika/aeptools) - Converts Konami's proprietary AEP format between x86/x64 binary and human-readable JSON for inspection and modification. See the [wiki](https://github.com/aoki-marika/aep/wiki) for format documentation.
 - [s3ptools](https://github.com/aoki-marika/s3ptools) - Tools for working with Konami's proprietary S3P file format.
+- [txrcconv](https://github.com/piratesephiroth/txrcconv) - Exports the text of Konami `.txrc` files to editable plain text (one string per line) and converts it back, as long as the string count is unchanged; used by games such as Suikoden Tierkreis, Love Plus and Castlevania: Harmony of Despair.
+- [kcej_ipk_dec](https://github.com/Nisto/kcej_ipk_dec) - Decodes and extracts IPK files from PS2 games developed by Konami Computer Entertainment Japan; known supported games include Metal Gear Solid 2, Metal Gear Solid 3 and Zone of the Enders: The 2nd Runner.
 
 ##### Teenage Mutant Ninja Turtles
 
@@ -1083,6 +1101,7 @@
 - [firebeat](https://github.com/DragonMinded/firebeat) - Documentation and utilities for hacking Konami's Firebeat arcade hardware (beatmania IIDX, pop'n music, GITADORA).
 - [twinkle](https://github.com/DragonMinded/twinkle) - Documentation and code for working with Konami's Twinkle arcade system (beatmania, PS1-based).
 - [scharfrichter](https://github.com/SaxxonPike/scharfrichter) - Class library and CLI toolset for converting Konami arcade rhythm-game media: djmain and Twinkle (beatmania IIDX) hard drive images, bemanipc files, DDR SSQ charts, and Xbox/XAudio-based XWB/XSB audio banks used in later DDR games; also includes an experimental beatmania IIDX IFS extractor.
+  - See also [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex), the author's successor project, a C# rhythm game data tool.
 - [sm2museca](https://github.com/DragonMinded/sm2museca) - Conversion utility to replace or add songs to Konami's MÚSECA arcade rhythm game.
 - [afptools](https://github.com/camprevail/afptools) - Tools and an ImHex pattern for working with Konami's AFP graphics/animation format, used across BEMANI arcade titles. See also [AfpViewerEx](https://github.com/aixxe/AfpViewerEx), a hook for dumping rendered frames as transparent PNGs from the beatmania IIDX AFP viewer at runtime.
 - [SD9Tool](https://github.com/TheFooestBar/SD9Tool) - Extracts and imports audio (with loop-point and volume parameters) in Konami's SD9 format and SSP containers, used by Dance Dance Revolution and other BEMANI titles.
@@ -1112,6 +1131,11 @@
 - [gobbletools](https://github.com/987123879113/gobbletools) - Archived grab-bag of tools for older Konami/BEMANI arcade systems.
   - Systems: System 573 (Dance Maniax video/animation renderer, GuitarFreaks/DrumMania tools, MP3 .DAT decryption, JAMMA I/O), Twinkle (beatmania IIDX video conversion, MGP key generation), Viper (ParaParaParadise 2nd Mix HDD dumper), Python1 (pop'n music HDD dumper), Python2 (DanceDanceRevolution, GuitarFreaks/DrumMania, Toy's March).
   - Also includes: DDR character model converter (AC/PS1, outputs glb/gltf/obj/StepMania), DDR animation and chart tools, a TM2C texture converter, and beMouse tools.
+- [ddr-tools](https://github.com/root670/ddr-tools) - Tools for extracting and modifying files from Dance Dance Revolution CS games: TCB image extractor and TCB-to-PNG converter/injector, plus a `filedata.bin` extract/create tool driven by the game ELF file table.
+- [iidx-ps2tools](https://github.com/SaxxonPike/iidx-ps2tools) - Work-in-progress tools for PS2 beatmania IIDX games (3rd style onward) that extract data directly from the archives: overlay animations (saved as GIF), movies, and charts convertible to JSON or other IIDX chart formats.
+  - [iidx-datatools](https://github.com/SaxxonPike/iidx-datatools) - Python scripts for IIDX data: building `texturelist.xml` from an image folder and operations on `music_data.bin`.
+- [sys573tools](https://github.com/SaxxonPike/sys573tools) - Konami System 573 miscellany, including py573a (Python recreation of 573a.jar for encrypting/decrypting digital audio data) and a hardware digital-audio decryption patch tool based on Drummania 5th Mix.
+- [rhythm-game-formats](https://github.com/SaxxonPike/rhythm-game-formats) - Documentation of file formats used by Bemani games.
 - [eamold](https://github.com/987123879113/eamold) - Research server reimplementing the old XML-based (pre-binary XML) System 573 e-Amusement network protocol for GuitarFreaks/DrumMania (7th-11th Mix era), including ee'mall content update data handling.
 
 ##### Tokimeki Memorial
@@ -1301,6 +1325,7 @@
 - [TFSndEdit](https://github.com/xan1242/TFSndEdit) - Extracts and repacks the `SNDDAT` sound banks of Yu-Gi-Oh! Tag Force (PSP), tested with Tag Force 1 and 6; needs the SHDS sound header from the executable (EBOOT.BIN).
   - [TagForceMusicEx](https://github.com/xan1242/TagForceMusicEx) - Earlier, simpler extractor for the AT3 music files (no repacking).
 - [EHPScanner](https://github.com/xan1242/EHPScanner) - Scans for and extracts EhFolder (EHP) archives embedded in files, mainly Tag Force EBOOT files, with autodetection and filename assignment.
+- [YGTool](https://github.com/matheuscardoso96/YGTool) - Converts Yu-Gi-Oh! PSP/Nintendo DS game files to editable formats and back; currently supports Yu-Gi-Oh! GX: Tag Force 2 (`.ehp` archives, `.gim` images in 4bpp/8bpp/DXT1, Huffman and Gzip compression, and `.bin` text).
 
 ##### Pop'n Music
 
@@ -1492,6 +1517,7 @@
 - [sonic-r](https://github.com/jnmartin84/sonic-r) - Decompilation/reimplementation of Sonic R (1997) for modern platforms, currently able to generate a Sega Dreamcast CDI of a beta build.
 - [sonicr-mod-loader](https://github.com/sonicretro/sonicr-mod-loader) - Mod loader for the 2004 PC version of Sonic R.
 - [RAW2BMP](https://github.com/sonicretro/RAW2BMP) - Console converter between Sonic R's headerless 24-bit `.raw`/`.ply` texture files (dimensions inferred from file size) and BMP; also includes a MapConverter that builds a map image from a `.ply` file.
+- [Sonic-R-Utilities](https://github.com/InvisibleUp/Sonic-R-Utilities) - Archived. Python utilities for Sonic R files: convert tracks and character models to/from Wavefront OBJ, a Blender track importer, a model part reorder script and a modified character model viewer.
 - [NTT-Model-Dumper](https://github.com/KillzXGaming/NTT-Model-Dumper) - Tool to dump .model files used by Lego Star Wars: The Skywalker Saga.
 - [tt-save-editor](https://github.com/fisherjoey/tt-save-editor) - Browser-based save editor for LEGO Batman: Legacy of the Dark Knight. Decrypts the RC4-encrypted, fixed 32-byte-key save file and parses its Unreal Engine 5 GVAS fields by name to fix the "created on an updated version" error, unlock collectibles and characters, and edit mission progress. Runs entirely client-side.
 - [Tt-Games-quickbms-scripts](https://github.com/linterniGamer/Tt-Games-quickbms-scripts) - QuickBMS scripts for extracting and modding archives from games made by TT Games.

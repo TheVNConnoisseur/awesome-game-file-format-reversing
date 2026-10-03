@@ -309,6 +309,7 @@
 - [CMVS_VideoDecode](https://github.com/pkuislm/CMVS_VideoDecode) - Transcodes Purple Software's proprietary CMV video format used by the CMVS visual novel engine.
   - See also [CMV6Encode](https://github.com/pkuislm/CMV6Encode), the counterpart encoder.
 - [PS3Packer](https://github.com/pkuislm/PS3Packer) - Repacks Purple Software's PS3 opcode-based script format after translation.
+- [CMVS-Engine](https://github.com/xmoezzz/CMVS-Engine) - Tools for Purple Software's CMVS engine: CPZV6Unpacker (`.cpz` version 6 archives), Pb3Decoder (`.pb3` to BMP), Ps2TextDumper/Ps3TextDumper (dump strings from `.ps2`/`.ps3` scripts) and PurplePS3Packer (repacks `.ps3` scripts for translation).
 
 ### Q
 #### OnNet (QPang)
@@ -397,6 +398,12 @@
 
 - [RadViewer](https://github.com/yaz0r/RadViewer) - Viewer for the graphic RAD files used internally at Atari/Tengen during the 80s and 90s, with basic support for pages, cells, animation and sequences. SDL3/OpenGL/Dear ImGui-based.
 
+#### RealSpace3 Engine Games (RaiderZ, GunZ)
+
+- [z3ResEx](https://github.com/x1nixmzeng/z3ResEx) - Extracts the filesystem from RaiderZ and GunZ: The Second Duel clients, with listing and filtering by filename criteria (archived).
+- [z3-tools](https://github.com/x1nixmzeng/z3-tools) - Early tools for RealSpace3 games, including launcher .bin to plaintext conversion and a parser for MAIET Patch File update files (archived).
+- [gzreplayex](https://github.com/x1nixmzeng/gzreplayex) - GunZ replay examiner parsing the REC (Korean beta) and GZR v1.0 to v11.0 replay formats (archived).
+
 #### Rain World
 
 - [rain-world-save-editor](https://github.com/rostok/rain-world-save-editor) - Python command-line tool that converts a Rain World save file to human-readable text and back, updating the checksum; intended for narrowing down the part of a save that crashes the game.
@@ -479,6 +486,7 @@
 ##### Conker's Bad Fur Day
 
 - [conker (decomp)](https://github.com/mkst/conker) - Matching decompilation of Conker's Bad Fur Day (N64).
+- [clr_unpack](https://github.com/birdytsc/clr_unpack) - Tool for unpacking the .RBM CAFF files of Conker: Live & Reloaded (retail and demo builds), with file listing and individual file dumping.
 
 ##### Dinosaur Planet
 
@@ -515,6 +523,7 @@
 
 - [TiP-Recomp](https://github.com/SolarCookies/TiP-Recomp) - Static recompilation of Viva Piñata: Trouble in Paradise (Xbox 360) into a native executable.
 - [VivaPinata_010Editor_Templates](https://github.com/SolarCookies/VivaPinata_010Editor_Templates) - 010 Editor binary templates for Viva Piñata's in-house asset formats, currently covering the Piñata requirements files (`aid_reqspinata`), with an auto-run template list.
+- [VP-Unpack](https://github.com/CaiaTheFireFly/VP-Unpack) - Work-in-progress unpacker for Viva Pinata .PKG archives, currently extracting the embedded .CAFF, .VREF and .VDAT files; support for Trouble in Paradise, the Xbox edition and Banjo-Kazooie: Nuts & Bolts is planned.
 
 ##### Jeopardy!
 
@@ -623,6 +632,7 @@
 - [Driver model tools](https://www.moddb.com/games/driver-you-are-the-wheelman/downloads/driver-model-tools) - Package contains the model extractor/replacement tool, import and export plugins for Milkshape 3D
 - [driver-sfx-extractor](https://github.com/TecFox/driver-sfx-extractor) - Tool for extracting SFX and audio from Driver 1 and Driver 2 (PSX) BLK audio files.
   - Companion: [driver-music-extractor](https://github.com/TecFox/driver-music-extractor), which extracts and converts the music modules from the headerless MUSIC.BIN archive of Driver 1 and Driver 2 (PSX).
+- [Explor3r](https://github.com/x1nixmzeng/Explor3r) - Experimental resource explorer for Driv3r, researched from the official demo only (archived).
 
 ##### Moonstone
 
@@ -926,6 +936,7 @@
 - [BlenDR](https://github.com/spicybung/BlenDR) - Work-in-progress Blender add-on for working with Rockstar Advanced Game Engine (RAGE) file formats and OpenIV openFormats.
 - [BLeeds](https://github.com/spicybung/BLeeds) - Work-in-progress Blender add-on for Rockstar Leeds Engine formats (GTA: Liberty City Stories/Vice City Stories, Chinatown Wars, Manhunt 2); imports MDL models, CHK/XTX/TEX textures, COL2 collision, WRLD/WBL/BSP maps, and ANIM animations, with experimental export for models, collision, and maps.
 - [Storyland](https://github.com/spicybung/Storyland) - Analyzer, editor, and viewer for GTA Stories (Liberty City Stories/Vice City Stories) file formats, intended to also support Chinatown Wars: MDL/WBL models, CHK/XTX/TEX textures, COL2 collision, WRLD maps, LVZ/DTZ zlib files, IMG archives, and ANIM animations (all but IMG still experimental).
+- [lcs-save-editor](https://github.com/whampson/lcs-save-editor) - Save editor for Grand Theft Auto: Liberty City Stories covering PS2, PSP, Android and iOS saves: player attributes, garage vehicles, stats, global variables and collectible tracking.
 - [unIMG-2](https://github.com/spicybung/unIMG-2) - Reimplementation of unimg for GTA: Liberty City Stories and Vice City Stories; rebuilds WRLD/tex files and recovers exact resource payloads from LVZ files and their companion IMG archives, with automatic or forced LCS/VCS layout detection.
 - [MDL_importer](https://github.com/spicybung/MDL_importer) - 3ds Max MaxScript importer for GTA Stories MDL models (originally by Alex/AK73 per the repo description); includes a Blender branch.
 - [Allens-MH2-Scripts](https://github.com/spicybung/Allens-MH2-Scripts) - 3ds Max import/export scripts for Manhunt 2 and Manhunt: MDL (PC) and DFF (PSP/PS2/Wii) models, IFP and BIN animations, and COL collision, with a helper that extracts Manhunt TXD/TEX textures.
@@ -933,6 +944,7 @@
 - [mtasa-blue](https://github.com/multitheftauto/mtasa-blue) - Multi Theft Auto: San Andreas, a large-scale multiplayer modification platform for GTA: San Andreas, reading and extending the original game's IMG/DFF/TXD/COL/IPL/IDE formats.
 - [wazz-android-editor-gxt](https://github.com/shawawah12-alt/wazz-android-editor-gxt) - Editor for GXT text format files used in the Android ports of the GTA series.
 - [GTAModTools](https://github.com/ParadoxEpoch/GTAModTools) - Collection of tools for building mods and extracting game data from GTA Trilogy: Definitive Edition.
+- [gta3sc](https://github.com/thelink2012/gta3sc) - Native compiler/decompiler for GTA3script, the language used for the mission scripts of the 3D Universe GTA games, also usable as a framework for working with SCM data.
 - [gta-map-converters](https://github.com/bssth/gta-map-converters) - Converts SAMP, MTA, and GTA:SA IPL and CSV map formats between each other.
 - [re3](https://github.com/hottabxp/re3) - Reverse-engineered source code for GTA III and GTA Vice City, documenting the original game's engine and file formats.
 - [IMGEditor](https://github.com/user-grinch/IMGEditor) - IMG archive editor for GTA III, Vice City, San Andreas, and Bully: Scholarship Edition.

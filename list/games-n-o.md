@@ -99,6 +99,10 @@
 
 - [SMC_NPK_Tool](https://github.com/ExIfDev/SMC_NPK_Tool) - Command-line tool to extract resources from Super Mecha Champions.
 
+##### NetEase Multi-Title Unpackers
+
+- [NeteaseUnpackTools](https://github.com/binronn/NeteaseUnpackTools) - Python and C++ tools for decrypting/unpacking NetEase game files: `.nxs` decoder, `.npk` unpacker and `.pyc` converter.
+
 #### Kalisto Entertainment (New York Race)
 
 - [kunp](https://github.com/smx-smx/kunp) - Unpacker for the Kallisto (KBF/KIX) data files used in New York Race (2001), a racing game developed by Kalisto Entertainment.
@@ -192,10 +196,16 @@
 - [NHSE](https://github.com/kwsch/NHSE) - Save editor for Animal Crossing: New Horizons.
 - [ACNHDesignPatternEditor](https://github.com/FluffyFishGames/ACNHDesignPatternEditor) - Editor for Animal Crossing: New Horizons design patterns, used alongside JKSV-exported save data.
 - [ACNH_Dumper](https://github.com/kwsch/ACNH_Dumper) - Tool to decompress and unpack the romfs for Animal Crossing: New Horizons.
+- [HeavenTool](https://github.com/acnhmodding/HeavenTool) - Nintendo file editor focused on Animal Crossing: New Horizons. Opens and edits BCSV, SARC and RSTB/RSTC files, and opens PBC files.
+- [acnh-eventflow-decompiler](https://github.com/asteriation/acnh-eventflow-decompiler) - Decompiles Animal Crossing: New Horizons EventFlow flowcharts (`.bfevfl`) into a readable, code-like format.
+  - [acnh-eventflow-compiler](https://github.com/asteriation/acnh-eventflow-compiler) - Companion compiler for the same EventFlow flowcharts.
+- [MyHorizons](https://github.com/Cuyler36/MyHorizons) - Archived. Work-in-progress Animal Crossing: New Horizons save editor.
+- [HorizonCrypt](https://github.com/Cuyler36/HorizonCrypt) - Archived. Animal Crossing: New Horizons save encryptor/decryptor.
 - [ACSE](https://github.com/Cuyler36/ACSE) - Animal Crossing Save Editor for GameCube.
 - [Animal-Crossing-Model-Editor](https://github.com/Cuyler36/Animal-Crossing-Model-Editor) - 3D model editor for Animal Crossing.
 - [Animal-Crossing-Texture-Editor](https://github.com/Cuyler36/Animal-Crossing-Texture-Editor) - Texture editing tool for Animal Crossing.
 - [Cross-View](https://github.com/Cuyler36/Cross-View) - Model viewer for Animal Crossing.
+- [ac-editor-stringtables](https://github.com/jamchamb/ac-editor-stringtables) - Kotlin/TornadoFX string table editor for Animal Crossing (GameCube); the tables are extracted from `forest_1st.arc` and `forest_2nd.arc` with a RARC unpacker.
 - [RELDumper](https://github.com/Cuyler36/RELDumper) - Tool for dumping REL files from Animal Crossing.
 - [af (decomp)](https://github.com/zeldaret/af) - Matching decompilation of Animal Forest.
 - [ac-decomp (decomp)](https://github.com/acreteam/ac-decomp) - Matching decompilation of Animal Crossing (GameCube).
@@ -206,6 +216,7 @@
 - [Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker](https://github.com/RealDarkCraft/Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker) - Python tool that unpacks and deserializes Animal Crossing: Pocket Camp Complete save files into raw and JSON files and repacks them; not a validating save editor.
 - [ACNL_Research](https://github.com/Slattz/ACNL_Research) - Research on Animal Crossing: New Leaf's inner workings, obtained through reverse engineering the game's code and savefile.
   - Contents: 010 Editor templates, MSBT tag research, SpotPass research, Dream Town downloading, HHS Exhibition data, fish data.
+- [NLTK](https://github.com/Slattz/NLTK) - Archived. Animal Crossing: New Leaf save editor and toolkit.
 - [ACNL_REditor](https://github.com/Slattz/ACNL_REditor) - Animal Crossing: New Leaf ROM editor for patching the game's code and files with quality-of-life gameplay changes.
 - [ACNL_SFC](https://github.com/Slattz/ACNL_SFC) - Archived proof-of-concept C++ tool that creates custom SpotPass (DLC) files for Animal Crossing: New Leaf (Post Office presents and Campground RVs); needs CFW and a `boot9.bin` dump for encryption and decryption.
 - [CGFXModel](https://github.com/captainsouthbird/CGFXModel) - Attempt at editing Animal Crossing: New Leaf villagers and other CGFX model data. (Archived.)
@@ -460,12 +471,15 @@
 - [CoinKiller](https://github.com/ExplosBlue/CoinKiller) - Level editor for New Super Mario Bros. 2.
 - [nsmb2-headers](https://github.com/SMBNext/nsmb2-headers) - Partial documentation of New Super Mario Bros. 2 header structures, stripped from the SMBNext decompilation project (no longer updated).
 - [codedx](https://github.com/RicBent/codedx) - Build system and code-injection framework for New Super Mario Bros. U Deluxe (Switch), compiling and hooking custom C code into the game with header definitions for its actors, collision, and effects systems.
+- [NSMBU-Music-extractor-injector](https://github.com/aboood40091/NSMBU-Music-extractor-injector) - Extracts and injects music (BFWAV tracks) in New Super Mario Bros. U's BFSAR. Needs the original BFSAR, since the music offsets are hardcoded.
+- [NSMB-Editor (NSMBe4)](https://github.com/Dirbaio/NSMB-Editor) - C# editor for New Super Mario Bros. (Nintendo DS) ROMs, with level editing, graphics and tileset editors, NSBMD model handling, a DS filesystem browser and ROM patcher.
 
 ###### Classic & 2D Mario
 
 - [SMM2CourseDecryptor](https://github.com/simontime/SMM2CourseDecryptor) - Decrypts course data from Super Mario Maker 2.
 - [SMM2Reversing](https://github.com/Treeki/SMM2Reversing) - Reverse engineering notes for Super Mario Maker 2, including a course (`.bcd`) level format document, actor lists, and Ghidra scripts.
 - [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
+- [PGE-File-Library-STL](https://github.com/WohlSoft/PGE-File-Library-STL) - Moondust File Library (PGE-FL), a C++ library for reading and writing Super Mario Bros. X (SMBX 1-64 and 38A) level, world, save, game config, and NPC text config files, plus the Moondust PGE-X formats.
 - [Yoshi's Acid Trip](https://github.com/Gota7/YoshisAcidTrip) - Editor for Super Mario Bros. Wonder with ROMFS conversion and level viewing.
 - [rstb](https://github.com/tetraxile/rstb) - Python script converting Super Mario Bros. Wonder RSTB (resource size table) files to and from YAML, using pyzstd.
 - [smw](https://github.com/snesrev/smw) - Reverse-engineered reimplementation of Super Mario World; parses original game ROM (levels, graphics, audio).
@@ -498,6 +512,7 @@
   - [smb2j-disassembly](https://github.com/threecreepio/smb2j-disassembly) - Same CC65 conversion of doppelganger's Super Mario Bros. 2 (Japan) disassembly.
 - [smm-course-viewer](https://github.com/leomaurodesenv/smm-course-viewer) - Package for reading course (*.cdt) files from the original Super Mario Maker (Wii U).
 - [Metamaker](https://github.com/RoadrunnerWMC/Metamaker) - Work-in-progress course editor for the original Super Mario Maker (Wii U) running on PC.
+- [MarioUnmaker](https://github.com/Treeki/MarioUnmaker) - Qt viewer for Super Mario Maker (Wii U) `.cdt` level files, with reverse-engineered format notes (`FormatNotes.md`).
 - [smb1_src](https://github.com/oranguthang/smb1_src) - Byte-identical ca65 source reconstruction of seven official Super Mario Bros. releases across NES, Vs. System, and FDS, with reverse-engineering documentation and authoring tools.
 - [SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C) - Translation of the original Super Mario Bros. (NES) disassembly into readable, buildable C/C++.
 
@@ -655,6 +670,7 @@
 - [z64yartool](https://github.com/z64dev/z64yartool) - Command-line tool for Zelda 64 `.yar` texture archives: decompresses them into raw texture data, writes a recipe listing each texture, then dumps to PNG images and rebuilds the `.yar` from a recipe.
 - [t64conv](https://github.com/Yanis002/t64conv) - Python script converting Wii Virtual Console T64 (VC64) texture files to TEX0, optionally decoding to PNG through wimgt; color-indexed (CI) textures are not supported yet.
 - [z64rom](https://github.com/z64utils/z64rom) - Cross-compatible Zelda OoT MQ Debug ROM/project managing tool. See also the original [z64tools/z64rom](https://github.com/z64tools/z64rom) (archived).
+- [zelda-binary-templates](https://github.com/EntranceJew/zelda-binary-templates) - 010 Editor binary templates for exploring the file types inside N64 Zelda ROMs (mostly Majora's Mask), including viewing image data as it appears in the ROM.
 
 ###### Wind Waker & Twilight Princess
 
@@ -713,6 +729,12 @@
 - [botwtools](https://github.com/RenaKunisaki/botwtools) - Extractor (with planned repacking) for several Breath of the Wild file types including SARC, AAMP, and BYML archives and BNTX textures, designed to be extensible to other games' formats.
 - [botw-randomizer](https://github.com/roccodev/botw-randomizer) - Randomizer for The Legend of Zelda: Breath of the Wild (Wii U) that generates replacement content files, loaded via SDCafiine or an emulator, to randomize enemy and item placement.
 - [BOTW-Research](https://github.com/KillzXGaming/BOTW-Research) - Format documentation for The Legend of Zelda: Breath of the Wild, including a 010 Editor template for the BFEVFL (Event Flow) format.
+- [Wild-Bits](https://github.com/NiceneNerd/Wild-Bits) - Editor for the commonly modded non-graphical Breath of the Wild formats: SARC archives, RSTB, BYML, AAMP and MSBT, built largely on the oead library.
+- [BotWUnpacker](https://github.com/Shadsterwolf/BotWUnpacker) - Breath of the Wild modding tool for unpacking and building SARC archives and decoding/encoding Yaz0.
+- [BotwDecompiler](https://github.com/ArchLeaders/BotwDecompiler) - Asset decompiler for Breath of the Wild that aims to convert AAMP, BARS, BFEVFL, BFRES, BYML, Havok and SARC files into readable formats such as YAML and JSON.
+- [TotkRSTB](https://github.com/VelouriasMoon/TotkRSTB) - Command-line tool for editing, merging and patching Tears of the Kingdom RSTB/RESTBL resource size tables, with YAML conversion.
+  - [RSTBPatcher](https://github.com/ShrineFox/RSTBPatcher) - ResourceSizeTable (RSTB) parser and patcher for Nintendo Switch games.
+- [TOTKActorRepacker](https://github.com/ShrineFox/TOTKActorRepacker) - Batch editor for values in Tears of the Kingdom actorpack BYML files.
 
 ###### Classic & Handheld Zelda
 
@@ -928,6 +950,10 @@
 - [pokemon-reverse-engineering-tools](https://github.com/pret/pokemon-reverse-engineering-tools) - Shared disassembler, build scripts and base makefiles used by the pret Pokémon Red/Blue and Crystal decompilation projects. *(Archived.)*
 - [pokedex](https://github.com/veekun/pokedex) - Python library and dataset built by parsing disassembled Pokémon game data into CSV/YAML, powering the veekun.com Pokédex; includes a CLI to generate/dump a SQLite database from the extracted data.
 - [gen3tools](https://github.com/aarant/gen3tools) - Tools for TASing and data analysis of Pokemon Generation 3 games (Ruby, Sapphire, Emerald, FireRed, LeafGreen).
+- [pokanalysis](https://github.com/ubitux/pokanalysis) - Viewer-only analyser for first-generation Pokémon ROMs (Red and Blue, US), with an online view of the Pokémon Red analysis.
+- [pokemon-sprites-rby](https://github.com/magical/pokemon-sprites-rby) - Go tool for extracting Pokémon sprites from the first- through fifth-generation games (Red/Blue/Yellow through Black 2/White 2).
+- [g1utils](https://github.com/FutureFractal/g1utils) - Python library for datamining glitch information from Generation 1 Pokémon Game Boy ROMs, dumping stats, decoding text, and exporting PNG images of glitch maps and glitch Pokémon sprites.
+- [Tachyon](https://github.com/Archaemic/tachyon) - Save game viewer and editor for Pokémon Generations I-III, originally meant for transferring Pokémon between saves, including across generations.
 - [PokemonRedAndBlueRecomp](https://github.com/mstan/PokemonRedAndBlueRecomp) - Static recompilation of Pokemon Red and Blue (Game Boy) into native code.
 - [PokemonYellowRecomp](https://github.com/mstan/PokemonYellowRecomp) - Extended Pokemon Yellow, statically recompiled from the pret/pokeyellow disassembly into native code.
 - [RubySapphireRecomp](https://github.com/mstan/RubySapphireRecomp) - Static recompilation of Pokemon Ruby and Sapphire (GBA) into native code.
@@ -971,6 +997,8 @@
 - [NintendoSwitchRESTAPI](https://github.com/ZekeSnider/NintendoSwitchRESTAPI) - Reverse-engineered REST API used by the Nintendo Switch companion app for iOS, including documentation of Splatoon 2's API.
 
 #### Nippon Ichi Software
+
+- [ykcmp](https://github.com/iltrof/ykcmp) - Decompressor and compressor for the YKCMP_V1 format used extensively in Nippon Ichi Software games.
 
 ##### Disgaea
 
