@@ -1110,6 +1110,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [ed8_dlc_tables](https://github.com/eArmada8/ed8_dlc_tables) - Python scripts for creating custom DLC tables (.tbl files) for Trails of Cold Steel and Tokyo Xanadu eX+
 - [Ys8_IT3](https://github.com/eArmada8/Ys8_IT3) - Tool for extracting and repacking Ys VIII/IX asset data from IT3 format files; exports meshes, textures, and animations
 - [YsVIII-tools](https://github.com/yosh778/YsVIII-tools) - Unpacking/packing tools for Ys VIII assets, covering XAST/DAT archives, PLT strings, TBB-to-CSV conversion, and a script bytecode disassembler/assembler.
+- [ys-rendering](https://github.com/Francesco149/ys-rendering) - 3D map viewer and extraction pipeline for Falcom's Napishtim Engine titles (Ys: The Oath in Felghana, Ys Origin, Ys VI: The Ark of Napishtim); reads the encrypted `data.ni`/`data.na` archives, exports maps to glTF/GLB and Wavefront OBJ, and documents the formats.
 - [Trails-Research-Group/Doc](https://github.com/Trails-Research-Group/Doc) - Documentation for modding Trails/Kiseki series games with tools and techniques for modifying game assets (textures, models, scripts, animations)
 - [Legacy of the Wizard Tool](https://github.com/bbbradsmith/lotwtool) - Editor for Legacy of the Wizard (NES) / Dragon Slayer IV (Famicom, MSX1, MSX2), directly editing the original ROM's map, item, and other game data.
 - [Ouroboros/Falcom](https://github.com/Ouroboros/Falcom) - Tools for many Trails/Kiseki games and other Falcom titles.

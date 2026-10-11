@@ -46,6 +46,10 @@
 
 - [Diamond](https://github.com/tge-was-taken/Diamond) - Reverse engineering and enhancement project for Martial Heroes. Provides tooling, parsers, and client-side improvements including binary parsers, VFS archive tools, and 010 Editor templates.
 
+#### Martian Gothic: Unification
+
+- [mgu-speech-exporter](https://github.com/kapdap/mgu-speech-exporter) - Exports speech audio and text files from Martian Gothic: Unification (PC), based on file format notes from the Xentax forum.
+
 #### Massive Development
 
 ##### Archimedean Dynasty

@@ -1776,6 +1776,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [STK Blender Addons](https://github.com/supertuxkart/stk-blender) - Exporter/importer suite for SuperTuxKart `SPM` meshes and `Antarctica` engine assets.
 
 #### Gas Powered Games (Supreme Commander)
+- [dungeon-siege-re](https://github.com/glampert/dungeon-siege-re) - Tools and docs for Dungeon Siege and Legends of Aranna assets; opens Tank archives (`.dsres`/`.dsmap`), converts RAW textures to PNG/TGA, and converts Aspect (`.asp`) and Siege Node (`.sno`) geometry to Wavefront OBJ (the latter two partially).
 
 - [supcom2-map-toolkit](https://github.com/plutonics72/supcom2-map-toolkit) - Reverse-engineered toolkit for creating Supreme Commander 2 custom maps, including navmesh editing so units path correctly.
   - Formats: hfield.win.bdf (heightfield), terrain.win.bdf, costs.win.bdf, collision2.win.bdf, waterDepth.dds — reverse engineered as a mutually-consistent five-file stack.

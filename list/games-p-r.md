@@ -608,6 +608,10 @@
 - [zombie_army_4_findings](https://github.com/REDxEYE/zombie_army_4_findings) - Reverse engineering findings and Python scripts for Zombie Army 4's archive, model, and texture formats.
   - Scripts: unpack.py (archive extraction), load_model.py / load_inst_model.py (models), load_hmpt.py, load_OCMH.py (level/prop data), fix_textures.py.
 
+#### Recettear: An Item Shop's Tale
+
+- [recettear-repacker](https://github.com/UnrealPowerz/recettear-repacker) - Python scripts to unpack Recettear's `dataxxx.bin` (via `lnkdatas.bin`) and `bmpdata.bin` archives and repack `bmpdata.bin`.
+
 #### Red Storm Entertainment
 
 - [RSE-file-formats](https://github.com/AlexKimov/RSE-file-formats) - File-format templates, specifications, and tools for Red Storm Entertainment's classic games (Rainbow Six, Rogue Spear, and related), covering their texture, model, and map/mission formats.

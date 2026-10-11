@@ -243,6 +243,10 @@
 
 - [DDLC-Plus-Asset-Decrypter](https://github.com/MlgmXyysd/DDLC-Plus-Asset-Decrypter) - Decrypts the XOR-encrypted Unity Streaming Asset Bundle (.cy) files used by Doki Doki Literature Club Plus, for unpacking with AssetStudio.
 
+#### Dokuro-chan
+
+- [dokuro-translation-toolkit](https://github.com/Francesco149/dokuro-translation-toolkit) - Fan translation toolkit for Dokuro-chan (PS2): script editor for the STCM2 script format, UNI2 container split/join tools, and ISO patch/rebuild, with format documentation.
+
 #### Smoking Gun Interactive (Doodle Jump Journey)
 
 - [DDJDS-SFR](https://github.com/miso-xyz/DDJDS-SFR) - CLI reader for Doodle Jump Journey (Doodle Jump DS) save files, decoding settings, high scores, and save sections. See also the same author's [nds-notes](https://github.com/miso-xyz/nds-notes) for Action Replay codes and a WinHex syntax-highlighting definition for the save format.
