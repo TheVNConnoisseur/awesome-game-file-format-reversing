@@ -86,7 +86,6 @@
 - [BMS-Analyzer](https://github.com/3e2j/BMS-Analyzer) - Nintendo Wii/Gamecube BMS to MIDI converter
 - [pyjmap](https://github.com/SunakazeKun/pyjmap) - JMap format library.
 - [jpc_conv](https://github.com/PikHacker/jpc_conv) - JParticle converter.
-- [jpa2bti](https://github.com/shibbo/jpa2bti) - Converts the TEX1 texture section embedded in JParticle (JPA) files to standalone BTI texture files.
 - [pikmin2-stb](https://github.com/RenolY2/pikmin2-stb) - JStudio format tool.
 - [Yaz0Decoder](https://github.com/Cuyler36/Yaz0Decoder) - Yaz0 compression decoder.
 - [rarc-rs](https://github.com/gcnhax/rarc-rs) - Rust library for RARC archives.
@@ -123,7 +122,6 @@
 
 *Nintendo's Wii-era NW4R middleware, covering models, UI layouts, textures, and sound archives used across first-party and licensed Wii titles (and its NW4R/BRRES format family reused in later NintendoWare SDKs).*
 
-- [WareHouse](https://github.com/shibbo/WareHouse) - Editor for NintendoWare formats; currently implements Wii-era NW4R formats including BRRES models, BRLYT/BRLAN UI layouts, BRSAR sound archives, and TPL textures, plus RARC/U8/Yaz0 archive support, with further NintendoWare format support (through the Switch era) planned.
 
 #### SEAD (Nintendo EAD/EPD Engine)
 
@@ -406,7 +404,6 @@
 - [nx-archive](https://github.com/RyouVC/nx-archive) - Rust library for reading and writing Nintendo Switch package archive formats.
 - [sfrom-rs](https://github.com/RyouVC/sfrom-rs) - Rust library for reading and writing SFROM files, the container format used by Nintendo's official SNES emulator (as shipped on Nintendo Switch Online) to bundle ROM data with emulator compatibility/hack configuration.
 - [NsoElfConverterDotNet](https://github.com/evandixon/NsoElfConverterDotNet) - .NET library to convert Nintendo Switch NSO executables to and from ELF.
-- [swspl](https://github.com/shibbo/swspl) - Toolchain for inspecting and splitting Nintendo Switch NSO binaries in preparation for decompilation, printing NSO info (objdump-like), splitting against a symbol map, and dumping the `.text`/`.rodata`/`.data` sections.
 - [Fuse-Nx](https://github.com/averne/Fuse-Nx) - FUSE driver (and supporting tools) for mounting various Nintendo Switch file formats as a browsable filesystem.
 - [frhop](https://github.com/SmartBoy84/frhop) - Lightweight utility to serve Nintendo Switch archives over USB for installation.
 - [ghidra-nn-stuff](https://github.com/averne/ghidra-nn-stuff) - Collection of Ghidra tools and data for reverse engineering Nintendo Switch sysmodule binaries.

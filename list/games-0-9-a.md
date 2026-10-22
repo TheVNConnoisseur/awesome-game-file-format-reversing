@@ -463,6 +463,10 @@
 
 - [Akiba-Tools](https://github.com/Aclios/Akiba-Tools) - Modding tools for Akiba's Trip, including a volume archive extractor/repacker.
 
+#### Alchemy Factory
+
+- [alchemy-factory-texture-converter](https://github.com/YSakhno/alchemy-factory-texture-converter) - Python tool that converts Alchemy Factory's Unreal Engine UI `.uasset` textures to PNG with alpha, handling B8G8R8A8, DXT1, DXT5 and BC5 pixel formats.
+
 #### Algoryx (Algodoo / Phun)
 
 - [phun-js-box2d](https://github.com/EJTH/phun-js-box2d) - Parser and work-in-progress web player for Phun/Algodoo physics sandbox `.phz` scene files, including a ThymeScript-to-JavaScript transpiler and Box2D-based physics playback.
@@ -707,7 +711,6 @@
   - Games: Ratatouille (PC, PS2, GC, Xbox), WALL-E (PC), Toy Story 3 (PS2), SpongeBob SquarePants: Revenge of the Flying Dutchman (PS2, GC), A Plague Tale (PC), Microsoft Flight Simulator 2024 (PC), Shaun White 2 (PC), Castleween (PS2), Garfield, Noddy.
   - Formats: Bitmap_Z, Mesh_Z, Material_Z, World_Z, Node_Z, Skel_Z, Skin_Z, Animation_Z, Lod_Z, and more Zouna _Z resource types.
   - See also: [ZounaBlender](https://github.com/ZounaModding/ZounaBlender) - Blender importer for Ratatouille/WALL-E `Skin_Z` and `Animation_Z` files (Blender 3.3; verified on 4.3.2 per its README).
-- [RatDecomp](https://github.com/ZounaModding/RatDecomp) - Decompilation project for Ratatouille (GameCube) with original game data parsing and reconstruction.
 - [fuel-brute](https://github.com/widberg/fuel-brute) - CRC32 brute-force solver for FUEL, a companion tool to the FMTK modding toolkit above.
 - [rat](https://github.com/seilc/rat) - Decompilation project for a separate, earlier Ratatouille (GameCube) prototype build, dated January 18, 2006.
 

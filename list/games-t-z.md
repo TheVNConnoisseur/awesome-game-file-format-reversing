@@ -436,7 +436,6 @@
 ##### Superman 64
 
 - [Superman64Decomp (decomp)](https://github.com/gcsmith/Superman64Decomp) - Matching decompilation of Superman: The New Superman Adventures, a.k.a. Superman 64 (WIP).
-- [Superman64Recomp](https://github.com/gcsmith/Superman64Recomp) - Static recompilation of Superman: The New Superman Adventures into a native port, built on N64Recomp with RT64 for rendering.
 
 ##### Titus the Fox & Moktar
 
@@ -1121,6 +1120,8 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) - Ports the Vita-exclusive quests from Trails to Azure (Trails of Cold Steel) to the PC version.
 - [Inevitable-Zero](https://github.com/Kyuuhachi/Inevitable-Zero) - Ports the Vita-exclusive quests from Trails from Zero to the PC version.
 - [Septluxian-Scope](https://github.com/Kyuuhachi/Septluxian-Scope) - Decompiler for Ys VIII: Lacrimosa of Dana and The Legend of Nayuta: Boundless Trails.
+- [EDOpsParser](https://github.com/uyjulian/EDOpsParser) - C# parser that prints the contents of ED6 PC and ED8 `.ops` and `.plt` files.
+- [Crossbell Translation Tool](https://github.com/FrantzX/CrossbellTranslationTool) - Tool for extracting and translating text from the PSP and PC versions of Ao no Kiseki, including items, equipment, locations, quest text, books, and character and monster names; builds on Ouroboros' EDDecompiler.
 - [FalcomPACTool](https://github.com/LinkOFF7/FalcomPACTool) - Falcom PAC archive extractor for The Legend of Heroes: Trails in the Sky 1st Chapter.
 - [skytrails-replacer](https://github.com/spillerrec/skytrails-replacer) - Reverse-engineering of Trails in the Sky 3D model files: includes an `X`/`_X3` model viewer and decoder for First and Second Chapter plus Kaitai Struct specifications of the formats.
 - [Kiseki-Texture-Tool](https://github.com/Sewer56/Kiseki-Texture-Tool) - Extracts Sora no Kiseki (FC, SC, 3rd) image assets, converting `._CH`, `._DS` (hidden DDS) and `._CH` + `._CP` chip/spritesheet files. Marked work-in-progress by its author.
@@ -1172,7 +1173,6 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 - [filepack](https://github.com/hz86/filepack) - Packer/unpacker for the `pack` archive format used by Bishoujo Mangekyou -Tsumi to Batsu no Shoujo- (美少女万華鏡 -罪と罰の少女-).
 - [mangekyou_util](https://github.com/crystallite/mangekyou_util) - Collection of tools for the Bishoujo Mangekyou series (QLIE engine): `.pack` archive extraction/building, and splitting/rejoining script text for translation.
-- [bishoujou-mangekyou-resource-tools](https://github.com/N0zoM1z0/bishoujou-mangekyou-resource-tools) - Resource extraction tools for two further Bishoujo Mangekyou titles: an Artemis-engine `pf8` archive tool (SHA1-derived XOR-keyed audio/image data) and a `FilePackVer3.1` tool (encrypted filenames, keyfile-derived tables, dual body-encryption modes, optional custom compression).
 
 #### Longchaoge Studio (归龙潮 / Return of the Dragon Tides)
 

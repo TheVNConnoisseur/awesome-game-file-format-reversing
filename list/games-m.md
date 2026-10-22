@@ -13,10 +13,8 @@
 
 #### Madagascar
 
-- [madagascar-tfbtool](https://github.com/MaxStache/madagascar-tfbtool) - Parser and decompiler for TFB script (`.ai`) files used by Madagascar - The Game (2005).
 - [madagascar-game-asset-tools](https://github.com/MaxStache/madagascar-game-asset-tools) - Python toolset for modding Madagascar (2005), loading the game's RenderWare-based asset formats.
   - Formats: `.stream`, `.dff`, `.txd`, `.bsp`, `.txl`, `.rws`, `.lpa`.
-- [Baobab](https://github.com/MaxStache/Baobab) - Level editor for Madagascar (2005), also known as MODagascar.
 - [madagascar-2-tools](https://github.com/MaxStache/madagascar-2-tools) - Reverse-engineered reader for Madagascar 2 (PC) `.bld` level files, an igArchive version 2 container distinct from the versions handled by igRewrite8; also includes a tool that recovers the engine's reflection metadata from the game's DLLs.
 
 #### MAGES.
@@ -294,11 +292,8 @@
 - [c20 (The Reclaimers Library)](https://github.com/Sigmmma/c20) - Living knowledge base/wiki for the Halo CE modding community, documenting Halo engine tag and file formats.
 - [vkblam](https://github.com/Wunkolo/vkblam) - Re-implementation of the Halo 1 Blam engine's graphics library in Vulkan.
 - [blf](https://github.com/Blam-Network/blf) - Rust workspace of crates for reading and writing Blam! engine (Halo) files.
-- [megalo](https://github.com/Blam-Network/megalo_docs_old) - TypeScript library for parsing, compiling, and decompiling Halo: Reach Megalo scripts (gametypes and custom map variants), built on blf above for BLF chunk I/O and game variant layouts.
 - [blam-tags](https://github.com/camden-smallwood/blam-tags) - Cross-platform Rust library for parsing and manipulating Halo tag files.
-  - See also [blam-tags-cs](https://github.com/camden-smallwood/blam-tags-cs), a C# port of the same tag file manipulation library.
   - Related: [definitions](https://github.com/camden-smallwood/definitions), JSON tag definitions for Halo MCC titles.
-- [ida-halo-scripts](https://github.com/camden-smallwood/ida-halo-scripts) - IDA Pro scripts useful for reverse engineering Halo games.
 - [Blam-Creation-Suite](https://github.com/ChimpsAtSea/Blam-Creation-Suite) - Collection of modular C++ frameworks (Mandrill tag/resource editor, Blofeld tag layout framework) for creating custom Blam engine content across Halo Combat Evolved through Halo Infinite.
 - [Reach (decomp)](https://github.com/ChimpsAtSea/Reach) - Work-in-progress matching decompilation of Halo: Reach (Xbox 360 build `tag_debug_untracked_jul_11_2011`), companion project to the halo (decomp) Combat Evolved effort above.
 - [HaloKSY](https://github.com/Sigmmma/HaloKSY) - Kaitai Struct definitions for Halo tag file formats.

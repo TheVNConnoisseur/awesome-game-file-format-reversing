@@ -97,6 +97,7 @@
 - [DIVAFILE Tool](https://github.com/s117/DIVAFILE_Tool) - Command-line tool for extracting and creating the DIVAFILE container used by Project DIVA F2 and X (PS3/PSV), documenting its header layout and AES-128-ECB encryption reverse-engineered from the game executable.
 - [DIVA Mod Loader](https://github.com/blueskythlikesclouds/DivaModLoader) - File replacement mod loader for Hatsune Miku: Project DIVA Mega Mix+, used as the backend by front-ends like DIVA Mod Manager, d4m, and Rust4Diva.
 - [RGTC_decompress](https://github.com/Brolijah/RGTC_decompress) - Lua module reversing the raw, header-stripped RGTC2/BC5 textures found in Project DIVA F 2nd's containers back to RGBA bitmaps, including channel swizzle control and YCbCr mipmap restoration.
+- [objset](https://github.com/diva-rust-modding/objset) - Rust library with Python FFI for SEGA's `_obj.bin` model object-set format, used by Virtua Fighter 5, the VF5-based Project DIVA releases (Arcade, Dreamy Theater, F) and After Burner Climax; does not read the newer OSD format of Project DIVA F2nd and X/XHD.
 - [diva_exp_gen](https://github.com/thtrandomlurker/diva_exp_gen) - Python script converting an MMD morph animation exported as CSV (from VMD) into Project DIVA DSC script expression commands.
 
 ##### Project Sekai
@@ -517,7 +518,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [sms-super-tennis](https://github.com/FlorianCassayre/sms-super-tennis) - Full matching disassembly of Super Tennis (Sega Master System, also released in Japan as "Great Tennis"), covering both known ROM revisions.
 - [Knowledgebase](https://github.com/Shenmue-Mods/Knowledgebase) - Modding knowledgebase for Shenmue, documenting the game's original file formats.
 - [genipak-magicard-tool](https://github.com/SONIC3D/genipak-magicard-tool) - Tool for Genipak and Magicard archive formats used in Sonic games.
-- [RomHackingTools](https://github.com/NoahSteam/RomHackingTools) - Collection of tools for reverse-engineering and translating Sega Saturn games, including project-specific tooling for Sakura Taisen.
 - [st3-translation-notes](https://github.com/TheOpponent/st3-translation-notes) - Translation notes documenting the data formats used by the Dreamcast game Sakura Taisen 3: Paris wa Moeteiru ka.
 - [Dramatic-Dungeon-Sakura-Wars-Tool](https://github.com/gopicolo/Dramatic-Dungeon-Sakura-Wars-Tool) - Tool for extracting, editing, and reinserting text in Dramatic Dungeon: Sakura Taisen.
 - [SALSA](https://github.com/jahorta/SALSA) - Skies of Arcadia Legends Script Assistant, a GUI-based tool to assist in editing the game's script files.
@@ -812,6 +812,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
   - Same organization's matching decompilations of the other PS1 games: [spyro-2](https://github.com/TheMobyCollective/spyro-2) (Spyro 2: Ripto's Rage!, NTSC-U) and [spyro-3](https://github.com/TheMobyCollective/spyro-3) (Spyro: Year of the Dragon, NTSC-U).
 - [noclip.website (Spyro)](https://github.com/magcius/noclip.website/tree/main/src/Spyro) - In-browser level viewer for the PS1 Spyro trilogy (Spyro the Dragon, Spyro 2: Ripto's Rage!, Spyro: Year of the Dragon), parsing the games' WAD subfile geometry, sky, and texture-tile data. Data structures derived from Kly_Men_COmpany's Spyro World Viewer.
 - [Spyro-Scope](https://github.com/FranklyGD/Spyro-Scope) - Program that peers into the PS1 Spyro games' data, converting it for easier viewing and analysis (archived).
+- [game-re-patterns](https://github.com/egartley/game-re-patterns) - ImHex patterns for file formats of the PS1 Spyro games and Spyro: Enter the Dragonfly (`dat1`, `geom`, `list`, `mrb`, `pxt`), plus Meet the Robinsons `.dbl`; incomplete and not fully accurate by the author's own account.
 - [RCRA Forge](https://github.com/ROStudios25/RCRA-Forge) - Standalone Python/PyQt6 asset browser and model exporter for Ratchet & Clank: Rift Apart (PC), browsing 340,000+ assets and exporting models/zones to glTF/GLB/OBJ/FBX with correct skeletons, skin weights, UVs, and textures, without Ninja Ripper.
 - [rac-modding-resources](https://github.com/RatchetModding/rac-modding-resources) - Curated list of resources for modding and reverse engineering the Ratchet & Clank series.
 - [Mr.Zurkon](https://github.com/Ret-HZ/Mr.Zurkon) - Multi-tool for Ratchet & Clank: Size Matters and Secret Agent Clank (PSP), including PAKTool for PAK archives containing GIM images and Relocalizer for LOC_DATA localization files.
@@ -1062,7 +1063,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [kamaitachi-sfc-english](https://github.com/ButThouMust/kamaitachi-sfc-english) - Fan translation project for Kamaitachi no Yoru (Chunsoft, SNES), working with the game's original script and ROM data formats.
 - [otogirisou-english](https://github.com/ButThouMust/otogirisou-english) - Fan translation patch project for Otogirisou (Chunsoft, Super Famicom, 1992), reverse-engineering the original sound novel's script and font data.
 - [otogirisou-tools](https://github.com/ButThouMust/otogirisou-tools) - Translation tooling (script and font extraction/repacking utilities) supporting the Otogirisou (Super Famicom) fan translation project.
-- [otogirisou-ps1](https://github.com/ButThouMust/otogirisou-ps1) - Reverse-engineering notes for Otogirisou: Sosei-Hen, Chunsoft's 1999 PlayStation remake of Otogirisou, covering format changes and additions versus the Super Famicom original.
 - [DRV3-Tools](https://github.com/CaptainSwag101/DRV3-Tools) - Toolset for Danganronpa V3's original archive and script formats.
 
 ##### Fushigi no Dungeon: Fuurai no Shiren Gaiden
@@ -1423,7 +1423,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Final Fantasy Tactics
 
-- [heretic](https://github.com/adamrt/heretic) - Final Fantasy Tactics toolkit for modding.
 - [ExMateria-Sound (smd-player)](https://github.com/timbermania/ExMateria-Sound) - Godot 4 addon reproducing Final Fantasy Tactics (PSX) sound output, both `.SMD` music and battle effect SFX, driven by a native C++ SPU core.
 - [ExMateria-Map](https://github.com/timbermania/ExMateria-Map) - Blender add-on for editing Final Fantasy Tactics (PSX) maps: imports `MAP###.GNS` map files extracted from the disc, supports repainting the texture sheet and reshaping geometry, and exports the edited map bundle (GNS + textures) back.
 - [ExMateria-ISO-Patcher](https://github.com/timbermania/ExMateria-ISO-Patcher) - Patcher for Final Fantasy Tactics (PSX) disc images that replaces music slots through a guided TUI or a TOML recipe, with deterministic byte-identical output, and extracts the disc file tree for the rest of the ExMateria tools.

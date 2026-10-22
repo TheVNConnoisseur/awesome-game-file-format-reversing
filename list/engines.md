@@ -935,6 +935,7 @@
 - [BGIDscCompressor](https://github.com/akiWagashi/BGIDscCompressor) - Compresses/decompresses files for the Ethornell/Buriko General Interpreter (BGI) visual novel engine.
 - [BGI_BM_Converter](https://github.com/Lite0812/BGI_BM_Converter) - Converts BGI (Buriko General Interpreter)/Ethornell engine `.bm` image files.
 - [bsiTool](https://github.com/TesterTesterov/bsiTool) - Python 3 tool that converts Ethornell/BGI `.bsi` files (a string-patch format holding UTF-8 strings) to text and back, with Russian and English UI. Tested on The Curse of Kudan Remastered.
+- [engine_bgi](https://github.com/mnakamura1337/engine_bgi) - Kaitai Struct format descriptions for BGI/Ethornell script bytecode and containers (`bgi_arc`, BW OGG, BWEF), with a Ruby disassembler/decompiler and a converter to `.story` format.
 
 #### Bishop Engine
 
@@ -1044,8 +1045,6 @@
 *Visual novel engine ("EntisGLS") used in various Japanese visual novels.*
 
 - [EntisGLS_Tools (CSX Tools)](https://github.com/crskycode/EntisGLS_Tools) - Script text export/import tool for EntisGLS `.csx` script files; CSXTool targets 1.x engine versions and CSXToolPlus targets 2.x-3.x.
-- [yosuga-no-sora-entis-tools](https://github.com/N0zoM1z0/yosuga-no-sora-entis-tools) - Extraction/conversion tools for the EntisGLS resources used by Yosuga no Sora.
-  - Formats: `.noa` archives (including packed system resources), `.eri` CG/background/UI images (to PNG), `.mio` voice/BGM/SE audio (to WAV), `.mei` opening movie audio track.
 
 #### ERA / Emuera
 
@@ -1283,6 +1282,7 @@
 - [NexasPackEdit](https://github.com/pkuislm/NexasPackEdit) - Simple tool to unpack and repack the NeXAS engine's resource archives.
 - [GIGA_NeXAS](https://github.com/akiWagashi/GIGA_NeXAS) - Unpacker/repacker for the GIGA-variant NeXAS engine's resource archives.
 - [NeXAS_SPM_VIEWER](https://github.com/Karaik/NeXAS_SPM_VIEWER) - Viewer for GIGA/戯画/Entergram NeXAS engine `.spm` image/animation files.
+- [zbspac](https://github.com/uyjulian/zbspac) - (Archived) Archive and script utility for NeXAS games: (un)packs PAC archives (including the variant used by Baldr Force EXE) and extracts and repacks script text.
 - [map_format_explorer](https://github.com/Aserain-Nodid/map_format_explorer) - GUI analyzer for NeXAS engine `.map` binary format (BSDX v0.90 and BHE v1.00), with tile visualization, JSON serialization/deserialization, and version conversion.
 - [Aquarium_tools](https://github.com/kdw-code/Aquarium_tools) - String dumper/importer for Nintendo Switch NeXAS engine `binu8`/`datu8` files, based on [Niflheim](https://github.com/Yggdrasill-Moe/Niflheim)'s NeXAS module.
 

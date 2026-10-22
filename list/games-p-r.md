@@ -29,7 +29,6 @@
 - [noclip.website (Beetle Adventure Racing!)](https://github.com/magcius/noclip.website/tree/main/src/BeetleAdventureRacing) - In-browser Beetle Adventure Racing! (N64) track viewer, reading the game's filesystem and the same `UV*` chunk formats as Pilotwings 64 (plus UVTS texture sequences and UVTT track data).
 - [pilotwings_64](https://github.com/queueRAM/pilotwings_64) - Tools and notes for hacking Pilotwings 64, including a filesystem dumper for the ROM's `UV*` resource chunks.
 - [Pilotwings64Decomp](https://github.com/gcsmith/Pilotwings64Decomp) - Matching decompilation of Pilotwings 64 (WIP).
-- [Pilotwings64Recomp](https://github.com/gcsmith/Pilotwings64Recomp) - Static recompilation of Pilotwings 64 into a native port, built on N64Recomp with RT64 for rendering.
 - [bar-decomp](https://github.com/synamaxmusic/bar-decomp) - Decompilation of Beetle Adventure Racing!.
 
 #### Paradox Interactive
@@ -991,6 +990,10 @@
 #### Rozen Maiden
 
 - [RozenMaidenExt](https://github.com/Manicsteiner/RozenMaidenExt) - Extraction tool for the PS3 game Rozen Maiden: Wechseln Sie Welt ab (BLJM61120), unpacking `Graph.dat` character/CG images; view the archive's `.mfs` sound files with vgmstream.
+
+#### RTL Ski Jumping 2002
+
+- [RTL_Ski_Jumping_2002_Tool](https://github.com/Thief1987/RTL_Ski_Jumping_2002_Tool) - Go tool that extracts the game's archives, reading each table-of-contents entry (offset, compressed and uncompressed size, file name) and writing the files out to a folder named after the archive.
 
 #### Neverland (Rune Factory Frontier)
 

@@ -390,7 +390,6 @@
 - [BFGFontTool](https://github.com/Zbyl/BFGFontTool) - Tool for manipulating Doom 3 and Doom 3 BFG Edition font files.
 - [DOOM 3 BFG Edition](https://github.com/id-Software/DOOM-3-BFG) - id Software's official GPL source code release for DOOM 3: BFG Edition, covering the idTech 4 engine's updated file-reading and rendering code.
 - [blender-bfg](https://github.com/klaussilveira/blender-bfg) - Blender addon supporting the RBDOOM-3-BFG GLTF mapping workflow.
-- [Blender-2.8-MD5-import-export-addon](https://github.com/KozGit/Blender-2.8-MD5-import-export-addon) - Blender addon for importing/exporting idTech 4 MD5 model (.md5mesh) and animation (.md5anim) files, with batch animation import/export support.
 - [etqw-extractor](https://github.com/klaussilveira/etqw-extractor) - CLI tool to extract and restore original TGA textures from Enemy Territory: Quake Wars DDS cache files.
 
 ###### id Tech 4 Documentation & Community Resources
@@ -576,7 +575,6 @@
 - [fe11-us (decomp)](https://github.com/Eebit/fe11-us) - Matching decompilation of Fire Emblem: Shadow Dragon (NDS, USA).
   - See also [fe11us-arm9](https://github.com/MokhaLeee/fe11us-arm9), a companion decompilation of the arm9.bin overlay for the same release.
 - [fireemblem8u (decomp)](https://github.com/FireEmblemUniverse/fireemblem8u) - Decompilation/disassembly of Fire Emblem: The Sacred Stones (GBA).
-- [fireemblem8j (decomp)](https://github.com/laqieer/fireemblem8j) - Decompilation/disassembly of Fire Emblem: Seima no Kouseki (the Japanese release of The Sacred Stones, GBA).
 - [fireemblem6j (decomp)](https://github.com/FireEmblemUniverse/fireemblem6j) - Decompilation of Fire Emblem: The Binding Blade (GBA).
 - [fe7_us (decomp)](https://github.com/StanHash/fe7_us) - Disassembly/partial decompilation of Fire Emblem (GBA, USA) — the Western localization known as Fire Emblem: The Blazing Blade.
 - [FireEmblem7J (decomp)](https://github.com/MokhaLeee/FireEmblem7J) - Decompilation of Fire Emblem: Rekka no Ken, the Japanese release of The Blazing Blade (GBA).
@@ -597,7 +595,6 @@
 - [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Fire Emblem If ARC re/unpacker.
 - [Event-Assembler](https://github.com/TimoVesalainen/Event-Assembler) - Nintenlord's event code assembler for Fire Emblem GBA games, compiling human-readable event scripts into the games' proprietary event bytecode. See also [ColorzCore](https://github.com/FireEmblemUniverse/ColorzCore), a from-scratch rewrite of the assembler's Core.exe, and [EAFormattingSuite](https://github.com/FireEmblemUniverse/EAFormattingSuite), a suite for formatting data into an Event Assembler-insertable format, and [StanHash/EventAssembler](https://github.com/StanHash/EventAssembler), a Linux/WSL build script for an Event Assembler distribution (ColorzCore, lyn, the EA Formatting Suite, a compress tool) for use in buildfiles.
 - [FEBuilderGBA](https://github.com/FEBuilderGBA/FEBuilderGBA) - All-in-one Fire Emblem GBA ROM editor covering maps, events, portraits, palettes, class/character data, and dozens of other game data tables, with a built-in patch installer. Originally created by [laqieer](https://github.com/laqieer/FEBuilderGBA).
-- [FE_GBA_Save_Editor](https://github.com/laqieer/FE_GBA_Save_Editor) - Browser-based save editor for Fire Emblem 6/7/8 (`.sav`, plus GameFAQs/GameShark `.sps`) with automatic checksum repair.
 - [FE_GBA_Function_Library](https://github.com/laqieer/FE_GBA_Function_Library) - Function signature library identifying known library/engine functions embedded in Fire Emblem GBA ROMs, easing disassembly and hacking.
 - [fe-maps](https://github.com/laqieer/fe-maps) - Web-published GBA Fire Emblem data maps (RAM/ROM structures, struct/enum definitions) used across the FE modding toolchain.
   - Underlying data: [fe-info](https://github.com/laqieer/fe-info), forked from [biosp4rk/mf-zm-info](https://github.com/biosp4rk/mf-zm-info) (originally for Metroid Fusion/Zero Mission) and repurposed for Fire Emblem.
@@ -613,9 +610,6 @@
 - [Fire-Emblem-Fates-Dual-Dub](https://github.com/Raytwo/Fire-Emblem-Fates-Dual-Dub) - Assembly patches adding a dual-dub option (Japanese/English voice mixing) to Fire Emblem Fates.
 - [fe-decomp-portal](https://github.com/laqieer/fe-decomp-portal) - Portal site indexing active Fire Emblem GBA decompilation and modding projects.
 - [FE-Clib-Decomp](https://github.com/laqieer/FE-Clib-Decomp) - Generates linker scripts and lyn/Event Assembler symbol references from the FE6/FE8U/FE8J decompilation ELFs, for use by downstream ROM hacking projects.
-- [FEMapCreator](https://github.com/laqieer/FEMapCreator) - Fire Emblem GBA map creation and generation tool.
-- [FECreator](https://github.com/laqieer/FECreator) - Fire Emblem GBA character portrait creation workbench.
-- [textbox-simulator-fe8](https://github.com/laqieer/textbox-simulator-fe8) - Dialogue textbox/line-wrap simulator for Fire Emblem: The Sacred Stones, ported from meejle's Pokémon Emerald Textbox Simulator to the fireemblem8u decomp.
 - [Exalt](https://github.com/thane98/Exalt) - Script editor for 3DS-era Fire Emblem games.
   - [exalt-rs](https://github.com/thane98/exalt-rs) - Rust port of Exalt with separate assembler, compiler, decompiler, and disassembler crates.
 - [Universal-FE-Randomizer](https://github.com/lushen124/Universal-FE-Randomizer) - Randomizer supporting Fire Emblem 4, 6, 7, 8, and the Tellius/Elibian Nights ROM hacks.
@@ -959,6 +953,7 @@
 - [kidfile](https://github.com/malucard/kidfile) - Library (Kidfile) and explorer app (Kidfile Explorer) for decoding file formats used across KID's Infinity series. Supports OGDT, TIM2, GIM, PVR, BIP, and other image/archive/compression formats across PS2, PSP, Dreamcast, and PC ports.
 - [Infinity-PSP-TL](https://github.com/bibarub/Infinity-PSP-TL) - Fan translation/porting toolchain for the Infinity series (Never7, Ever17, Remember11) on PSP: unpacks and repacks game resources, decodes text and the FONT00.FOP font format, and rebuilds the patched ISO/EBOOT.PBP; includes original engine research into the PSP ports and BIP image format. Actively maintained continuation of dreambottle's original Remember11-only [R11-psp-english](https://github.com/dreambottle/R11-psp-english).
 - [Rivened](https://github.com/malucard/Rivened) - Cross-platform script editor for 12Riven (Infinity series), building on format research from the original [12Riven Script Editor](https://github.com/Exormeter/12Riven_ScriptEditor) by Essometer and [chroipahtz's version](https://github.com/chroipahtz/12Riven_ScriptEditor).
+- [e17p](https://github.com/uyjulian/e17p) - (Archived) Python reverse-engineering of the storage formats of the Infinity series visual novels, focused on Ever17 with preliminary Remember11 work, toward a free engine for them.
 
 #### Kid Chameleon
 
@@ -1098,11 +1093,8 @@
 - [klz77](https://github.com/SirusDoma/klz77) - Go library implementing Konami's LZ77 variant ("Konmai LZ77") compression, used to compress various BEMANI resource files and network messages.
 - [BemaniPatcher](https://github.com/mon/BemaniPatcher) - Web-based tool for applying community-submitted hex-edit binary patches to BEMANI arcade game binaries.
 - [mempatcher](https://github.com/aixxe/mempatcher) - Drop-in replacement for bemanitools' mempatch-hook with extra features: auto-loading `.mph` patch files, file-based and host-executable offsets, and load-order guarantees so patches apply before the game's entrypoint runs.
-- [firebeat](https://github.com/DragonMinded/firebeat) - Documentation and utilities for hacking Konami's Firebeat arcade hardware (beatmania IIDX, pop'n music, GITADORA).
-- [twinkle](https://github.com/DragonMinded/twinkle) - Documentation and code for working with Konami's Twinkle arcade system (beatmania, PS1-based).
 - [scharfrichter](https://github.com/SaxxonPike/scharfrichter) - Class library and CLI toolset for converting Konami arcade rhythm-game media: djmain and Twinkle (beatmania IIDX) hard drive images, bemanipc files, DDR SSQ charts, and Xbox/XAudio-based XWB/XSB audio banks used in later DDR games; also includes an experimental beatmania IIDX IFS extractor.
   - See also [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex), the author's successor project, a C# rhythm game data tool.
-- [sm2museca](https://github.com/DragonMinded/sm2museca) - Conversion utility to replace or add songs to Konami's MÚSECA arcade rhythm game.
 - [afptools](https://github.com/camprevail/afptools) - Tools and an ImHex pattern for working with Konami's AFP graphics/animation format, used across BEMANI arcade titles. See also [AfpViewerEx](https://github.com/aixxe/AfpViewerEx), a hook for dumping rendered frames as transparent PNGs from the beatmania IIDX AFP viewer at runtime.
 - [SD9Tool](https://github.com/TheFooestBar/SD9Tool) - Extracts and imports audio (with loop-point and volume parameters) in Konami's SD9 format and SSP containers, used by Dance Dance Revolution and other BEMANI titles.
 - [ddr_arc_extract](https://github.com/mon/ddr_arc_extract) - Extracts files from DDRA (Dance Dance Revolution Arcade) archives.

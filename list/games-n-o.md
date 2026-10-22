@@ -82,6 +82,7 @@
 ##### Beyond the World
 
 - [BW.WPK.Tool](https://github.com/Mu-L/BW.WPK.Tool) - Tool for extracting WPK archives from the mobile game Beyond the World. Mirror; the original Ekey/BW.WPK.Tool was blocked by a DMCA takedown.
+- [BWWPKTool2](https://github.com/Hengle/BWWPKTool2) - Command-line unpacker for Beyond the World WPK archives, taking the `.idx` file and an output directory.
 
 ##### LifeAfter
 
@@ -267,7 +268,6 @@
 - [MeltyTool (Pikmin1)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/Pikmin1) - Pikmin 1 format viewer/exporter.
 - [piki-tools](https://github.com/Minty-Meeo/piki-tools) - Collection of tools for working with Pikmin file formats.
 - [bxpack](https://github.com/XAYRGA/bxpack) - Packs and unpacks the `.bx` archives of Pikmin 1 (part of libJAudio; archived).
-- [Pikmin PC Port](https://github.com/DaveDebugs/Pikmin-PC-Port) - Native PC port of Pikmin built on projectPiki's decompilation, reading the original disc image with no bundled assets.
 
 ##### Pikmin 2
 
@@ -311,7 +311,6 @@
 - [mkdd-collision](https://github.com/RenolY2/mkdd-collision) - Tool for viewing and editing collision data in Mario Kart Double Dash.
   - [tarsa129/mkdd-collision](https://github.com/tarsa129/mkdd-collision) - Fork adding a Blender plugin for importing/exporting `.bco` collision, with sound-value and collision-flag handling.
 - [mkdd-track-editor](https://github.com/RenolY2/mkdd-track-editor) - Full-featured track editor for Mario Kart Double Dash.
-- [DouBOL-Dash](https://github.com/shibbo/DouBOL-Dash) - BOL file format tool for editing race course layouts in Mario Kart Double Dash.
 - [mkdd-memory-card-editor](https://github.com/tarsa129/mkdd-memory-card-editor) - Windows editor for Mario Kart: Double Dash memory card save `.gci` files (as exported from Dolphin), covering settings, unlockables, and course times.
 - [mkdd_gci_to_ght](https://github.com/tarsa129/mkdd_gci_to_ght) - Python script that extracts the ghost data from a Mario Kart: Double Dash `.gci` ghost save into a course-named `.ght` staff ghost file.
 - [mkdd-.set-file-editor-](https://github.com/tarsa129/mkdd-.set-file-editor-) - VB.NET editor for Mario Kart: Double Dash kart setting `.set` files, with notes documenting the file's float fields.
@@ -362,7 +361,6 @@
 - [sms (decomp)](https://github.com/doldecomp/sms) - Matching decompilation of Super Mario Sunshine.
 - [smstools](https://github.com/impiaaa/smstools) - Toolkit for decoding and working with Super Mario Sunshine data files.
 - [Bin-editor-improvements](https://github.com/Muzzarino/Bin-editor-improvements) - Enhanced version of miluaces' bin editor for Super Mario Sunshine with fixed orthogonal mode, duplicate/translate/subdivide buttons, improved UI, and Camera Intro editor (WIP).
-- [Corona](https://github.com/shibbo/Corona) - Toolkit designed for custom C++ code injection in Super Mario Sunshine. Can be used to create new enemies, objects, bosses, items, and more.
 - [flaaffy](https://github.com/arookas/flaaffy) - Audio toolchain for Super Mario Sunshine. Runtime library for loading, utilizing, and playing various audio-related formats with tools and utilities to convert and create these formats.
 - [noclip.website (Super Mario Sunshine)](https://github.com/magcius/noclip.website/tree/main/src/j3d) - In-browser Super Mario Sunshine viewer.
 - [prm-parser](https://github.com/JoshuaMKW/prm-parser) - Editor for Nintendo's PRM file format used in Super Mario Sunshine (GameCube). See also the author's [sms-tools](https://github.com/JoshuaMKW/sms-tools), a CLI for the same format.
@@ -379,9 +377,7 @@
 - [noclip.website (Super Mario Odyssey)](https://github.com/magcius/noclip.website/tree/main/src/fres_nx) - In-browser Super Mario Odyssey viewer, with a from-scratch reader for the Switch NX graphics formats: BFRES models, BNTX textures (including Tegra swizzle/block-linear decoding), and SARC archives.
 - [noclip.website (Super Mario Galaxy)](https://github.com/magcius/noclip.website/tree/main/src/SuperMarioGalaxy) - In-browser Super Mario Galaxy viewer.
 - [noclip.website (Super Mario Galaxy 2)](https://github.com/magcius/noclip.website/tree/main/src/SuperMarioGalaxy) - In-browser Super Mario Galaxy 2 viewer.
-- [GSTExtract](https://github.com/shibbo/GSTExtract) - Extracts the data out of .gst files found in Super Mario Galaxy 1 and 2.
 - [galaxydatabase](https://github.com/SunakazeKun/galaxydatabase) - Object database for Super Mario Galaxy 1 and 2 (archived); development continues in [SMGCommunity/galaxydatabase](https://github.com/SMGCommunity/galaxydatabase), which adds an editor for the JSON configs and generates HTML pages.
-- [SMG2-HashLookup](https://github.com/shibbo/SMG2-HashLookup) - Looks up hashed field/object names in Super Mario Galaxy 2 against a string table extracted from the game's DOL.
 - [Petari (encounter)](https://github.com/encounter/Petari) - Decompilation of Super Mario Galaxy 1 (Korean version).
 - [Petari (Gota7)](https://github.com/Gota7/Petari) - Decompilation of Super Mario Galaxy 1 (Korean version).
 - [Petari](https://github.com/SMGCommunity/Petari) - Super Mario Galaxy 1 decompilation with full engine reconstruction.
@@ -456,7 +452,6 @@
 - [marioparty2 (decomp)](https://github.com/mariopartyrd/marioparty2) - Matching decompilation of Mario Party 2.
 - [marioparty3 (decomp)](https://github.com/mariopartyrd/marioparty3) - Matching decompilation of Mario Party 3.
 - [marioparty4 (decomp)](https://github.com/mariopartyrd/marioparty4) - Matching decompilation of Mario Party 4.
-- [bea-extract](https://github.com/shibbo/bea-extract) - Extracts BEA files from Super Mario Party.
 - [MPLibrary](https://github.com/KillzXGaming/MPLibrary) - Library for reading and writing Mario Party file formats.
 - [Party-Studio](https://github.com/MapStudioProject/Party-Studio) - Board editor for Mario Party Superstars (and planned support for older games), by the same developer as the original [KillzXGaming/Party-Studio](https://github.com/KillzXGaming/Party-Studio); more actively maintained.
 - [BEA-Library-Editor](https://github.com/KillzXGaming/BEA-Library-Editor) - Library and editor for rebuilding, adding, and removing files in Bezel Engine Archive (.bea) files, used by the Super Mario Party series.
@@ -525,7 +520,6 @@
 - [ChameleonTwist2-JP-Recomp](https://github.com/Rainchus/ChameleonTwist2-JP-Recomp) - Static recompilation of Chameleon Twist 2 (N64, JP) into a native executable.
 - [doshin-gc (decomp)](https://github.com/break-core/doshin-gc) - Matching decompilation of Doshin the Giant (GameCube).
 - [pcopter_wii (decomp)](https://github.com/Bsquo/pcopter_wii) - Matching decompilation of Radio Helicopter (Wii).
-- [cttt-decomp (decomp)](https://github.com/shibbo/cttt-decomp) - Matching decompilation of Captain Toad: Treasure Tracker for Nintendo Switch.
 - [KinopioDB](https://github.com/SunakazeKun/KinopioDB) - Public modding database for Captain Toad: Treasure Tracker (Switch and 3DS), documenting the game's objects and classes (internal names, lists, links, models) as JSON with Python tools. (Archived.)
 - [drmario64 (decomp)](https://github.com/angheloalf/drmario64) - Matching decompilation of Dr. Mario 64.
 - [ArikaTools](https://github.com/simontime/ArikaTools) - Tools for extracting data from Arika-developed games, such as their Dr. Mario/Dr. Luigi titles.
@@ -907,9 +901,6 @@
 - [noclip.website (Metroid Prime Hunters)](https://github.com/magcius/noclip.website/tree/main/src/MetroidPrimeHunters) - In-browser Metroid Prime Hunters viewer.
 - [mzm (decomp)](https://github.com/metroidret/mzm) - Matching decompilation of Metroid: Zero Mission.
 - [mf (decomp)](https://github.com/metroidret/mf) - Matching decompilation of Metroid Fusion.
-- [prime (decomp)](https://github.com/primedecomp/prime) - Matching decompilation of Metroid Prime.
-- [echoes (decomp)](https://github.com/primedecomp/echoes) - Matching decompilation of Metroid Prime 2: Echoes.
-- [Metaforce](https://github.com/AxioDL/metaforce) - Native reimplementation of the Metroid Prime engine with asset parsing.
 - [PrimeWorldEditor](https://github.com/AxioDL/PrimeWorldEditor) - Modding tools and world/level editor suite for the Metroid Prime series, providing asset browsing and editing across Metroid Prime 1-3.
 - [retro-data-structures](https://github.com/randovania/retro-data-structures) - Construct-based type definitions for Retro Studios' Metroid Prime trilogy file formats.
 - [randomprime](https://github.com/randovania/randomprime) - ISO patcher directly modifying Metroid Prime's original assets for Randovania's randomizer; actively maintained fork with over 1000 commits ahead of aprilwade's original.
@@ -960,7 +951,6 @@
 - [EmeraldRecomp](https://github.com/mstan/EmeraldRecomp) - Static recompilation of Pokemon Emerald (GBA) into native code.
 - [FireRedLeafGreenRecomp](https://github.com/mstan/FireRedLeafGreenRecomp) - Static recompilation of Pokemon FireRed and LeafGreen (GBA) into native code.
 - [PokemonStadiumRecomp](https://github.com/mstan/PokemonStadiumRecomp) - Static recompilation of Pokemon Stadium (N64) into native code.
-- [PocketMonstersStadiumRecomp](https://github.com/mstan/PocketMonstersStadiumRecomp) - Static recompilation of Pocket Monsters Stadium (N64) into native code.
 - [pokepicross](https://github.com/aquova/pokepicross) - Detailed retrospective documenting the reverse engineering of the unreleased, leaked Pokemon Picross (Game Boy Color, ~2000) ROM, tracing its penalty-timer logic through RAM analysis and ASM patching.
 - [KM Editor](https://github.com/KotMatrosk1n/KM-Editor) - Windows modding toolkit for Pokémon Sword/Shield, Scarlet/Violet, and Legends Z-A; editors for Pokémon, moves, trainers, items, encounters, raids, and other game-data tables, plus CSV/TSV/JSON import and mod-merging workflows.
 - [pkmn-chest](https://github.com/Universal-Team/pkmn-chest) - Pokemon Bank for the 3rd through 5th generation Pokemon games on Nintendo DS(i).

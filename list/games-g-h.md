@@ -1089,7 +1089,6 @@
 
 ##### Arknights: Endfield
 
-- [EndfieldUnpacker](https://github.com/endGuaGua/EndfieldUnpacker) - Reverse engineering toolkit for Arknights: Endfield; decrypts and extracts game assets from the game's proprietary VFS archives, including Wwise PCK/WEM audio.
 - [FkArkEnd](https://github.com/shiikwi/FkArkEnd) - Archive/asset tool for Arknights: Endfield.
   - Formats: Beyond.VFS `.blc` (decrypt to JSON), `.chk` unpacking, `.pck` audio unpacking, `TableCfg` `.bytes` (convert to JSON), `.lua` decryption, `manifest.hgmmap`/`StringPathHash.bin` (convert to JSON).
 - [EFMI-Tools](https://github.com/SpectrumQT/EFMI-Tools) - Alpha-stage Blender addon for the Endfield Model Importer (EFMI): extracts objects and LOD meshes from Arknights: Endfield frame dumps, imports them as editable meshes with merged skeletons and shapekeys, and exports EFMI-compatible mods. See also [XXMI Launcher](https://github.com/SpectrumQT/XXMI-Launcher).

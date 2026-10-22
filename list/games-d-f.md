@@ -319,16 +319,6 @@
 - [es2-toolkit](https://github.com/Subject9x/es2-toolkit) - Java tools for Earthsiege 2 game files: unpack `.DBA` bitmap arrays to `.DBM` images (optionally `.png`), compile `.DBM` files back into a `.DBA` from a script, convert indexed `.png` files to `.DBM` using a `.DPL` palette, and export `.DPL` palettes to other formats. By the author of herc-works-mdk above.
 
 ### E
-#### Pixpil (Eastward)
-
-- [EastwardPacker](https://github.com/VriskaSerket51/EastwardPacker) - Extracts and repacks Eastward's `.g` GArchive asset containers.
-  - Tools: `EastwardLib` (.NET library for reading/writing GArchives and assets), `AtlasExtractor` (extracts images from atlas files), `Hmg2Image`/`Image2Hmg` (converts between `.hmg` and standard image formats).
-  - See also [eastward.js](https://github.com/VriskaSerket51/eastward.js), a JavaScript port of the packer.
-- [EastwardLib](https://github.com/VriskaSerket51/EastwardLib) - Library for reading Eastward's original asset/data formats.
-- [EastwardMSpriteParser](https://github.com/VriskaSerket51/EastwardMSpriteParser) - Reads Eastward .msprite files with their texture and exports the sprites as animated PNG (or GIF) with an optional size multiplier.
-- [eastward-savefile-viewer](https://github.com/VriskaSerket51/eastward-savefile-viewer) - Browser-based viewer that decodes Eastward save files (.pack_save and .info) to JSON.
-- [EastwardLocaleExtractor](https://github.com/VriskaSerket51/EastwardLocaleExtractor) - Locale/text extraction tool for Eastward.
-
 #### Ecstatica
 
 - [Ecstatica Recompiled](https://github.com/spacefarergames/EcstaticaRecompiled) - Full 64-bit native port and recompilation of Ecstatica 1 and 2 for modern Windows, reverse-engineering game structures and assets.

@@ -13,6 +13,10 @@
 
 - [mxs_bakemonogatari_psp](https://github.com/coreynguyen/mxs_bakemonogatari_psp) - MaxScript for importing `.amo`/`.amt` mesh and texture files from Bakemonogatari Portable (PSP), extracted from the game's CRIWare CPK archives.
 
+#### Bakuman: Mangaka e no Michi
+
+- [Bakuman-Mangaka-e-no-Michi-Tool](https://github.com/gopicolo/Bakuman-Mangaka-e-no-Michi-Tool) - Python tools that extract dialogue and choice strings from the game's Shift-JIS .scr script files to JSON and rebuild the .scr files with updated header pointers.
+
 #### Kenny Sun (BALL x PIT)
 
 - [game-save-ball-pit](https://github.com/VdustR/game-save-ball-pit) - Save format documentation and Python tool (`tools/ballxpit_save.py`) to inspect, compare and edit BALL x PIT's `.NET BinaryFormatter` saves (`meta1.yankai`, `saveslotinfo.balls`), covering resources, levels, XP and unlocks; verified on v1.299 and v1.301.
@@ -91,7 +95,6 @@
 
 ##### Dragon Ball
 
-- [binunpack](https://github.com/shibbo/binunpack) - Program for unpacking the BIN archives in DragonBall: Revenge of King Piccolo, written in Python 3.
 - [DBFModToolCollection](https://github.com/Tiniifan/DBFModToolCollection) - Collection of tools to simplify modding on Dragon Ball Fusion. Includes utilities for working with game files and archives.
 - [DBFrandomizer](https://github.com/Tiniifan/DBFrandomizer) - Randomizer for Dragon Ball Fusion (3DS). Works on the extracted root.jarc contents (jARC format support) to randomize character appearance, stats, ranks, skills and special moves.
 - [Pokemon-Tekken-Ripping-Tool](https://github.com/hadashisora/Pokemon-Tekken-Ripping-Tool) - Tool for unpacking archives and extracting assets from Pokemon Tekken / Pokken Tournament.
@@ -1217,6 +1220,10 @@
 - [Lexy's Labyrinth](https://github.com/eevee/lexys-labyrinth) - Browser-based reimplementation of Chip's Challenge 1 and 2, able to load the original MS Chip's Challenge DAT/CCL level files and Steam Chip's Challenge 2 C2G/C2M files, with a built-in level editor and demo/replay recording.
 - [Tile World](https://github.com/zrax/tworld) - Cross-platform emulator of the original Chip's Challenge game engine (created for the Atari Lynx, later ported to MS Windows), loading the copyrighted CHIPS.DAT level set and other Chip's Challenge .dat level files.
 
+#### Chobits: Atashi Dake no Hito
+
+- [Chobits-Atashi-Dake-no-Hito-Tool](https://github.com/gopicolo/Chobits-Atashi-Dake-no-Hito-Tool) - Python scripts (`dump.py`, `repack.py`) that extract Shift-JIS dialogue from the Game Boy Advance ROM of Chobits: Atashi Dake no Hito (Japan) into a text file and reinsert translated text with an updated pointer table.
+
 #### A&F Software (Chuckie Egg)
 
 - [chuckie-egg-disassembly](https://github.com/mrcook/chuckie-egg-disassembly) - Annotated source code disassembly of Chuckie Egg (1983, ZX Spectrum). Work in progress.
@@ -1225,7 +1232,7 @@
 
 #### Longsoft Multimedia (Clash)
 
-- [clash-save-editor](https://github.com/lisu188/clash-save-editor) - Save editor for the Windows 95 turn-based strategy game Clash, with a documented binary save-file schema and a stdio MCP server front-end. See also the author's [clash-disassembly](https://github.com/lisu188/clash-disassembly) and [clash-hd](https://github.com/lisu188/clash-hd) for wider reverse-engineering work on the game.
+- [clash-save-editor](https://github.com/lisu188/clash-save-editor) - Save editor for the Windows 95 turn-based strategy game Clash, with a documented binary save-file schema and a stdio MCP server front-end. See also the author's [clash-hd](https://github.com/lisu188/clash-hd) for wider reverse-engineering work on the game.
 
 #### Cloudpunk
 
