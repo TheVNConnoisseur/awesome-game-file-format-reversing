@@ -192,7 +192,7 @@
 
 - [elite-source-code-nes](https://github.com/markmoxon/elite-source-code-nes) - Fully documented, line-by-line annotated source code for the NES conversion of Elite (1984), part of a wider software-archaeology project by the same author covering Elite's BBC Micro, Commodore 64, Apple II, and other ports.
   - BBC Micro/Acorn Electron ports: [cassette](https://github.com/markmoxon/elite-source-code-bbc-micro-cassette), [disc](https://github.com/markmoxon/elite-source-code-bbc-micro-disc), [6502 Second Processor](https://github.com/markmoxon/elite-source-code-6502-second-processor), [BBC Master](https://github.com/markmoxon/elite-source-code-bbc-master), [Acorn Electron](https://github.com/markmoxon/elite-source-code-acorn-electron), [Elite-A](https://github.com/markmoxon/elite-a-source-code-bbc-micro), and [Teletext Elite](https://github.com/markmoxon/teletext-elite).
-  - Companion tools: [elite-universe-editor](https://github.com/markmoxon/elite-universe-editor) (galaxy/universe data editor) and [elite-over-econet-fileserver-menu](https://github.com/markmoxon/elite-over-econet-fileserver-menu).
+  - Companion tools: [elite-universe-editor](https://github.com/markmoxon/elite-universe-editor) (galaxy/universe data editor) and [elite-over-econet-fileserver-menu](https://github.com/markmoxon/elite-over-econet-file-server-menu).
   - See also the "Elite Compendium" annotated builds for the [Acorn Electron](https://github.com/markmoxon/elite-compendium-acorn-electron) and [BBC Micro B+/B+128](https://github.com/markmoxon/elite-compendium-bbc-micro-b-plus).
 - [elite-source-code-commodore-64](https://github.com/markmoxon/elite-source-code-commodore-64) - Fully documented, annotated source code disassembly for the Commodore 64 version of Elite.
 - [c64-elite-flicker-free](https://github.com/markmoxon/c64-elite-flicker-free) - Patch for Commodore 64 and Plus/4 Elite that removes sprite flicker, built on the disassembled source above.
@@ -260,8 +260,8 @@
 - [KV Map Converter v2 Beta2 (Call of Duty 4: Modern Warfare)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/kv-map-converter-v2-beta2) - Utility by KillerVirus for converting Source Engine maps to Call of Duty 4: Modern Warfare format (v2 Beta2).
 - [iw3xo-radiant](https://github.com/xoxor4d/iw3xo-radiant) - Enhanced Radiant level editor modification for Call of Duty 4 (IW3 Engine).
 - [Q3COD4BSP](https://github.com/Iswenzz/Q3COD4BSP) - Converts Quake 3 .BSP level files to Call of Duty 4's .MAP format, to speed up porting Quake 3 levels to CoD4.
-- [iw3x-port](https://github.com/iw4x/iw3x-port) - Community-driven map/asset converter for porting Call of Duty 4 (2007, IW3) content to IW4 (Modern Warfare 2), used with IW4x's ZoneBuilder.
-- [iw5x-port](https://github.com/iw4x/iw5x-port) - Asset/map export and conversion port utility for IW5 (Call of Duty: Modern Warfare 2 2009), analogous to iw3x-port for IW4.
+- [iw3x-port](https://github.com/iw4x-community/iw3x-port) - Community-driven map/asset converter for porting Call of Duty 4 (2007, IW3) content to IW4 (Modern Warfare 2), used with IW4x's ZoneBuilder.
+- [iw5x-port](https://github.com/iw4x-community/iw5x-port) - Asset/map export and conversion port utility for IW5 (Call of Duty: Modern Warfare 2 2009), analogous to iw3x-port for IW4.
 - [iw4x-map-porting-utility](https://github.com/iw4x/iw4x-map-porting-utility) - Middleware to simplify porting maps from Call of Duty 4 (IW3) to Modern Warfare 2 (IW4), unifying export from iw3x-port to ZoneBuilder.
 - [zonebuilder-wrapper](https://github.com/iw4x/zonebuilder-wrapper) - Wrapper around ZoneBuilder for building IW4x-compatible Call of Duty assets.
 - [iw4x-client](https://github.com/iw4x/iw4x-client) - Client reimplementation/mod for Call of Duty: Modern Warfare 2 (IW4 engine) multiplayer, including the built-in ZoneBuilder asset/fastfile pipeline tool used by the IW3x/IW5x porting utilities.
@@ -292,7 +292,7 @@
 - [IWMenuDumper](https://github.com/aerosoul94/IWMenuDumper) - Decompiler for IW Engine menu files (Modern Warfare 2, Modern Warfare 3).
 - [flac-tool](https://github.com/alicealys/flac-tool) - Converts FLAC audio files to be compatible with the IW engine.
 - [shader-tool](https://github.com/alicealys/shader-tool) - Library to parse, assemble, and disassemble DirectX Shader Bytecode (DXBC) objects used by the IW engine.
-- [dexilifier](https://github.com/iw4x/dexilifier) - DX9 HLSL source decompiler and generator from compiled DirectX shader bytecode used by the IW engine.
+- [dexilifier](https://github.com/iw4x-community/dexilifier) - DX9 HLSL source decompiler and generator from compiled DirectX shader bytecode used by the IW engine.
 
 ###### Modding Kits & Client Tools
 
@@ -333,6 +333,7 @@
 ##### Interstate '76
 
 - [Open76](https://github.com/r1sc/Open76) - Engine reimplementation of Activision's Interstate '76 on Unity, parsing and rendering the game's original ZFS-packaged level, vehicle, and mission stack-machine data; supports both the uncompressed (v1.0) and compressed ZFS variants.
+- [i76render](https://github.com/greg-kennedy/i76render) - Archived Perl script that converts Interstate '76 map definition files (`.MSN`, `.CBT`, `.RAC`, `.CF2`) into POV-Ray scenes with 16-bit grayscale terrain and road heightmaps.
 
 ##### Tony Hawk's Pro Skater
 

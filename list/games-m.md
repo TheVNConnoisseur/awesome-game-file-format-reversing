@@ -92,7 +92,7 @@
 ##### SimCity 2000
 
 - [SC2k-docs](https://github.com/OpenCity2k/SC2k-docs) - Unofficial documentation of the implementation of SimCity 2000, covering its .sc2/.scn city file format and other game data.
-- [OpenSC2K](https://github.com/nicholas-ochoa/OpenSC2K) - Open-source WebGL/Phaser 3 remake of SimCity 2000 that parses the original game's data files (LARGE.DAT, PAL_MSTR.BMP from the Windows 95 Special Edition) directly for graphics and city loading.
+- [OpenSC2K](https://github.com/OpenSC2K/OpenSC2K) - Open-source WebGL/Phaser 3 remake of SimCity 2000 that parses the original game's data files (LARGE.DAT, PAL_MSTR.BMP from the Windows 95 Special Edition) directly for graphics and city loading.
 - [sc2kfix](https://github.com/sc2kfix/sc2kfix) - Bugfix and modding plugin (DLL) for SimCity 2000 Special Edition (1996) that reverse-engineers and reimplements parts of the game's rendering, palette-cycling animation, and sound engine to fix crashes and bugs, restore cut content, and add new features, while remaining compatible with original .sc2/.scn city files.
 
 ##### SimCity 3000
@@ -374,7 +374,7 @@
 - [tiger](https://github.com/Blam-Network/tiger) - TypeScript libraries for Destiny's Tiger engine: reading `.pkg` packages and decoding tags with per-build definitions, a VM and decompiler for compiled activity scripts, package block decompression, and an RSAT bitstream encoder/decoder.
 - [quicktag](https://github.com/v4nguard/quicktag) - Destiny 1/2 package file data structure explorer. Scans and analyzes Tiger engine structure files (8080 files) to discover structures, patterns, strings, and more. Features tag viewer, localized/raw strings browser, and asset preview for textures and Wwise audio streams.
 - [Charm](https://github.com/cohaereo/Charm) - Destiny 2 reverse engineering tool for extracting assets from game files. Supports multiple Tiger engine versions and Destiny 2 game versions (Shadowkeep through Lightfall). Focuses on providing access to information in game files for artists and content preservation.
-- [d2-map-importer-addon](https://github.com/DeltaDesigns/d2-map-importer-addon) - Blender 4.0+ addon for importing Destiny 2 rips from Charm. Assembles maps (statics, dynamics, lights, terrain), auto-assigns gear shaders and textures to player gear, compatible with DARE/DCG skeletons and IK Player Skeleton.
+- [d2-map-importer-addon](https://github.com/DeltaDesigns/tiger-importer-blender-addon) - Blender 4.0+ addon for importing Destiny 2 rips from Charm. Assembles maps (statics, dynamics, lights, terrain), auto-assigns gear shaders and textures to player gear, compatible with DARE/DCG skeletons and IK Player Skeleton.
 - [Destiny-Collada-Generator](https://github.com/DeltaDesigns/Destiny-Collada-Generator) - Tool to generate Collada files of items from Destiny 2 via web/mobile API. Exports geometry, mesh weights, UV coordinates, normals, tangents, vertex colors, and dye slots. Generates textures in PNG format and shader parameter lists.
 - [SBox-Destiny-2-Map-Importer](https://github.com/DeltaDesigns/SBox-Destiny-2-Map-Importer) - Tool for importing ripped Destiny 2 maps from Charm into S&Box Hammer. Imports maps with materials, shaders, and models into S&Box scenes.
 - [MIDA](https://github.com/DeltaDesigns/MIDA) - Fork of Charm designed for Marathon. Tool for extracting assets from Marathon game files, focused on artists and content preservation. Supports Marathon Closed Alpha. Note: Most features currently non-functional, development status uncertain.
@@ -496,7 +496,7 @@
 ##### Mortal Kombat
 
 - [MortalKombat (leeao)](https://github.com/leeao/MortalKombat) - Noesis plugin for Mortal Kombat: Deadly Alliance, Deception, and Armageddon (PS2), and Mortal Kombat: Unchained (PSP) DFF/MKA models.
-- [Ultimate Mortal Kombat 3 iOS Recomp](https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Recomp) - Decompilation of Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011) into readable C for a native Windows/Linux port; recovers 4,342 named functions across 135 source files from the retail binary's STABS table, validated by differential testing against a static ARM-to-C recompiler. Requires the player's own copy of the game.
+- [Ultimate Mortal Kombat 3 iOS Recomp](https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled) - Decompilation of Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011) into readable C for a native Windows/Linux port; recovers 4,342 named functions across 135 source files from the retail binary's STABS table, validated by differential testing against a static ARM-to-C recompiler. Requires the player's own copy of the game.
 - [Unpacker-and-Repacker-to-MK-Shaolin-Monks-pack-PS2](https://github.com/RayneDuarte/Unpacker-and-Repacker-to-MK-Shaolin-Monks-pack-PS2-) - Unpacks and repacks the archive format used by Mortal Kombat: Shaolin Monks (PS2).
 - [SSFExplorer](https://github.com/ermaccer/SSFExplorer) - Tool to view and edit Mortal Kombat PS2-era archive files.
 - [rewolf-mortal-kombat](https://github.com/rwfpl/rewolf-mortal-kombat) - Parser for Mortal Kombat's GRA graphics resource files (compressed sprites and palettes). See also the companion [rewolf-mortal-kombat-viewer](https://github.com/rwfpl/rewolf-mortal-kombat-viewer), a viewer for the uncompressed GRA files it produces.
@@ -512,7 +512,7 @@
 ##### NBA Jam
 
 - [Roaster](https://github.com/fabiensanglard/roaster) - Tool to patch the EPROM images (character graphics/palettes and text) of the NBA Jam Tournament Edition (rev 4.0) arcade board.
-- [jamedit](https://github.com/iconidentify/jamedit) - Edits an NBA Jam cartridge dump's rosters, portraits, artwork, and league marks, and produces a patch.
+- [jamedit](https://github.com/chriskearney/jamedit) - Edits an NBA Jam cartridge dump's rosters, portraits, artwork, and league marks, and produces a patch.
 
 ##### NFL Blitz
 

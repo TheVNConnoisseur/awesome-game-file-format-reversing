@@ -146,7 +146,7 @@
 - [Lib20070319](https://github.com/Ret-HZ/Lib20070319) - Library to read/write Ryu Ga Gotoku Studio's proprietary "20070319" data-table format used across Yakuza games.
 - [DungeonMaster](https://github.com/Ret-HZ/DungeonMaster) - Dungeon layout editor for Like a Dragon: Infinite Wealth's DGRF format, covering grid and room-type mechanics.
 - [rELPKckr](https://github.com/Ret-HZ/rELPKckr) - ELPK archive extractor/packer for Kurohyou: Ryu Ga Gotoku Shinsho and Kurohyou 2: Ryu Ga Gotoku Ashura Hen, RGG Studio's syn Sophia-developed PSP spin-offs.
-- [yagami-decryption-agency](https://github.com/SutandoTsukai181/yagami-decryption-agency) - Decrypts/encrypts Judgment and Lost Judgment's PC `chara.par` archives. See also [PARCrypt](https://github.com/Ret-HZ/PARCrypt), a companion PXD Archive (PARC) decryptor/encryptor built on this library.
+- [yagami-decryption-agency](https://github.com/mosamadeeb/yagami-decryption-agency) - Decrypts/encrypts Judgment and Lost Judgment's PC `chara.par` archives. See also [PARCrypt](https://github.com/Ret-HZ/PARCrypt), a companion PXD Archive (PARC) decryptor/encryptor built on this library.
 - [kuma](https://github.com/Timo654/kuma) - Python GUI karaoke editor for Dragon Engine games (Like a Dragon/Yakuza series). Imports maps from Lost Judgment dancing, Persona Dancing, old-engine karaoke, Yakuza 5 Princess League, Ishin dancing, Zero disco, Project DIVA MegaMix+ beatmaps and Project Heartbeat JSON; exports JSON and experimental Lost Judgment dbd.
 - [karaConv](https://github.com/Timo654/karaConv) - Converts karaoke song bin files between Yakuza 4/Dead Souls and Yakuza 5/Ishin/Zero/Kiwami.
 
@@ -353,6 +353,7 @@
 - [mdtools](https://github.com/flamewing/mdtools) - Suite of Mega Drive format tools: plane-map converter, art-chunk splitter/census, SMPS-to-assembly converter, FM voice-bank dumper, and special-stage expander.
 - [FW-KENSC-ShellExt](https://github.com/MainMemory/FW-KENSC-ShellExt) - Windows shell extension exposing flamewing's mdcomp Mega Drive compression codecs (Kosinski, Nemesis, and more) for right-click compress/decompress.
 - [KENSSharp](https://github.com/sonicretro/KENSSharp) - C# port of KENS: compression and decompression library for Kosinski, Kosinski+, Nemesis, Enigma, Saxman, and Comper, with a GUI front end and a Windows shell extension.
+- [clownnemesis](https://github.com/Clownacy/clownnemesis) - Compressor and decompressor library and executable (ANSI C) for the Nemesis format, with Shannon-Fano mode matching Sega's original compressor output and a Huffman mode for smaller files.
 - [SonicCPTDecryptor](https://github.com/Nenkai/SonicCPTDecryptor) - Decrypts .CPT files from Sonic Mega Collection Plus.
 - [SonicTheHedgehogRecomp](https://github.com/mstan/SonicTheHedgehogRecomp) - Native x64 static recompilation of Sonic the Hedgehog (Genesis).
 - [SonicTheHedgehog2Recomp](https://github.com/mstan/SonicTheHedgehog2Recomp) - Static recompilation of Sonic the Hedgehog 2 (Genesis) into native code.
@@ -452,11 +453,14 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [gdisofs](https://github.com/snickerbockers/gdisofs) - FUSE module for mounting Sega Dreamcast GD-ROM (.gdi) disc images. See also [gdi_mgr](https://github.com/snickerbockers/gdi_mgr), Perl scripts by the same author that verify a `.gdi` dump's track files against a TOSEC XML MD5 list and convert `.gdi` dumps to CHD with `chdman`.
 - [ds2png](https://github.com/drojaazu/ds2png) - Converts Sega Digitizer System III data files to split PNG images.
 - [lzkn](https://github.com/lab313ru/lzkn) - Compression/decompression tools for the LZ Konami algorithm used across Konami's Sega Mega Drive/Genesis games. See also [zida80](https://github.com/lab313ru/zida80), a Z80 sound driver debugger for IDA Pro targeting the same platform.
+- [konami-compression-tools](https://github.com/vladikcomper/konami-compression-tools) - Compressor, decompressor, and recompressor for Konami Compression variant 1 (LZKN1), found in 1990s Konami Mega Drive/Genesis games and based on research into Contra: Hard Corps, with a disassembly of the original M68K decompression routine.
 - [gdworkbench](https://github.com/lhsazevedo/gdworkbench) - CLI tool for inspecting, extracting, and building Sega Dreamcast GD-ROM (.gdi) images.
+- [gdiextract](https://github.com/MachXNU/gdiextract) - Cross-platform command-line tool that lists and extracts the contents of Sega Dreamcast GD-ROM dumps in `.gdi` + `.bin` + `.raw` format.
 - [GDIbuilder](https://github.com/Sappharad/GDIbuilder) - Cross-platform (Windows/macOS/Linux) GUI and CLI utility for building, patching, and extracting Sega Dreamcast GD-ROM (.gdi) images, including IP.BIN bootsector generation and CDDA track handling.
 - [AicaADPCM2WAV](https://github.com/Sappharad/AicaADPCM2WAV) - Command-line tool that converts Sega Dreamcast AICA ADPCM audio data to WAV or raw PCM.
 - [AFS2WAV](https://github.com/sizious/afs2wav) - GUI for ADXUtil that converts CRI ADX audio, typically embedded in AFS archives on the Dreamcast, PlayStation 2 and GameCube, to WAV.
 - [pvr2image](https://github.com/VincentNLOBJ/pvr2image) - Converts Sega Dreamcast/NAOMI PVR texture files to PNG, TGA, and BMP.
+- [spvr2png](https://github.com/nextgeniuspro/spvr2png) - Command-line converter from Sega Dreamcast PVR images to PNG, for single files or whole directories.
 - [pvrtool](https://github.com/buhman/pvrtool) - Dreamcast image format and VQ conversion tool, originally authored by Sega of Europe and Imagination Technologies.
 - [dcdis](https://github.com/sizious/dcdis) - Simple disassembler for Sega Dreamcast binaries.
 - [HopperSH4-Plugin](https://github.com/Sappharad/HopperSH4-Plugin) - Hitachi SH4 disassembly plugin for the Hopper Disassembler, used for reverse-engineering Sega Dreamcast (and other SH4-based) binaries.
@@ -520,8 +524,8 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [genipak-magicard-tool](https://github.com/SONIC3D/genipak-magicard-tool) - Tool for Genipak and Magicard archive formats used in Sonic games.
 - [st3-translation-notes](https://github.com/TheOpponent/st3-translation-notes) - Translation notes documenting the data formats used by the Dreamcast game Sakura Taisen 3: Paris wa Moeteiru ka.
 - [Dramatic-Dungeon-Sakura-Wars-Tool](https://github.com/gopicolo/Dramatic-Dungeon-Sakura-Wars-Tool) - Tool for extracting, editing, and reinserting text in Dramatic Dungeon: Sakura Taisen.
-- [SALSA](https://github.com/jahorta/SALSA) - Skies of Arcadia Legends Script Assistant, a GUI-based tool to assist in editing the game's script files.
-- [SPICE](https://github.com/jahorta/SPICE) - Skies Package Interchange and Content Encoder, a successor to the author's Skies of Arcadia tooling covering SCT script parsing, MLD entry-list export, content-graph export, and SA3D-backed geometry/Blender IR support.
+- [SALSA](https://github.com/SoAModTools/SALSA) - Skies of Arcadia Legends Script Assistant, a GUI-based tool to assist in editing the game's script files.
+- [SPICE](https://github.com/SoAModTools/SPICE) - Skies Package Interchange and Content Encoder, a successor to the author's Skies of Arcadia tooling covering SCT script parsing, MLD entry-list export, content-graph export, and SA3D-backed geometry/Blender IR support.
 - [ALX](https://github.com/Taikocuya/ALX) - Cross-platform command-line tool to export and import game data for Skies of Arcadia, Skies of Arcadia Legends, Eternal Arcadia, and Eternal Arcadia Legends.
 - [shino-legion-decomp](https://github.com/kazuyette/shino-legion-decomp) - In-progress decompilation project for Shinobi Legions.
 - [JSRF Dialog Font](https://github.com/jsrf-tool/jsrf-dialog-font) - Tool for working with the dialog font format used in Jet Set Radio Future (Xbox).
@@ -626,7 +630,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [JMX-File-Editor](https://github.com/JellyBitz/JMX-File-Editor) - Opens, edits, and saves Silkroad Online's JMX model/data files.
 - [JMXVDDJConverter](https://github.com/JellyBitz/JMXVDDJConverter) - Converts between Silkroad Online's DDJ and DDS texture file formats.
 - [NVMTerrainExtractor](https://github.com/JellyBitz/NVMTerrainExtractor) - Extracts terrain data from Silkroad Online's navmesh (.nvm) files.
-- [SR_Db2Media](https://github.com/JellyBitz/SR_Db2Media) - Extracts, encrypts, and imports Silkroad Online's database files directly into the client's media (PK2) archive.
+- [SR_Db2Media](https://github.com/JellyBitz/SRO.Db2Media) - Extracts, encrypts, and imports Silkroad Online's database files directly into the client's media (PK2) archive.
 
 #### Spiral House (Silver)
 
@@ -676,7 +680,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 #### Super Creative (Smilegate)
 
-- [Chaos Zero Nightmare ASSet Ripper](https://github.com/akioukun/Chaos-Zero-Nightmare-ASSet-Ripper) - Extracts encrypted assets from Chaos Zero Nightmare's data.pack (including the Chinese client, 卡厄思梦境), previewing and exporting SCT images as PNG, encrypted databases as JSON, and Spine (SCSP) animation data as JSON via a built-in Spine viewer.
+- [Chaos Zero Nightmare ASSet Ripper](https://github.com/cznrip/Chaos-Zero-Nightmare-ASSet-Ripper) - Extracts encrypted assets from Chaos Zero Nightmare's data.pack (including the Chinese client, 卡厄思梦境), previewing and exporting SCT images as PNG, encrypted databases as JSON, and Spine (SCSP) animation data as JSON via a built-in Spine viewer.
 - [SCTParser](https://github.com/formagGinoo/SCTParser) - Parses the SCT custom image format shared by Chaos Zero Nightmare and Epic Seven into PNGs; superseded for Chaos Zero Nightmare by the ASSet Ripper above but still useful standalone, including for Epic Seven assets.
 
 #### SNK
@@ -1209,7 +1213,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ff7-worldmap](https://github.com/ergonomy-joe/ff7-worldmap) - Decompiled Final Fantasy VII world map engine.
 - [ff7-coaster](https://github.com/ergonomy-joe/ff7-coaster) - Decompiled code for the Final Fantasy VII "Jet Coaster" minigame.
 - [ff7-chocobo](https://github.com/ergonomy-joe/ff7-chocobo) - Decompiled code for the Final Fantasy VII chocobo racing minigame.
-- [FFVIISE_Modding_Tool](https://github.com/odinj2010/FFVIISE_Modding_Tool) - All-in-one editor for Final Fantasy VII Steam Edition, covering textures, battle scene enemy stats, materia properties/AP, dialog text, equipment stats, and raw hex data.
+- [FFVIISE_Modding_Tool](https://github.com/NfgOdin/FFVIISE_Modding_Tool) - All-in-one editor for Final Fantasy VII Steam Edition, covering textures, battle scene enemy stats, materia properties/AP, dialog text, equipment stats, and raw hex data.
 
 - [kujata](https://github.com/picklejar76/kujata) - Translates Final Fantasy VII PC assets to web-friendly JSON/glTF/PNG: field character models and animations (char.lgp), field scene data (flevel.lgp) including scripts/tiles/textures, kernel data (kernel.bin/kernel2.bin), window.bin icons, and TIM/TEX textures.
 - [Elena](https://github.com/Shojy/Elena) - .NET Standard library for reading Final Fantasy VII data: KERNEL.BIN/kernel2.bin stats and text, LGP archive listing/extraction, and TEX texture conversion.
@@ -1224,7 +1228,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ff7r-data-editor](https://github.com/jordanbtucker/ff7r-data-editor) - Editor for modifying `.uasset`/`.uexp` `DataObject` files for Final Fantasy VII Remake, changing numeric values, FNames, and array elements in unpacked game files without altering file size.
 - [FF7R2-DataObject-Parser](https://github.com/Synthlight/FF7R2-DataObject-Parser) - C# library (NuGet `FF7R2.DataObject.API`) for reading and writing Final Fantasy VII Rebirth DataObject files from the original IoStore assets (not Zen-extracted `.uasset`/`.uexp`), with a byte-patching save mode and a full parsed-data save mode that allows resizing arrays.
 - [FF7RebirthDataObjectEditor](https://github.com/Yoraiz0r/FF7RebirthDataObjectEditor) - Editor for Final Fantasy VII Rebirth `DataObject` `.uasset` files in their extracted IOStore state: edit primitives, FNames and array sizes, and export/import `.csv`.
-- [FF7R-mesh-importer](https://github.com/matyalatte/FF7R-mesh-importer) - Blender import tool for Final Fantasy VII Remake mesh/asset files.
+- [FF7R-mesh-importer](https://github.com/matyamod/FF7R-mesh-importer) - Blender import tool for Final Fantasy VII Remake mesh/asset files.
 
 ##### Final Fantasy VIII
 
@@ -1405,12 +1409,12 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [noclip.website (Final Fantasy X)](https://github.com/magcius/noclip.website/tree/main/src/FinalFantasyX) - In-browser Final Fantasy X viewer.
 - [Final Fantasy X HD translation tools](https://www.moddb.com/games/final-fantasy-x/downloads/final-fantasy-x-hd-translation-tools) - Tools for Final Fantasy X HD (PC) to extract and import game data for translation (texts and graphics).
-- [FFX-Phyre-Tool](https://github.com/odinj2010/FFX-Phyre-Tool) - GUI and CLI utility for extracting and repacking 3D models and textures from Final Fantasy X/X-2 HD Remaster `.phyre` files, converting to glTF 2.0 for Blender import; auto-detects DXT1/DXT3/DXT5 texture compression.
-- [FFX_Text_Tool](https://github.com/odinj2010/FFX_Text_Tool) - Editor for Final Fantasy X text/dialogue binary tables (`item_txt.bin`, `arms_txt.bin`, `status_txt.bin`, etc.); decodes the game's proprietary character encoding and control codes, with safe repacking.
-- [FFX_Shop_Tool](https://github.com/odinj2010/FFX_Shop_Tool) - Editor for Final Fantasy X shop inventory, rate, and equipment data files (`item_shop.bin`, `arms_shop.bin`, `item_rate.bin`, etc.).
-- [FFX_Sphere_Grid_Tool](https://github.com/odinj2010/FFX_Sphere_Grid_Tool) - Visual editor for Final Fantasy X's Sphere Grid data, supporting both the HD Remaster and classic PS2 file formats.
-- [FFX_AI_Tool](https://github.com/odinj2010/FFX_AI_Tool) - Editor for Final Fantasy X monster stats and battle AI scripts (Atel), with disassembly/decompilation and repacking into the original game chunk structure.
-- [FFX_Audio_Tool](https://github.com/odinj2010/FFX_Audio_Tool) - Browser/editor for FMOD Sound Bank (`.fsb`) files, for browsing, exporting, and injecting custom audio in Final Fantasy X/X-2 HD Remaster and other FSB5-based games.
+- [FFX-Phyre-Tool](https://github.com/NfgOdin/FFX-Phyre-Tool) - GUI and CLI utility for extracting and repacking 3D models and textures from Final Fantasy X/X-2 HD Remaster `.phyre` files, converting to glTF 2.0 for Blender import; auto-detects DXT1/DXT3/DXT5 texture compression.
+- [FFX_Text_Tool](https://github.com/NfgOdin/FFX_Text_Tool) - Editor for Final Fantasy X text/dialogue binary tables (`item_txt.bin`, `arms_txt.bin`, `status_txt.bin`, etc.); decodes the game's proprietary character encoding and control codes, with safe repacking.
+- [FFX_Shop_Tool](https://github.com/NfgOdin/FFX_Shop_Tool) - Editor for Final Fantasy X shop inventory, rate, and equipment data files (`item_shop.bin`, `arms_shop.bin`, `item_rate.bin`, etc.).
+- [FFX_Sphere_Grid_Tool](https://github.com/NfgOdin/FFX_Sphere_Grid_Tool) - Visual editor for Final Fantasy X's Sphere Grid data, supporting both the HD Remaster and classic PS2 file formats.
+- [FFX_AI_Tool](https://github.com/NfgOdin/FFX_AI_Tool) - Editor for Final Fantasy X monster stats and battle AI scripts (Atel), with disassembly/decompilation and repacking into the original game chunk structure.
+- [FFX_Audio_Tool](https://github.com/NfgOdin/FFX_Audio_Tool) - Browser/editor for FMOD Sound Bank (`.fsb`) files, for browsing, exporting, and injecting custom audio in Final Fantasy X/X-2 HD Remaster and other FSB5-based games.
 - [FFXView](https://github.com/yaz0r/FFXView) - Historical (2005) source of the Final Fantasy X/X-2 model viewer, which visualizes models from files extracted with FFXDumper (original releases are hosted on archive.org). Archived.
 - [FF10](https://github.com/turtle-insect/FF10) - Save data editor for Final Fantasy X (Switch).
 - [FF10-2](https://github.com/turtle-insect/FF10-2) - Save data editor for Final Fantasy X-2 (Switch).
@@ -1599,7 +1603,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### The Darkness
 
-- [TheDarkness](https://github.com/birabittoh/TheDarkness) - Static recompilation of The Darkness (Xbox 360), built on the ReXGlue SDK, converting the game's `default.xex` PowerPC code into native x86_64 code at build time.
+- [TheDarkness](https://github.com/birabittoh/TheDarknessReborn) - Static recompilation of The Darkness (Xbox 360), built on the ReXGlue SDK, converting the game's `default.xex` PowerPC code into native x86_64 code at build time.
 
 ##### Payday 2
 

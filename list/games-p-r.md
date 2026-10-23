@@ -28,7 +28,7 @@
 - [noclip.website (Pilotwings 64)](https://github.com/magcius/noclip.website/tree/main/src/Pilotwings64) - In-browser Pilotwings 64 viewer, parsing the engine's `UV*` resource chunks (UVTR terrain regions, UVCT contours, UVMD models, UVTX textures, UVEN environments) out of the ROM.
 - [noclip.website (Beetle Adventure Racing!)](https://github.com/magcius/noclip.website/tree/main/src/BeetleAdventureRacing) - In-browser Beetle Adventure Racing! (N64) track viewer, reading the game's filesystem and the same `UV*` chunk formats as Pilotwings 64 (plus UVTS texture sequences and UVTT track data).
 - [pilotwings_64](https://github.com/queueRAM/pilotwings_64) - Tools and notes for hacking Pilotwings 64, including a filesystem dumper for the ROM's `UV*` resource chunks.
-- [Pilotwings64Decomp](https://github.com/gcsmith/Pilotwings64Decomp) - Matching decompilation of Pilotwings 64 (WIP).
+- [Pilotwings64Decomp](https://github.com/n64decomp/pw64) - Matching decompilation of Pilotwings 64 (WIP).
 - [bar-decomp](https://github.com/synamaxmusic/bar-decomp) - Decompilation of Beetle Adventure Racing!.
 
 #### Paradox Interactive
@@ -516,7 +516,7 @@
 
 ##### Kameo: Elements of Power
 
-- [KameoRePowered](https://github.com/birabittoh/KameoRePowered) - Static recompilation of Kameo: Elements of Power (Xbox 360) into a native executable.
+- [KameoRePowered](https://github.com/MaxDeadBear/KameoRePowered) - Static recompilation of Kameo: Elements of Power (Xbox 360) into a native executable.
 
 ##### Viva Piñata
 

@@ -104,7 +104,7 @@
 ##### Solomon's Key
 
 - [skchain](https://github.com/kaimitai/skchain) - Solomon's Keychain, a Solomon's Key (NES) ROM editor.
-- [solomon_no_kagi_src](https://github.com/oranguthang/solomon_no_kagi_src) - Byte-identical ca65 source reconstruction of the USA and European NES releases of Solomon's Key, combining preservation builds with reverse-engineered source.
+- [solomon_no_kagi_src](https://github.com/RetrolariumLab/solomon_no_kagi_src) - Byte-identical ca65 source reconstruction of the USA and European NES releases of Solomon's Key, combining preservation builds with reverse-engineered source.
 
 ##### N.U.D.E.@
 
@@ -378,7 +378,7 @@
 - [thexder](https://github.com/hitchhikr/thexder) - Complete disassembly of the Amiga version of Thexder, including source, data, and manual.
 ##### Zeliard
 
-- [Zeliard](https://github.com/thedragonheir/Zeliard) - Reimplementation/port of Zeliard (DOS), faithfully recreating the original rendering, data formats, and gameplay systems using the original game assets.
+- [Zeliard](https://github.com/thedragonheir/re-zeliard) - Reimplementation/port of Zeliard (DOS), faithfully recreating the original rendering, data formats, and gameplay systems using the original game assets.
 
 #### THQ / Rainbow Studios
 
@@ -550,7 +550,7 @@
 
 ##### Alien Soldier
 
-- [alien_soldier_src](https://github.com/oranguthang/alien_soldier_src) - Byte-identical source reconstruction of Alien Soldier (Sega Mega Drive/Genesis), disassembling and re-assembling the Japanese release with the AS Macro Assembler; extracts and documents the game's compressed/uncompressed tile, sprite mapping, palette, and PCM sound data.
+- [alien_soldier_src](https://github.com/RetrolariumLab/alien_soldier_src) - Byte-identical source reconstruction of Alien Soldier (Sega Mega Drive/Genesis), disassembling and re-assembling the Japanese release with the AS Macro Assembler; extracts and documents the game's compressed/uncompressed tile, sprite mapping, palette, and PCM sound data.
 
 ##### Mischief Makers
 
@@ -982,7 +982,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 #### Leaf (White Album 2)
 
-- [wa2-godot](https://github.com/dorakyuraduang/wa2-godot) - Godot-based Android port of the visual novel White Album 2, reimplementing the game's proprietary script/resource engine (scripts, save data, image/audio decoding) from scratch in C#, reading the original PC version's game files (which the user must supply).
+- [wa2-godot](https://github.com/dorakyuraduang/whitealbum2-Android) - Godot-based Android port of the visual novel White Album 2, reimplementing the game's proprietary script/resource engine (scripts, save data, image/audio decoding) from scratch in C#, reading the original PC version's game files (which the user must supply).
 
 #### Carbine Studios (WildStar)
 

@@ -159,7 +159,7 @@
 - [pypokescript](https://github.com/vgmoose/pypokescript) - Python tool and library converting Pokémon Black 2/White 2 script binaries (extracted from the `a/0/5/6` NARC) to a human-readable high-level scripting language and back.
 - [CheapScript](https://github.com/PlatinumMaster/CheapScript) - Easier scripting for Pokémon Black 2/White 2, with a compiler and a decompiler for existing script containers (archived; the README notes it is incomplete).
 - [pdrpse](https://github.com/suloku/pdrpse) - Save editor for Pokémon Dream Radar on the 3DS, editing current and total Dream Orbs and the reward orb counter; runs as 3DS homebrew.
-- [pbr-dtk (decomp)](https://github.com/bgsamm/pbr-dtk) - Matching decompilation of Pokémon Battle Revolution.
+- [pbr-dtk (decomp)](https://github.com/pbr-ret/pbr-decomp) - Matching decompilation of Pokémon Battle Revolution.
 - [pokestadium (decomp)](https://github.com/pret/pokestadium) - Matching decompilation of Pokémon Stadium (100%).
 - [pokestadiumgs (decomp)](https://github.com/pret/pokestadiumgs) - Matching decompilation of Pokémon Stadium 2 (100%).
 - [pmd-red (decomp)](https://github.com/pret/pmd-red) - Matching decompilation of Pokémon Mystery Dungeon: Red Rescue Team (100%).
@@ -168,7 +168,7 @@
 - [pokepinball (decomp)](https://github.com/pret/pokepinball) - Matching decompilation of Pokémon Pinball (100%).
 - [poketcg (decomp)](https://github.com/pret/poketcg) - Matching decompilation of Pokémon TCG (100%).
 - [poketcg2 (decomp)](https://github.com/pret/poketcg2) - Matching decompilation of Pokémon TCG 2 (100%).
-- [pokeblack (decomp)](https://github.com/pokemodding/pokeblack) - Matching decompilation of Pokémon Black.
+- [pokeblack (decomp)](https://github.com/squiddonaut/pokeblack) - Matching decompilation of Pokémon Black.
 - [PMDe](https://github.com/SunakazeKun/PMDe) - Editor for Pokémon Mystery Dungeon: Red Rescue Team (GBA), covering ROM offsets, tilesets, and other game data. (Archived.)
 - [ppmdu](https://github.com/PsyCommando/ppmdu) - Combined toolset for exporting/importing graphics, audio, and script data to and from Pokémon Mystery Dungeon: Explorers of Time/Darkness/Sky (NDS). Actively maintained continuation: [ppmdu_2](https://github.com/PsyCommando/ppmdu_2), rebuilt on CMake.
 - [SkyTemple](https://github.com/SkyTemple/skytemple) - GUI ROM editor for Pokémon Mystery Dungeon: Explorers of Sky (NDS), built on top of the pmd-sky decompilation and skytemple-files.
@@ -717,6 +717,7 @@
 - [milo_blender](https://github.com/ihatecompvir/milo_blender) - Experimental Blender plugin for exporting character models to Rock Band 3-versioned Milo scenes.
 - [DtxCS](https://github.com/maxton/DtxCS) - C# library for parsing and interpreting DTA/DTB scripting format used in Rock Band and Guitar Hero games.
 - [CON-Tools](https://github.com/PikminGuts92/CON-Tools) - Create, modify, and combine Rock Band CON files. Convert to Phase Shift, Wii, and PS3 formats.
+- [Onyx](https://github.com/mtolly/onyx) - Music game toolkit for converting and building songs between Rock Band, Guitar Hero, Clone Hero, and other similar rhythm games, with conversions and transformations of their chart and audio formats.
 - [PyMilo](https://github.com/PikminGuts92/PyMilo) - Python library for managing milo files from Harmonix games. Includes GUI and archive extraction utilities. (Archived)
 - [RBMobileUnpacker](https://github.com/ihatecompvir/RBMobileUnpacker) - Unpacker/repacker for mobile Rock Band titles' "Glob.bin" archives (Rock Band 3 DS, LEGO Rock Band DS), which store all files without a name table alongside an internal "GlobFile.txt" listing.
 - [BFForever](https://github.com/PikminGuts92/BFForever) - Library for managing and creating game files for BandFuse (PS3, Xbox 360). Handles RIFF files, CELT audio encoding/decoding.
@@ -1093,7 +1094,6 @@
   - Formats: Beyond.VFS `.blc` (decrypt to JSON), `.chk` unpacking, `.pck` audio unpacking, `TableCfg` `.bytes` (convert to JSON), `.lua` decryption, `manifest.hgmmap`/`StringPathHash.bin` (convert to JSON).
 - [EFMI-Tools](https://github.com/SpectrumQT/EFMI-Tools) - Alpha-stage Blender addon for the Endfield Model Importer (EFMI): extracts objects and LOD meshes from Arknights: Endfield frame dumps, imports them as editable meshes with merged skeletons and shapekeys, and exports EFMI-compatible mods. See also [XXMI Launcher](https://github.com/SpectrumQT/XXMI-Launcher).
 - [IL2CPP-Dumper (DeftSolutions-dev)](https://github.com/DeftSolutions-dev/IL2CPP-Dumper) - Static and live runtime metadata extractor for Unity IL2CPP games, dumping classes/fields/methods to C# and LLM-friendly text; created for Arknights: Endfield but works on any modern IL2CPP build.
-- [Endfield-Il2cpp-Dynamic-Dumper](https://github.com/endGuaGua/Endfield-Il2cpp-Dynamic-Dumper) - Dynamic IL2CPP metadata dumper for Arknights: Endfield, with RVA output and IDA import support.
 - [Endfield-MetadataDumper](https://github.com/Failzuma/Endfield-MetadataDumper) - Runtime metadata dumper for Arknights: Endfield, which reconstructs IL2CPP metadata via a custom runtime-reconstruction pipeline rather than loading it from a standard `global-metadata.dat`.
 
 #### Hypixel Studios (Hytale)

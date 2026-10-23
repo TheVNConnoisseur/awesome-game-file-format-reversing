@@ -709,7 +709,7 @@
 - [NES-Sprite-Editor](https://github.com/eonarheim/NES-Sprite-Editor) - Simple sprite editor for NES games.
 - [NesBlockFinder](https://github.com/spiiin/NesBlockFinder) - Locates tile/block and screen-layout data within NES ROMs by matching an FCEUX PPU memory dump against the ROM's CHR/pattern data, to find offsets for graphics extraction/editing. Includes NesScreenFinder for locating screen-composition data built from those blocks.
 - [snes-sdd1-python](https://github.com/gufranco/snes-sdd1-python) - Python reimplementation of the SNES S-DD1 compression coprocessor (used by Star Ocean and Street Fighter Alpha 2), checked against the snes9x reference decoder across 4,000 golden test vectors.
-  - Same author also publishes patchers that rebuild [Street Fighter Alpha 2/Zero 2](https://github.com/gufranco/snes-street-fighter-alpha-2-nochip) and [two Star Ocean rebuilds](https://github.com/gufranco/star-ocean-nochip-fix) as plain ROMs with the S-DD1 requirement designed out of the header, built from your own cartridge dump.
+  - Same author also publishes patchers that rebuild [Street Fighter Alpha 2/Zero 2](https://github.com/gufranco/snes-street-fighter-alpha-2-nochip) and [two Star Ocean rebuilds](https://github.com/gufranco/snes-star-ocean-nochip-fix) as plain ROMs with the S-DD1 requirement designed out of the header, built from your own cartridge dump.
 - [snes-driver-python](https://github.com/gufranco/snes-driver-python) - Recovers the command protocol a SNES cartridge uses to talk to its coprocessor, read directly out of the cartridge's own driver code; checked against 42 real cartridges.
 - [snes-st-python](https://github.com/gufranco/snes-st-python) - Emulator for the Seta ST010/ST011 navigation coprocessors used in SNES racing cartridges, settled against their own reference implementation.
 - [snes-rtc-python](https://github.com/gufranco/snes-rtc-python) - Emulator for the two real-time-clock coprocessors used in SNES cartridges (S-RTC), held to the chips' own reference implementations.
@@ -995,6 +995,7 @@
 *Formats and tools generic to PlayStation consoles/SDKs, not tied to a specific game.*
 
 - [LibOrbisPkg](https://github.com/maxton/LibOrbisPkg) - Library, GUI, and CLI for creating, inspecting, and modifying PS4 PKG, SFO, PFS, and related package/filesystem formats.
+- [shadPKG](https://github.com/seregonwar/ShadPKG) - C++ tool that derives encryption keys for, analyses, decrypts, and extracts PS4 PKG files (games, updates, patches, DLC, and homebrew).
 - [psvpfstools](https://github.com/motoharu-gosuto/psvpfstools) - Set of tools to decrypt the PFS (PlayStation File System) filesystem layer used on PS Vita.
 - [psvcd](https://github.com/motoharu-gosuto/psvcd) - Documents research into hardware-dumping PS Vita game cartridges (PlayStation Vita Cartridge Dump).
 - [vita2hos](https://github.com/xerpi/vita2hos) - PlayStation Vita to Horizon OS (Nintendo Switch OS) translation layer (not an emulator), parsing Vita's executable format to run titles under Switch's OS.

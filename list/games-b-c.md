@@ -854,7 +854,7 @@
 - [RE_RSZ](https://github.com/alphazolam/RE_RSZ) - 010 Editor binary template for RE Engine files containing RSZ data (SCN, PFB, USER, RCOL, FSMV2, MOTFSM, BHVT). Uses a companion DLL and per-game JSON structure dumps.
   - Games: Apollo Justice: Ace Attorney Trilogy, Dead Rising Deluxe Remaster, Devil May Cry 5, Dragon's Dogma 2, Ghost Trick, Monster Hunter: Rise, Monster Hunter Wilds, Resident Evil 2/3/4/7 Remake, Resident Evil Village, Resident Evil Re:Verse, Street Fighter 6.
 - [REEngine-Modding-Documentation](https://github.com/Havens-Night/REEngine-Modding-Documentation) - GitHub wiki covering RE Engine modding: installing/packaging mods, extracting game files, textures, models, troubleshooting, ID lookups, and a curated tool directory.
-- [MDF-Manager](https://github.com/Silvris/MDF-Manager) - C# WPF GUI editor for RE Engine material definition files (`.mdf2`), with library/compendium browsing and batch conversion between game versions. See also [SilverEzredes's fork](https://github.com/SilverEzredes/MDF-Manager_RE4R) with RE4 Remake support.
+- [MDF-Manager](https://github.com/Silvris/MDF-Manager) - C# WPF GUI editor for RE Engine material definition files (`.mdf2`), with library/compendium browsing and batch conversion between game versions. See also [SilverEzredes's fork](https://github.com/SilverEzredes/MDF-Manager) with RE4 Remake support.
 - [REngine-MSG-Tool](https://github.com/ca1e/REngine-MSG-Tool) - CLI tool for unpacking and repacking RE Engine message/text files (`.msg.14`, `.msg.15`, `.msg.17`).
 - [GhidraREFramework](https://github.com/Fexty12573/GhidraREFramework) - Ghidra scripts for importing TDB (type database) data from RE Engine games using il2cpp dumps.
 - [REasy](https://github.com/seifhassine/REasy) - Modding toolkit for RE Engine games, with a resource packer/unpacker and file editors.
@@ -1325,7 +1325,7 @@
 - [CD.PAZ.Tool](https://github.com/Ekey/CD.PAZ.Tool) - Tool for extracting PAZ archives from Crimson Desert.
 - [Crimson Desert JSON Mod Manager (macOS)](https://github.com/Enki013/Crimson-Desert-JSON-Mod-Manager-MacOS) - Command-line tool for applying JSON modpatch files to Crimson Desert on macOS.
   - Mechanism: merges patches into a safe overlay (`0036/`) without modifying the original `0008/` archives; the game loads the overlay via `meta/0.papgt`, with a `.bak` backup created on first apply.
-- [BDO-AIO](https://github.com/ShugokiFable/BDO-AIO) - All-in-one modding tool for Black Desert Online, working with the game's PAZ archive format.
+- [BDO-AIO](https://github.com/SenjuWoo/BDO-AIO) - All-in-one modding tool for Black Desert Online, working with the game's PAZ archive format.
 - [pycrimson](https://github.com/LukeFZ/pycrimson) - Python library and CLI for Crimson Desert game and save files: extracts assets from PAZ/PAMT packs, decompresses partially-compressed DDS assets, and decrypts/re-encrypts save files, including what the author states is the first public implementation of the proper key derivation for both asset and save files.
 - [Greymane](https://github.com/echo000/Greymane) - Asset extractor for Crimson Desert.
 - [CrimsonDesert-AutoFontModder](https://github.com/kh0shn4w/CrimsonDesert-AutoFontModder) - Automatically repacks custom TTF fonts into Crimson Desert's game archives, with exact size matching and LZ4 compression.

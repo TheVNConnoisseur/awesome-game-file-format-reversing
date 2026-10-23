@@ -276,7 +276,7 @@
 - [neb3map-viewer](https://github.com/simo8902/neb3map-viewer) - Drakensang Online model and map viewer.
 - [Drakensang_RaknetProtocol](https://github.com/DSO-Reconstruction/Drakensang_RaknetProtocol) - Documentation of the RakNet network protocol used by Drakensang Online, covering packet IDs, handlers, and client/server packet flows.
 - [drakensang-nb3-bundle-extractor](https://github.com/simo8902/drakensang-nb3-bundle-extractor) - Extractor for Drakensang Online's NB3 bundle files.
-- [dro_client-decomp](https://github.com/DSO-Reconstruction/dro_client-decomp) - Decompilation project for the Drakensang Online client.
+- [dro_client-decomp](https://github.com/DSO-Reconstruction/dro_client-ghidra) - Decompilation project for the Drakensang Online client.
 
 #### Media Molecule (Dreams)
 
@@ -529,11 +529,11 @@ See also: [RenderWare](middleware.md#renderware).
 - [ssx (decomp)](https://github.com/ssxdecomp/ssx) - Matching decompilation of SSX (2000).
 - [ssx3 (decomp)](https://github.com/ssxdecomp/ssx3) - Matching decompilation of SSX 3 (2003).
 - [ssx3_gc](https://github.com/ssxdecomp/ssx3_gc) - Work-in-progress decompilation of SSX 3 for GameCube (GXBE69, USA Rev 0); requires your own copy of the game.
-- [ssxdvd (decomp)](https://github.com/ssxdecomp/ssxdvd) - Matching decompilation of SSX Tricky (2001).
+- [ssxdvd (decomp)](https://github.com/ssxdecomp/ssxtricky) - Matching decompilation of SSX Tricky (2001).
 - [SSX Collection Multitool](https://github.com/GlitcherOG/SSX-Collection-Multitool) - Collection of tools for the SSX franchise.
 - [SSX-Terrain-Editor](https://github.com/Linkz64/SSX-Terrain-Editor) - Godot-based editor for modding SSX terrain bezier surfaces, companion to the SSX Collection Multitool (currently SSX Tricky only).
 - [SSX-Library](https://github.com/GlitcherOG/SSX-Library) - C#/.NET library for extracting, creating, and modifying SSX game files, serving as a framework for GUI/CLI modding tools.
-- [Icesaw-SSX-Level-Editor-Plugin](https://github.com/GlitcherOG/Icesaw-SSX-Level-Editor-Plugin) - Unity plugin for editing SSX levels exported by the SSX Collection Multitool (instances, triggers, effects).
+- [Icesaw-SSX-Level-Editor-Plugin](https://github.com/IceSawTeam/Icesaw-SSX-Level-Editor-Plugin) - Unity plugin for editing SSX levels exported by the SSX Collection Multitool (instances, triggers, effects).
 - [SSX-Level-Viewer](https://github.com/GlitcherOG/SSX-Level-Viewer) - Unity-based viewer for SSX levels.
 - [bxtools](https://github.com/Linkz64/bxtools) - Blender plugin for modding SSX games, currently focused on SSX Tricky level editing for the SSX Collection Multitool's JSON project format.
 - [SSX-Research](https://github.com/Linkz64/SSX-Research) - Documentation of SSX data structures (models, textures, audio, and more).
@@ -1053,7 +1053,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [DarkScript3](https://github.com/AinTunez/DarkScript3) - IDE for editing FromSoftware's EMEVD event script files with a high-level JavaScript-like language (MattScript).
 - [ESDStudio](https://github.com/GompDS/ESDStudio) - Desktop app for editing FromSoftware Talk ESD (dialogue/behavior state machine) files.
 - [py_esd_for_des](https://github.com/moitt22/py_esd_for_des) - Python decompiler/compiler for Demon's Souls' Talk ESD event script files.
-- [EldenRingHKS](https://github.com/ividyon/EldenRingHKS) - Curated repository of Elden Ring HKS (HavokScript) AI/behavior script edits, useful reference for HavokScript decompilation/modding work.
+- [EldenRingHKS](https://github.com/soulsmods/EldenRingHKS) - Curated repository of Elden Ring HKS (HavokScript) AI/behavior script edits, useful reference for HavokScript decompilation/modding work.
 - [FxrQuery](https://github.com/GompDS/FxrQuery) - Gathers FXR particle-effect data from a Dark Souls 3/Elden Ring install using a game-directory Config.xml and an FXR-ID spreadsheet CSV.
 - [CutsceneEdit](https://github.com/GompDS/CutsceneEdit) - Console tool to move and rotate cameras/objects in Dark Souls 3 MQB cutscene files via simple command syntax.
 - [nightreign-map-extract](https://github.com/focusmade/nightreign-map-extract) - Self-contained Rust CLI that extracts and stitches world map tiles from Elden Ring: Nightreign game archives.

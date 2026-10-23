@@ -402,7 +402,7 @@
 
 ###### Super Mario 3D Land & 3D World
 
-- [Redpepper](https://github.com/fruityloops1/Redpepper) - Matching decompilation of Super Mario 3D Land (EU).
+- [Redpepper](https://github.com/3dsdecomp/RedPepper) - Matching decompilation of Super Mario 3D Land (EU).
 - [RedCarpet-S](https://github.com/fruityloops1/RedCarpet-S) - Matching decompilation of Super Mario 3D World + Bowser's Fury.
 - [RedPepper-ClassDataBase](https://github.com/fruityloops1/RedPepper-ClassDataBase) - Class database supporting the Redpepper decompilation of Super Mario 3D Land.
 - [mizuna-utils](https://github.com/tetraxile/mizuna-utils) - Scripts for games built on Nintendo's ActionLibrary (AL) engine, including an object search tool across a game's romfs stages and readers/writers for Yaz0, SARC/SZS, BYML, and MSBP files.
@@ -508,7 +508,7 @@
 - [smm-course-viewer](https://github.com/leomaurodesenv/smm-course-viewer) - Package for reading course (*.cdt) files from the original Super Mario Maker (Wii U).
 - [Metamaker](https://github.com/RoadrunnerWMC/Metamaker) - Work-in-progress course editor for the original Super Mario Maker (Wii U) running on PC.
 - [MarioUnmaker](https://github.com/Treeki/MarioUnmaker) - Qt viewer for Super Mario Maker (Wii U) `.cdt` level files, with reverse-engineered format notes (`FormatNotes.md`).
-- [smb1_src](https://github.com/oranguthang/smb1_src) - Byte-identical ca65 source reconstruction of seven official Super Mario Bros. releases across NES, Vs. System, and FDS, with reverse-engineering documentation and authoring tools.
+- [smb1_src](https://github.com/RetrolariumLab/smb1_src) - Byte-identical ca65 source reconstruction of seven official Super Mario Bros. releases across NES, Vs. System, and FDS, with reverse-engineering documentation and authoring tools.
 - [SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C) - Translation of the original Super Mario Bros. (NES) disassembly into readable, buildable C/C++.
 
 ###### Other Games & Decompilations
@@ -648,7 +648,7 @@
 - [zzrtl](https://github.com/z64dev/zzrtl) - the lightweight Zelda 64 filesystem management utility
 - [z64audio](https://github.com/z64tools/z64audio) - Somewhat flexible audio converter for Zelda 64 games.
 - [Z64Utils](https://github.com/zeldaret/Z64Utils) - Asset viewer for the Zelda64 Engine
-- [ZAPD](https://github.com/zeldaret/ZAPD) - Zelda Asset Processor for Decomp, used by the zeldaret Ocarina of Time/Majora's Mask decompilation projects to extract and process game assets.
+- [ZAPD](https://github.com/NEstelami/ZAPD) - Zelda Asset Processor for Decomp, used by the zeldaret Ocarina of Time/Majora's Mask decompilation projects to extract and process game assets.
 - [fado](https://github.com/EllipticEllipsis/fado) - Relocation generator for Zelda64 overlay files, used alongside ZAPD above by the zeldaret decompilation projects.
 - [zztexview](https://github.com/z64dev/zztexview) - Program for viewing, converting, and locating texture data in Nintendo 64 ROM images and files dumped from them.
 - [zelda64-collision-import-blender](https://github.com/Dragorn421/zelda64-collision-import-blender) - Blender add-on for importing collision data from Zelda64 files.
@@ -663,7 +663,7 @@
 - [z64decompress](https://github.com/z64dev/z64decompress) - Decompresses retail Zelda 64 ROMs or individual files, including ones compressed with z64compress in its yaz, lzo, ucl, and aplib encodings (also handles ROMs using the ZZRTL dmaext hack).
 - [z64yartool](https://github.com/z64dev/z64yartool) - Command-line tool for Zelda 64 `.yar` texture archives: decompresses them into raw texture data, writes a recipe listing each texture, then dumps to PNG images and rebuilds the `.yar` from a recipe.
 - [t64conv](https://github.com/Yanis002/t64conv) - Python script converting Wii Virtual Console T64 (VC64) texture files to TEX0, optionally decoding to PNG through wimgt; color-indexed (CI) textures are not supported yet.
-- [z64rom](https://github.com/z64utils/z64rom) - Cross-compatible Zelda OoT MQ Debug ROM/project managing tool. See also the original [z64tools/z64rom](https://github.com/z64tools/z64rom) (archived).
+- [z64rom](https://github.com/z64dev/z64rom) - Cross-compatible Zelda OoT MQ Debug ROM/project managing tool. See also the original [z64tools/z64rom](https://github.com/z64tools/z64rom) (archived).
 - [zelda-binary-templates](https://github.com/EntranceJew/zelda-binary-templates) - 010 Editor binary templates for exploring the file types inside N64 Zelda ROMs (mostly Majora's Mask), including viewing image data as it appears in the ROM.
 
 ###### Wind Waker & Twilight Princess
@@ -971,7 +971,7 @@
 
 ##### 1080° Snowboarding
 
-- [1080-decomp](https://github.com/bigyoshi51/1080-decomp) - In-progress matching decompilation of 1080° Snowboarding (N64) that has reached a ROM-exact build; USO overlay segments use a custom relocatable format, some Yay0-compressed. See also [snddata](#wave-race-blue-storm--1080-avalanche) for the GameCube sequel 1080° Avalanche's sound data format.
+- [1080-decomp](https://github.com/djsaunde/1080-decomp) - In-progress matching decompilation of 1080° Snowboarding (N64) that has reached a ROM-exact build; USO overlay segments use a custom relocatable format, some Yay0-compressed. See also [snddata](#wave-race-blue-storm--1080-avalanche) for the GameCube sequel 1080° Avalanche's sound data format.
 
 ##### Game Builder Garage
 
@@ -1247,4 +1247,5 @@
 
 - [oni-duplicity](https://github.com/RoboPhred/oni-duplicity) - Web-hosted, locally-running save editor for Oxygen Not Included, parsing and modifying the game's original save file format.
   - Built on the same author's [oni-save-parser](https://github.com/RoboPhred/oni-save-parser), a standalone JS/TS library that parses and writes the save format directly (idempotent load-save round-trip, typed API).
+- [ktools](https://github.com/nsimplex/ktools) - Cross-platform modding tools for Klei Entertainment's Don't Starve: ktech converts between Klei's TEX (KTEX) textures and PNG, and krane decompiles the game's animation and build files (anim.bin, build.bin) into a Spriter project.
 - [KleiTEXConverter](https://github.com/puggsoy/KleiTEXConverter) - Batch converter for Klei Entertainment's TEX texture format (used across Klei's catalog, including Oxygen Not Included) to PNG; based on nsimplex's ktech.

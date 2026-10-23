@@ -71,7 +71,7 @@
 - [Doomsday Engine](https://github.com/skyjake/Doomsday-Engine) - Portable, enhanced source port of DOOM, Heretic and Hexen with its own DED definition language and PK3-based resource-pack system layered on top of original WAD data.
 - [EDGE-classic](https://github.com/edge-classic/EDGE-classic) - Actively maintained, cross-platform OpenGL DOOM source port with powerful modding features built around its own DDF (Dynamic Data Format) definition language, reading original WAD data.
 - [Russian Doom](https://github.com/Russian-Doom/russian-doom) - Limit-removing source port of DOOM, Heretic and Hexen with vanilla bug fixes and enhanced rendering resolutions, correctly restoring the graphics/palette data of the Russian-localized WAD releases.
-- [dsda-doom](https://github.com/kraflab/dsda-doom) - Actively maintained successor to PrBoom+ with a focus on speedrunning/demo tooling, supporting Heretic, Hexen, MBF21, Doom-in-Hexen, and UDMF/MAPINFO while reading original WAD data.
+- [dsda-doom](https://github.com/dsda-org/dsda-doom) - Actively maintained successor to PrBoom+ with a focus on speedrunning/demo tooling, supporting Heretic, Hexen, MBF21, Doom-in-Hexen, and UDMF/MAPINFO while reading original WAD data.
 - [Mocha Doom](https://github.com/AXDOOMER/mochadoom) - Pure Java Doom source port reading original WAD/IWAD data.
 - [rust-doom](https://github.com/cristicbz/rust-doom) - Doom renderer/engine written in Rust, reading and rendering original WAD level/texture data.
 - [Rum and Raisin Doom](https://github.com/GooberMan/rum-and-raisin-doom) - Chocolate Doom branch focused on modernizing the renderer (higher resolutions, modern lighting) while reading original IWAD/PWAD data; adds support for Batman Doom and other total conversions.
@@ -188,9 +188,9 @@
 
 - [WhackEd4](https://github.com/GitExl/WhackEd4) - Modern replacement for the DOS-based Dehacked tool, loading and editing Doom Dehacked (.deh/.bex) patch files.
 - [ListACS](https://github.com/alexey-lysiuk/ListACS) - Disassembler and decompiler for ACS (Action Code Script) bytecode, including ZDoom's ACS extensions.
-- [umapinfo](https://github.com/kraflab/umapinfo) - Specification and reference tooling for UMAPINFO, the community-standard Doom map-metadata lump format.
+- [umapinfo](https://github.com/dsda-org/umapinfo) - Specification and reference tooling for UMAPINFO, the community-standard Doom map-metadata lump format.
 - [DoomTools](https://github.com/MTrop/DoomTools) - GUI/CLI suite of DOOM utilities: WadTool (WAD management), DoomMake (build automation), DECOHack (DeHackEd patch compiler) and WSwAnTBL.
-- [mbf21](https://github.com/kraflab/mbf21) - Specification and documentation for MBF21, an extended DEHACKED-based patch format for Doom-engine mods.
+- [mbf21](https://github.com/dsda-org/mbf21) - Specification and documentation for MBF21, an extended DEHACKED-based patch format for Doom-engine mods.
 - [ACE Engine for DOOM 2](https://github.com/kgsws/doom_ace) - Achieves arbitrary native code execution in vanilla DOS DOOM2.EXE purely from a crafted WAD file, exploiting a negative-size ZONE allocation and an out-of-bounds stack read in the engine's WAD-loading code to inject and run a custom "ACE Engine" entirely from WAD lump data.
 - [DoomUnity](https://github.com/jmickle66666666/DoomUnity) - Various tools for working with Doom WADs and levels in Unity.
 - [htic4doom](https://github.com/fragglet/htic4doom) - Hack that makes Heretic levels loadable and playable with `doom.wad`, via a Dehacked patch remapping Heretic thing types to Doom equivalents plus replacement TEXTURE1/TEXTURE2, flat, ANIMATED and SWITCHES lumps.
@@ -368,7 +368,7 @@
 - [QEBSPEditor](https://github.com/jpiolho/QEBSPEditor) - Browser-based (WebAssembly) tool for editing Quake BSPs for Quake Enhanced and other versions: edit entities, view, replace, and export textures (as WAD or zip), use custom palettes, and adjust global light; supports BSP versions 29, BSP2, and 2PSB.
 - [reQuest](https://github.com/malespiaut/request) - Maintenance continuation of Quest, a 3D map editor for Quake-engine games; supports Quake, Quake 2, Quake 3, Hexen 2, Heretic 2, Half-Life, and Sin.
 - [Rust Quake](https://github.com/Thinkofname/rust-quake) - Quake level renderer in Rust, reading the original `PAK0.PAK`.
-- [Q2-Gladiator-Bot](https://github.com/themuffinator/Q2-Gladiator-Bot) - Open, buildable reconstruction of the Gladiator Bot botlib for Quake II, recovered from the retail `gladiator.dll` binary so the original bot mod keeps running on modern toolchains.
+- [Q2-Gladiator-Bot](https://github.com/themuffinator/Quake2-Gladiator-Bot) - Open, buildable reconstruction of the Gladiator Bot botlib for Quake II, recovered from the retail `gladiator.dll` binary so the original bot mod keeps running on modern toolchains.
 - [bsp2bmp](https://github.com/QW-Group/bsp2bmp) - Generates a wireframe picture from a Quake BSP map file.
 - [Tyr-Utils](https://github.com/sezero/tyrutils) - Git mirror of Kevin Shanahan's command-line utilities for building Quake levels and working with Quake file formats: `qbsp`, `light` and `vis` compile maps, plus `bspinfo` (BSP statistics) and `bsputil` (BSP data manipulation).
 - [VisPatch](https://github.com/sezero/vispatch) - Prepares and applies patch files that add water-vis data to Quake maps for transparent water in GLQuake; a revised version of Andy Bay's 1.2a source.
@@ -526,6 +526,10 @@
 
 - [xGreed](https://github.com/jval1972/xGreed) - Source port of In Pursuit of Greed (1996, Mind Shear Software, published by Softdisk), reading the original DOS game's data files.
 
+#### Incoming
+
+- [incoming-reader](https://github.com/sapphire-bt/incoming-reader) - JavaScript (browser and Node.js/TypeScript) plugin for reading and writing the `.IAN` 3D model format of Incoming (1998), with a Python script for batch OBJ export and OBJ-to-IAN conversion.
+
 #### Incredible Technologies
 
 - [PowerUpBaseball](https://github.com/DickBlackshack/PowerUpBaseball) - Recovered source code and original art/sound data for Power Up Baseball, an unreleased Incredible Technologies arcade title, recovered from Chris Oberth's personal archives.
@@ -560,7 +564,7 @@
 - [project-igi-internals-data](https://github.com/heaven-hm/project-igi-internals-data) - Reverse-engineered internals documentation for the original Project I.G.I., decompiled from igi.exe via IDA/Ghidra.
   - Data: native function signatures (IGI-Natives.json plus decompiled Assembly/C++ source), ~640 building/object model entries including MEF data (IGI-Models.json), and a list of SFX sound files.
 - [project-igi-toolkit](https://github.com/heaven-hm/project-igi-toolkit) - All-in-one modding toolkit for Project I.G.I., editing map, AI, graph, level, and mission data.
-  - See also [project-igi-editor](https://github.com/heaven-hm/project-igi-editor), a professional 3D level editor; [project-igi-converter (igi1conv)](https://github.com/heaven-hm/project-igi-converter), a standalone command-line converter/inspector for the game's 2D/3D/binary asset formats; [project-igi-graph-editor](https://github.com/heaven-hm/project-igi-graph-editor), a graph/node editor; [project-igi-qvm-editor](https://github.com/heaven-hm/project-igi-qvm-editor) (archived), a tool for Project I.G.I. 1 & 2 QVM game files; and [project-igi-research-data](https://github.com/heaven-hm/project-igi-research-data), reverse-engineering research notes on the game's internals.
+  - See also [project-igi-editor](https://github.com/heaven-hm/project-igi-editor), a professional 3D level editor; [project-igi-converter (igi1conv)](https://github.com/heaven-hm/project-igi-converter), a standalone command-line converter/inspector for the game's 2D/3D/binary asset formats; [project-igi-graph-editor](https://github.com/heaven-hm/project-igi-graph-editor), a graph/node editor; [project-igi-qvm-editor](https://github.com/heaven-hm/project-igi-qvm-editor) (archived), a tool for Project I.G.I. 1 & 2 QVM game files; and [project-igi-research-data](https://github.com/heaven-hm/project-igi-research), reverse-engineering research notes on the game's internals.
 - [IGI2_MTP_Converter](https://github.com/FeritCoderTR/IGI2_MTP_Converter) - Compiles the DAT file format and decodes the MTP file format used by I.G.I.-2: Covert Strike.
 - [cpp_igi2_mefview](https://github.com/coreynguyen/cpp_igi2_mefview) - 3D viewer for I.G.I.-2: Covert Strike's MEF model file format.
 - [Project-IGI-Terrain](https://github.com/hjcminus/Project-IGI-Terrain) - OpenGL reimplementation of Project I.G.I.'s terrain rendering system, based on analysis of the decompiled igi.exe.
@@ -613,7 +617,7 @@
 - [Exalt](https://github.com/thane98/Exalt) - Script editor for 3DS-era Fire Emblem games.
   - [exalt-rs](https://github.com/thane98/exalt-rs) - Rust port of Exalt with separate assembler, compiler, decompiler, and disassembler crates.
 - [Universal-FE-Randomizer](https://github.com/lushen124/Universal-FE-Randomizer) - Randomizer supporting Fire Emblem 4, 6, 7, 8, and the Tellius/Elibian Nights ROM hacks.
-- [fire-editor-awakening](https://github.com/Dani88alv/fire-editor-awakening) - Save editor for Fire Emblem Awakening (3DS).
+- [fire-editor-awakening](https://github.com/Danius88/fire-editor-awakening) - Save editor for Fire Emblem Awakening (3DS).
 - [FESOV-SaveEditor](https://github.com/vince11/FESOV-SaveEditor) - Minimal character save editor for Fire Emblem Echoes: Shadows of Valentia (3DS).
 - [FEHDataExtractor](https://github.com/Lorenzooone/FEHDataExtractor) - Generic multipurpose extractor for Fire Emblem Heroes (mobile) data.
 
@@ -668,7 +672,7 @@
 
 - [ttyd (decomp)](https://github.com/doldecomp/ttyd) - Matching decompilation of Paper Mario: The Thousand-Year Door.
 - [spm-decomp (decomp)](https://github.com/seekyct/spm-decomp) - Matching decompilation of Super Paper Mario.
-- [SpmViewer](https://github.com/follyfoxe/SpmViewer) - Tool for viewing Super Paper Mario model files.
+- [SpmViewer](https://github.com/follycake/SpmViewer) - Tool for viewing Super Paper Mario model files.
 - [ttyd-utils](https://github.com/jdaster64/ttyd-utils) - Utilities for modding Paper Mario: TTYD.
 - [noclip.website (TTYD)](https://github.com/magcius/noclip.website/tree/main/src/PaperMarioTTYD) - In-browser TTYD map viewer.
 - [noclip.website (Super Paper Mario)](https://github.com/magcius/noclip.website/tree/main/src/PaperMarioTTYD) - In-browser Super Paper Mario (Wii) map viewer, sharing the TTYD loader.
@@ -712,7 +716,7 @@
 
 - [noclip.website (Glover)](https://github.com/magcius/noclip.website/tree/main/src/Glover) - In-browser Glover level viewer.
 - [libgarib](https://github.com/naclomi/libgarib) - Glover reverse engineering tools and information library.
-- [glover-decomp](https://github.com/bigyoshi51/glover-decomp) - In-progress N64 decompilation of Glover, driven by an AI-assisted decompilation agent.
+- [glover-decomp](https://github.com/djsaunde/glover-decomp-1) - In-progress N64 decompilation of Glover, driven by an AI-assisted decompilation agent.
 ##### HardWar
 
 - [HardWar-SaveEdit](https://github.com/JulianOzelRose/HardWar-SaveEdit) - Web-based save game editor for the cyberpunk PC game HardWar, written in plain JavaScript and HTML.
@@ -1058,7 +1062,7 @@
 - [kbinxmlcs](https://github.com/FSH-B/kbinxmlcs) - Decoder/encoder for Konami's binary XML (KBinXML) format, used across many Konami arcade and console games.
 - [kbinxml](https://github.com/mon/kbinxml) - Python decoder/encoder for Konami's binary XML (KBinXML) format.
 - [kbinxml-rs](https://github.com/mbilker/kbinxml-rs) - Rust library and CLI for Konami's binary XML (KBinXML) format, with a derive macro for mapping nodes onto structs.
-- [aeptools](https://github.com/aoki-marika/aeptools) - Converts Konami's proprietary AEP format between x86/x64 binary and human-readable JSON for inspection and modification. See the [wiki](https://github.com/aoki-marika/aep/wiki) for format documentation.
+- [aeptools](https://github.com/aoki-marika/aeptools) - Converts Konami's proprietary AEP format between x86/x64 binary and human-readable JSON for inspection and modification. See the [wiki](https://github.com/aoki-marika/aeptools/wiki) for format documentation.
 - [s3ptools](https://github.com/aoki-marika/s3ptools) - Tools for working with Konami's proprietary S3P file format.
 - [txrcconv](https://github.com/piratesephiroth/txrcconv) - Exports the text of Konami `.txrc` files to editable plain text (one string per line) and converts it back, as long as the string count is unchanged; used by games such as Suikoden Tierkreis, Love Plus and Castlevania: Harmony of Despair.
 - [kcej_ipk_dec](https://github.com/Nisto/kcej_ipk_dec) - Decodes and extracts IPK files from PS2 games developed by Konami Computer Entertainment Japan; known supported games include Metal Gear Solid 2, Metal Gear Solid 3 and Zone of the Enders: The 2nd Runner.
@@ -1105,21 +1109,23 @@
 - [sdpdump](https://github.com/camprevail/sdpdump) - Extracts audio from Konami's SDP audio container files.
 - [gitadora-textool](https://github.com/littlecxm/gitadora-textool) - Converter for GITADORA's TEX image archive format.
 - [gitadora-customs](https://github.com/fisyher/gitadora-customs) - Custom song/package manager for GITADORA.
+- [iidxOnEar](https://github.com/Nyanm/iidxOnEar) - Batch-converts the songs in a beatmania IIDX `contents/` folder (including omnimix songs; loose song folders from IIDX 30 onward, `.ifs`-packed songs in earlier versions) into organised Opus music files with song metadata and album art, building on the author's [IIDX on Knitting](https://github.com/Nyanm/iidxOnKnitting) for the BMS-style keysound mixdown.
+- [unigst](https://github.com/OffbeatDX/unigst) - Rust command-line generator of full-length soundtrack files (FLAC, MP3, or Opus, via ffmpeg) from the game contents of Sound Voltex, beatmania IIDX, and pop'n music, with per-version and per-song-ID filtering; the pop'n music mode reads the music database from `popn.dll`.
 - [Destroy](https://github.com/Walter-o/Destroy) - Decryption library for Konami's e-amusement arcade network traffic.
 - [SDVX-Song-Extract](https://github.com/Walter-o/SDVX-Song-Extract) - Python script that extracts music from Sound Voltex's `.s3v` audio files (renamed ASF containers) in an installed game folder, copying them as ASF or converting to MP3/WAV via ffmpeg, with title, artist and genre tags read from `music_db.xml`.
 - [card-connect-extract](https://github.com/proeren2002/card-connect-extract) - Asset extractor for Konami's CARD CONNECT arcade game.
 - [Malody2Jubeat](https://github.com/VALLIS-NERIA/Malody2Jubeat) - Converts Malody chart files to jubeat's .eve chart format.
-- [extdrm](https://github.com/YoshihikoAbe/extdrm) - Decrypts and verifies extdrm-encrypted filesystems used by modern AVS2-based Konami arcade titles and their Konasute (Konami Network) client counterparts.
+- [extdrm](https://github.com/Ambloplites/extdrm) - Decrypts and verifies extdrm-encrypted filesystems used by modern AVS2-based Konami arcade titles and their Konasute (Konami Network) client counterparts.
   - Games: DANCERUSH STARDOM, beatmania IIDX (30 RESIDENT–current, INFINITAS 2020/2024), SOUND VOLTEX (VIVID WAVE–current, EXCEED GEAR), DanceDanceRevolution GRAND PRIX, GITADORA, NOSTALGIA, pop'n music Lively, DANCE aROUND, Polaris Chord, Bombergirl.
-- [eapki](https://github.com/YoshihikoAbe/eapki) - EAPKI/drmfs toolkit for AVS2-based Konami arcade games: dumps and file-checks encrypted drmfs filesystems, decrypts PKCS#7-wrapped files (kdm.dll) and obfuscated boot-time files (kbt.dll, avs2-core.dll), and can proxy e-amusement authentication.
-- [packagetool](https://github.com/YoshihikoAbe/packagetool) - Extracts Konami arcade archive formats: BAR (both variants), MAR, and QAR. See also [unarchive](https://github.com/proeren2002/unarchive), a minimal x86 assembly CLI extractor for the same BAR/QAR/MAR formats plus D2.
-- [eaclient](https://github.com/YoshihikoAbe/eaclient) - Client and protocol documentation for Konami's e-amusement (XRPC) network services, for sending arbitrary requests to arcade backend services.
+- [eapki](https://github.com/Ambloplites/eapki) - EAPKI/drmfs toolkit for AVS2-based Konami arcade games: dumps and file-checks encrypted drmfs filesystems, decrypts PKCS#7-wrapped files (kdm.dll) and obfuscated boot-time files (kbt.dll, avs2-core.dll), and can proxy e-amusement authentication.
+- [packagetool](https://github.com/Ambloplites/packagetool) - Extracts Konami arcade archive formats: BAR (both variants), MAR, and QAR. See also [unarchive](https://github.com/proeren2002/unarchive), a minimal x86 assembly CLI extractor for the same BAR/QAR/MAR formats plus D2.
+- [eaclient](https://github.com/Ambloplites/eaclient) - Client and protocol documentation for Konami's e-amusement (XRPC) network services, for sending arbitrary requests to arcade backend services.
 - [vibea3](https://github.com/GEEKiDoS/vibea3) - Typed Rust implementation of the e-Amusement HTTP RPC transport: decodes XML or KBinXML directly into structs, dispatches `{class}.{method}` handlers, and reimplements the request packet format, custom LZ77 compression, and RC4 transport wrapper. Includes a module for pop'n music High Cheers (M39).
 - [bio2-tools](https://github.com/Feiryn/bio2-tools) - Tools, libraries, and documentation for the BI2A/BI2X "BIO2" arcade cabinet I/O board (Renesas RX621 MCU).
   - Features: Firmware dumping/decryption from `libaio_iob.dll`, encryption/decryption of the `biovideo` firmware file, MOT file generation for official Renesas flashing tools, board identification.
-- [avsproperty](https://github.com/YoshihikoAbe/avsproperty) - Library and CLI for converting Konami AVS2 property files.
+- [avsproperty](https://github.com/Ambloplites/avsproperty) - Library and CLI for converting Konami AVS2 property files.
 - [2dxrender](https://github.com/Kuroshirowak/2dxrender) - Renders beatmania IIDX `.1` chart files into audio, mixing in BGM and keysounds from 2dx/s3p audio archives; supports beatmania IIDX 25 CANNON BALLERS.
-- [avslz](https://github.com/YoshihikoAbe/avslz) - Library and CLI for Konami AVS2's LZ-based data compression format.
+- [avslz](https://github.com/Ambloplites/avslz) - Library and CLI for Konami AVS2's LZ-based data compression format.
 - [gobbletools](https://github.com/987123879113/gobbletools) - Archived grab-bag of tools for older Konami/BEMANI arcade systems.
   - Systems: System 573 (Dance Maniax video/animation renderer, GuitarFreaks/DrumMania tools, MP3 .DAT decryption, JAMMA I/O), Twinkle (beatmania IIDX video conversion, MGP key generation), Viper (ParaParaParadise 2nd Mix HDD dumper), Python1 (pop'n music HDD dumper), Python2 (DanceDanceRevolution, GuitarFreaks/DrumMania, Toy's March).
   - Also includes: DDR character model converter (AC/PS1, outputs glb/gltf/obj/StepMania), DDR animation and chart tools, a TM2C texture converter, and beMouse tools.
@@ -1244,7 +1250,7 @@
 - [Silent-Hill-3-Modding](https://github.com/316austin316/Silent-Hill-3-Modding) - Hub for Silent Hill 3 reverse-engineering and file format documentation.
 - [sh3-evil-effect](https://github.com/SNMetamorph/sh3-evil-effect) - Reverse-engineered reimplementation of the "Another World Evil" procedural texturing visual effect from Silent Hill 3.
 - [SHresearch](https://github.com/SILENTpavel/SHresearch) - Research project documenting Silent Hill demo builds, with file specifications and format details.
-- [Climax_Silent-Hill_Engine](https://github.com/BlackLineInteractive/Climax_Silent-Hill_Engine) - Toolkit for reverse-engineering Climax Studios' RenderWare-based Silent Hill engine, covering Silent Hill Origins (PS2/PSP) and related titles.
+- [Climax_Silent-Hill_Engine](https://github.com/BlackLineInteractive/Climax_Game_Engine_Toolkit) - Toolkit for reverse-engineering Climax Studios' RenderWare-based Silent Hill engine, covering Silent Hill Origins (PS2/PSP) and related titles.
 - [Silent-Hill-Shattered-Memories-Localization-Tool](https://github.com/LittleBitUA/Silent-Hill-Shattered-Memories-Localization-Tool) - Toolkit for localizing Silent Hill: Shattered Memories across three platforms from a single shared translation source, handling the game's archive/text formats.
 - [sh2tex](https://github.com/iOrange/sh2tex) - Silent Hill 2 Textures Explorer, a tool born from reverse-engineering Silent Hill 2's proprietary texture resource formats.
 - [SilentHillOriginsPS2](https://github.com/leeao/SilentHillOriginsPS2) - Noesis plugin for Silent Hill Origins (PS2) DFF models (with Delta Morph support), TXD textures, and ANM animations.
@@ -1301,7 +1307,7 @@
 - [tools-zoe (Vivid Transparency)](https://github.com/Joy-Division/tools-zoe) - Tools for working with files from Zone of the Enders (PS2).
   - Formats: ZOE.DAT/PAK archives, SDX sound archives (EFX/MDX sequences, WVX wave archives → VAG), PSS video/audio streams (M2V/VAG/subtitle demuxing), TEX textures.
   - Tools: `dat-extract`, `pak-extract`, `sdx-extract`, `efx-splitter`, `mdx-parser`/`mdx-splitter`, `pss-demux`, `subtitle-convert`, `tex-to_image`, `wvx-extract`.
-  - See also the same author's [ArmsDepot](https://github.com/Joy-Division/ArmsDepot) *(archived)* for unpacking Zone of the Enders 2's STAGE.DAT archives.
+  - See also the same author's [ArmsDepot](https://github.com/Joy-Division/tools-mgs) *(archived)* for unpacking Zone of the Enders 2's STAGE.DAT archives.
 - [CyArchiveTool](https://github.com/Surihix/CyArchiveTool) - Tool to extract and repack the .pack archive files from the PC version of the game Zone of Enders 2 MARS.
   - See also [CyArchivePathGenerator](https://github.com/Surihix/CyArchivePathGenerator), a companion tool that generates file paths for files stored in those .pack archives from a text file of candidate paths.
 - [Zoe2PacTool](https://github.com/Surihix/Zoe2PacTool) - Unpacks (all files, a single file, or just the filenames) and repacks the .pac archives in the atlas folder of Zone of the Enders 2, with separate modes for the Hexadrive HD Collection version and the PC/PS4 versions.
@@ -1387,7 +1393,7 @@
 
 #### Invictus Games (L.A. Street Racing)
 
-- [lasr-editors](https://github.com/Niko666233/lasr-editors) - Windows GUI vehicle-data and save editors for the original L.A. Street Racing (2006); the vehicle editor patches numeric literals in the per-part class bytecode inside `classes.zip` packages. README states the code was AI-generated and some parts are unverified.
+- [lasr-editors](https://github.com/Niko666233/lasr-toolkit) - Windows GUI vehicle-data and save editors for the original L.A. Street Racing (2006); the vehicle editor patches numeric literals in the per-part class bytecode inside `classes.zip` packages. README states the code was AI-generated and some parts are unverified.
 
 #### Lab Zero Games
 
@@ -1489,7 +1495,7 @@
 - [anomaly](https://github.com/connorh315/anomaly) - Open-source mod loader for LEGO Dimensions on PS4, handling the game's archive/asset formats to load mods.
 - [SEEditor](https://github.com/connorh315/SEEditor) - SoundEvent editor for LEGO Dimensions sound_event files.
 - [LEGOIslandRebuilder](https://github.com/isledecomp/LEGOIslandRebuilder) - Launcher and mod/patch tool for the 1997 video game LEGO Island, from the isledecomp organization behind the isle decompilation.
-- [saga (decomp)](https://github.com/ttdecomp/saga) - Matching decompilation of LEGO Star Wars: The Complete Saga, from the ttdecomp organization (sibling project to isle and racers).
+- [saga (decomp)](https://github.com/opensagadev/saga) - Matching decompilation of LEGO Star Wars: The Complete Saga, from the ttdecomp organization (sibling project to isle and racers).
 - [TravellersTalesPSXCollisionViewer](https://github.com/juanmv94/TravellersTalesPSXCollisionViewer) - Collision and GFX model viewer for Traveller's Tales' shared PSX-era 3D engine, reading data from PSX emulator savestates.
   - Games: Rascal, A Bug's Life, Toy Story 2, Toy Story Racer, Muppet Race Mania, The Weakest Link, Buzz Lightyear of Star Command.
 
@@ -1567,7 +1573,7 @@
 - [Level5ResourceEditor](https://github.com/Tiniifan/Level5ResourceEditor) - Level-5 Resource Editor (RES.bin)
 - [Nyanko](https://github.com/Tiniifan/Nyanko) - Level 5 Text Editor
 - [Pingouin](https://github.com/Tiniifan/Pingouin) - Level 5 Archive File Manager
-- [studio_eleven](https://github.com/Tiniifan/studio_eleven) - Blender addon for Level-5 3DS file formats.
+- [studio_eleven](https://github.com/Tiniifan/studio_collection) - Blender addon for Level-5 3DS file formats.
   - Formats: XPRM (3D mesh), XPCK (archives), XMTN (bone animation), XIMA (UV animation), XMTM (material animation), XCMA (camera).
   - Games: Inazuma Eleven GO series, Yo-Kai Watch series, Professor Layton vs. Phoenix Wright.
 - [StudioElevenLib](https://github.com/Tiniifan/StudioElevenLib) - Additional C# library for files supported by the Studio Eleven Blender Addon
@@ -1580,7 +1586,7 @@
 
 ##### Dark Cloud
 
-- [dcdecomp (decomp)](https://github.com/adubbz/dcdecomp) - Matching decompilation of Dark Cloud (PS2).
+- [dcdecomp (decomp)](https://github.com/TheMoonPeople/Chronicle) - Matching decompilation of Dark Cloud (PS2).
 - [OpenCloud](https://github.com/Gundorada-Workshop/OpenCloud) - Open-source reimplementation of the Dark Cloud games, starting with Dark Cloud 2, reading the original game's data files.
 - [DCExtractor](https://github.com/muddle12/DCExtractor) - Unpacker/converter for PS2-era Level-5 games, targeting Dark Cloud 1 & 2.
   - Formats: DAT/HD2/HD3 root archives; MDS/WGT/MOT/BBP models; IMG/TM2 textures; PAK/CHR/EFP/IPK/MPK/PCP/SKY/SND package archives.
@@ -1600,7 +1606,7 @@
 - [InazumaElevenGoMapenv](https://github.com/Tiniifan/InazumaElevenGoMapenv) - Compiler and decompiler for mapenv files used in Inazuma Eleven GO games.
 - [InazumaElevenGoScript](https://github.com/Tiniifan/InazumaElevenGoScript) - Documentation and research on Squirrel scripts used in Inazuma Eleven GO games. Covers script format, event system, and reverse engineering notes.
 - [InazumaElevenMapEventEditor](https://github.com/Tiniifan/InazumaElevenMapEventEditor) - Map event editor for Inazuma Eleven GO games.
-- [InazumaElevenSaveEditor](https://github.com/felizabuelo/InazumaElevenSaveEditor) - Save editor for Inazuma Eleven GO series. Supports Inazuma Eleven GO, Chrono Stone, and Galaxy.
+- [InazumaElevenSaveEditor](https://github.com/Tiniifan/InazumaElevenSaveEditor) - Save editor for Inazuma Eleven GO series. Supports Inazuma Eleven GO, Chrono Stone, and Galaxy.
 - [InazumaDSEditor](https://github.com/NielsHotweels/InazumaDSEditor) - ROM editor for Inazuma Eleven 1 and 2 (NDS). Edit player data from unitbase.dat, unitbase.STR, and unitstat.dat directly in ROM.
 - [inz_cond](https://github.com/Tiniifan/inz_cond) - Condition compiler and decompiler for Level-5 3DS games. Converts Base64-encoded condition data to human-readable C/Squirrel code and back. Supports Inazuma Eleven GO condition system.
 - [Lynx](https://github.com/Tiniifan/Lynx) - Comprehensive game editor for Inazuma Eleven GO Light and Shadow. Includes charabase editor, charaparam editor, shop editor, skill editor, script editor, map viewer, and save editor.
@@ -1609,7 +1615,7 @@
 - [Ocelot](https://github.com/Tiniifan/Ocelot) - Map event editor for Inazuma Eleven GO Light & Shadow. Edit map information, events, NPCs, and heal points with visual interface.
 - [projectz](https://github.com/Tiniifan/projectz) - Modding template and toolkit for Inazuma Eleven GO Light/Shadow. Provides template for modifying code.bin, enhancement patches, and game documentation. Includes Squirrel scripting engine integration.
 - [Strikers2013Editor](https://github.com/obluda3/Strikers2013Editor) - Modding tool and save editor for Inazuma Eleven GO Strikers 2013. Edit moves and player information.
-- [UltimateGalaxyRandomizer](https://github.com/felizabuelo/UltimateGalaxyRandomizer) - Randomizer for Inazuma Eleven GO Galaxy. Randomizes player elements, positions, move power, and other game elements.
+- [UltimateGalaxyRandomizer](https://github.com/Tiniifan/UltimateGalaxyRandomizer) - Randomizer for Inazuma Eleven GO Galaxy. Randomizes player elements, positions, move power, and other game elements.
 - [ie3ogres (decomp)](https://github.com/CacaBueno64/ie3ogres) - Matching decompilation of Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!! (NDS).
 
 ##### Yo-Kai Watch

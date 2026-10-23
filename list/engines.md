@@ -181,7 +181,7 @@
 - [Unity-Source-Tools](https://github.com/lewa-j/Unity-Source-Tools) - Unity plugin for importing and extracting Source Engine game resources (maps and models).
 - [source1import](https://github.com/kristiker/source1import) - Python scripts for importing Source 1 game assets (materials, models, particle effects) into Source 2.
 - [sourcepp](https://github.com/craftablescience/sourcepp) - C++20 library suite for parsing Source Engine file formats (VTF, MDL, VVD, VPK, BSP, etc.).
-- [goldsrc-rs](https://github.com/goldsrc-rs/goldsrc-rs) - Rust modding/format framework for GoldSrc (Half-Life) engine games.
+- [goldsrc-rs](https://github.com/goldsrc-rs/goldsrc-runtime) - Rust modding/format framework for GoldSrc (Half-Life) engine games.
 - [goldsrc-rs (r4v3n6101)](https://github.com/r4v3n6101/goldsrc-rs) - Unrelated, similarly-named Rust parser library for GoldSrc (Half-Life) engine files: WAD (fonts, mip textures, simple pictures), BSP (all lumps), SPR, and MDL.
 - [goldsrc-formats](https://github.com/cs16forge/goldsrc-formats) - Practical notes on GoldSrc (Half-Life, Counter-Strike 1.6) file formats and engine behavior, with each page stating how its claims were verified. Includes Kaitai Struct descriptions for WAD3 and SPR.
   - Formats: WAD3 (`tempdecal.wad` sprays), SPR + `hud.txt`/`weapon_*.txt` (HUD sprites), TGA menu-background tiles + `BackgroundLayout.txt`, `GameMenu.res`, VGUI color schemes (`ClientScheme.res`/`TrackerScheme.res`), MDL (player-model consistency rules, weapon inspect sequence indices), plus short notes on BSP30 and MDL pitfalls.
@@ -215,9 +215,9 @@
 - [nuclide](https://github.com/VeraVisions/nuclide) - Software development kit for building new games and mods on id Tech, used by freehl and related clean-room GoldSrc-era reimplementations.
 - [source2-asset-assembler](https://github.com/LionDoge/source2-asset-assembler) - Tool to manually assemble various Source 2 assets, by the author of vpulse-editor above.
 - [UntitledParser](https://github.com/UncraftedName/UntitledParser) - Command-line parser and analysis tool for Source engine .dem demo files (HL2, CS:S, TF2, etc.).
-- [GameTracking (SteamDatabase)](https://github.com/SteamDatabase/GameTracking) - Automated CI system that dumps Source 2 network protobufs, entity schemas, ConVars, and console commands from official Steam depot builds whenever a tracked game updates, useful for demo-parsing and protocol reverse engineering.
+- [GameTracking (SteamDatabase)](https://github.com/SteamTracking/GameTracking) - Automated CI system that dumps Source 2 network protobufs, entity schemas, ConVars, and console commands from official Steam depot builds whenever a tracked game updates, useful for demo-parsing and protocol reverse engineering.
   - Per-game repos: [GameTracking-CS2](https://github.com/SteamTracking/GameTracking-CS2), [GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock), [GameTracking-HalfLifeAlyx](https://github.com/SteamTracking/GameTracking-HalfLifeAlyx).
-- [MetaHookSv](https://github.com/hzqst/MetaHookSv) - Port of MetaHook to SvEngine (GoldSrc as modified by the Sven Co-op team), a client-side modding framework for Sven Co-op and other GoldSrc-based games.
+- [MetaHookSv](https://github.com/MetaHookSv/MetaHookSv) - Port of MetaHook to SvEngine (GoldSrc as modified by the Sven Co-op team), a client-side modding framework for Sven Co-op and other GoldSrc-based games.
 - [IDA-GameDataTracker](https://github.com/K4ryuu/IDA-GameDataTracker) - IDA Pro plugin for tracking Source engine game functions across binary updates, automatically relocating function signatures, vtable offsets, and mid-function patterns. Exports to CounterStrikeSharp and SwiftlyS2 gamedata formats for CS2/Source Engine plugin development.
 - [PrimeXT](https://github.com/SNMetamorph/PrimeXT) - Modernized toolkit/engine extension for the Xash3D FWGS engine (a GoldSrc reimplementation), based on XashXT and Spirit of Half-Life, adding enhanced graphics and physics for mod-makers.
 - [ReHLDS](https://github.com/rehlds/ReHLDS) - Reverse-engineered, enhanced Half-Life Dedicated Server (HLDS) engine with bug fixes, security patches, and optimizations; GoldSrc engine companion to ReGameDLL_CS above.
@@ -439,7 +439,7 @@
 ##### Dota 2
 
 - [GameTracking-Dota2](https://github.com/SteamTracking/GameTracking-Dota2) - Continuously-updated tracker of Dota 2's client-facing data extracted from each game update, including Source 2 protobuf network/GC message schemas (demo.proto, netmessages, GC messages) and dumped client schemas/module metadata, with full version history across patches.
-- [dota2-mod-manager](https://github.com/TheFleece/dota2-mod-manager) - Mod manager for Dota 2, working with the game's original VPK addon format.
+- [dota2-mod-manager](https://github.com/dota2modmanager/dota2-mod-manager) - Mod manager for Dota 2, working with the game's original VPK addon format.
 
 ##### Portal
 
@@ -452,9 +452,10 @@
 
 - [UABEANext](https://github.com/nesrak1/UABEANext) - Research and modding tool for SerializedFiles and Asset Bundles.
 - [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) - Tool for exploring, extracting, and exporting assets and assetbundles (original version).
-- [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudio) - Actively maintained fork with UI optimization and enhancements.
+- [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudioMod) - Actively maintained fork with UI optimization and enhancements.
 - [AssetStudio (zhangjiequan fork)](https://github.com/zhangjiequan/AssetStudio) - Continuation of Perfare's AssetStudio with support for new Unity versions and additional improvements.
 - [AnimeStudio](https://github.com/Escartem/AnimeStudio) - Actively maintained "modded AssetStudio" fork with support for many encrypted Unity titles, including all HoYoverse games.
+- [UnityRift](https://github.com/Diphome/UnityRift) - Toolkit (GUI, CLI, and MCP server) that began as a fork of AssetStudioMod and has since diverged: extracts Unity assets, supports IL2CPP and Mono games (via Cpp2IL, with dummy .NET assemblies and a type-tree database for stripped builds), and exports scenes, materials, particles, and MonoBehaviour script stubs into a Godot 4 project.
 - [AssetStudio_Tuanjie](https://github.com/SiMaLaoShi/AssetStudio_Tuanjie) - AssetStudio fork adapted for Tuanjie (团结引擎), the China-specific fork/variant of the Unity engine.
   - Lineage: succeeds [RazTools/Studio](https://github.com/RazTools/Studio) (archived), which itself succeeded Razmoth's own [CNStudio](https://github.com/Razmoth/CNStudio) (214 stars, archived) — both were "modded AssetStudio for CN/HoYo Unity games" forks. RazTools/Studio's own forks (e.g. [YarikStudio](https://github.com/yarik0chka/YarikStudio), discontinued) now point users to this repo as the actively maintained continuation.
 - [AssetStudio (RaduMC)](https://github.com/RaduMC/AssetStudio) - Earlier, independently developed tool of the same name, predating Perfare's AssetStudio by about 10 months and sharing no code with it. Exports models to FBX and extracts DDS/PVR textures, audio clips, fonts, and text assets from PC, Xbox 360, PS3, Android, and iOS builds. Unmaintained since 2020.
@@ -507,14 +508,14 @@
 - [UnityResolve.hpp](https://github.com/issuimo/UnityResolve.hpp) - Single-header C++ library for resolving Unity Mono/IL2CPP assemblies, classes, methods, and fields at runtime, for building game hacks/analysis tools without a dumped SDK.
 - [frida-il2cpp-proto-dumper](https://github.com/repinek/frida-il2cpp-proto-dumper) - Dumps protobuf-net messages and enums from an IL2CPP Unity game into a valid .proto file, using Frida and frida-il2cpp-bridge.
 - [pogo-proto-dumper](https://github.com/branw/pogo-proto-dumper) - Dumps Pokémon GO's managed Protobuf message/RPC definitions by statically parsing Unity IL2CPP's `global-metadata.dat` and emulating C# reflection in C++, without Frida or a running process.
-- [UnityMsgpackSchemaExporter](https://github.com/middlered/unity-msgpack-schema-exporter) - Extracts MessagePack data schemas from compiled Unity game assemblies (DummyDll) or any other .NET assembly, and converts between compact keyless MessagePack and named-key MessagePack/JSON.
+- [UnityMsgpackSchemaExporter](https://github.com/manytokens/unity-msgpack-schema-exporter) - Extracts MessagePack data schemas from compiled Unity game assemblies (DummyDll) or any other .NET assembly, and converts between compact keyless MessagePack and named-key MessagePack/JSON.
 - [il2cpp-bridge-rs](https://github.com/Batchhh/il2cpp-bridge-rs) - Rust bridge to Unity's IL2CPP runtime for resolving types, invoking methods, and manipulating objects from native code; supports iOS, macOS, Linux, Android, and Windows targets.
 - [Il2Cpp Self-Dumper](https://github.com/muhammadrizwan87/il2cppdumper) - Root-free, Zygisk-free native Android library that dumps IL2CPP metadata (classes, methods, fields with offsets/addresses) from inside a running Unity game's own process, writing a `dump.cs` without requiring Frida, ADB, or Zygisk.
 - [Descrypt-global-metadata.dat](https://github.com/IroniaTheMaster/Descrypt-global-metadata.dat) - Decryption notes/tooling for Unity IL2CPP's global-metadata.dat.
 - [Zygisk-Il2CppFucker](https://github.com/Darlenepurpleblack444/Zygisk-Il2CppFucker) - Zygisk module for reverse engineering IL2CPP binaries in Android Unity games at runtime.
 - [il2cpp-wasm-teardown](https://github.com/clericall/il2cpp-wasm-teardown) - Teardown/analysis tooling for IL2CPP compiled to WebAssembly.
 - [frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) - TypeScript Frida module/library for dumping, tracing, or hijacking any IL2CPP application at runtime without needing the `global-metadata.dat` file; widely used as the base library for other Frida-based IL2CPP tooling, including frida-il2cpp-proto-dumper above.
-- [meta-string-edit](https://github.com/middlered/meta-string-edit) - Editor for Unity IL2CPP `global-metadata.dat` files, for inspecting and modifying embedded string literals.
+- [meta-string-edit](https://github.com/manytokens/meta-string-edit) - Editor for Unity IL2CPP `global-metadata.dat` files, for inspecting and modifying embedded string literals.
 - [il2cpp-stringliteral-patcher](https://github.com/jozsefsallai/il2cpp-stringliteral-patcher) - Python scripts for extracting string literals from `global-metadata.dat` into an editable JSON file and patching the edited strings back into a new `global-metadata.dat`, for translating/modding IL2CPP games without hex-editing fixed-length strings.
 - [unity_metadata_loader](https://github.com/nevermoe/unity_metadata_loader) - Reads a Unity IL2CPP `global-metadata.dat` to produce method-name and string-literal lists, plus an IDA Python script that loads them as symbols and strings into an IL2CPP binary's database.
 - [MemoryPackDumper](https://github.com/KaniArchive/MemoryPackDumper) - Recovers MemoryPack serializer definitions from Unity IL2CPP game assemblies.
@@ -584,7 +585,7 @@
 - [UEFormat](https://github.com/h4lfheart/UEFormat) - Library for working with Unreal Engine file formats.
 - [UEAssetToolkit](https://github.com/Archengius/UEAssetToolkit) - Toolkit for extracting and modifying Unreal Engine assets.
 - [CUE4Parse](https://github.com/FabianFG/CUE4Parse) - C# Parser for UE archives.
-- [JsonAsAsset](https://github.com/JsonAsAsset/JsonAsAsset) - Unreal Engine plugin to import assets from JSON data exported by FModel.
+- [JsonAsAsset](https://github.com/JsonAsAsset/Reflection) - Unreal Engine plugin to import assets from JSON data exported by FModel.
 - [UEAssetToolkitGenerator](https://github.com/LongerWarrior/UEAssetToolkitGenerator) - UE asset extraction tool that converts compiled UE4 assets to JSON format.
 - [AssetTools](https://github.com/PedroMartinsMenezes/AssetTools) - Converts UE .uasset and .umap files to JSON and back, supporting UE5 asset formats.
 - [Ue4Export](https://github.com/CrystalFerrai/Ue4Export) - Command-line asset exporter for UE4 and UE5 games, converting assets to JSON; built for automating repetitive exports when data-mining games that update regularly.
@@ -1795,7 +1796,7 @@
 
 #### Marmalade SDK
 
-- [dzip-rs](https://github.com/LambdaEd1th/dzip-rs) - Pure-Rust library and CLI for reading, extracting, creating, and inspecting Dzip resource archives used by Marmalade SDK games, compatible with the original dzip.exe (split volumes, DZ/Bzip/LZMA compression).
+- [dzip-rs](https://github.com/LambdaEd1th/dzip-tools) - Pure-Rust library and CLI for reading, extracting, creating, and inspecting Dzip resource archives used by Marmalade SDK games, compatible with the original dzip.exe (split volumes, DZ/Bzip/LZMA compression).
 
 #### OpenSpace
 
