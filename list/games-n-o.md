@@ -154,6 +154,7 @@
 - [BA2LW](https://github.com/bungaku-moe/BA2LW) - Blue Archive Memorial Lobby interactive live wallpaper, rendering the game's lobby character assets on the desktop.
 - [blue-archive-viewer](https://github.com/respectZ/blue-archive-viewer) - Blue Archive resource viewer and asset-catalog fetcher, covering both EN and JP servers, with a CG gallery and Live2D/Spine skeleton viewer.
 - [SteamBARecord](https://github.com/shiikwi/SteamBARecord) - Toolset for the Steam release of Blue Archive: decrypts table zip/byte data (MersenneTwister-based cipher) and converts the game's FlatBuffer table data to JSON via generated schema classes for hundreds of game data tables.
+- [assets-dumper](https://github.com/arisu-archive/assets-dumper) - Go CLI that checks the game version, then downloads and decrypts Blue Archive assets from the Global and Japan servers, with glob filtering and parallel downloads.
 
 #### GameHouse (Nickelodeon Jigsaw)
 
@@ -1162,6 +1163,7 @@
 
 - [ultima1_reveng](https://github.com/XekriRedmane/ultima1_reveng) - Byte-perfect literate reverse engineering of Ultima I (Origin Systems' 1986 Apple II remake, from the 4am crack ProDOS disk image), covering the engine, play-mode overlays, town/castle maps, hi-res images, fonts and tiles, with a searchable HTML site.
 - [ultima1_save_editor](https://github.com/caleb/ultima1_save_editor) - Go saved-game editor for Ultima 1.
+- [ultima-party-editor](https://github.com/erikyuzwa/ultima-party-editor) - Windows save game editor with a tab per game for Ultima I, II, III, IV and V; backs up the original save before writing changes.
 
 ##### Ultima IV
 

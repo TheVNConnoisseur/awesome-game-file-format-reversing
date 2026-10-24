@@ -1615,6 +1615,10 @@
 
 - [recomprehend](https://github.com/RyanMallon/recomprehend) - Open-source reimplementation of the Comprehend adventure-game engine, playing the original game data files for Transylvania, Crimson Crown, and Oo-Topos.
 
+#### Diannex (Dialogue Language)
+
+- [DiannexParser](https://github.com/BenjaminUrquhart/DiannexParser) - Java library for compiled Diannex dialogue-script files (scenes, strings, translations, functions, definitions and bytecode), with a disassembler, decompiler, assembler and compiler; work in progress.
+
 #### Glulx VM (Interactive Fiction)
 
 *Virtual machine format for parser-based interactive fiction, designed by Andrew Plotkin as a successor to the Z-machine; the standard compilation target for Inform 7.*

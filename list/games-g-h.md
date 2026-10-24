@@ -74,6 +74,7 @@
 - [capture-quest](https://github.com/brynnb/capture-quest) - Multiplayer reimplementation of the original 1996 Game Boy Pokémon world, built on custom extractor tooling that reverse engineers cartridge data into a living Phaser-powered MMO.
 - [PMGB_SE](https://github.com/MottZilla/PMGB_SE) - Save data editor for the original Game Boy Pokémon (Red/Blue/Yellow), supporting item bag editing (add, delete, change type, change quantity).
 - [pokered-save-editor](https://github.com/1fairyfox/pokered-save-editor) - Save data editor for Pokémon Red and Blue.
+- [pokered-save-editor-2](https://github.com/1fairyfox/pokered-save-editor-2) - Second version of the Pokémon Red and Blue (Gen 1) save editor, editing every part of the save file with an in-game-style keyboard for names; tested for byte-for-byte save fidelity.
 - [Rhydon](https://github.com/SciresM/Rhydon) - Save file editor for Pokémon Red/Blue/Yellow.
 - [PKX-Extraction](https://github.com/PokeJL/PKX-Extraction) - Extracts Pokémon data from a Generation I/II RAM dump and converts it to the PKX format, including support for the Pokémon Gold/Silver Space World 1997 demo's beta data structures.
 - [crystal-tracker](https://github.com/dannye/crystal-tracker) - Song and sound editor for pokecrystal-based Game Boy sound engines, editing the game's native music data format.

@@ -194,6 +194,10 @@
 
 - [Barony-Save-Editor](https://github.com/Groshie/Barony-Save-Editor) - Browser-based (HTML/JavaScript) editor for Barony savegame files: load a save, edit values and export it, or build a new save from scratch; tested with Steam version 5.01, with files for pre-5.0 saves in a legacy folder.
 
+#### Barotrauma
+
+- [BarotraumaSaveEditor](https://github.com/joelmaxw311/BarotraumaSaveEditor) - Python script that imports a Barotrauma `.save` file, extracting `gamesession.xml` and the `.sub` files for editing, and exports them back into a `.save` file; has interactive and non-interactive modes.
+
 #### Rocksteady Studios (Batman: Arkham Knight)
 
 - [BatmanAK-SubtitleTool](https://github.com/rm-NoobInCoding/BatmanAK-SubtitleTool) - Localization tool for exporting and importing Batman: Arkham Knight's subtitles. Requires UPK files to be decompressed first (e.g. with gildor's umodel decompress tool).
