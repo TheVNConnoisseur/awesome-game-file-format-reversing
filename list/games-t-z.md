@@ -404,8 +404,8 @@
 
 ##### Twisted Metal
 
-- [tm1_decomp (decomp)](https://github.com/abelbriggs1/tm1_decomp) - Matching decompilation of Twisted Metal (PS1, NTSC-J).
-- [tmb_decomp (decomp)](https://github.com/abelbriggs1/tmb_decomp) - Matching decompilation of Twisted Metal: Black (PS2).
+- [tm1_decomp (decomp)](https://github.com/OpenTrac/tm1_Re-Arc) - Matching decompilation of Twisted Metal (PS1, NTSC-J).
+- [tmb_decomp (decomp)](https://github.com/OpenTrac/tmb_Re-Arc) - Matching decompilation of Twisted Metal: Black (PS2).
 - [tmhc (decomp)](https://github.com/jacobleeharris/tmhc) - Matching decompilation of Twisted Metal: Harbor City (PS2).
 - [libTwisted](https://github.com/jacobleeharris/libTwisted) - Rust library for reading and writing Twisted Metal game file formats.
 ##### Motocross Madness

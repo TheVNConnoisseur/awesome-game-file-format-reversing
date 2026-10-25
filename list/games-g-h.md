@@ -551,6 +551,10 @@
 
 - [GuJian3Manager](https://github.com/Kaplas80/GuJian3Manager) - Extracts, repacks, and decrypts Gujian 3 (古剑奇谭三) data files (Oodle-compressed, XXTEA-encrypted .xxx files).
 
+#### Gunparade March
+
+- [gpm-tool](https://github.com/Davermouse/gpm-tool) - Browser-based tool for Gunparade March (PS1) `.BIN` images: view and edit story event scripts, browse the game's compressed textures, and save a modified `.BIN`.
+
 ### H
 #### Sulake (Habbo Hotel)
 
@@ -561,6 +565,10 @@
 - [Badger](https://github.com/Quackster/Badger) - Habbo badge imager library, rendering badge images from badge codes for both Shockwave-era and modern/guild badge resource formats.
 - [HabboGifTransparencyFixer](https://github.com/Quackster/HabboGifTransparencyFixer) - Rewrites a `.gif`'s color-table bytes so transparency renders correctly in Habbo's Shockwave client, working around a client quirk not exposed by standard image-editing APIs.
 - [habbo-shockwave-client-sources](https://github.com/branw/habbo-shockwave-client-sources) - Collection of decompiled Habbo Hotel Shockwave client releases (Lingo decompiled via ProjectorRays), presented as commits in a git repository for easy cross-version diffing; inspired by and building on [Quackster's habbo_src](https://github.com/Quackster/habbo_src).
+
+#### Hacknet
+
+- [Hacknet_Save_Editor](https://github.com/TesterNaN/Hacknet_Save_Editor) - Python/Tkinter save editor for Hacknet XML saves: edit node IPs, names, passwords, ports and trace/proxy times, browse and edit each node's file system, create custom nodes with daemons, and encrypt/decrypt `.dec` files.
 
 #### Haggard Games
 

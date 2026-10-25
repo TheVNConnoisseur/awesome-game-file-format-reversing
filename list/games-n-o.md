@@ -125,6 +125,8 @@
 - [MapleStory-Porting (Pharaoh)](https://github.com/flwmxd/MapleStory-Porting) - Collection of MapleStory tools including a client-editor, file-browser, and client, supporting the game's WZ files.
 - [WzTools](https://github.com/flwmxd/WzTools) - C++ reader library for MapleStory's WZ client resource files, exposing a node-based (`WzFile`/`WzNode`) API for browsing archive contents.
 - [Limbs_XML_Parser](https://github.com/sirLimbs/Limbs_XML_Parser) - GUI tool for parsing and diffing XML exports of MapleStory's Map.wz data, extracting and comparing object, NPC, monster, reactor, and background placements across map versions.
+- [WzVisualizer](https://github.com/izarooni/WzVisualizer) - C# desktop viewer for MapleStory `.wz` and `.img` files with searchable tables of properties and images, CSV export, and cached binary data to skip repeated WZ decryption.
+- [nxfs](https://github.com/Francesco149/nxfs) - Read-only FUSE filesystem for MapleStory's NX file format, based on tinynx; exposes nodes as directories with integer, string, real and vector values printed as valid JSON.
 
 ##### MapleStory 2
 

@@ -895,12 +895,6 @@
 
 - [LoAHF.PAK.Tool](https://github.com/Ekey/LoAHF.PAK.Tool) - PAK (JPAK) archive extractor for League of Angels series, supporting League of Angels – Heaven's Fury, League of Angels: Chaos, Eternal Epoch, and other Julegame titles.
 
-#### Ganbarion (Jump Ultimate Stars)
-
-- [JUSToolkit](https://github.com/priverop/JUSToolkit) - Romhacking toolkit for Jump Ultimate Stars (NDS).
-  - Formats: ALAR archive containers, text .bin files (including JQuiz), ALFT fonts (.aft), DIG + ALMT textures, DTX sprites (including Koma panels).
-  - Features: Batch export/import automation. Has a Tinke plugin for unpacking ALAR containers and viewing .dig files, and a SceneGate auto-discovery plugin.
-
 #### LEGO Media (Junkbot)
 
 - [junkbot-code](https://github.com/JakeSteam/junkbot-code) - Extracted source code and assets from LEGO's Junkbot (2002), a browser-based Adobe Director/Shockwave puzzle game, preserving Lingo scripts, level data, and cast-ripped sprites/sounds/animations.
@@ -1498,6 +1492,7 @@
 - [saga (decomp)](https://github.com/opensagadev/saga) - Matching decompilation of LEGO Star Wars: The Complete Saga, from the ttdecomp organization (sibling project to isle and racers).
 - [TravellersTalesPSXCollisionViewer](https://github.com/juanmv94/TravellersTalesPSXCollisionViewer) - Collision and GFX model viewer for Traveller's Tales' shared PSX-era 3D engine, reading data from PSX emulator savestates.
   - Games: Rascal, A Bug's Life, Toy Story 2, Toy Story Racer, Muppet Race Mania, The Weakest Link, Buzz Lightyear of Star Command.
+- [LIME](https://github.com/mathom/LIME) - Python script that extracts wave audio files from LEGO Island `.SI` package files (eg. `JUKEBOX.SI`).
 
 ##### Toy Story 2
 
@@ -1715,6 +1710,7 @@
 #### KLab (Love Live! School Idol Festival ALL STARS)
 
 - [reversing-sifas](https://github.com/Francesco149/reversing-sifas) - Reverse-engineering diary for the mobile rhythm game Love Live! School Idol Festival ALL STARS; documents the game's encrypted `masterdata.db` SQLite database (custom `klb_vfs` VFS, key derivation) and the client-server login/asset-sync protocol (RSA-encrypted requests, `asset_state` asset-pack tracking), with Python snippets for decrypting and querying the master database directly.
+- [klbvfs](https://github.com/Francesco149/klbvfs) (archived) - Python proof-of-concept that decrypts and queries the game's encrypted SQLite databases (`masterdata.db_*`) using the master key from a dump of the Android app data.
 
 #### Love Once
 

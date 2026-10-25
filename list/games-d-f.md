@@ -294,6 +294,7 @@
 
 - [PVF-Ai-Agent-Workbench](https://github.com/Qswhisper/PVF-Ai-Agent-Workbench) - Toolkit for inspecting and editing Dungeon Fighter Online's Script.pvf archive format, combining a native extraction/repacking backend with scripted analysis, diffing, and dependency-checking utilities, driven through an AI-agent front-end (Claude Code, Codex, etc).
 - [PVFTools](https://github.com/flwmxd/DNF-Porting) - Library for unpacking Dungeon Fighter Online's PVF and NPK archive files, developed alongside a DNF client-porting effort built on the Maple engine.
+- [ScriptPVF](https://github.com/mechpaul/ScriptPVF) - C command-line tool for Dungeon Fighter Online's Script.pvf: unpacks it, decrypts it to a new PVF, and builds a cache to diff script changes between patches.
 
 #### NetDevil (Dungeon Runners)
 
@@ -880,6 +881,10 @@ See also: [RenderWare](middleware.md#renderware).
 - [FlatOut2_BlenderMaterialFixer](https://github.com/ZackWilde27/FlatOut2_BlenderMaterialFixer) - Blender add-on and script for FlatOut 2 tracks imported into Blender: converts DDS textures to PNG, relinks materials to them, connects alpha for materials with `alpha` in the name, and switches track geometry to its second UV map.
 - [bfs2pack](https://github.com/synopia/bfs2pack) - Packer/unpacker for FlatOut 2's .bfs2 archive format.
 - [flatout-blender-tools](https://github.com/ravenDS/flatout-blender-tools) - Blender import/export for FlatOut 1/2/Ultimate Carnage model, track, and audio formats (.bgm/.w32/.bsa/trackai.bin/.cdb2) across PC/PS2/Xbox/PSP.
+
+#### Gala Lab (Flyff)
+
+- [flyfftools](https://github.com/Francesco149/flyfftools) - C tools for Flyff (Fly For Fun) game files: `flyffres` extracts `.res` archives and `flyffjobs` prints per-job properties from the extracted data.
 
 #### SmokePatch (Football Life Series)
 

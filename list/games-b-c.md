@@ -484,6 +484,7 @@
 - [llvm-bw](https://github.com/heinermann/llvm-bw) - Compiles LLVM IR into StarCraft: Brood War map trigger scripts, targeting the CHK trigger/scripting bytecode format used inside .scx/.chk map files.
 - [factorio-starcraft-assettool](https://github.com/heinermann/factorio-starcraft-assettool) - Extracts and converts StarCraft: Remastered assets (sprites, animations, tilesets, palettes) from the game's CASC storage for use in the factorio-starcraft mod.
   - Formats: CASC storage, GRP sprites, animation files, tile sets, LIT palettes.
+- [pcxtopng](https://github.com/mechpaul/pcxtopng) - Windows drag-and-drop converter from StarCraft: Brood War PCX images to PNG.
 
 ##### StarCraft II & Heroes of the Storm
 

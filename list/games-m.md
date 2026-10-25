@@ -124,7 +124,13 @@
 
 - [FastDec-TS4](https://github.com/KitsuneDev/FastDec-TS4) - Fast Python decompiler for The Sims 4's compiled .pyc script files, used to decompile the game's own scripts and TS4Script mods back to readable Python source.
 - [Sims-4-Modding-Docs](https://github.com/zmilla93/Sims-4-Modding-Docs) - Archive of official Maxis/EA Sims 4 modding documentation (the original Custom Content Guide, forum discussions, and binary templates for .package resource formats), preserved from now-defunct forum pages via the Internet Archive.
+- [Sims4Tools](https://github.com/s4ptacle/Sims4Tools) - The Sims 4 modding library and tool suite (S4PE package editor and related tools) for reading/writing DBPF .package resource files; actively maintained continuation of the now-deprecated [Kuree/Sims4Tools](https://github.com/Kuree/Sims4Tools).
+
+##### The Sims Online
+
 - [Project Dollhouse](https://github.com/Afr0Games/Project-Dollhouse) - Reconstruction of The Sims Online from the ground up in C#, requiring the original TSO client assets to run alongside its Docker-based server implementation.
+- [FreeSO](https://github.com/riperiperi/FreeSO) - Open-source re-implementation of The Sims Online, reading the original game's client assets.
+  - [TSO-Version-Patcher](https://github.com/riperiperi/TSO-Version-Patcher) - .NET Core filesystem patcher (based on bsdiff) for patching a The Sims Online client back to an earlier version (e.g. v1.1239.1.0 to N&I) needed to run against FreeSO.
 
 ##### MySims
 
@@ -140,9 +146,6 @@
   - [PNG-Decoder-Python](https://github.com/Spore-Community/PNG-Decoder-Python) - Older Python 2 Spore PNG decoder by ymgve and rick that writes the creation's metadata header and model XML; does not handle adventures.
 - [Spore_EP1Stegano-Python](https://github.com/Spore-Community/Spore_EP1Stegano-Python) - Python encoder/decoder for the steganography used by Spore: Galactic Adventures to store additional data in PNG files alongside thumbnails.
 - [starmap](https://github.com/TheOnlyZac/starmap) - Interactive 3D viewer of the Spore galaxy built from the game's `stars.db` star-record data (`cStarRecord`, 42,010 generated stars), with a work-in-progress 010 Editor binary template for the `cStarRecord` resource.
-- [Sims4Tools](https://github.com/s4ptacle/Sims4Tools) - The Sims 4 modding library and tool suite (S4PE package editor and related tools) for reading/writing DBPF .package resource files; actively maintained continuation of the now-deprecated [Kuree/Sims4Tools](https://github.com/Kuree/Sims4Tools).
-- [FreeSO](https://github.com/riperiperi/FreeSO) - Open-source re-implementation of The Sims Online, reading the original game's client assets.
-  - [TSO-Version-Patcher](https://github.com/riperiperi/TSO-Version-Patcher) - .NET Core filesystem patcher (based on bsdiff) for patching a The Sims Online client back to an earlier version (e.g. v1.1239.1.0 to N&I) needed to run against FreeSO.
 
 #### Day 1 Studios / FASA Interactive (MechAssault)
 

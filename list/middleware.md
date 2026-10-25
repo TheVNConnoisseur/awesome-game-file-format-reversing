@@ -1221,7 +1221,6 @@
 - [opengr2](https://github.com/arves100/opengr2) - Open source Granny2 (.gr2) input/output library and tools, with accompanying file format documentation.
 - [opengr2-rs](https://github.com/NoFr1ends/opengr2-rs) - Open source Rust parser for Granny2 (.gr2) files.
 - [opengr2-bevy](https://github.com/NoFr1ends/opengr2-bevy) - Bevy engine file loader for Granny2 (.gr2) files, built on opengr2-rs.
-- [piggy](https://github.com/Pyogenics/piggy) - Portable decompilation of RAD Game Tools' Iggy Game UI middleware library, aiming to provide an open-source drop-in replacement (originally targeting Minecraft: Legacy Console Edition).
 - [bonkdec](https://github.com/Helco/bonkdec) - Permissive Bink video decoder library in C#.
 
 #### Virtools

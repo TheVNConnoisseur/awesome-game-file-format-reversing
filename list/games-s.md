@@ -604,7 +604,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
   - Formats: `.SPK` game archives, `.MDL` meshes (Hakenberg format + BMP textures), panorama backgrounds.
   - Features: Batch extraction, asset modification, cross-platform unified GUI.
 - [qfg5model](https://github.com/bairesearch/qfg5model) - Command-line tool to export and import textures and meshes from Quest for Glory V, with support for importing high-resolution replacement textures and meshes.
-- [qfg5pano-gui](https://github.com/sariousness/qfg5pano-gui) - GUI tool for converting Quest for Glory V panorama files (`.NOD` + `.IMG`) to `.BMP`.
 - [qfg5-reenigne](https://github.com/zhmu/qfg5-reenigne) - Reverse engineering notes and tools for Quest for Glory V: Dragonfire.
 
 ##### Leisure Suit Larry
@@ -1805,3 +1804,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [SyneticConverter](https://github.com/Grille/SyneticConverter) - Library and tool suite (SyneticPipelineTool, SyneticConverter, SyneticLib) for converting models and maps between Synetic engine games.
   - Games: Need for Speed II/Need for Speed: Porsche Unleashed engine-derived NICE1/NICE2 titles, Mercedes-Benz Truck Racing (MBTR), Mercedes-Benz World Racing/World Racing 2 (WR1/WR2), the Cobra 11 series (C11, CT1-5), and Ferrari Virtual Race (FVR).
 - [MBTR-file-formats](https://github.com/AlexKimov/MBTR-file-formats) - File formats and tools for Mercedes-Benz Truck Racing (2000).
+
+#### Synthetik
+
+- [Synthetik_Python_Mod](https://github.com/Builder-roberts/Synthetik_Python_Mod) - Python save editor for Synthetik's `Save.sav`: edit class loadouts, pistol and module slots and power, and subclass level, with weapon and item spawn lists.

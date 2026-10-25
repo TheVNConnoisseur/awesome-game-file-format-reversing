@@ -1344,6 +1344,7 @@
 - [rpatool](https://codeberg.org/shiz/rpatool) - Command-line tool and Python library (`RenPyArchive` class) for listing, extracting, creating, appending to, and deleting files from RPAv2/RPAv3 Ren'Py archives, with obfuscation key and padding control.
 - [RPAExtractorCSharp](https://github.com/SolicenTEAM/RPAExtractorCSharp) - Pure C# extractor for Ren'Py RPA archives, usable as a library (two source files) or through the `rpaext` command-line tool with drag-and-drop support.
 - [renpy-asset-viewer](https://github.com/Potat05/renpy-asset-viewer) - Browser-based viewer for Ren'Py projects: drop in a game folder to browse and download assets and decompile code files.
+- [renpy_save_editor](https://github.com/ricardol96/renpy_save_editor) - GUI editor for Ren'Py `.save` files (ZIP archives holding a pickled `log`), patching variable values (int, float, bool, string) directly in the pickle bytecode to keep the file intact and regenerating the signatures when `ecdsa` is installed.
 
 #### RioShiina
 
