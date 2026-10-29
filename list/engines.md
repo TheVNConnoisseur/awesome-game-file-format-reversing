@@ -863,9 +863,9 @@
 - [AIL_Tools](https://github.com/crskycode/AIL_Tools) - Extracts and repacks AILSystem engine resource packs (`.DAT`/`.SNL` archives).
 - [AILSOFT-AIL-Engine-Tools](https://github.com/HOKORISAMA/AILSOFT-AIL-Engine-Tools) - Extracts/repacks AIL engine `Sall`-format resource archives, and disassembles/reassembles the engine's compiled scripts.
 
-#### AliceSoft (Alice/System 4 Engine)
+#### AliceSoft System Engine
 
-*Visual novel engine(s) ("System 3"/"System 4"/AinScript) by AliceSoft.*
+*Visual novel engine created by [AliceSoft](https://vndb.org/p120).*
 
 - [alice-tools](https://github.com/nunuhara/alice-tools) - Tools for extracting/editing files from AliceSoft games (AinScript decompiler/compiler, ALD/AJP/DCF/PMS asset tools, and more).
 - [xsystem4](https://github.com/nunuhara/xsystem4) - Cross-platform, open-source reimplementation of AliceSoft's System 4 engine, running original AliceSoft game data; companion compiler/decompiler/language server [sys4lang](https://github.com/kichikuou/sys4lang) (derived from nunuhara's sys4c). See also [xsystem4-android](https://github.com/kichikuou/xsystem4-android), an Android port.
@@ -891,9 +891,9 @@
 
 - [UtaMeshExtractor](https://github.com/Pohrom/UtaMeshExtractor) - Extracts textures and MDL models (converted to Wavefront OBJ) from the PS3 version of *Utawarerumono: Mask of Deception*.
 
-#### Artemis Engine
+#### [Artemis Engine](https://www.ies-net.com/)
 
-*Visual novel engine ("Artemis") used in various Japanese visual novels.*
+*Visual novel engine based on KiriKiri.*
 
 - [pfs-rs](https://github.com/sakarie9/pfs-rs) - Unpacker and packer for Artemis engine `.pfs` archives, written in Rust.
 - [PFS-Android](https://github.com/sakarie9/pfs-android) - Android app built on pfs-rs for unpacking Artemis engine `.pfs` archives, from in-app file selection or the file explorer.
@@ -938,28 +938,28 @@
 - [bsiTool](https://github.com/TesterTesterov/bsiTool) - Python 3 tool that converts Ethornell/BGI `.bsi` files (a string-patch format holding UTF-8 strings) to text and back, with Russian and English UI. Tested on The Curse of Kudan Remastered.
 - [engine_bgi](https://github.com/mnakamura1337/engine_bgi) - Kaitai Struct format descriptions for BGI/Ethornell script bytecode and containers (`bgi_arc`, BW OGG, BWEF), with a Ruby disassembler/decompiler and a converter to `.story` format.
 
-#### Bishop Engine
+#### [BSXX](https://vndb.org/p215)
 
-*Visual novel engine ("Bishop") used in various Japanese visual novels.*
+*Visual novel engine created by BISHOP.*
 
 - [BSXScript_Tool](https://github.com/crskycode/BSXScript_Tool) - Export/import tool for `BSXScript 3.0` script files used by the Bishop engine.
 - [Bishop_BSG_Tool](https://github.com/crskycode/Bishop_BSG_Tool) - Converts PNG images to BSG (BSS-Graphics) UI graphics files for the Bishop engine.
 - [BaeSenX](https://github.com/TheVNConnoisseur/BaeSenX) - Work-in-progress toolset for Bishop games (internally called BSXX): recalculates the savegame header MD5 checksum so saves survive a modified `bsxx.dat` (script versions 3.0 to 3.3), and decompiles the script to JSON opcodes, studied with Kutsujoku (version 3.2).
 
-#### C,system Engine
+#### C,system
 
-*Visual novel engine ("C,system") by Cyberworks, used in various Japanese visual novels.*
+*Visual novel engine ("C,system") by Cyberworks.*
 
 - [CSystemTools](https://github.com/arcusmaximus/CSystemTools) - Script and image unpacking/repacking tool for the Cyberworks "C,system" visual novel engine (Arc00-Arc09.dat index/content files); images convert automatically to/from PNG. See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) for translating the extracted scenario scripts.
 - [SystemCScriptManager](https://github.com/marcussacana/SystemCScriptManager) - DLL library for building custom string editors for the Cyberworks "C,system" engine's scripts.
 - [betterfpk](https://github.com/Anonym271/betterfpk) - Cyberworks "C,system" FPK archive tool with ZLC compression support, tested with TsuyokissNext.
 - [SystemCTools](https://github.com/lunaswd/SystemCTools) - Additional tools for the Cyberworks "C,system" visual novel engine.
 - [kgtools](https://github.com/pkuislm/kgtools) - Extracts `.kg` files from the Cyberworks "C,system" engine.
-- [CysTem](https://github.com/TheVNConnoisseur/CysTem) - Unpacks and packs the `j0` (voice), `k0` (sound effect) and `u0` (background music) audio files of C,system games, which are OGG Vorbis data with a swapped `Tink`/`Song` signature and an XOR-obfuscated 3611-byte block; tested only with Noroware Kyoushitsu.
+- [CysTem](https://github.com/TheVNConnoisseur/CysTem) - Unpacks and packs most audio files.
 
-#### CatSystem2
+#### [CatSystem2](https://cs2.suki.jp/)
 
-*Visual novel engine ("CatSystem2") by CSware, used in various Japanese visual novels.*
+*Shareware visual novel engine.*
 
 - [FelineSystem2](https://github.com/kokseen1/FelineSystem2) - Open-source remake of the CatSystem2 visual novel engine, reading original game script and asset data.
 - [TriggersTools.CatSystem2](https://github.com/trigger-segfault/TriggersTools.CatSystem2) - .NET library for extracting from and working with CatSystem2 visual novel engine files: decrypts/extracts KIF int archives, extracts HG-2/HG-3 images, and decompiles CST/FES/ANM scripts into a modifiable, recompilable state.
@@ -989,14 +989,6 @@
 
 - [CNCSA](https://github.com/BJNFNE/CNCSA) - Reverse-engineered tools (CCAEditor, CCAViewer) for the CNCSA engine, plus Ghidra analysis files for its core `CNCS32.DLL`.
 
-#### CROWD / ANIM Engine
-
-*Visual novel engines ("CROWD" and "ANIM") used by games created by SIS Planning.*
-
-- [FEW_Engine](https://github.com/TheVNConnoisseur/FEW_Engine) - Script editor that fully recompiles the `*_sce.dat` script files of CROWD and ANIM visual novels, tested only with Zetsuboushi, with notes on the compiled file layout.
-- [rePaCK_TKS](https://github.com/TheVNConnoisseur/rePaCK_TKS) - Unpacks and packs `.PCK` archives (file table, name list and raw data) used by CROWD and ANIM visual novels.
-- [EOG_Manager](https://github.com/TheVNConnoisseur/EOG_Manager) - Creates `.EOG` audio files (a small header on top of 44.1 kHz OGG Vorbis) used by CROWD and ANIM games.
-
 #### Crux Engine
 
 *Game engine developed by Giant Steps.*
@@ -1023,7 +1015,9 @@
 - [DEV7](https://github.com/BJNFNE/DEV7) - Reverse-engineered implementation of the DEV7 engine used by Coktel Vision games.
 - [AdibouPaziralDATConverter](https://github.com/BJNFNE/AdibouPaziralDATConverter) - Converts the `.DAT` cutscene files from *Adibou et le secret de Paziral* to/from common audio/video formats.
 
-#### EAGLS
+#### E.A.G.L.S.
+
+*Propietary engine used by [Tech Arts](https://vndb.org/p1085) produced visual novels.*
 
 - [Eagls_engine_tool](https://github.com/vagmr/Eagls_engine_tool) - Windows C++ toolkit and Python scripts for EAGLS engine game resources: .pak unpacker and packer (optional decryption), BMP to GR image conversion, and text extraction/replacement; the source also covers .dat files, LZSS, and PNG/BMP conversion.
 
@@ -1054,11 +1048,11 @@
 - [erars](https://github.com/Riey/erars) - Cross-platform, open-source reimplementation of the Emuera ERA game runtime in Rust, tracking command/function parity with Emuera while loading original games' ERB scripts and resources; includes a wgpu-based GUI renderer matching Emuera's text layout.
 - [uEmuera](https://github.com/xerysherry/uEmuera) - Unity3D reimplementation of the Emuera ERA game runtime, based on the emuera1824v15 source, bringing execution of original ERB game scripts to non-Windows platforms such as Android.
 
-#### Escude
+#### ESCUDE
 
 - [EscudeEditor](https://github.com/marcussacana/EscudeEditor) - Editor for the Escude engine's BIN scripts and packages.
 - [EscudeTools](https://github.com/Chenx221/EscudeTools) - Tools for extracting and repacking Escude engine visual novel files, tested on newer titles.
-- [Bincude](https://github.com/TheVNConnoisseur/Bincude) - Tool for creating and unpacking Escude engine `.BIN` archives.
+- [Bincude](https://github.com/TheVNConnoisseur/Bincude) - Tool for creating and unpacking `.BIN` archives.
 
 #### Eushully
 
@@ -1209,11 +1203,11 @@
 
 #### LiveMaker
 
-*Visual novel engine ("LiveMaker") used by many Japanese visual novels.*
+*Shareware visual novel engine created by [HumanBalance](https://humanbalance.net/).*
 
 - [pylivemaker](https://github.com/pmrowla/pylivemaker) - Python package for manipulating LiveMaker 3/LiveNovel game resources: extracts files from a LiveMaker `.exe`/`.dat`, dumps LSB files to readable text/XML, extracts and recompiles LiveNovel LNS scripts from LSB files, and patches modified LSB files back into the `.exe`/`.dat`.
 - [liveMaker_translate_tools](https://github.com/TTitanUA/liveMaker_translate_tools) - Console Python workflow built on pylivemaker for translating LiveMaker games: extracts resources from the game .exe/archive (images converted to PNG), dumps LSB scripts to CSV and i18n JSON for automatic (Azure AI Translator) or manual translation, and patches the translated text back into the LSB files and game.
-- [LiveMaker_Guide](https://github.com/TheVNConnoisseur/LiveMaker_Guide) - Archive of official LiveMaker engine tools and notes, including GraphicsGale and Photoshop-plugin builds for creating version 1 and 2 `.GAL` images.
+- [LiveMaker_Guide](https://github.com/TheVNConnoisseur/LiveMaker_Guide) - Archive of official LiveMaker engine tools.
 
 #### LucaSystem
 
@@ -1258,6 +1252,14 @@
 *Visual novel engine ("Marble") used in various Japanese visual novels.*
 
 - [MARBLE-ENGINE-TOOL-KIT](https://github.com/HOKORISAMA/MARBLE-ENGINE-TOOL-KIT) - Packs/unpacks Marble Engine `.mbl` resource archives, including script files (with per-game key lookup via GARbro) and `.prs` image conversion to/from PNG.
+
+#### MICo
+
+*Propietary engine made in-house by the company called [VALKYRIA](https://vndb.org/p765).*
+
+- [MICo_Guide](https://github.com/TheVNConnoisseur/MICo_Guide) - Full documentation of how the engine works, and all of its custom formats.
+- [RxValkyria](https://github.com/ZQF-ReVN/RxValkyria) - Toolset for Valkyria's Engine `.sdt`, `.dat`, and `.mg2` files.
+- [Turune](https://github.com/TheVNConnoisseur/Turune) - Application for working with all types of assets present in-game that are not standard.
 
 #### Mware
 
@@ -1434,6 +1436,14 @@
 - [AI6WINScriptTool](https://github.com/TesterTesterov/AI6WINScriptTool) - Disassembler and assembler for AI6WIN engine `.mes` script files. See also [AI5WINScriptTool](https://github.com/TesterTesterov/AI5WINScriptTool) for the earlier AI5WIN engine, and [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler) for the original (pre-AI5WIN/AI6WIN) Silky Engine `.mes` scripts.
 - [MAPTool](https://github.com/TesterTesterov/MAPTool) - Python 3 tool that converts Silky Engine `.MAP` string-patch files to text and back, with Russian and English UI. Its README notes these files are often found in `data.arc` when the `.mes` scripts lack the strings; tested on Adabana Odd Tales.
 
+#### SIS Planning
+
+*Custom engine used by most almost all of the SIS Planning produced visual novels, those being branded as [ANIM](https://vndb.org/p212) (previously as [CROWD](https://vndb.org/p36)).*
+
+- [FEW_Engine](https://github.com/TheVNConnoisseur/FEW_Engine) - Script editor that fully decompiles and recompiles the `*_sce.dat` and `*_define.dat` files.
+- [rePaCK_TKS](https://github.com/TheVNConnoisseur/rePaCK_TKS) - Unpacks and packs `.PCK` archives.
+- [EOG_Manager](https://github.com/TheVNConnoisseur/EOG_Manager) - Creates `.EOG` audio files.
+
 #### SLG System
 
 *Visual novel engine ("SLG System") used in various Japanese visual novels.*
@@ -1492,11 +1502,11 @@
 
 #### Tmr-Hiro ADV System
 
-*ADV engine ("Tmr-Hiro") used in various Japanese visual novels.*
+*Propietary engine created by Marigold (whose visual novel most famous brand is [Lune](https://vndb.org/p490). While nothing has been proven, it seems like the real name of this engine is called *AGE_System*.*
 
-- [TmrHiro_Tool](https://github.com/crskycode/TmrHiro_Tool) - Hack/extraction tool for the Tmr-Hiro ADV System, tested on [Kyonyuu Onna Senshi Dogeza Saimin](https://vndb.org/v26531).
-- [croCKer](https://github.com/TheVNConnoisseur/croCKer) - Reads and writes `.SRP` script and `.VAR` variable files used by Tmr-Hiro ADV System games (mostly Marigold-produced titles).
-- [PACkager](https://github.com/TheVNConnoisseur/PACkager) - Extracts and creates `.PAC` archives (version 1 and 2) used by Tmr-Hiro ADV System games (mostly Marigold-produced titles).
+- [TmrHiro_Tool](https://github.com/crskycode/TmrHiro_Tool) - Creates *.GRP* image files.
+- [croCKer](https://github.com/TheVNConnoisseur/croCKer) - Reads and writes `.SRP` script and `.VAR` variable files.
+- [PACkager](https://github.com/TheVNConnoisseur/PACkager) - Extracts and creates `.PAC` archives (version 1 and 2).
 
 #### TS System
 
@@ -1507,13 +1517,6 @@
 #### Unison Shift
 
 - [UnisonShiftManager](https://github.com/marcussacana/UnisonShiftManager) - Extracts and repacks Unison Shift's (Ley-Line series) PAC and DAT archive files.
-
-#### Valkyria's Engine
-
-*Visual novel engine ("Valkyria's Engine") used in various Japanese visual novels.*
-
-- [RxValkyria](https://github.com/ZQF-ReVN/RxValkyria) - Toolset for Valkyria's Engine `.sdt`, `.dat`, and `.mg2` files.
-- [MICo_Guide](https://github.com/TheVNConnoisseur/MICo_Guide) - Wiki-based notes on the MICo engine used in Valkyria visual novels, covering container files, debug mode, version differences and initialization files, plus IDA databases of game executables, a `system.dat` 010 Editor bookmark CSV and a sample `MICo_Debug.ini`; image and script formats are still unfinished.
 
 #### Whale Engine
 
